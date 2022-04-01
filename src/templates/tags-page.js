@@ -7,6 +7,7 @@ import { FaTags } from "@react-icons/all-files/fa/FaTags";
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Stars from "../components/Stars"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -30,6 +31,7 @@ const Tags = ({ pageContext, data }) => {
       <div
         className="wrapper"
       >
+        <Stars />
         <div>
           <Container p={4} bg="primary"
             sx={{

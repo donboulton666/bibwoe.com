@@ -7,6 +7,7 @@ import { MdList } from "@react-icons/all-files/md/MdList";
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Stars from "../components/Stars"
 
 const Category = ({ pageContext, data }) => {
   const { category } = pageContext
@@ -30,6 +31,7 @@ const Category = ({ pageContext, data }) => {
       <div
          className="wrapper"
       >
+        <Stars />
         <Container p={4} bg="primary"
           sx={{
             borderRadius: "12px",

@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx, Heading } from "theme-ui"
-import * as React from "react"
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import { kebabCase } from 'lodash'
 import { FaTags } from "@react-icons/all-files/fa/FaTags";

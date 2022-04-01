@@ -8,7 +8,7 @@ module.exports = {
       name: `Don Boulton`,
       summary: `Resides in OKC.`,
     },
-    copyrightYear: `© 2021`,
+    copyrightYear: `© 2022`,
     description: `Basic Instructions Books While On Earth.`,
     siteUrl: `https://bibwoe.com/`,
     siteImage: `/assets/apple-touch-icon.png`,

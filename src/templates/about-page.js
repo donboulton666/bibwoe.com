@@ -6,6 +6,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Stars from "../components/Stars"
 
 export const pageQuery = graphql`
   query AboutQuery($id: String!) {
@@ -50,6 +51,7 @@ const AboutPage = ({ data }) => {
       </Helmet>
       <div className="wrapper">
         <article className="blog-post">
+          <Stars />
           <header className="featured-banner">
             <section className="article-header">
               <h1>{frontmatter.title}</h1>
