@@ -13,6 +13,7 @@ import { RiGithubFill } from "@react-icons/all-files/ri/RiGithubFill"
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
+import Stars from "../components/Stars"
 import Icons from "../util/socialmedia.json"
 
 export const pageQuery = graphql`
@@ -136,8 +137,8 @@ const HomePage = ({ data }) => {
         <meta property="twitter:title" content={frontmatter.title} />
         <meta property="twitter:description" content={frontmatter.tagLine} />
       </Helmet>
-      <div className="home-banner grids col-1 sm-2">
-        
+      <Stars />
+      <div className="home-banner grids col-1 sm-2">        
         <div>
           <h1>{frontmatter.titleAlt}</h1>
           <p

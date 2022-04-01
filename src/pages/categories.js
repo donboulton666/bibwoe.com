@@ -5,6 +5,7 @@ import kebabCase from "lodash/kebabCase"
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Seo from "../components/seo"
+import Stars from "../components/Stars"
 import Layout from '../components/layout'
 
 const url = typeof window !== 'undefined' ? window.location.href : '';
@@ -30,6 +31,7 @@ const CategoriesPage = ({
     <div
       className="wrapper"
     >
+      <Stars />
       <h1>Categories</h1>
       <Box p={4} bg="primary"
         sx={{
