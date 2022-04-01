@@ -55,6 +55,7 @@
     "@netlify/functions": "^1.0.0",
     "@netlify/plugin-gatsby": "^2.1.4",
     "gatsby-plugin-netlify": "4.1.0",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
     "prettier": "^2.6.1"
   },
   "homepage": "https://github.com/donaldnoulton/bibwoe.com#readme",

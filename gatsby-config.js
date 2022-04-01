@@ -243,6 +243,15 @@ module.exports = {
     },
     `gatsby-plugin-catch-links`,
     {
+      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      options: {
+        analyzerMode: "static",
+        analyzerPort: "3001",
+        analyzerHost: "https://gatsbystarterbasicinstructions.gatsbyjs.io",
+        defaultSizes: "gzip"
+      },
+    },
+    {
       resolve: `gatsby-plugin-offline`,
       options: {
         precachePages: [`/`, `about`, `/contact`, `/posts/*`],
