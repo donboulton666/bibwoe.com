@@ -21,6 +21,9 @@ class ParticlesContainer extends React.PureComponent<IProps> {
         shape: {
           type: "circle",
         },
+        color: {
+          value: ["#FF5A86", "#953AFE", "#FFC326", "#46C0FF"],
+        },
       },
       preset: "stars",
     };
