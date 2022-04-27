@@ -1,8 +1,11 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
+import * as React from "react"
+import { Input, Button, Textarea } from 'theme-ui'
 import { graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
 import { GatsbyImage } from "gatsby-plugin-image"
+import { NetlifyForm, Honeypot, Recaptcha } from 'react-netlify-forms'
 import { RiSendPlane2Line } from "@react-icons/all-files/ri/RiSendPlane2Line"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -33,10 +36,6 @@ export const pageQuery = graphql`
   }
 `
 
-function onSubmit(token) {
-    document.getElementById("contact").submit();
-}
-
 const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
@@ -45,6 +44,7 @@ const Contact = ({ data }) => {
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
+  const SITE_RECAPTCHA_KEY = process.env.GATSBY_SITE_RECAPTCHA_KEY
 
   return (
     <Layout className="contact-page" sx={contactStyles.contactPage}>
@@ -83,61 +83,134 @@ const Contact = ({ data }) => {
           className="description"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <form
-          className="contact-form"
-          action="/thanks"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
-          <p class="hidden">
-            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-          </p>
-          <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>
-              Name
-              <input type="text" name="name" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Email
-              <input type="email" name="email" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Subject
-              <input type="text" name="subject" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Message<textarea name="message" required></textarea>
-            </label>
-          </p>
-          <p className="text-align-right">
-            <button
-              aria-label="Submit"
-              class="button g-recaptcha" 
-              data-sitekey="6LcE-000000000_000000_000000" 
-              data-callback={onSubmit}
-              data-action='submit'
-              className="button g-recaptcha"
-              sx={{
-                variant: "variants.button",
-              }}
-              type="submit"
-            >
-              Send Message{" "}
-              <span className="icon -right">
-                <RiSendPlane2Line />
-              </span>
-            </button>
-          </p>
-        </form>
+          <NetlifyForm
+            method="POST"
+            name="contact"
+            className="contact-form"
+            action="/thanks"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            enableRecaptcha
+            onSuccess={(response, context) => {
+              console.log('Successfully sent form data to Netlify Server')
+              context.formRef.current.reset()
+            }}
+          >
+            {({ handleChange, success, error }) => (
+              <>
+                <Honeypot />
+                <Recaptcha siteKey={SITE_RECAPTCHA_KEY} theme="dark" invisible />
+                <p 
+                  style={{
+                   display: 'hidden'
+                  }}
+                >
+                </p>
+                <div>
+                  <div>
+                    <div>
+                      <div>
+                        <label htmlFor="name">
+                           Name
+                        </label>
+                        <p>
+                        <Input
+                              type="text"
+                              name="name"
+                              id="name"
+                              autoComplete="off"
+                              required
+                              placeholder="Enter your Name here."
+                              onChange={handleChange}
+                            />
+                            </p>
+                          </div>
+
+                          <div>
+                            <label htmlFor="email">
+                              Email address
+                            </label>
+                            <p>
+                            <Input
+                              type="email"
+                              name="email"
+                              id="email"
+                              autoComplete="off"
+                              required
+                              placeholder="Enter your Email here."                              
+                              onChange={handleChange}
+                            />
+                            </p>
+                          </div>
+
+                          <div>
+                            <label htmlFor="phone">
+                              Phone
+                            </label>
+                            <p>
+                            <Input
+                              type="tel"
+                              name="phone"
+                              id="phone"
+                              autoComplete="off"
+                              required
+                              placeholder="Enter Phone Number here."                             
+                              onChange={handleChange}
+                            />
+                            </p>
+                          </div>
+
+                          <div>
+                            <label htmlFor="subject">
+                              Subject
+                            </label>
+                            <p>
+                            <Input
+                              type="text"
+                              name="subject"
+                              id="subject"
+                              autoComplete="on"
+                              required
+                              placeholder="Enter your Subject here."                              
+                              onChange={handleChange}
+                            />
+                            </p>
+                          </div>
+
+                          <div>
+                            <label htmlFor="text">
+                              Message
+                            </label>
+                            <p>
+                            <Textarea
+                              rows={5}
+                              name="text"
+                              required
+                              placeholder="Enter your message here."
+                              onChange={handleChange}
+                            />
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                  <div>
+                    {success && <p className="text-rose-500">Thanks for Subscribing!</p>}
+                    {error && <p className="text-rose-500">Sorry, we could not reach our servers.</p>}
+                  <Button
+                      type="submit"
+                      className="button g-recaptcha"
+                    >
+                        Send Message{" "}
+                    <span className="icon -right">
+                      <RiSendPlane2Line />
+                    </span>
+                  </Button>
+                </div>
+              </div>
+            </>
+          )}
+        </NetlifyForm>
       </div>
     </Layout>
   )
