@@ -37,15 +37,21 @@ In Enoch's time people from all over the world interacted much more than your hi
 
 This work force were the greatest from all over the World as Engineers and Skilled Craftsmen.
 
-Some of the impossible feats like placing the huge blocks of stone in structures were done through a gathered human force using Hunan Bio Plasmic Energy through song to dance them into place = Parting of the Red Sea was through song not miracles!
+Some of the impossible feats like placing the huge blocks of stone in structures were done through a gathered human force using Human Bio Plasmic Energy through song to dance them into place = Parting of the Red Sea was through song not miracles!
 
 I mentioned in Playtime of how Great Cultures fall and it's mostly from getting stuck on themselves, living like sluts and playing around to much.
 
 Same with the Upper Kingdom of Egypt; & Rome, "China several times", and most all great cultures defeated themselves with playtime and laziness.
 
-Once this started occurring the Lower Kingdom started cutting the off the Gold, good's and service's to the Upper Kingdom and called there people home. Causing the other tribes to start to leave. They could easily see that the army's were being overrun and that they would be slaves to the new rulers.
+Once this started occurring the Lower Kingdom started cutting the off the Gold, good's and service's to the Upper Kingdom and called there people home. 
 
-While they were leaving they had to leave behind the Mixed Bloods of the Unclean. Back then if you mixed out of your religion, culture or race you were considered unclean. It happened a lot all over the World from war which is basically for three reasons, Conquest, Wealth mainly Rape. Rape was used to destabilize as well as the invading forces, like the USA did not bring there wives with them. So rape the enemy!
+Causing the other tribes to start to leave. They could easily see that the army's were being overrun and that they would be slaves to the new rulers.
+
+While they were leaving they had to leave behind the Mixed Bloods of the Unclean. 
+
+Back then if you mixed out of your religion, culture or race you were considered unclean. 
+
+It happened a lot all over the World from war which is basically for three reasons, Conquest, Wealth mainly Rape. Rape was used to destabilize as well as the invading forces, like the USA did not bringing there wives with them. So rape the enemy!
 
 > The World got that from Moses, he was famous for that!
 
@@ -53,7 +59,7 @@ Mixing was really tabu because whom in China wants a child of mixed blood in a p
 
 It's still going on in China with the Uyghur slaves.
 
-I am a mutt I have everything in my blood from around the World including Chinese 3 times. The Holman side of my family has a compiled book of family history including a lot of pictures and drawings of family member's to the 1600's. I look at mixed blood as maybe a Curse and somewhat of a Blessing. Some of the smartest and most Beautiful are of Mixed Blood. A Lot of Jewish girls are very pretty. Some I have to double or triple take.
+I am a mutt I have everything in my blood from around the World including Chinese in my history 3 times. The Holman side of my family has a compiled book of family history including a lot of pictures and drawings of family member's to the 1600's. I look at mixed blood as maybe a Curse and somewhat of a Blessing. Some of the smartest and most Beautiful are of Mixed Blood. A Lot of Jewish girls are very pretty. Some I have to double or triple take.
 
 The other Two tribes of Israel were of dark and light mixes, with differing living areas, political views and ways. Known as Judah and Benjamin!
 
@@ -71,9 +77,9 @@ Pay Attention World this famine and war over it will be World Wide.
 
 For century's the Jewish people toiled with the Egyptian people and the other tribes side by side. Under Enoch's direction to build the Greatest City's and Structures of antiquity. 
 
-So they thought it was somewhat there's also, as I would think. The Egyptian's did not view it that way, as the Jews whom were not slaves for most of the time in Egypt, they were very well paid and cared for Engineers and Skilled Workers, we would say upper Middle class! I can somewhat see the Egyptians point also, that the Jews jobs were over, go away we cannot afford you, or feed you!
+So they thought it was somewhat there's also, as I would think. The Egyptian's did not view it that way, as the Jews whom were not slaves for most of the time in Egypt, they were very well paid and cared for Engineers and Skilled Workers, we would say upper Middle class! I can somewhat see the Egyptians point also, that the Jews jobs were over, go away we cannot afford you, or to feed you!
 
-Exodus to Alexandria and Jerusalem, several major trade crossroads with a lot of different cultures was the only place they could somewhat fit in. Plus Both Alexandria and Jerusalem had work and food. Jerusalem was route of the four winds, meaning from Jerusalem the trade went all directions. Alexandria was a major port with lots of work and traid.
+Exodus to Alexandria and Jerusalem, several major trade crossroads with a lot of different cultures was the only place they could somewhat fit in. Plus Both Alexandria and Jerusalem had work and food. Jerusalem was route of the four winds, meaning from Jerusalem the trade went all directions. Alexandria was a major port with lots of work and triad.
 
 At that point God turned from his Blessed to His Cursed, forced to wonder the Earth with no place to call home.
 
@@ -85,7 +91,9 @@ Volumes could be written on the following of the Jewish people. So I will leave 
 
 ## Hitler's Time.
 
-The Jews in Europe like the Latinos here in the USA stuck together and started owning a lot of the European's Stuff and pissing off the people of Europe. The people of Europe had gotten lazy and complacent with slutty entertainment to stupidity. Like the USA now! Instead of sticking together and competing with the Jews whom were obviously smarter than the European people. 
+The Jews in Europe like the Latinos here in the USA stuck together and started owning a lot of the European's Stuff and pissing off the people of Europe. 
+
+The people of Europe had gotten lazy and complacent with slutty entertainment to stupidity. Like the USA now! Instead of sticking together and competing with the Jews whom were obviously smarter than the European people. 
 
 Europe is doing it to itself again with the mass influx of Muslims. I Guess they could not figure it out the first time. Some more slutty entertainment might help Europe to.
 
@@ -107,7 +115,9 @@ To control and for destabilization of the Jews and Muslim cultures and country's
 
 So now just like when the Jews were in Egypt, they helped build an lived in for Jerusalem for centuries, but was not really there true home. Cursed to Wonder or War.
 
-## No Man Shall Add to or Take Away
+## No Man
+
+> No Man Shall Add to or Take Away!
 
 Then we could not have the New Testament to the Bible, or a few of the Books Of the Old Testament written after Moses!
 
@@ -181,7 +191,9 @@ We need a Christian Bible without discrimination, with out hate of others not li
 
 The Jewish part of our Holy Bible in the Old Testament needs to Go Away! Kind of a conflict of interest as Jews do not believe in Jesus, So why anything from them in a Christian Bible. Most of the Books of the Bible were not written by the Jews at all except for Moses works the Torah, Moses was an Egyptian. They were written by differing Middle Eastern cultures, that the Jews Wared with!
 
-> - Moses book's and Works the Jews need to keep in there books! Get them out of Mine!
+> - Moses book's and Works the Jews need to keep in there books!
+>
+> > Get them out of Mine!
 
 > You can Replace all the Moses, Relief Portraits at the UPA capital and House Chamber with Our Greatest Law Giver and Founding Father and that's Thomas Paine. His works influenced our Revolution more than the Federalist Papers! Thomas Paine and George Washington were the Greatest at, "Stand Up Never Stand Down", with ball's, not just the run your mouth type's.
 
@@ -240,7 +252,9 @@ Like I told you in Creation of All, that the Trinity cannot directly affect you 
 
 Parting of the Red sea, Water to Wine, any miracle besides healing = No Way. If that was true then why did not Jesus Just Blink the guards away while going to the Cross? Does not add up!
 
-My Son went to the Cross so his Angel Companion Mary could build Her church. Could have done that without martyrdom. The Trinity can not directly affect humanity or creation!
+My Son went to the Cross so his Angel Companion Mary could build Her church. Could not have done that without seeming martyrdom. 
+
+> The Trinity can not directly affect humanity or creation!
 
 The Compilers of the Holy Bible discounted and have thrown away anything that could have been scripture by a women, even discounting Mary and her Angelic Virgin Birth.
 
