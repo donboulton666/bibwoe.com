@@ -1,12 +1,14 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
+/* eslint-disable no-unused-vars */
 import * as React from "react"
+/* eslint-enable no-unused-vars */
 import { Input, Button, Textarea } from 'theme-ui'
 import { graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
 import { GatsbyImage } from "gatsby-plugin-image"
 import { NetlifyForm, Honeypot, Recaptcha } from 'react-netlify-forms'
-import { RiSendPlane2Line } from "@react-icons/all-files/ri/RiSendPlane2Line"
+import { RiSendPlane2Line } from "react-icons/ri"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Stars from "../components/Stars"
@@ -40,7 +42,7 @@ const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const postNode = data.markdownRemark
-  const url = typeof window !== 'undefined' ? window.location.href : '';
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""

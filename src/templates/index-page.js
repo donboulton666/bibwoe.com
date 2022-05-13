@@ -3,12 +3,7 @@ import { jsx } from "theme-ui"
 import { graphql, Link } from "gatsby"
 import { Helmet } from 'react-helmet'
 import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightSLine } from "@react-icons/all-files/ri/RiArrowRightSLine"
-import { RiFacebookBoxFill } from "@react-icons/all-files/ri/RiFacebookBoxFill"
-import { RiTwitterFill, } from "@react-icons/all-files/ri/RiTwitterFill"
-import { RiYoutubeFill, } from "@react-icons/all-files/ri/RiYoutubeFill"
-import { RiInstagramFill } from "@react-icons/all-files/ri/RiInstagramFill"
-import { RiGithubFill } from "@react-icons/all-files/ri/RiGithubFill"
+import { RiArrowRightSLine, RiFacebookBoxFill, RiTwitterFill, RiYoutubeFill, RiInstagramFill, RiGithubFill } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
@@ -74,7 +69,7 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark, posts, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const url = typeof window !== 'undefined' ? window.location.href : '';
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""    

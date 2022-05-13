@@ -24,6 +24,7 @@ Jesus finally ascended to Heaven in, "OKC USA" that's why I am here, as I took m
 > So where is the Holy Land?
 
 When Jesus ascended into heaven, "alive", he took the Hopi, and other American Indians with him to his part of heaven. As they were his truest; they lived at one with, each other, and Mother; Like no other!
+
 You can tell the Native Americans that Jesus influenced. They were more nomadic or lived in such a manner as not to effect Mother Earth in a harmful way.
 
 Look at the Hopi Dwelling's or Spiro Mounds, and then look at Qumran or A Jewish Essene Community. See any similarity?
@@ -46,7 +47,7 @@ Mary Magdalene was one of the three Mary's that Jesus had as Angelic companions 
 
 If you notice some one with lust in there eyes, gazing at you; Go Slap Them! It breaks the Spiritual transfer!
 
-Jesus is very forgiving and he found the traditions of covering your face a little much, and thats why you can go to his part of heaven. I can only accept 100% virtuous truth of heart and self virtue, to be hand in hand with Father God.
+Jesus is very forgiving and he found the traditions of covering your face a little much, and thats why you can go to his part of heaven. I can only accept 100% virtuous truth of heart to be hand in hand  as one with Father God.
 
 Both Me and Jesus know that we are just going to have to settle and overlook truth's here on Earth.
 

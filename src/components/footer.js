@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import { RiHeart2Line } from "@react-icons/all-files/ri/RiHeart2Line"
-import { SiGnuprivacyguard } from "@react-icons/all-files/si/SiGnuprivacyguard"
+import { RiHeart2Line } from "react-icons/ri"
+import { SiGnuprivacyguard } from "react-icons/si"
 
 const Footer = () => (
   <footer

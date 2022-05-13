@@ -7,7 +7,7 @@ class ParticlesContainer extends React.PureComponent<IProps> {
   // this customizes the component tsParticles installation
   async customInit(engine: Engine): Promise<void> {
     // this adds the preset to tsParticles, you can safely use the
-    await loadStarsPreset(engine);
+    await loadStarsPreset(engine)
   }
 
   render() {
@@ -26,7 +26,7 @@ class ParticlesContainer extends React.PureComponent<IProps> {
         },
       },
       preset: "stars",
-    };
+    }
 
     return (
       <Particles 

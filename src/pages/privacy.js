@@ -1,9 +1,7 @@
 /** @jsx jsx */
 import { jsx, Box } from "theme-ui"
 import { Link } from "gatsby"
-import { RiArrowRightSLine } from "@react-icons/all-files/ri/RiArrowRightSLine"
-import { RiArrowLeftSLine } from "@react-icons/all-files/ri/RiArrowLeftSLine"
-import { RiCheckboxCircleLine } from "@react-icons/all-files/ri/RiCheckboxCircleLine"
+import { RiArrowRightSLine, RiArrowLeftSLine, RiCheckboxCircleLine } from "react-icons/ri"
 import Layout from "../components/layout"
 import Stars from "../components/Stars"
 

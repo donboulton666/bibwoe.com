@@ -2,7 +2,7 @@
 import { jsx, Container, Heading } from "theme-ui"
 import PropTypes from "prop-types"
 import { Helmet } from 'react-helmet'
-import { FaTags } from "@react-icons/all-files/fa/FaTags";
+import { FaTags } from "react-icons/fa"
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
@@ -11,7 +11,7 @@ import Stars from "../components/Stars"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
-  const url = typeof window !== 'undefined' ? window.location.href : '';
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"

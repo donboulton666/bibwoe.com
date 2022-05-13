@@ -242,7 +242,7 @@ Stealing from the granaries and some blood shed on both side's, finally forced t
 
 ### John
 
-John was drinking to much Wine and had to much MUR on his feet, like always! John usually would not claim Jesus's knowledge to himself or get stuck on himself!
+John was drinking to much Wine and had to much MUR on his feet, like always!
 
 > Swayed repeating the old stuck in your head control system that Moses put into place.
 
@@ -260,7 +260,7 @@ The Compilers of the Holy Bible discounted and have thrown away anything that co
 
 > Can't be having a Women knowing about God!
 
-Wine is a iniquitous substance, with little or no medical healing property's because of the added and natural sulfates. Jesus would have not participated by doing Miracles in giving Our Children Poisons. Traditions or no!
+Wine is a iniquitous substance, with little or no medical healing property's. Jesus would have not participated by doing Miracles in giving Our Children Poisons. Traditions or no!
 
 Any smart person back then; with any means, would choose wine over water because you would never know what was in the water in your travels. What happens when you only drink wine? Not only the Jewish culture but others would play that off as tradition or regarding something Holy. That's where that non-sense came from.
 
@@ -282,7 +282,7 @@ Unless what you consider what is already inside of you a miracle, and it is, "Yo
 
 > Just Be the Miracle that You All Already Are!
 
-I explained in Works of Flesh that I have 5 terminal illnesses, no way I should breathe. But through faith and belief that I can look inside myself and change whatever. But to a much lesser extent the external flesh, it's illusionary. That's one reason for my Trinity Of Angels. Changing the illusion!
+I explained in Works of Flesh that I have 5 terminal illnesses, no way I should breathe. But through faith and belief that I can look inside myself and change whatever. But to a much lesser extent the external flesh, it's illusionary. That's one reason for my Trinity Of Angels on earth. Changing the illusion!
 
 > I can! And You Can!
 

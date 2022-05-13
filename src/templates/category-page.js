@@ -2,7 +2,7 @@
 import { jsx, Container, Heading } from "theme-ui"
 import PropTypes from "prop-types"
 import { Helmet } from 'react-helmet'
-import { MdList } from "@react-icons/all-files/md/MdList";
+import { MdList } from "react-icons/md"
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
@@ -11,7 +11,7 @@ import Stars from "../components/Stars"
 
 const Category = ({ pageContext, data }) => {
   const { category } = pageContext
-  const url = typeof window !== 'undefined' ? window.location.href : '';
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const { edges, totalCount } = data.allMarkdownRemark
   const categoryHeader = `${totalCount} post${
     totalCount === 1 ? '' : 's'

@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 import Stars from "../components/Stars"
 import Layout from '../components/layout'
 
-const url = typeof window !== 'undefined' ? window.location.href : '';
+const url = typeof window !== 'undefined' ? window.location.href : ''
 
 const CategoriesPage = ({
   data: {

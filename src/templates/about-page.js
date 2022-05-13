@@ -32,7 +32,7 @@ const AboutPage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
   const postNode = data.markdownRemark
-  const url = typeof window !== 'undefined' ? window.location.href : '';
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""

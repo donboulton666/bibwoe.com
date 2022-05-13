@@ -5,12 +5,10 @@ import { Link, graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
 import { GatsbyImage } from "gatsby-plugin-image"
 import rehypeReact from "rehype-react"
-import { RiTimerLine } from "@react-icons/all-files/ri/RiTimerLine"
-import { RiArrowLeftLine } from "@react-icons/all-files/ri/RiArrowLeftLine"
-import { RiArrowRightLine } from "@react-icons/all-files/ri/RiArrowRightLine"
-import { MdList } from "@react-icons/all-files//md/MdList"
-import { FaTags } from "@react-icons/all-files/fa/FaTags"
-import { BsFillCalendarFill } from "@react-icons/all-files/bs/BsFillCalendarFill"
+import { RiTimerLine, RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri"
+import { MdList } from "react-icons/md"
+import { FaTags } from "react-icons/fa"
+import { BsFillCalendarFill } from "react-icons/bs"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Counter from "../components/counter"
@@ -19,6 +17,7 @@ import SiteCategory from "../components/site-categories"
 import Bio from "../components/bio"
 import Checked from "../components/checkbox"
 import Stars from "../components/Stars"
+import WavyHr from "../components/WavyHr"
 
 require('prismjs')
 require("prismjs/themes/prism-okaidia.css")
@@ -30,6 +29,7 @@ const renderAst = new rehypeReact({
     "tags": SiteTags,
     "categories": SiteCategory,
     "checked": Checked,
+    "wavy": WavyHr,
   },
 }).Compiler
 
@@ -97,7 +97,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, htmlAst, excerpt } = markdownRemark
   const postNode = data.markdownRemark
-  const url = typeof window !== 'undefined' ? window.location.href : '';
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
@@ -108,10 +108,10 @@ const BlogPostTemplate = ({ data, pageContext }) => {
     next,
   }
 
-  const tags = frontmatter.tags || [];
-    let taglist = 'Tags: ';
+  const tags = frontmatter.tags || []
+    let taglist = 'Tags: '
     if (tags.length > 0) {
-        taglist += tags.join(', ');
+        taglist += tags.join(', ')
     }
 
   return (

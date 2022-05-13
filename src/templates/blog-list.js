@@ -3,8 +3,7 @@ import { jsx } from "theme-ui"
 import * as React from "react"
 import { Helmet } from 'react-helmet'
 import { Link, graphql } from "gatsby"
-import { RiArrowLeftLine } from "@react-icons/all-files/ri/RiArrowLeftLine"
-import { RiArrowRightLine } from "@react-icons/all-files/ri/RiArrowRightLine"
+import { RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri"
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
 import Seo from "../components/seo"
@@ -102,7 +101,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const { currentPage, numPages } = this.props.pageContext
     const blogSlug = "/posts/"
-    const url = typeof window !== 'undefined' ? window.location.href : '';
+    const url = typeof window !== 'undefined' ? window.location.href : ''
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
     const prevPage =

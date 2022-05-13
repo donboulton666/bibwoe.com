@@ -13,7 +13,7 @@ description: The book of Enoch consists of multiple parts that were put together
 
 The book of Enoch consists of multiple parts that were put together as one book by a later editor.
 
-![Enoch](../../../static/assets/enoch-1-60.png "Enoch Papyrus Fragment")
+![Enoch](../../../static/assets/enoch-1-60.png)
 
 The book consists of the following parts:
 
@@ -33,7 +33,7 @@ Latin fragment of the book of Noah – Chapters 106-107
 
 Appendix added l
 
-The _first parable_ (xxxviii.-xliv.) is a prophecy of coming judgement upon the wicked, and especially the kings and mighty ones on the earth. This is enochs books in Greek and Ethopian, The Egyptian versions of Enoch are his design in stone as Ceops, "The Great Pyramid at Giza"! An interesting occurrence of gematria also helps pinpoint the Great Pyramid as God's special revelation. Here is the Hebrew of the Pyramid text, Isaiah 19:19, 20.
+The _first parable_ (xxxviii.-xliv.) is a prophecy of coming judgement upon the wicked, and especially the kings and mighty ones on the earth. This is Enoch's books in Greek and Ethiopian, The Egyptian versions of Enoch are his design in stone as Ceops, "The Great Pyramid at Giza"! An interesting occurrence of gematria also helps pinpoint the Great Pyramid as God's special revelation. Here is the Hebrew of the Pyramid text, Isaiah 19:19, 20.
 
 ![Enoch](../../../static/assets/enoch-w.png)
 
