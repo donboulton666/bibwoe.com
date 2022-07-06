@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 import * as React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { Helmet } from 'react-helmet'
-import CookieConsent from "react-cookie-consent"
+import CookieConsent, { Cookies, getCookieConsentValue } from 'react-cookie-consent'
 import Scroll from './Scroll'
 import ScrollDown from './ScrollDown'
 import Header from "./header"
@@ -26,7 +26,8 @@ const query = graphql`
 
 const Layout = ({ className, children }) => {
   const { siteSearchIndex } = useStaticQuery(query)
-
+  console.log(getCookieConsentValue());
+  getCookieConsentValue("gatsby-gdpr-google-analytics")
   return (
     <>
       <Helmet>
@@ -108,6 +109,8 @@ const Layout = ({ className, children }) => {
           location="bottom"
           buttonText="Accept"
           declineButtonText="Decline"
+          ariaAcceptLabel="Accept Cookies"
+          ariaDeclineLabel="Decline Cookies"
           cookieName="gatsby-gdpr-google-analytics"
           style={{
             background: "linear-gradient(to right, transparent, #171717)",
