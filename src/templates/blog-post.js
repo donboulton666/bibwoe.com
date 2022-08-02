@@ -18,6 +18,7 @@ import Bio from "../components/bio"
 import Checked from "../components/checkbox"
 import Stars from "../components/Stars"
 import WavyHr from "../components/WavyHr"
+import Video from "../components/Cloudinary"
 
 require('prismjs')
 require("prismjs/themes/prism-okaidia.css")
@@ -30,6 +31,7 @@ const renderAst = new rehypeReact({
     "categories": SiteCategory,
     "checked": Checked,
     "wavy": WavyHr,
+    "video": Video,
   },
 }).Compiler
 

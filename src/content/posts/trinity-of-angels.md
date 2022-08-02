@@ -155,3 +155,5 @@ Fixing things with our song and love, opening your hearts to truth!
 Really the hard way for me, a life of loneliness, no Marriage, Oklahoma breaking my heart, stealing everything from me. The Devils taunting and constant pain, having to wait 63 years for this. But then by the iron fist scenario, I would have missed the dance of human life.
 
 > So no matter how much torture; I had to go for it!
+
+<Video />

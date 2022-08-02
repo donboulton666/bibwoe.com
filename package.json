@@ -8,6 +8,8 @@
     "url": "https://github.com/donaldboulton/bibwoe.com/issues"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.4.1",
+    "@cloudinary/url-gen": "^1.8.0",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
