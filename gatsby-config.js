@@ -13,7 +13,7 @@ module.exports = {
     siteUrl: `https://bibwoe.com/`,
     siteImage: `/assets/apple-touch-icon.png`,
     social: {
-      twitter: `donboulton`,
+      twitter: `donaldwboulton`,
     },
   },
   plugins: [
@@ -115,7 +115,7 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: 'UA-2378526-1', // leave empty if you want to disable the tracker
+          trackingId: 'UA-24847941-1', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-analytics', // default
           anonymize: true, // default
           allowAdFeatures: false // default
