@@ -10,4 +10,4 @@ cta:
   ctaLink: /posts/creation-of-all
 ---
 
-Written by the Left Hand of God.
+The Last Testament of the Holy Bible.
