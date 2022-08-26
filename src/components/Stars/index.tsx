@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from "react"
 import Particles from "react-tsparticles"
 import type { Engine } from "tsparticles"
 import { loadStarsPreset } from "tsparticles-preset-stars"
@@ -29,10 +29,10 @@ class ParticlesContainer extends React.PureComponent<IProps> {
     }
 
     return (
-      <Particles 
-        className="background" 
-        options={options} 
-        init={this.customInit} 
+      <Particles
+        className="background"
+        options={options}
+        init={this.customInit}
       />
     )
   }

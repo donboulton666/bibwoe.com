@@ -25,7 +25,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             headings {
               depth
               value
-            } 
+            }
             frontmatter {
               path
               template
@@ -56,7 +56,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
-
   // Create markdown pages
   const posts = result.data.allMarkdownRemark.edges
   let blogPostsCount = 0
@@ -78,7 +77,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         next,
       },
     })
-    
+
     let category = []
 
     // Iterate through each post, putting all found date fields into `dates`

@@ -45,16 +45,16 @@ export default class Search extends Component {
             {blogPosts.date}
           </div>
         </SearchListLink>
-          <div
-            className="excerpt"
-            sx={{
-              color: "#fff",
-              textAlign: "left",
-              margin: "10px",
-            }}
-          >
-            {blogPosts.description}
-          </div> 
+        <div
+          className="excerpt"
+          sx={{
+            color: "#fff",
+            textAlign: "left",
+            margin: "10px",
+          }}
+        >
+          {blogPosts.description}
+        </div>
       </div>
     ))
     return (
@@ -66,7 +66,12 @@ export default class Search extends Component {
           >
             <RiSearchLine />
           </button>
-          <div sx={searchStyle.search} className="search-container" itemScope='itemScope' itemType='https://schema.org/SearchAction'>
+          <div
+            sx={searchStyle.search}
+            className="search-container"
+            itemScope="itemScope"
+            itemType="https://schema.org/SearchAction"
+          >
             <input
               type="text"
               placeholder="Search"
@@ -74,7 +79,8 @@ export default class Search extends Component {
               onChange={this.search}
               className="search-input"
             />
-            <nav className='nav-scroll'
+            <nav
+              className="nav-scroll"
               sx={{
                 background: "#111",
               }}
@@ -85,7 +91,11 @@ export default class Search extends Component {
                   background: "#111",
                 }}
               >
-                <ul sx={searchStyle.searchResults} itemScope='itemScope' itemType='https://schema.org/SearchResults'>
+                <ul
+                  sx={searchStyle.searchResults}
+                  itemScope="itemScope"
+                  itemType="https://schema.org/SearchResults"
+                >
                   {listSearchItems}
                 </ul>
               </div>
@@ -196,8 +206,8 @@ const searchStyle = {
           ul: {
             display: "block",
             bg: "#111",
-            pl: '10px',
-            m: '6px',
+            pl: "10px",
+            m: "6px",
           },
           "ul > li": {
             listStyle: "none",

@@ -48,11 +48,11 @@ const Seo = ({ description, lang, meta, title }) => {
         {
           property: `og:site_name`,
           content: defaultTitle,
-        },        
+        },
         {
           name: `twitter:site`,
           content: site.siteMetadata?.social?.twitter || ``,
-        },        
+        },
         {
           name: `twitter:creator`,
           content: site.siteMetadata?.social?.twitter || ``,

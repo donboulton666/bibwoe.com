@@ -2,11 +2,11 @@
 
 GatsbyJS Version @latest with all the @latest modules from npm.
 
-[![npm version](https://badge.fury.io/js/gatsby.svg)](https://badge.fury.io/js/gatsby)  [![Netlify Status](https://api.netlify.com/api/v1/badges/acf70a7a-da9a-4472-a599-1cb6fa6a301a/deploy-status)](https://app.netlify.com/sites/bibwoe/deploys)
+[![npm version](https://badge.fury.io/js/gatsby.svg)](https://badge.fury.io/js/gatsby) [![Netlify Status](https://api.netlify.com/api/v1/badges/acf70a7a-da9a-4472-a599-1cb6fa6a301a/deploy-status)](https://app.netlify.com/sites/bibwoe/deploys)
 
 gatsby-plugin-image With the Plugins proper usage.
 
-* * *
+---
 
 # Basic Instructions Books While On Earth
 
@@ -200,11 +200,11 @@ export default {
 
 ### The Configuration file
 
-Change /static/admin/config.yml file to your site needs. 
+Change /static/admin/config.yml file to your site needs.
 
 > Otherwise its tailored for this Configuration!
 
-* * *
+---
 
 ## 📝 Editing content and Adding posts
 

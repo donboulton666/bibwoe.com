@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet"
 import { GatsbyImage } from "gatsby-plugin-image"
 import rehypeReact from "rehype-react"
 import { RiTimerLine, RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri"
@@ -12,7 +12,7 @@ import { BsFillCalendarFill } from "react-icons/bs"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Counter from "../components/counter"
-import SiteTags from '../components/site-tags'
+import SiteTags from "../components/site-tags"
 import SiteCategory from "../components/site-categories"
 import Bio from "../components/bio"
 import Checked from "../components/checkbox"
@@ -20,18 +20,18 @@ import Stars from "../components/Stars"
 import WavyHr from "../components/WavyHr"
 import Video from "../components/Cloudinary"
 
-require('prismjs')
+require("prismjs")
 require("prismjs/themes/prism-okaidia.css")
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
-  components: { 
-    "counter": Counter,
-    "tags": SiteTags,
-    "categories": SiteCategory,
-    "checked": Checked,
-    "wavy": WavyHr,
-    "video": Video,
+  components: {
+    counter: Counter,
+    tags: SiteTags,
+    categories: SiteCategory,
+    checked: Checked,
+    wavy: WavyHr,
+    video: Video,
   },
 }).Compiler
 
@@ -45,7 +45,7 @@ const styles = {
       "&.is-active": {
         color: "text",
       },
-      "&:hover": { 
+      "&:hover": {
         color: "#918080",
       },
     },
@@ -99,7 +99,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, htmlAst, excerpt } = markdownRemark
   const postNode = data.markdownRemark
-  const url = typeof window !== 'undefined' ? window.location.href : ''
+  const url = typeof window !== "undefined" ? window.location.href : ""
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
@@ -111,10 +111,10 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   }
 
   const tags = frontmatter.tags || []
-    let taglist = 'Tags: '
-    if (tags.length > 0) {
-        taglist += tags.join(', ')
-    }
+  let taglist = "Tags: "
+  if (tags.length > 0) {
+    taglist += tags.join(", ")
+  }
 
   return (
     <Layout className="page">
@@ -127,16 +127,19 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         url={url}
         article={true}
       />
-        <Helmet>
-          <link rel="canonical" href={url} />
-          <meta property="og:url" content={url} />
-          <meta property="og:title" content={frontmatter.title} />
-          <meta property="og:description" content={frontmatter.description} />
-          <meta property="twitter:title" content={frontmatter.title} />
-          <meta name="twitter:image:alt" content={frontmatter.title} />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta property="twitter:description" content={frontmatter.description} />
-        </Helmet>
+      <Helmet>
+        <link rel="canonical" href={url} />
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={frontmatter.title} />
+        <meta property="og:description" content={frontmatter.description} />
+        <meta property="twitter:title" content={frontmatter.title} />
+        <meta name="twitter:image:alt" content={frontmatter.title} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:description"
+          content={frontmatter.description}
+        />
+      </Helmet>
       <article className="blog-post">
         <Stars />
         <header className="featured-banner">
@@ -144,10 +147,10 @@ const BlogPostTemplate = ({ data, pageContext }) => {
             <h1>{frontmatter.title}</h1>
             <div>
               <span className="icon -calendar">
-                <BsFillCalendarFill size="0.7em" /> 
-              </span> 
+                <BsFillCalendarFill size="0.7em" />
+              </span>
               &ensp;
-              <time sx={{color: "muted"}}>{frontmatter.date}</time>              
+              <time sx={{ color: "muted" }}>{frontmatter.date}</time>
               &ensp;
               <span
                 sx={{
@@ -155,12 +158,14 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                 }}
               >
                 <span className="icon -timer">
-                  <RiTimerLine size="0.8em" />                
-                </span>{" "}  
-                <small sx={{color: "muted"}}>{postNode.timeToRead} min read</small>
+                  <RiTimerLine size="0.8em" />
+                </span>{" "}
+                <small sx={{ color: "muted" }}>
+                  {postNode.timeToRead} min read
+                </small>
               </span>
             </div>
-            {tags.length > 0 && 
+            {tags.length > 0 && (
               <div
                 sx={{
                   color: "muted",
@@ -170,21 +175,21 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                   <FaTags size="0.8em" />
                 </span>{" "}
                 <span>
-                  <Link aria-label='Tags' to='/tags/'>  
+                  <Link aria-label="Tags" to="/tags/">
                     <small>{taglist}</small>
                   </Link>
                 </span>
                 &ensp;
                 <span className="icon -category">
                   <MdList size="1.1em" />
-                </span>{" "} 
+                </span>{" "}
                 <span>
-                  <Link aria-label='Categories' to='/categories/'>
+                  <Link aria-label="Categories" to="/categories/">
                     <small>Categories: {frontmatter.category}</small>
                   </Link>
                 </span>
               </div>
-            }
+            )}
           </section>
           {Image ? (
             <GatsbyImage
@@ -197,13 +202,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
           )}
         </header>
         <Bio />
-        <div
-          className="blog-post-content"
-        >
-          {
-            renderAst(htmlAst)
-          }
-        </div>
+        <div className="blog-post-content">{renderAst(htmlAst)}</div>
       </article>
       {(previous || next) && <Pagination {...props} />}
     </Layout>

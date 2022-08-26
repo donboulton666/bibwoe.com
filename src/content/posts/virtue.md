@@ -47,7 +47,7 @@ Mary Magdalene was one of the three Mary's that Jesus had as Angelic companions 
 
 If you notice some one with lust in there eyes, gazing at you; Go Slap Them! It breaks the Spiritual transfer!
 
-Jesus is very forgiving and he found the traditions of covering your face a little much, and thats why you can go to his part of heaven. I can only accept 100% virtuous truth of heart to be hand in hand  as one with Father God.
+Jesus is very forgiving and he found the traditions of covering your face a little much, and thats why you can go to his part of heaven. I can only accept 100% virtuous truth of heart to be hand in hand as one with Father God.
 
 Both Me and Jesus know that we are just going to have to settle and overlook truth's here on Earth.
 
@@ -55,7 +55,7 @@ Both Me and Jesus know that we are just going to have to settle and overlook tru
 
 This is a very extensive subject matter, and here I will only touch on the aspects of human passionate interactions.
 
-Humans and Cheops as Khufu, are the only beings or thing on earth with Bio Cosmic, "Plasmic Energy Forces". 
+Humans and Cheops as Khufu, are the only beings or thing on earth with Bio Cosmic, "Plasmic Energy Forces".
 
 As to have a earthly, fleshly connection to Me, not Jesus or Father God, this is a regulatory force to help in the natural selection aspects of your breeding, amongst other aspects of human life, through acquiring and balancing Human Spiritual Earthly Forces!
 
@@ -95,9 +95,6 @@ Let alone what you now have in your mind and flesh from another. They maybe ling
 
 This evolutionary process that changes you is also, to a lesser extent possible by lusting over others.
 
-> Ever noticed a elderly couple that were high school sweethearts, never with anyone else; "For even a Kiss"! 
+> Ever noticed a elderly couple that were high school sweethearts, never with anyone else; "For even a Kiss"!
 
 After 60 years of marriage how much they look alike and act alike, thats not just pattering, but by Spiritual Bio Plasmic Energy Transfer. "To Become, 'One"!
-
-
-

@@ -7,22 +7,24 @@ import { SiGnuprivacyguard } from "react-icons/si"
 const Footer = () => (
   <footer
     className="site-footer"
-    itemScope='itemScope' itemType='https://schema.org/WPFooter'
+    itemScope="itemScope"
+    itemType="https://schema.org/WPFooter"
     sx={{
       bg: "siteColor",
     }}
   >
     <div>
       <p>
-      © {new Date().getFullYear()} Bibwoe.com{" "}
+        © {new Date().getFullYear()} Bibwoe.com{" "}
         <span className="icon -love">
           <RiHeart2Line />
         </span>{" "}
-        <Link to="/" area-label="Facebook">Basic Instructions Books While On Earth</Link>
-        {" "}
+        <Link to="/" area-label="Facebook">
+          Basic Instructions Books While On Earth
+        </Link>{" "}
         <span className="icon -lock">
           <SiGnuprivacyguard />
-        </span>{" "} 
+        </span>{" "}
         <Link to="/privacy" area-label="Privacy">
           Privacy
         </Link>

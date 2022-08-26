@@ -43,13 +43,13 @@ I mentioned in Playtime of how Great Cultures fall and it's mostly from getting 
 
 Same with the Upper Kingdom of Egypt; & Rome, "China several times", and most all great cultures defeated themselves with playtime and laziness.
 
-Once this started occurring the Lower Kingdom started cutting the off the Gold, good's and service's to the Upper Kingdom and called there people home. 
+Once this started occurring the Lower Kingdom started cutting the off the Gold, good's and service's to the Upper Kingdom and called there people home.
 
 Causing the other tribes to start to leave. They could easily see that the army's were being overrun and that they would be slaves to the new rulers.
 
-While they were leaving they had to leave behind the Mixed Bloods of the Unclean. 
+While they were leaving they had to leave behind the Mixed Bloods of the Unclean.
 
-Back then if you mixed out of your religion, culture or race you were considered unclean. 
+Back then if you mixed out of your religion, culture or race you were considered unclean.
 
 It happened a lot all over the World from war which is basically for three reasons, Conquest, Wealth mainly Rape. Rape was used to destabilize as well as the invading forces, like the USA did not bringing there wives with them. So rape the enemy!
 
@@ -75,7 +75,7 @@ Time passed, getting broker and crop failures, the Egyptian's started cutting of
 
 Pay Attention World this famine and war over it will be World Wide.
 
-For century's the Jewish people toiled with the Egyptian people and the other tribes side by side. Under Enoch's direction to build the Greatest City's and Structures of antiquity. 
+For century's the Jewish people toiled with the Egyptian people and the other tribes side by side. Under Enoch's direction to build the Greatest City's and Structures of antiquity.
 
 So they thought it was somewhat there's also, as I would think. The Egyptian's did not view it that way, as the Jews whom were not slaves for most of the time in Egypt, they were very well paid and cared for Engineers and Skilled Workers, we would say upper Middle class! I can somewhat see the Egyptians point also, that the Jews jobs were over, go away we cannot afford you, or to feed you!
 
@@ -91,9 +91,9 @@ Volumes could be written on the following of the Jewish people. So I will leave 
 
 ## Hitler's Time.
 
-The Jews in Europe like the Latinos here in the USA stuck together and started owning a lot of the European's Stuff and pissing off the people of Europe. 
+The Jews in Europe like the Latinos here in the USA stuck together and started owning a lot of the European's Stuff and pissing off the people of Europe.
 
-The people of Europe had gotten lazy and complacent with slutty entertainment to stupidity. Like the USA now! Instead of sticking together and competing with the Jews whom were obviously smarter than the European people. 
+The people of Europe had gotten lazy and complacent with slutty entertainment to stupidity. Like the USA now! Instead of sticking together and competing with the Jews whom were obviously smarter than the European people.
 
 Europe is doing it to itself again with the mass influx of Muslims. I Guess they could not figure it out the first time. Some more slutty entertainment might help Europe to.
 
@@ -217,7 +217,7 @@ The adults raised him as there own. Moses growing up knew exactingly what was go
 
 The children of the rulers knew this also and treated him as a lesser being. Teased and belittled him. Moses like me in my childhood retreated in study. Moses had access to the Greatest library's in the World Alexandria, Serapeum including journey's to Pergamum and the Ancient Kemetic library's holding Enoch's engineering and sacred Holy knowledge.
 
-So he became ruler of himself and knew much more than the ruling elite about most anything including War. 
+So he became ruler of himself and knew much more than the ruling elite about most anything including War.
 
 > His jealousy raged!
 
@@ -252,7 +252,7 @@ Like I told you in Creation of All, that the Trinity cannot directly affect you 
 
 Parting of the Red sea, Water to Wine, any miracle besides healing = No Way. If that was true then why did not Jesus Just Blink the guards away while going to the Cross? Does not add up!
 
-My Son went to the Cross so his Angel Companion Mary could build Her church. Could not have done that without seeming martyrdom. 
+My Son went to the Cross so his Angel Companion Mary could build Her church. Could not have done that without seeming martyrdom.
 
 > The Trinity can not directly affect humanity or creation!
 

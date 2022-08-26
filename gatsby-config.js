@@ -45,7 +45,7 @@ module.exports = {
               height: 400, // Optional: Overrides optional.ratio
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
-              loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
+              loadingStrategy: "lazy", //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
               containerClass: "embedVideo-container", //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
               iframeId: false, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
             },
@@ -56,7 +56,7 @@ module.exports = {
               maxWidth: 1024,
               showCaptions: true,
               linkImagesToOriginal: false,
-              backgroundColor: 'none',
+              backgroundColor: "none",
               disableBgImage: true,
               withWebp: true,
               loading: "lazy",
@@ -115,31 +115,31 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: 'UA-24847941-1', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-analytics', // default
+          trackingId: "UA-24847941-1", // leave empty if you want to disable the tracker
+          cookieName: "gatsby-gdpr-google-analytics", // default
           anonymize: true, // default
-          allowAdFeatures: false // default
+          allowAdFeatures: false, // default
         },
         googleTagManager: {
-          trackingId: 'GTM-K57TVK', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-tagmanager', // default
-          dataLayerName: 'dataLayer', // default
+          trackingId: "GTM-K57TVK", // leave empty if you want to disable the tracker
+          cookieName: "gatsby-gdpr-google-tagmanager", // default
+          dataLayerName: "dataLayer", // default
         },
         facebookPixel: {
-          pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-facebook-pixel', // default
+          pixelId: "YOUR_FACEBOOK_PIXEL_ID", // leave empty if you want to disable the tracker
+          cookieName: "gatsby-gdpr-facebook-pixel", // default
         },
         tikTokPixel: {
-          pixelId: 'YOUR_TIKTOK_PIXEL_ID', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-tiktok-pixel', // default
+          pixelId: "YOUR_TIKTOK_PIXEL_ID", // leave empty if you want to disable the tracker
+          cookieName: "gatsby-gdpr-tiktok-pixel", // default
         },
         hotjar: {
-          hjid: '2721607',
-          hjsv: '6',
-          cookieName: 'gatsby-gdpr-hotjar', // default
+          hjid: "2721607",
+          hjsv: "6",
+          cookieName: "gatsby-gdpr-hotjar", // default
         },
         // defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development']
+        environments: ["production", "development"],
       },
     },
     {
@@ -214,32 +214,33 @@ module.exports = {
         fields: [`title`, `description`, `content`, `path`, `date`],
         // How to resolve each field`s value for a supported node type
         resolvers: {
-          BlogPost : {
-            title         : node => node.title,
-            description   : node => node.description,
-            content       : node => node.rawMarkdownBody,
-            path          : node => node.slug,
-            date          : node => node.date,
-            featuredImage : (node, getNode) => getNode(node.featuredImage___NODE)
+          BlogPost: {
+            title: node => node.title,
+            description: node => node.description,
+            content: node => node.rawMarkdownBody,
+            path: node => node.slug,
+            date: node => node.date,
+            featuredImage: (node, getNode) =>
+              getNode(node.featuredImage___NODE),
           },
           MarkdownRemark: {
             title: node => node.frontmatter.title,
             description: node => node.frontmatter.description,
             content: node => node.rawMarkdownBody,
             path: node => node.frontmatter.path,
-            date: node => node.frontmatter.date
+            date: node => node.frontmatter.date,
           },
         },
       },
     },
-    'gatsby-plugin-sass', 
+    "gatsby-plugin-sass",
     `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
         offset: -100,
-        duration: 1000
-      }
+        duration: 1000,
+      },
     },
     `gatsby-plugin-catch-links`,
     {

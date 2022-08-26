@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Arrow } from './styles'
+import React, { useState, useEffect } from "react"
+import { Arrow } from "./styles"
 
 const ScrollDown = ({
   direction = `down`,

@@ -9,14 +9,13 @@ date: 2021-09-10 08:40
 featuredImage: ../../../static/assets/abortion-immorality.jpg
 ---
 
-
-> * 4/12/22
+> - 4/12/22
 >
 > > Victory for the children and God's truths in Creation, Oklahoma outlawed murder as in Abortion.
 
 ## Prelude
 
-My writings are written for my Children born since 2000. 
+My writings are written for my Children born since 2000.
 
 Only there purity can cleanse the Earth from the immorality of there forefathers. Saving mankind from destruction.
 
@@ -26,7 +25,7 @@ Only there purity can cleanse the Earth from the immorality of there forefathers
 
 Men have no "Equal Rights"!
 
-> That's my child also; "I told a half dozen, or more 'Birthing Humans"! 
+> That's my child also; "I told a half dozen, or more 'Birthing Humans"!
 >
 > That if they even thought about aborting my child.
 >
@@ -36,7 +35,7 @@ Men have no "Equal Rights"!
 
 That's my kid also! And if your such a useless Animal to think other wise, your a Demon on Earth!
 
-But Men get booked if of the woman has the child and it's theres, then you make there life, "hell", because your a slut useless Animal, when this was your choice = Hook up App piece of trash! 
+But Men get booked if of the woman has the child and it's theres, then you make there life, "hell", because your a slut useless Animal, when this was your choice = Hook up App piece of trash!
 
 Take responsibility for your own decisions and actions!
 
@@ -49,18 +48,18 @@ So you Animals want it both ways, how evil you are, liers, and deniers of any tr
 Do men have rights in abortion? The Greek view.
 
 Abstract
- 
+
 Taken from : Pub Med GOV 🔗 [A Man's Rights in Abortion](https://pubmed.ncbi.nlm.nih.gov/22457999/)
 
-Aim: We have examined from a legal perspective the father's role in the decision to abort a pregnancy in western society. 
+Aim: We have examined from a legal perspective the father's role in the decision to abort a pregnancy in western society.
 
 Furthermore, we have taken a closer look into the inadequacies the Greek legal framework on this issue, from a legal and social point of view.
 
 Methods: Literature in the Greek and English language.
 
-Results: One of abortion's many victims is the father of the child. 
+Results: One of abortion's many victims is the father of the child.
 
-In most European countries and the United States of America, the law does not give any rights to the father on the issue of an abortion. 
+In most European countries and the United States of America, the law does not give any rights to the father on the issue of an abortion.
 
 Quite simply, men have no legal rights when it comes to abortion. Legally, an abortion is a private matter between a woman and her doctor, even if she is married. Greece was one of the last countries in Europe to legalize abortion after a long debate in Parliament and the publication of numerous declarations by women's rights organizations. However, despite the liberalization of abortion, which followed the ratification of L 1609/86, the legal framework in which abortions are carried out is not entirely satisfactory. One of the areas that require clarification is the role of father. L 1609/86 does not specify men's rights in abortion. Post-abortion counseling services are dealing with an increasing number of men coming forward, grieving their aborted children.
 
@@ -98,9 +97,9 @@ Universal truths that are sill employed in many society's on Earth despite the C
 
 If you are immoral the church gives you forgiveness for financial means. If you are pure and true of heart you do not need the church as you already follow Gods Laws and your own truths within the Holy Spirit.
 
-Living in purity is the only way you can be one with the Holy Spirit to be 100% in Spirit and Flesh, with love and truth in your hearts, with nothing in your minds of immortality. 
+Living in purity is the only way you can be one with the Holy Spirit to be 100% in Spirit and Flesh, with love and truth in your hearts, with nothing in your minds of immortality.
 
-> Not even the knowledge of fleshly desire and how others participate in there desires. 
+> Not even the knowledge of fleshly desire and how others participate in there desires.
 >
 > > These thing's of love and oneness are between Man and his Wife, and are, "Only", to be experienced by two of purity after they are bound together in Gods Name.
 
@@ -128,7 +127,6 @@ An English version of the first ten verses of the ninety-first chapter,
 > And how He imbued it with awareness of what is right and wrong.
 > The one who helps this self to grow in a clean way attains to happiness.
 > The one who buries it in darkness is really lost
-
 
 ## Sariah Law
 
@@ -235,11 +233,3 @@ For what have I to do with judging outsiders? Is it not those inside the church 
 God judges those outside. “Purge the evil person's from among you.”
 
 <wavy></wavy>
-
-
-
-
-
-
-
-

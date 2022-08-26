@@ -10,7 +10,7 @@ import Seo from "../components/seo"
 import Stars from "../components/Stars"
 import Layout from "../components/layout"
 
-const url = typeof window !== 'undefined' ? window.location.href : ''
+const url = typeof window !== "undefined" ? window.location.href : ""
 
 const TagsPage = ({
   data: {
@@ -30,25 +30,25 @@ const TagsPage = ({
       <meta property="twitter:title" content="Tags" />
       <meta property="twitter:description" content="Tags Page" />
     </Helmet>
-    <div
-      className="wrapper"
-    >
+    <div className="wrapper">
       <Stars />
       <h1>Tags</h1>
-      <Box p={4} bg="primary"
+      <Box
+        p={4}
+        bg="primary"
         sx={{
           borderRadius: "12px",
         }}
       >
-        <ul className='taglist field is-grouped is-grouped-multiline'>
+        <ul className="taglist field is-grouped is-grouped-multiline">
           {group.map(tag => (
-            <li key={tag.fieldValue} className='control'>
+            <li key={tag.fieldValue} className="control">
               <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                <div className='tags has-addons is-large'>
-                  <span aria-label='Tag' className='tag is-primary'>
+                <div className="tags has-addons is-large">
+                  <span aria-label="Tag" className="tag is-primary">
                     {tag.fieldValue}
                   </span>
-                  <span aria-label='Tag Count' className='tag is-dark '>                            
+                  <span aria-label="Tag Count" className="tag is-dark ">
                     {tag.totalCount}
                   </span>
                 </div>

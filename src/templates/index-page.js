@@ -1,9 +1,16 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { graphql, Link } from "gatsby"
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightSLine, RiFacebookBoxFill, RiTwitterFill, RiYoutubeFill, RiInstagramFill, RiGithubFill } from "react-icons/ri"
+import {
+  RiArrowRightSLine,
+  RiFacebookBoxFill,
+  RiTwitterFill,
+  RiYoutubeFill,
+  RiInstagramFill,
+  RiGithubFill,
+} from "react-icons/ri"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
@@ -69,44 +76,64 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark, posts, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const url = typeof window !== 'undefined' ? window.location.href : ''
+  const url = typeof window !== "undefined" ? window.location.href : ""
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
-    : ""    
+    : ""
   const sIcons = Icons.socialIcons.map((icons, index) => {
     return (
       <div key={"social icons" + index}>
         {icons.icon === "facebook" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank" area-label="Facebook">
-            <RiFacebookBoxFill alt='Facebook' />
+          <Link
+            to={icons.url}
+            rel="noopener noreferrer"
+            target="_blank"
+            area-label="Facebook"
+          >
+            <RiFacebookBoxFill alt="Facebook" />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "twitter" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank" area-label="Twitter">
-            <RiTwitterFill alt='Twitter' />
+          <Link
+            to={icons.url}
+            rel="noopener noreferrer"
+            target="_blank"
+            area-label="Twitter"
+          >
+            <RiTwitterFill alt="Twitter" />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "youtube" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank" area-label="Youtube">
-            <RiYoutubeFill alt='Youtube' />
+          <Link
+            to={icons.url}
+            rel="noopener noreferrer"
+            target="_blank"
+            area-label="Youtube"
+          >
+            <RiYoutubeFill alt="Youtube" />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "instagram" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank" aria-label="Instagram">
-            <RiInstagramFill alt='Instagram' />
+          <Link
+            to={icons.url}
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <RiInstagramFill alt="Instagram" />
           </Link>
         ) : (
           ""
-        )}        
+        )}
         {icons.icon === "github" ? (
           <Link to={icons.url} rel="noopener noreferrer" target="_blank">
-            <RiGithubFill alt='Github' />
+            <RiGithubFill alt="Github" />
           </Link>
         ) : (
           ""
@@ -133,7 +160,7 @@ const HomePage = ({ data }) => {
         <meta property="twitter:description" content={frontmatter.tagLine} />
       </Helmet>
       <Stars />
-      <div className="home-banner grids col-1 sm-2">        
+      <div className="home-banner grids col-1 sm-2">
         <div>
           <h1>{frontmatter.titleAlt}</h1>
           <p
@@ -176,8 +203,8 @@ const HomePage = ({ data }) => {
               alt={frontmatter.title + " - Featured image"}
               className="cover"
             />
-             ) : (
-               ""
+          ) : (
+            ""
           )}
         </div>
       </div>

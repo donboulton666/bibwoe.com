@@ -8,7 +8,7 @@ const Theme = () => {
   return (
     <div sx={themeStyles.modeOption}>
       <button
-        area-label='Theme'
+        area-label="Theme"
         onClick={e => {
           setColorMode(colorMode === "default" ? "dark" : "default")
         }}
@@ -56,14 +56,14 @@ const themeStyles = {
   badges: {
     primary: {
       fontSize: "16px",
-      color: 'background',
-      bg: 'button',
+      color: "background",
+      bg: "button",
     },
     outline: {
       fontSize: "16px",
-      color: 'primary',
-      bg: 'transparent',
-      boxShadow: 'inset 0 0 0 1px',
+      color: "primary",
+      bg: "transparent",
+      boxShadow: "inset 0 0 0 1px",
     },
   },
 }

@@ -152,7 +152,7 @@ Enoch also layed the conceptional foundational knowledge for what you call the H
 
 Constructed and written in the authors own words as to make it look like it came from them. Most of it was passed down in stories for centuries before it was written. I guess its, open season as fare game at that point to call it there own knowledge. Whom ever puts into written form First, then it's theres.
 
-Which is somewhat of truth. Like talking about inventing football and not doing it. 
+Which is somewhat of truth. Like talking about inventing football and not doing it.
 
 The first one to gather a team and do it, "Play a Game", basically is the inventer, but not the conceiver.
 
@@ -179,7 +179,6 @@ Your Holy Men in the ancient past did many things to try to find this spiritual 
 There has to be some knowledge of separation of which they did not have or employ.
 
 Some in AA would say to quit drinking you have to stay away from alcoholics.
-I would say hang out in the bars just say no, thats really quitting. To overcome not run away! Looking to self and not the drink next to you. 
+I would say hang out in the bars just say no, thats really quitting. To overcome not run away! Looking to self and not the drink next to you.
 
 A test to overcoming the external physical world of flesh and desire to find your internal spiritual truth's.
-
