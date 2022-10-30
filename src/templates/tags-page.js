@@ -4,8 +4,8 @@ import PropTypes from "prop-types"
 import { FaTags } from "react-icons/fa"
 // Components
 import { Link, graphql, Script } from "gatsby"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 import Stars from "../components/Stars"
 
 const Tags = ({ pageContext, data }) => {

@@ -7,15 +7,15 @@ import CookieConsent, {
   Cookies,
   getCookieConsentValue,
 } from "react-cookie-consent"
-import Scroll from "./Scroll"
-import ScrollDown from "./ScrollDown"
-import Header from "./header"
-import Logo from "./logo"
-import Navigation from "./navigation"
-import "../assets/scss/style.scss"
-import Footer from "./footer"
-import Theme from "./theme"
-import Search from "./search"
+import Scroll from "../Scroll"
+import ScrollDown from "../ScrollDown"
+import Header from "../Header"
+import Logo from "../Logo"
+import Navigation from "../Navigation"
+import "../../assets/scss/style.scss"
+import Footer from "../Footer"
+import Theme from "../Theme"
+import Search from "../Search"
 import { SiGnuprivacyguard } from "react-icons/si"
 
 const query = graphql`

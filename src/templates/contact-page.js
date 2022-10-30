@@ -8,8 +8,8 @@ import { graphql, Script } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { NetlifyForm, Honeypot, Recaptcha } from "react-netlify-forms"
 import { RiSendPlane2Line } from "react-icons/ri"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 import Stars from "../components/Stars"
 
 export const pageQuery = graphql`

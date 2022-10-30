@@ -3,9 +3,9 @@ import { jsx, Box } from "theme-ui"
 import PropTypes from "prop-types"
 import kebabCase from "lodash/kebabCase"
 import { Link, graphql, Script } from "gatsby"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 import Stars from "../components/Stars"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 const url = typeof window !== "undefined" ? window.location.href : ""
 

@@ -2,9 +2,9 @@
 import { jsx } from "theme-ui"
 import { graphql, Script } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Bio from "../components/Bio"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 import Stars from "../components/Stars"
 
 export const pageQuery = graphql`

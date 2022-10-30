@@ -6,7 +6,7 @@ const Logo = props => (
   <>
     <Link to="/">
       <StaticImage
-        src="../../static/assets/android-chrome-98x34.png"
+        src="../../../static/assets/android-chrome-98x34.png"
         alt="PubliusLogic"
         style={{
           maxWidth: "100%",

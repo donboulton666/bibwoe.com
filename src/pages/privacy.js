@@ -6,7 +6,7 @@ import {
   RiArrowLeftSLine,
   RiCheckboxCircleLine,
 } from "react-icons/ri"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Stars from "../components/Stars"
 
 const Privacy = () => (
