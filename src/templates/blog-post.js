@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-import { Helmet } from "react-helmet"
+import { Link, graphql, Script } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import rehypeReact from "rehype-react"
 import { RiTimerLine, RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri"
@@ -127,7 +126,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         url={url}
         article={true}
       />
-      <Helmet>
+      <Script>
         <link rel="canonical" href={url} />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={frontmatter.title} />
@@ -139,7 +138,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
           property="twitter:description"
           content={frontmatter.description}
         />
-      </Helmet>
+      </Script>
       <article className="blog-post">
         <Stars />
         <header className="featured-banner">

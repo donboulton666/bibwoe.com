@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { graphql } from "gatsby"
-import { Helmet } from "react-helmet"
+import { graphql, Script } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -40,7 +39,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout className="page">
       <Seo title={frontmatter.title} description={excerpt} />
-      <Helmet>
+      <Script>
         <link rel="canonical" href={url} />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={frontmatter.title} />
@@ -51,7 +50,7 @@ const AboutPage = ({ data }) => {
           property="twitter:description"
           content={frontmatter.description}
         />
-      </Helmet>
+      </Script>
       <div className="wrapper">
         <article className="blog-post">
           <Stars />

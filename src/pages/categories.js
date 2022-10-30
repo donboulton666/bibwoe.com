@@ -2,8 +2,7 @@
 import { jsx, Box } from "theme-ui"
 import PropTypes from "prop-types"
 import kebabCase from "lodash/kebabCase"
-import Helmet from "react-helmet"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, Script } from "gatsby"
 import Seo from "../components/seo"
 import Stars from "../components/Stars"
 import Layout from "../components/layout"
@@ -20,14 +19,14 @@ const CategoriesPage = ({
 }) => (
   <Layout className="not-found-page">
     <Seo title="Categories Page" />
-    <Helmet>
+    <Script>
       title={title}
       <meta property="og:url" content={url} />
       <meta property="og:title" content="Category" />
       <meta property="og:description" content="Categories Page" />
       <meta property="twitter:title" content="Category" />
       <meta property="twitter:description" content="Categories Page" />
-    </Helmet>
+    </Script>
     <div className="wrapper">
       <Stars />
       <h1>Categories</h1>

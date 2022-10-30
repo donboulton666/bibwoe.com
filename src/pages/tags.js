@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 // Utilities
 import kebabCase from "lodash/kebabCase"
 // Components
-import { Helmet } from "react-helmet"
+import { Script } from "gatsby"
 import { Link, graphql } from "gatsby"
 import Seo from "../components/seo"
 import Stars from "../components/Stars"
@@ -22,14 +22,14 @@ const TagsPage = ({
 }) => (
   <Layout className="not-found-page">
     <Seo title="Tags Page" />
-    <Helmet>
+    <Script>
       title={title}
       <meta property="og:url" content={url} />
       <meta property="og:title" content="Tags" />
       <meta property="og:description" content="Tags Page" />
       <meta property="twitter:title" content="Tags" />
       <meta property="twitter:description" content="Tags Page" />
-    </Helmet>
+    </Script>
     <div className="wrapper">
       <Stars />
       <h1>Tags</h1>

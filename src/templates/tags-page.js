@@ -1,10 +1,9 @@
 /** @jsx jsx */
 import { jsx, Container, Heading } from "theme-ui"
 import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
 import { FaTags } from "react-icons/fa"
 // Components
-import { Link, graphql } from "gatsby"
+import { Link, graphql, Script } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Stars from "../components/Stars"
@@ -20,14 +19,14 @@ const Tags = ({ pageContext, data }) => {
   return (
     <Layout className="not-found-page">
       <Seo />
-      <Helmet>
+      <Script>
         <link rel="canonical" href={url} />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={tagHeader} />
         <meta property="og:description" content={tag} />
         <meta property="twitter:title" content={tagHeader} />
         <meta property="twitter:description" content={tag} />
-      </Helmet>
+      </Script>
       <div className="wrapper">
         <Stars />
         <div>

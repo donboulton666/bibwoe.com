@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { graphql, Link } from "gatsby"
-import { Helmet } from "react-helmet"
+import { graphql, Link, Script } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import {
   RiArrowRightSLine,
@@ -149,7 +148,7 @@ const HomePage = ({ data }) => {
         image={Image}
         url={url}
       />
-      <Helmet>
+      <Script>
         <link rel="canonical" href={url} />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={frontmatter.title} />
@@ -158,7 +157,7 @@ const HomePage = ({ data }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content={frontmatter.title} />
         <meta property="twitter:description" content={frontmatter.tagLine} />
-      </Helmet>
+      </Script>
       <Stars />
       <div className="home-banner grids col-1 sm-2">
         <div>

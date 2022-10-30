@@ -128,7 +128,7 @@ Your assents to the Trinity or Heaven are depicted in the Giza Complex outside o
 ![Hebrew Text](../../../static/assets/hebrew-text.jpg "hebrew text")
 _[`hebrew.text` Hebrew of Enoch](../../../static/assets/hebrew-text.jpg)_
 
-![Enoch Circle](../../../static/assets/enoch-w.png "Enoch Circle")
+![Enoch Circle](../../../static/assets/enochw.png "Enoch Circle")
 _[`enoch.circle` Structural Enoch Circle](../../../static/assets/enoch-w.jpg)_
 
 ![Giza Description](../../../static/assets/chrono-trans.png "Structural Bible")

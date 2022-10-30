@@ -37,7 +37,7 @@ The _first parable_ (xxxviii.-xliv.) is a prophecy of coming judgement upon the 
 
 An interesting occurrence of gematria also helps pinpoint the Great Pyramid as God's left hand, the "Holy Spirits", special revelation. Here is the Hebrew of the Pyramid text, and below Isaiah 19:19, 20.
 
-![Enoch](../../../static/assets/enoch-w.png)
+![Enoch](../../../static/assets/enochw.png)
 
 The Hebrew of Isaiah 19:19,20
 

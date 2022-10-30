@@ -4,8 +4,7 @@ import { jsx } from "theme-ui"
 import * as React from "react"
 /* eslint-enable no-unused-vars */
 import { Input, Button, Textarea } from "theme-ui"
-import { graphql } from "gatsby"
-import { Helmet } from "react-helmet"
+import { graphql, Script } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { NetlifyForm, Honeypot, Recaptcha } from "react-netlify-forms"
 import { RiSendPlane2Line } from "react-icons/ri"
@@ -54,7 +53,7 @@ const Contact = ({ data }) => {
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
-      <Helmet>
+      <Script>
         <link rel="canonical" href={url} />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={frontmatter.title} />
@@ -67,7 +66,7 @@ const Contact = ({ data }) => {
           property="twitter:description"
           content={frontmatter.description}
         />
-      </Helmet>
+      </Script>
       <div className="wrapper">
         <Stars />
         <header className="featured-banner">

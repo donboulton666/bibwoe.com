@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import * as React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import { Helmet } from "react-helmet"
+import { Script } from "gatsby"
 import CookieConsent, {
   Cookies,
   getCookieConsentValue,
@@ -32,7 +32,7 @@ const Layout = ({ className, children }) => {
   getCookieConsentValue("gatsby-gdpr-google-analytics")
   return (
     <>
-      <Helmet>
+      <Script>
         <link
           rel="sitemap"
           type="application/xml"
@@ -63,7 +63,7 @@ const Layout = ({ className, children }) => {
           title="Sitemap Categories"
           href="/static/sitemap-categories.xml"
         />
-      </Helmet>
+      </Script>
       <div
         sx={{
           display: "grid",
