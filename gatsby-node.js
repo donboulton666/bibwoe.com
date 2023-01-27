@@ -11,10 +11,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const result = await graphql(`
     {
-      allMarkdownRemark(
-        sort: { fields: [frontmatter___date], order: DESC }
-        limit: 1000
-      ) {
+      allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
         edges {
           node {
             id
@@ -38,25 +35,25 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         }
       }
       tagsGroup: allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___tags) {
+        group(field: {frontmatter: {tags: SELECT}}) {
           fieldValue
         }
       }
       categoryGroup: allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___category) {
+        group(field: {frontmatter: {category: SELECT}}) {
           fieldValue
         }
       }
     }
   `)
 
-  // Handle errors
+  /* Handle errors */
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
 
-  // Create markdown pages
+  /* Create markdown pages */
   const posts = result.data.allMarkdownRemark.edges
   let blogPostsCount = 0
 
@@ -70,7 +67,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: path.resolve(
         `src/templates/${String(post.node.frontmatter.template)}.js`
       ),
-      // additional data can be passed via context
+      /* additional data can be passed via context */
       context: {
         id,
         previous,
@@ -80,16 +77,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
     let category = []
 
-    // Iterate through each post, putting all found date fields into `dates`
+    /* Iterate through each post, putting all found date fields into `dates` */
     posts.forEach(post => {
       if (_.get(post, `node.frontmatter.category`)) {
         category = category.concat(post.node.frontmatter.category)
       }
     })
-    // Eliminate duplicate categories
+    /* Eliminate duplicate categories */
     category = _.uniq(category)
 
-    // Make category pages
+    /* Make category pages */
     category.forEach(category => {
       const categoryPath = `/categories/${_.kebabCase(category)}/`
 
@@ -102,9 +99,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       })
     })
 
-    // Extract tag data from query
+    /* Extract tag data from query */
     const tags = result.data.tagsGroup.group
-    // Make tag pages
+    /* Make tag pages */
     tags.forEach(tag => {
       createPage({
         path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
@@ -115,13 +112,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       })
     })
 
-    // Count blog posts.
+    /* Count blog posts. */
     if (post.node.frontmatter.template === "blog-post") {
       blogPostsCount++
     }
   })
 
-  // Create blog-list pages
+  /* Create blog-list pages */
   const postsPerPage = 9
   const numPages = Math.ceil(blogPostsCount / postsPerPage)
 
@@ -154,12 +151,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
 
-  // Explicitly define the siteMetadata {} object
-  // This way those will always be defined even if removed from gatsby-config.js
-
-  // Also explicitly define the Markdown frontmatter
-  // This way the "MarkdownRemark" queries will return `null` even when no
-  // blog posts are stored inside "content/blog" instead of returning an error
   createTypes(`
     type SiteSiteMetadata {
       author: Author
