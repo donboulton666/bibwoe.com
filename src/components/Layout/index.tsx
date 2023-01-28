@@ -152,33 +152,29 @@ const Layout = ({ className, children }: LayoutProps) => {
           declineButtonText="Decline"
           ariaAcceptLabel="Accept Cookies"
           ariaDeclineLabel="Decline Cookies"
-          cookieName="gatsby-gdpr-google-analytics"
+          cookieName="gtm"
           style={{
-            background: "linear-gradient(to right, transparent, #171717)",
-            textShadow: "2px 2px black",
+            background: 'linear-gradient(to right, #4338ca, transparent, #4338ca)',
+            textShadow: '2px 2px black',
           }}
           buttonStyle={{
-            background:
-              "radial-gradient(circle at top right, #222, transparent)",
-            color: "white",
-            fontWeight: "bolder",
-            borderRadius: "3px",
-            border: "1px black",
-            textShadow: "2px 2px black",
+            background: 'radial-gradient(circle at top right, #4338ca, transparent)',
+            color: 'white',
+            fontWeight: 'bolder',
+            borderRadius: '3px',
+            border: '1px black',
+            textShadow: '2px 2px black',
           }}
         >
-          Bibwoe uses cookies for a better user experience.{" "}
+          Bibwoe uses cookies for user experience.{' '}
           <span
             style={{
-              fontSize: "14px",
-              textAlign: "center",
-              marginLeft: "20px",
+              fontSize: '14px',
+              textAlign: 'center',
+              marginLeft: '20px',
             }}
           >
-            <span className="icon -lock">
-              <SiGnuprivacyguard />
-            </span>{" "}
-            <Link to="/privacy" alt="Privacy Page">
+            <Link to="/privacy" className="text-gray-200" alt="Privacy Page">
               Privacy Page
             </Link>
           </span>

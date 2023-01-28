@@ -8,6 +8,7 @@
     "url": "https://github.com/donaldboulton/bibwoe.com/issues"
   },
   "dependencies": {
+    "@builder.io/partytown": "^0.7.5",
     "@cloudinary/react": "^1.9.0",
     "@cloudinary/url-gen": "^1.8.7",
     "@emotion/react": "^11.10.5",
@@ -31,7 +32,6 @@
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-catch-links": "^5.5.0",
     "gatsby-plugin-feed": "^5.5.0",
-    "gatsby-plugin-gdpr-cookies": "^2.0.9",
     "gatsby-plugin-image": "^3.5.0",
     "gatsby-plugin-manifest": "^5.5.0",
     "gatsby-plugin-mdx-embed": "^1.1.3",

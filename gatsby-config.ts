@@ -122,36 +122,6 @@ const config: GatsbyConfig = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
     {
-      resolve: `gatsby-plugin-gdpr-cookies`,
-      options: {
-        googleAnalytics: {
-          trackingId: "UA-24847941-1",
-          cookieName: "gatsby-gdpr-google-analytics",
-          anonymize: true,
-          allowAdFeatures: false,
-        },
-        googleTagManager: {
-          trackingId: "GTM-K57TVK",
-          cookieName: "gatsby-gdpr-google-tagmanager",
-          dataLayerName: "dataLayer",
-        },
-        facebookPixel: {
-          pixelId: "YOUR_FACEBOOK_PIXEL_ID",
-          cookieName: "gatsby-gdpr-facebook-pixel",
-        },
-        tikTokPixel: {
-          pixelId: "YOUR_TIKTOK_PIXEL_ID",
-          cookieName: "gatsby-gdpr-tiktok-pixel",
-        },
-        hotjar: {
-          hjid: "2721607",
-          hjsv: "6",
-          cookieName: "gatsby-gdpr-hotjar",
-        },
-        environments: ["production", "development"],
-      },
-    },
-    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `

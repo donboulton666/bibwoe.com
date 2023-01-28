@@ -2,6 +2,11 @@ import { GatsbyNode } from "gatsby"
 import path from "path"
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { copyLibFiles } = require('@builder.io/partytown/utils')
+
+exports.onPreBuild = async () => {
+  await copyLibFiles(path.join(__dirname, 'static', '~partytown'))
+}
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
