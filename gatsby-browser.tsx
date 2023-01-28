@@ -1,13 +1,13 @@
-import * as React from 'react'
-import type { GatsbyBrowser } from 'gatsby'
-import { AnimatePresence } from 'framer-motion'
+import * as React from "react"
+import type { GatsbyBrowser } from "gatsby"
+import { AnimatePresence } from "framer-motion"
 import "prismjs/themes/prism.css"
 
-export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => {
+export const wrapPageElement: GatsbyBrowser["wrapPageElement"] = ({
+  element,
+}) => {
   return
-  <AnimatePresence wait>
-    {element}
-  </AnimatePresence>
+  <AnimatePresence wait>{element}</AnimatePresence>
 }
 
 export const onServiceWorkerUpdateReady = () => {
