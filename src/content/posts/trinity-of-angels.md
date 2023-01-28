@@ -156,4 +156,10 @@ Really the hard way for me, a life of loneliness, no Marriage, Oklahoma breaking
 
 > So no matter how much torture; I had to go for it!
 
+<Center>
+
 <Video />
+
+</Center>
+
+<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

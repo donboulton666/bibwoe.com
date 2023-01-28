@@ -1,0 +1,160 @@
+---
+template: blog-post
+title: Trinity of Man
+path: /blog/trinity-of-man
+description: Mankind as The Holy One's, The Lost One's, and The Evil One's. We will learn to discriminate and Purge our Lives Of the Evil One's.
+date: 2022-04-17 01:25
+featuredImage: ../../../static/assets/trinity-of-man.png
+category: Creation
+imageLink: https://bibwoe.com/assets/trinity-of-man.png
+tags: [Trinity, Holy, Lost, Evil]
+---
+
+## Revelations 22 for 2022
+
+Verse 11
+
+> Remember my Children, Let him who does wrong continue to do wrong; let him who is vile continue to be vile; let him who does right continue to do right; and let him who is holy continue to be holy."
+
+> > Let him whom Professes Lies and Evil Continue to. "Profess Lies and Do Evil"!
+
+## Purge Evil and Non Truth
+
+<Callout>
+
+## All Is In A Trinity
+
+Positive-Neutral-Negative Yes-Maybe-No, Holy-Limbo-Evil, the trinity is represented in all things of substance and spirituality.
+
+> You cannot have Good without Bad nor Love without Hate.
+>
+> > You have to embrace and find Love to know of being one with others bound together in your hearts and on a righteous path.
+>
+> > > You have to Know what you hate and act upon it, least it will destroy your love of self and others.
+
+<Section>
+
+The Evil one's have taught you not to hate, except when and what they say to hate. You cannot hate the evil invaders next door that raped your daughter and killed your dog = Hate Crime.
+
+But it's Ok to hate Russia as they are out to get you even though 90% of Americans have never talked with a Russian.
+
+So how could you hate them? You Never Met Them! Because someone else said to!
+
+Your GOV and Evil thieves in the Church have destroyed your ability to differentiate between right and wrong. Destroying your God given, "Needed Ability's", to Discriminate and Hate.
+
+They tell you it's Ok just deal with it. When you condone something then you have accepted it as Ok then if its Ok its of you then you are the same as which you condone. Associate with immorality then you are immoral.
+
+> You cannot know true love with knowing passionate hate. But hate does not have to equated with killing, just forced separation.
+>
+> > Let your yes be Yes and Your no be No. As stuck between or maybe is being lost in limbo, and states you surely do not know your course.
+
+</Section>
+
+</Callout>
+
+<Section>
+
+The TIME HAS COME FOR WAR AMONGST MANKIND, Not so much against countries or are drawn between fictitious lines on the earth. A third of you are Holy, the Holy's job is to purge the third of the evil ones and capture the minds of the third Lost in limbo, as I capture there hearts!
+
+Look across the table my children and what do your see? One's as the? Or are ye lost in there deceptions?
+
+You see my Loves your World is based upon acceptance of lies, every play, Tv Show or Movie is made up, a portrayal, a lie, its not of truth, a deception to manipulate you away from the truths of the Trinity and your own heart's truths, killing within you your own path, "Your Truths", in life.
+
+Your news, well who knows if even Fox News is 50% correct or 100% lies. You were not there, in any of the news stories, you were not in front of the camera or behind it; or in the news room editing department, "all deceptions", you simply were not there in any of the aspects of what they portray; "Or that You See".
+
+Can you say 100% that you know any of this to be true, "You Cannot testify to God of its truths", so its all a lie, but you immerse yourselves in these non-truth's in every aspect of your lives.
+
+</Section>
+
+<Section>
+
+## Holy Lost and Evil
+
+</Section>
+
+<Section>
+
+<ListGrid>
+  <List>
+    <span className="ml-6 mb-1 place-content-center text-center text-lg underline decoration-fuchsia-600 decoration-wavy underline-offset-8 transition duration-300">
+      The Holy Loving One's
+    </span>
+    <div>
+      The ones that are Holy do not seek the limelight and just want to have peace and serenity in there lives. Family
+      work and responsibility is there course! Few get lost in limbo but recover back to truth and righteousness. The
+      have love in there hearts for there brothers and sisters, scratch there heads on limbo, and detest the evil ones.
+    </div>
+    <WavyHr />
+    <ListItem>
+      <Center>
+        <div>Yes</div>
+      </Center>
+    </ListItem>
+    <ListItem>
+      <Center>
+        <div>Good</div>
+      </Center>
+    </ListItem>
+    <ListItem>
+      <Center>
+        <div>Love</div>
+      </Center>
+    </ListItem>
+  </List>
+  <List>
+    <span className="ml-6 mb-1 place-content-center text-center text-lg underline decoration-fuchsia-600 decoration-wavy underline-offset-8 transition duration-300">
+      The Lost in Limbo One's
+    </span>
+    <div>
+      The ones that are Lost are in Limbo and can be swayed toward the heard, for both Good and Evil, they follow whom
+      has the most effect on them and are most of your Murders, as they have no truths in life, there truths or
+      non-truths are others morals and values they employ and call there own. A lot of your crazy people are in limbo.
+    </div>
+    <WavyHr />
+    <ListItem>
+      <Center>
+        <div>Maybe</div>
+      </Center>
+    </ListItem>
+    <ListItem>
+      <Center>
+        <div>Limbo</div>
+      </Center>
+    </ListItem>
+    <ListItem>
+      <Center>
+        <div>Don't Care</div>
+      </Center>
+    </ListItem>
+  </List>
+  <List>
+    <span className="ml-6 mb-1 place-content-center text-center text-lg underline decoration-fuchsia-600 decoration-wavy underline-offset-8 transition duration-300">
+      The Evil Hateful One's
+    </span>
+    <div>
+      The ones that are Evil, seek the limelight and want to have power over others without truth and righteousness. The
+      have gotten into power all over the world and there click slowly changed the laws and rules as so the cannot be
+      held accountable no matter what they do or have done. There love of anyone is a lie and self effacing.
+    </div>
+    <WavyHr />
+    <ListItem>
+      <Center>
+        <div>No</div>
+      </Center>
+    </ListItem>
+    <ListItem>
+      <Center>
+        <div>Evil</div>
+      </Center>
+    </ListItem>
+    <ListItem>
+      <Center>
+        <div>Hate</div>
+      </Center>
+    </ListItem>
+  </List>
+</ListGrid>
+
+</Section>
+
+<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

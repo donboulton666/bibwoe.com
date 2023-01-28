@@ -70,3 +70,5 @@ I lived about 10 years of my life secluded somewhere up in the Humboldt Ca. moun
 This is what the Old Testaments talk's about, "your truth in works of your flesh", and to be fully responsible for all things interrelated to your works.
 
 What do you know of Gods World, and laws with a clear perspective of self context, being true in your heart and virtuous.
+
+<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

@@ -182,3 +182,5 @@ Some in AA would say to quit drinking you have to stay away from alcoholics.
 I would say hang out in the bars just say no, thats really quitting. To overcome not run away! Looking to self and not the drink next to you.
 
 A test to overcoming the external physical world of flesh and desire to find your internal spiritual truth's.
+
+<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

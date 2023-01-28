@@ -42,3 +42,5 @@ denotes the large fragment of the Greek Version discovered at Akhmîm, and depos
 ### Corruption
 
 † † corruption in the text. . . . = some words which have been lost.
+
+<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

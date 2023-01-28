@@ -1146,3 +1146,5 @@ On to the earth and covered the people and Enoch, and Enoch was taken up on high
 10 Amen.
 
 [Back to top](#top)
+
+<WavyHr className="mt-1 mb-1 text-fuchsia-600" />
