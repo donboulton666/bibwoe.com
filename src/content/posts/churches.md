@@ -20,8 +20,6 @@ In the 1990's I traveled all over the USA going to Hundreds of different Churche
 >
 > > OKC with some help from you a new church every week. Need to see what all my children are doing. Not just at one venue.
 
-<SingleAccordion label='1. New Life Church UPC Edmond OK'>
-
 1. 🔗 [New Life Church UPC Edmond](https://newlifeupcok.com)
 
 ![New Life](../../../static/img/new-life-logo.png)
