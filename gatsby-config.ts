@@ -1,4 +1,4 @@
-import type { GatsbyConfig } from 'gatsby'
+import type { GatsbyConfig } from "gatsby"
 /* eslint @typescript-eslint/no-var-requires: "off" */
 const settings = require("./src/util/site.json")
 
@@ -36,10 +36,10 @@ const config: GatsbyConfig = {
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img/`,
-        name: 'img',
+        name: "img",
       },
     },
     {

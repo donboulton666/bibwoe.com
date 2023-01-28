@@ -1,38 +1,38 @@
-import * as React from 'react'
-import { FC, ReactNode } from 'react'
-import * as CSS from 'csstype'
+import * as React from "react"
+import { FC, ReactNode } from "react"
+import * as CSS from "csstype"
 
 interface ListItemProps {
   children: ReactNode
 }
 
 const listItem: CSS.Properties = {
-  listStyle: 'none',
-  marginRight: '8px',
-  display: 'flex',
-  marginBottom: 'calc(1.45rem / 2)',
-  lineHeight: '1.9',
-  letterSpacing: '0.3px',
+  listStyle: "none",
+  marginRight: "8px",
+  display: "flex",
+  marginBottom: "calc(1.45rem / 2)",
+  lineHeight: "1.9",
+  letterSpacing: "0.3px",
 
-  'span[dataListItem]': {
-    paddingRight: '8px',
-    transform: 'translateY(4px)',
+  "span[dataListItem]": {
+    paddingRight: "8px",
+    transform: "translateY(4px)",
   },
 
-  '& > ol': {
-    marginLeft: '1.45rem',
-    marginBottom: 'calc(1.45rem / 2)',
-    marginTop: 'calc(1.45rem / 2)',
+  "& > ol": {
+    marginLeft: "1.45rem",
+    marginBottom: "calc(1.45rem / 2)",
+    marginTop: "calc(1.45rem / 2)",
   },
 
-  '& > ul': {
-    marginLeft: '1rem',
-    marginBottom: 'calc(1rem / 2)',
-    marginTop: 'calc(1rem / 2)',
+  "& > ul": {
+    marginLeft: "1rem",
+    marginBottom: "calc(1rem / 2)",
+    marginTop: "calc(1rem / 2)",
   },
 
-  '& > p': {
-    marginBottom: 'calc(0.45rem / 2)',
+  "& > p": {
+    marginBottom: "calc(0.45rem / 2)",
   },
 }
 
@@ -52,7 +52,12 @@ const ListItem: FC<ListItemProps> = props => {
                 stroke="currentColor"
                 {...props}
               >
-                <path d="M5 12H19" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                <path
+                  d="M5 12H19"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
                 <path
                   d="M14.0829 6.42532L19 12L14.0829 17.5747"
                   strokeWidth="2"
@@ -69,6 +74,6 @@ const ListItem: FC<ListItemProps> = props => {
   )
 }
 
-ListItem.displayName = 'ListItem'
+ListItem.displayName = "ListItem"
 
 export default ListItem

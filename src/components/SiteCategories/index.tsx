@@ -9,7 +9,7 @@ const SiteCategories = ({ group, ...rest }) => {
   const data = useStaticQuery(graphql`
     {
       allMarkdownRemark {
-        group(field: {frontmatter: {category: SELECT}}) {
+        group(field: { frontmatter: { category: SELECT } }) {
           fieldValue
           totalCount
         }

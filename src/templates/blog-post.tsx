@@ -96,25 +96,26 @@ const styles = {
 const Pagination = props => (
   <div className="pagination -post" sx={styles.pagination}>
     <ul>
-      {props.previous && props.previous.frontmatter.template === "blog-post" && (
-        <li>
-          <Link to={props.previous.frontmatter.path} rel="prev">
-            <p
-              sx={{
-                color: "muted",
-              }}
-            >
-              <span className="icon -left">
-                <RiArrowLeftLine />
-              </span>{" "}
-              Previous
-            </p>
-            <span className="page-title">
-              {props.previous.frontmatter.title}
-            </span>
-          </Link>
-        </li>
-      )}
+      {props.previous &&
+        props.previous.frontmatter.template === "blog-post" && (
+          <li>
+            <Link to={props.previous.frontmatter.path} rel="prev">
+              <p
+                sx={{
+                  color: "muted",
+                }}
+              >
+                <span className="icon -left">
+                  <RiArrowLeftLine />
+                </span>{" "}
+                Previous
+              </p>
+              <span className="page-title">
+                {props.previous.frontmatter.title}
+              </span>
+            </Link>
+          </li>
+        )}
       {props.next && props.next.frontmatter.template === "blog-post" && (
         <li>
           <Link to={props.next.frontmatter.path} rel="next">

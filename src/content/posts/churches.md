@@ -34,7 +34,7 @@ Why does Father God let Evil into our world and not protect us from it. He made 
 
 Enoch was tortured by Devil and Ok'ed by Father, having everything in his life taken from him.
 
-Enoch never directly denied God. 
+Enoch never directly denied God.
 
 One thing Pastor Whalen did not mention was Enoch's denial of self, "or I may have missed it", Which is a denial of Father God.
 
@@ -42,7 +42,7 @@ One thing Pastor Whalen did not mention was Enoch's denial of self, "or I may ha
 
 > Never deny yourself My Loves, just learn and grow to become and know.
 
-> I will definitely frequent New Life Church UPC of Edmond OK. 
+> I will definitely frequent New Life Church UPC of Edmond OK.
 >
 > > I was happy and filled with joy for the first time in sometimes.
 >

@@ -1,25 +1,25 @@
-import * as React from 'react'
-import { Disclosure } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/solid'
-import { useInView } from 'react-intersection-observer'
-import { LazyMotion, m } from 'framer-motion'
-import Center from '../Center'
-import List from '../List'
+import * as React from "react"
+import { Disclosure } from "@headlessui/react"
+import { ChevronDownIcon } from "@heroicons/react/solid"
+import { useInView } from "react-intersection-observer"
+import { LazyMotion, m } from "framer-motion"
+import Center from "../Center"
+import List from "../List"
 
-const loadFeatures = () => import('../FramerFeatures').then(res => res.default)
+const loadFeatures = () => import("../FramerFeatures").then(res => res.default)
 
 const Accordion = () => {
   const accordionContainer = {
     enter: {
       transition: {
-        when: 'beforeChildren',
+        when: "beforeChildren",
         staggerChildren: 0.3,
       },
     },
   }
   const [ref, isVisible] = useInView({
     triggerOnce: true,
-    rootMargin: '-200px 0px',
+    rootMargin: "-200px 0px",
   })
   const variants = {
     visible: {
@@ -38,8 +38,8 @@ const Accordion = () => {
           <m.div
             ref={ref}
             variants={variants}
-            animate={isVisible ? 'visible' : 'hidden'}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
+            animate={isVisible ? "visible" : "hidden"}
+            transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <div className="flex w-full pt-2">
               <div className="mx-auto w-full rounded-2xl p-2">
@@ -49,16 +49,20 @@ const Accordion = () => {
                       <Disclosure.Button className="flex w-full justify-between rounded-lg bg-slate-300 px-4 py-2 text-left text-sm font-medium text-slate-200 hover:bg-slate-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
                         <span className="text-lg">Lyrics Suspicious Minds</span>
                         <ChevronDownIcon
-                          className={`${open ? 'rotate-180 transform' : ''} mt-1 h-5 w-5 text-gray-200`}
+                          className={`${
+                            open ? "rotate-180 transform" : ""
+                          } mt-1 h-5 w-5 text-gray-200`}
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="text-md px-4 pt-4 pb-2 text-slate-200">
                         <div className="text-md">
-                          Only change in song is verse 1, to, "Heart of a Child", from, "We're are caught in a trap
+                          Only change in song is verse 1, to, "Heart of a
+                          Child", from, "We're are caught in a trap
                         </div>
                         <Center>I Already Know Angie!</Center>
                         <div>
-                          Way more Beautiful than Elvis's version of which I saw live along time ago. 1972 or 73?{' '}
+                          Way more Beautiful than Elvis's version of which I saw
+                          live along time ago. 1972 or 73?{" "}
                         </div>
 
                         <div className="my-4">[Bridge]</div>
@@ -79,7 +83,9 @@ const Accordion = () => {
 
                         <div>We can't go on together With suspicious minds</div>
 
-                        <div>And we can't build our dreams On suspicious minds</div>
+                        <div>
+                          And we can't build our dreams On suspicious minds
+                        </div>
 
                         <div className="my-4">[Verse 2]</div>
 
@@ -113,7 +119,9 @@ const Accordion = () => {
                       <Disclosure.Button className="flex w-full justify-between rounded-lg bg-slate-300 px-4 py-2 text-left text-sm font-medium text-slate-200 hover:bg-slate-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
                         <span className="text-lg">Credits</span>
                         <ChevronDownIcon
-                          className={`${open ? 'rotate-180 transform' : ''} mt-1 h-5 w-5 text-gray-200`}
+                          className={`${
+                            open ? "rotate-180 transform" : ""
+                          } mt-1 h-5 w-5 text-gray-200`}
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="text-md px-4 pt-4 pb-2 text-slate-200">
@@ -145,7 +153,8 @@ const Accordion = () => {
                           </List.Item>
                           <List.Item>
                             <span className="mb-1" variant="secondary">
-                              Suspicious Minds Is A Cover Of, Suspicious Minds by Elvis Presley
+                              Suspicious Minds Is A Cover Of, Suspicious Minds
+                              by Elvis Presley
                             </span>
                           </List.Item>
                         </List>

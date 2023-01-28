@@ -1,5 +1,5 @@
-import { GatsbyNode } from 'gatsby'
-import path from 'path'
+import { GatsbyNode } from "gatsby"
+import path from "path"
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
@@ -12,7 +12,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const result = await graphql(`
     {
-      allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
+      allMarkdownRemark(sort: { frontmatter: { date: DESC } }, limit: 1000) {
         edges {
           node {
             id
@@ -36,12 +36,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         }
       }
       tagsGroup: allMarkdownRemark(limit: 2000) {
-        group(field: {frontmatter: {tags: SELECT}}) {
+        group(field: { frontmatter: { tags: SELECT } }) {
           fieldValue
         }
       }
       categoryGroup: allMarkdownRemark(limit: 2000) {
-        group(field: {frontmatter: {category: SELECT}}) {
+        group(field: { frontmatter: { category: SELECT } }) {
           fieldValue
         }
       }
@@ -149,10 +149,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = ({ actions }) => {
-  const { createTypes } = actions
+export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] =
+  ({ actions }) => {
+    const { createTypes } = actions
 
-  createTypes(`
+    createTypes(`
     type SiteSiteMetadata {
       author: Author
       siteUrl: String
@@ -189,4 +190,4 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       slug: String
     }
   `)
-}
+  }

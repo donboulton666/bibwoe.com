@@ -4,7 +4,7 @@ import { jsx } from "theme-ui"
 import * as React from "react"
 /* eslint-enable no-unused-vars */
 import { useStaticQuery, graphql, Link } from "gatsby"
-import { ReactNode } from 'react'
+import { ReactNode } from "react"
 import { Script } from "gatsby"
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent"
 import Scroll from "../Scroll"
@@ -16,7 +16,7 @@ import Footer from "../Footer"
 import Theme from "../Theme"
 import Search from "../Search"
 import { SiGnuprivacyguard } from "react-icons/si"
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion"
 
 import "../../assets/scss/style.scss"
 
@@ -118,7 +118,7 @@ const Layout = ({ className, children }: LayoutProps) => {
               type: "spring",
               mass: 0.35,
               stiffness: 75,
-              duration: 0.3
+              duration: 0.3,
             }}
             className={"container " + className}
           >

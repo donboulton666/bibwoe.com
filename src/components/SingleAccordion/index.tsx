@@ -1,11 +1,11 @@
-import * as React from 'react'
-import { ReactNode, FC } from 'react'
-import { Disclosure } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/solid'
-import { useInView } from 'react-intersection-observer'
-import { LazyMotion, m } from 'framer-motion'
+import * as React from "react"
+import { ReactNode, FC } from "react"
+import { Disclosure } from "@headlessui/react"
+import { ChevronDownIcon } from "@heroicons/react/solid"
+import { useInView } from "react-intersection-observer"
+import { LazyMotion, m } from "framer-motion"
 
-const loadFeatures = () => import('../FramerFeatures').then(res => res.default)
+const loadFeatures = () => import("../FramerFeatures").then(res => res.default)
 
 interface SingleAccordionProps {
   children: ReactNode
@@ -17,14 +17,14 @@ const SingleAccordion: FC<SingleAccordionProps> = props => {
   const singleAccordionContainer = {
     enter: {
       transition: {
-        when: 'beforeChildren',
+        when: "beforeChildren",
         staggerChildren: 0.3,
       },
     },
   }
   const [ref, isVisible] = useInView({
     triggerOnce: true,
-    rootMargin: '-200px 0px',
+    rootMargin: "-200px 0px",
   })
   const variants = {
     visible: {
@@ -43,8 +43,8 @@ const SingleAccordion: FC<SingleAccordionProps> = props => {
           <m.div
             ref={ref}
             variants={variants}
-            animate={isVisible ? 'visible' : 'hidden'}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
+            animate={isVisible ? "visible" : "hidden"}
+            transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <div className="flex w-full pt-2">
               <div className="mx-auto w-full rounded-2xl p-2">
@@ -54,10 +54,14 @@ const SingleAccordion: FC<SingleAccordionProps> = props => {
                       <Disclosure.Button className="flex w-full justify-between rounded-lg bg-slate-300 px-4 py-2 text-left text-sm font-medium text-slate-200 hover:bg-slate-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
                         <span className="text-lg">{label}</span>
                         <ChevronDownIcon
-                          className={`${open ? 'rotate-180 transform' : ''} mt-1 h-5 w-5 text-gray-200`}
+                          className={`${
+                            open ? "rotate-180 transform" : ""
+                          } mt-1 h-5 w-5 text-gray-200`}
                         />
                       </Disclosure.Button>
-                      <Disclosure.Panel className="text-md px-4 pt-4 pb-2 text-slate-200">{children}</Disclosure.Panel>
+                      <Disclosure.Panel className="text-md px-4 pt-4 pb-2 text-slate-200">
+                        {children}
+                      </Disclosure.Panel>
                     </>
                   )}
                 </Disclosure>
