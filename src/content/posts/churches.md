@@ -1,6 +1,6 @@
 ---
 template: blog-post
-path: /blog/churches
+path: /posts/churches
 title: Churches
 date: 2023-01-22 01:25
 category: God

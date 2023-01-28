@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: The Day The I
-path: /blog/the-day-the-i
+path: /posts/the-day-the-i
 date: 2022-12-04 08:40
 category: Creation
 featuredImage: ../../../static/assets/the-day.jpg
