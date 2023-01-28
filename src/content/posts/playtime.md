@@ -14,7 +14,7 @@ description: Playtime is over for all, Kiddos, time to start paying attention, p
 ## Playtime
 
 <Container p={4} bg="muted">
-  Rated Raw! No Kids!
+  <H1>Rated Raw! No Kids!</H1>
 </Container>
 
 Addition as of April 1st 2021
