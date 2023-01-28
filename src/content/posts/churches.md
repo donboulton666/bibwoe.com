@@ -50,6 +50,4 @@ One thing Pastor Whalen did not mention was Enoch's denial of self, "or I may ha
 >
 > > > Thank's to ALL Of You! Blessings. 🙏
 
-</SingleAccordion>
-
 <WavyHr className="mt-1 mb-1 text-fuchsia-600" />
