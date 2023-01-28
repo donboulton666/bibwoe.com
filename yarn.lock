@@ -2908,11 +2908,6 @@
     "@theme-ui/preset-tailwind" "^0.15.4"
     "@theme-ui/preset-tosh" "^0.15.4"
 
-"@theme-ui/tailwind@^0.15.4":
-  version "0.15.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/tailwind/-/tailwind-0.15.4.tgz#69bd14a2514fc1cb809a91be999795956a048d7d"
-  integrity sha512-5yt5BcIDvW8EGUJZP5KDb4y6CIegJE3WrGrol0s3RyBj7OTX/JrKJwWgBTCGhOBwbCEIIoFdG3YpukOyffwZ7A==
-
 "@theme-ui/theme-provider@^0.15.4":
   version "0.15.4"
   resolved "https://registry.yarnpkg.com/@theme-ui/theme-provider/-/theme-provider-0.15.4.tgz#5ef3f2d4f8533e77f285385a34911c5435183753"
@@ -5914,6 +5909,11 @@ emojis-list@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
+
+emotion-tailwind-preflight@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/emotion-tailwind-preflight/-/emotion-tailwind-preflight-2.0.1.tgz#6ee654b2f44b3ca00148ac73326c7dba36e8e041"
+  integrity sha512-JEWcqJUoH5aWmmExEH+7jK9XMKoYkJLRiopMopPggmQY0GQehOaKTajqypg3LRxQJe9mHe1ji/vkEprSoyvOCg==
 
 encodeurl@~1.0.2:
   version "1.0.2"

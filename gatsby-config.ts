@@ -19,8 +19,12 @@ const config: GatsbyConfig = {
     },
   },
   plugins: [
-    `gatsby-plugin-theme-ui`,
-    `gatsby-plugin-netlify`,
+    {
+      resolve: 'gatsby-plugin-theme-ui',
+      options: {
+        preset: require('./src/gatsby-plugin-theme-ui'),
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -260,6 +264,19 @@ const config: GatsbyConfig = {
         workboxConfig: {
           importWorkboxFrom: `cdn`,
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/contact': ['Link: https://embed.small.chat/T8PMJ5ZNYGDRA9BJEA.js; rel=javascript'],
+        },
+        allPageHeaders: [],
+        mergeSecurityHeaders: true,
+        mergeCachingHeaders: true,
+        transformHeaders: (headers, path) => headers,
+        generateMatchPathRewrites: true,
       },
     },
   ],

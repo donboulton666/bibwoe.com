@@ -13,6 +13,30 @@
 		<priority>0.7</priority>
 	</url>
 	<url>
+		<loc>https://bibwoe.com/posts/playtime</loc>
+		<lastmod>2020-04-15T01:11:47.980Z</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://bibwoe.com/posts/churches</loc>
+		<lastmod>2023-01-22T01:11:47.980Z</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://bibwoe.com/posts/trinity-of-man</loc>
+		<lastmod>2022-04-17T01:11:47.980Z</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://bibwoe.com/posts/the-day-the-i</loc>
+		<lastmod>2022-12-04T01:11:47.980Z</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
 		<loc>https://bibwoe.com/posts/commandments</loc>
 		<lastmod>2021-11-15T01:11:47.980Z</lastmod>
 		<changefreq>daily</changefreq>

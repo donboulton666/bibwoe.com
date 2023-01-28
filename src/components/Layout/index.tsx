@@ -6,7 +6,7 @@ import * as React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { ReactNode } from "react"
 import { Script } from "gatsby"
-import { Embed } from 'theme-ui'
+import { Embed, Container } from 'theme-ui'
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent"
 import Scroll from "../Scroll"
 import ScrollDown from "../ScrollDown"
@@ -14,7 +14,6 @@ import Header from "../Header"
 import Logo from "../Logo"
 import Navigation from "../Navigation"
 import Footer from "../Footer"
-import Theme from "../Theme"
 import Search from "../Search"
 import { SiGnuprivacyguard } from "react-icons/si"
 import { LazyMotion, m } from "framer-motion"
@@ -102,7 +101,6 @@ const Layout = ({ className, children }: LayoutProps) => {
             </div>
             <div sx={layoutStyle.appearance}>
               <Search searchIndex={siteSearchIndex.index} />
-              <Theme />
             </div>
           </Header>
         </div>
