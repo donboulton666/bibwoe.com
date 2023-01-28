@@ -6,6 +6,7 @@ import * as React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { ReactNode } from "react"
 import { Script } from "gatsby"
+import { Embed } from 'theme-ui'
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent"
 import Scroll from "../Scroll"
 import ScrollDown from "../ScrollDown"
@@ -17,8 +18,6 @@ import Theme from "../Theme"
 import Search from "../Search"
 import { SiGnuprivacyguard } from "react-icons/si"
 import { LazyMotion, m } from "framer-motion"
-
-import "../../assets/scss/style.scss"
 
 const loadFeatures = () => import("../FramerFeatures").then(res => res.default)
 
@@ -114,15 +113,6 @@ const Layout = ({ className, children }: LayoutProps) => {
         >
           <LazyMotion features={loadFeatures}>
             <m.main
-              initial={{ opacity: 0, x: -200 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 200 }}
-              transition={{
-                type: "spring",
-                mass: 0.35,
-                stiffness: 75,
-                duration: 0.3,
-              }}
               className={"container " + className}
             >
               {children}

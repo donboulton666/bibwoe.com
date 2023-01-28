@@ -1,7 +1,8 @@
-const toTailwind = require("@theme-ui/tailwind")
-const theme = require("./src/gatsby-plugin-theme-ui/index") /* Path to Theme UI config */
 /* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
+const toTailwind = require("@theme-ui/tailwind")
+const theme = require("./src/gatsby-plugin-theme-ui/index") /* Path to Theme UI config */
+
 const plugin = require("tailwindcss/plugin")
 const colors = require("tailwindcss/colors")
 

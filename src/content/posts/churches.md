@@ -24,6 +24,8 @@ In the 1990's I traveled all over the USA going to Hundreds of different Churche
 
 ![New Life](../../../static/img/new-life-logo.png)
 
+<Embed src="https://www.youtube.com/embed/PiEglaK4Xrc" />
+
 ![Why](../../../static/img/question.png)
 
 Pastor Robert Whalen gave a brilliant Sermon on, "Why"❓

@@ -95,9 +95,6 @@ const config: GatsbyConfig = {
               aliases: {},
               showLineNumbers: false,
               noInlineHighlight: false,
-              // By default the HTML entities <>&'" are escaped.
-              // Add additional HTML escapes by providing a mapping
-              // of HTML entities and their escape value IE: { '}': '&#123;' }
               escapeEntities: {},
             },
           },
@@ -124,30 +121,29 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: "UA-24847941-1", // leave empty if you want to disable the tracker
-          cookieName: "gatsby-gdpr-google-analytics", // default
-          anonymize: true, // default
-          allowAdFeatures: false, // default
+          trackingId: "UA-24847941-1",
+          cookieName: "gatsby-gdpr-google-analytics",
+          anonymize: true,
+          allowAdFeatures: false,
         },
         googleTagManager: {
-          trackingId: "GTM-K57TVK", // leave empty if you want to disable the tracker
-          cookieName: "gatsby-gdpr-google-tagmanager", // default
-          dataLayerName: "dataLayer", // default
+          trackingId: "GTM-K57TVK",
+          cookieName: "gatsby-gdpr-google-tagmanager",
+          dataLayerName: "dataLayer",
         },
         facebookPixel: {
-          pixelId: "YOUR_FACEBOOK_PIXEL_ID", // leave empty if you want to disable the tracker
-          cookieName: "gatsby-gdpr-facebook-pixel", // default
+          pixelId: "YOUR_FACEBOOK_PIXEL_ID",
+          cookieName: "gatsby-gdpr-facebook-pixel",
         },
         tikTokPixel: {
-          pixelId: "YOUR_TIKTOK_PIXEL_ID", // leave empty if you want to disable the tracker
-          cookieName: "gatsby-gdpr-tiktok-pixel", // default
+          pixelId: "YOUR_TIKTOK_PIXEL_ID",
+          cookieName: "gatsby-gdpr-tiktok-pixel",
         },
         hotjar: {
           hjid: "2721607",
           hjsv: "6",
-          cookieName: "gatsby-gdpr-hotjar", // default
+          cookieName: "gatsby-gdpr-hotjar",
         },
-        // defines the environments where the tracking should be available  - default is ["production"]
         environments: ["production", "development"],
       },
     },

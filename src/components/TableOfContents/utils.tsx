@@ -10,18 +10,17 @@ export const useIntersectionObserver = (getIndexFromId, setActiveIndex) => {
         return map
       }, headingElementsRef.current)
 
-      // Get all headings that are currently visible on the page
+      /* Get all headings that are currently visible on the page */
       const visibleHeadings = []
       Object.keys(headingElementsRef.current).forEach(key => {
         const headingElement = headingElementsRef.current[key]
         if (headingElement.isIntersecting) visibleHeadings.push(headingElement)
       })
 
-      // If there is only one visible heading, this is our "active" heading
+      /* If there is only one visible heading, this is our "active" heading */
       if (visibleHeadings.length === 1) {
         setActiveIndex(getIndexFromId(visibleHeadings[0].target.id))
-        // If there is more than one visible heading,
-        // choose the one that is closest to the top of the page
+        /* If there is more than one visible heading, choose the one that is closest to the top of the page */
       } else if (visibleHeadings.length > 1) {
         const sortedVisibleHeadings = visibleHeadings.sort(
           (a, b) => getIndexFromId(a.target.id) > getIndexFromId(b.target.id)
@@ -31,10 +30,10 @@ export const useIntersectionObserver = (getIndexFromId, setActiveIndex) => {
       }
     }
 
-    // The IntersectionObserver will notify us when headings appear/disappear
+    /* The IntersectionObserver will notify us when headings appear/disappear
     // -110px top margin: this accounts for my sticky navigation
     // -40% bottom margin: I don't make headings "active" if they are still
-    // in the bottom 40% of the page.
+    // in the bottom 40% of the page. */
     const observer = new IntersectionObserver(callback, {
       rootMargin: "-110px 0px -40% 0px",
     })

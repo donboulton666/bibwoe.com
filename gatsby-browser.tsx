@@ -2,6 +2,9 @@ import * as React from "react"
 import type { GatsbyBrowser } from "gatsby"
 import { AnimatePresence } from "framer-motion"
 import "prismjs/themes/prism.css"
+import '@fontsource/eb-garamond'
+
+import "./src/assets/scss/style.scss"
 
 export const wrapPageElement: GatsbyBrowser["wrapPageElement"] = ({
   element,
@@ -27,17 +30,15 @@ export const shouldUpdateScroll = ({
 }) => {
   if (location.action === "PUSH") {
     window.setTimeout(() => {
-      // console.log('scroll to top')
       window.scrollTo({
         top: 0,
-        behavior: "smooth", // feel free to use or not
+        behavior: "smooth",
       })
     }, transitionDelay)
   } else {
     const savedPosition = getSavedScrollPosition(location) || [0, 0]
     const top = savedPosition[1]
     window.setTimeout(() => {
-      // console.log('scroll to saved position')
       window.scrollTo({
         top,
         behavior: "smooth",
