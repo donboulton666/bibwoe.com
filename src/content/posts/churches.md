@@ -7,8 +7,6 @@ date: 2023-01-22 01:25
 category: God
 tags: [God, Jesus, Churches]
 featuredImage: ../../../static/assets/churches.jpg
-publicId: videos/angelina_jordan_suspicious_minds
-videoTitle: Angelina Jordan Suspicious Minds
 imageLink: https://bibwoe.com/static/assets/churches.jpg
 description: Churches I have and will be attending in OKC. My First was at New Life Church UPC of Edmond OK.
 ---

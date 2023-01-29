@@ -7,6 +7,7 @@ path: /posts/1-enoch
 tags: [Enoch, 1 Enoch]
 category: Enoch
 featuredImage: ../../../static/assets/enoch.jpg
+imageLink: https://bibwoe.com/static/assets/enoch.jpg
 description: Ethiopian Enoch or 1 Enoch, Chapters 1-108, The Original Bible before Jewish, Christian, Muslim Plagiarism
 ---
 

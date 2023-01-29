@@ -6,7 +6,7 @@ path: /posts/the-day-the-i
 date: 2022-12-04 08:40
 category: Creation
 featuredImage: ../../../static/assets/the-day.jpg
-imageLink: https://bibwoe.com/assets/the-day.jpg
+imageLink: https://bibwoe.com/static/assets/the-day.jpg
 tags: [God, Trinity, Song, Angels]
 description: Live For the Day, Yesterday is Gone, Tomorrow is not here yet. The I is a Lie, live in the I and you will surly die, For the We is the All and the All is ever Lasting Life. When one or more are gathered. My Loves!
 ---
@@ -151,7 +151,7 @@ I accepted my Trinity and found a way to deal with Three to be one with. I had t
 
 <Section>
 
-<VideoThree />
+`youtube: [Cool Youtube Video](https://www.youtube.com/watch?v=un0q94yivXY)`
 
 </Section>
 

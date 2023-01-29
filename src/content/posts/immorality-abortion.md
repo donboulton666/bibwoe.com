@@ -8,6 +8,7 @@ category: God
 description: Human Immorality leads to Abortion, Keep your children pure or you and your children will be cleansed from this Earth
 date: 2021-09-10 08:40
 featuredImage: ../../../static/assets/abortion-immorality.jpg
+imageLink: https://bibwoe.com/static/assets/abortion-immorality.jpg
 ---
 
 > - 4/12/22

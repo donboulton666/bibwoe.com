@@ -7,6 +7,7 @@ tags: [Moses, Jews]
 category: God
 date: 2021-04-11 10:30
 featuredImage: ../../../static/assets/jew-who.jpg
+imageLink: https://bibwoe.com/static/assets/jew-who.jpg
 description: The Jewish people really do not know there own history, here I will clarify that. The Old Testament books in the Holy Bible are Holy
 ---
 

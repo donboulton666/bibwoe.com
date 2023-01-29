@@ -7,6 +7,7 @@ path: /posts/enoch-introduction
 tags: [Enoch, Enoch Introduction]
 category: Enoch
 featuredImage: ../../../static/assets/enoch-god.jpg
+imageLink: https://bibwoe.com/static/assets/enoch-god.jpg
 description: The Original Bible before Jewish - Christian - Muslim Plagiarism
 ---
 

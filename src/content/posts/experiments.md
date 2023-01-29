@@ -7,6 +7,7 @@ tags: [Holy Spirit, Experiments]
 category: Creation
 date: 2021-04-10 12:25
 featuredImage: ../../../static/assets/experiments.jpg
+imageLink: https://bibwoe.com/static/assets/experiments.jpg
 description: Creation in its essence is to extend, to know, or to affirm.
 ---
 

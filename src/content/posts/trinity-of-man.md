@@ -6,8 +6,8 @@ path: /posts/trinity-of-man
 description: Mankind as The Holy One's, The Lost One's, and The Evil One's. We will learn to discriminate and Purge our Lives Of the Evil One's.
 date: 2022-04-17 01:25
 featuredImage: ../../../static/assets/trinity-of-man.png
-category: Creation
-imageLink: https://bibwoe.com/assets/trinity-of-man.png
+category: Trinity
+imageLink: https://bibwoe.com/static/assets/trinity-of-man.png
 tags: [Trinity, Holy, Lost, Evil]
 ---
 

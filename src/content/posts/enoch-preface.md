@@ -7,6 +7,7 @@ path: /posts/enoch-preface
 tags: [Enoch, Enoch Preface]
 category: Enoch
 featuredImage: ../../../static/assets/enoch-preface.jpg
+imageLink: https://bibwoe.com/static/assets/enoch-preface.jpg
 description: The book of Enoch consists of multiple parts that were put together as one book by a later editor
 ---
 

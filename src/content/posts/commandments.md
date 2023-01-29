@@ -7,6 +7,7 @@ tags: [Law, Commandments]
 category: God
 date: 2021-04-30 01:25
 featuredImage: ../../../static/assets/commandments.png
+imageLink: https://bibwoe.com/static/assets/commandments.png
 description: These laws were set way before Moses and were a World standard way of belief in all cultures!
 ---
 
