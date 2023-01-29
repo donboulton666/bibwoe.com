@@ -7392,12 +7392,12 @@ gatsby-remark-copy-linked-files@^6.5.0:
     probe-image-size "^7.2.3"
     unist-util-visit "^2.0.3"
 
-gatsby-remark-embed-video@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-embed-video/-/gatsby-remark-embed-video-3.2.1.tgz#167782a862f99c8d2f0ae988d5519466e75f9829"
-  integrity sha512-VVrcoNcLtWH4Ffqs2Qc2me9Ph+p8iXi9kMbX1OLFLY3JMtk5+lIOUGs0CutWsWKndj2W6PpfkwdFZyuknL5kjQ==
+gatsby-remark-embed-video-ext@^3.2.7:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-embed-video-ext/-/gatsby-remark-embed-video-ext-3.2.7.tgz#ce1d42f198156522edad907be19f65bce09033be"
+  integrity sha512-p4wAIoNJ3TSUo6Za/d7AyhAWf+Id2UDEeiTXuo9QAGDDS7LUf+UnGKDVTDHn713Sk1BXAVvAiu6UZIarLTAeyg==
   dependencies:
-    get-video-id "^3.6.4"
+    get-video-id "^3.4.1"
     remark-burger "^1.0.1"
     unist-util-visit "^2.0.3"
 
@@ -7838,10 +7838,10 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
-get-video-id@^3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/get-video-id/-/get-video-id-3.6.4.tgz#86a92fd72ba9df637c568d9eb1245dbddb779c2f"
-  integrity sha512-BKaS+0wu4FW3nodJt/VcvOmPpOx7/F/qV7MPi4F3NgqVYehKJRwX+/oUA5alPEfEX9h3i/1tAGEbSpsNNbXA1Q==
+get-video-id@^3.4.1:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/get-video-id/-/get-video-id-3.6.5.tgz#a7bfa1e8602557f2fcbed164d7005fdaa352d572"
+  integrity sha512-9RPHSQANIeGW5rU3CjWdm1zi+wUHbBWX+m4m+dqQAavrZ9p1P1J7AbxGvVEEHRyGfGrmMf5PqiRWYMyfqM+QYA==
 
 git-up@^7.0.0:
   version "7.0.0"

@@ -101,6 +101,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            author
             path
             description
           }

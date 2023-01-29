@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: Trinity of Angels
 path: /posts/trinity-of-angels
 tags: [Trinity, Angels]

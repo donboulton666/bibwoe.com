@@ -1,5 +1,6 @@
 ---
 template: contact-page
+author: Donald Boulton
 path: /contact
 title: Get in touch
 featuredImage: ../../../static/assets/contact.jpg

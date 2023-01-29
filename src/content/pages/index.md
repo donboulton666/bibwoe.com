@@ -1,5 +1,6 @@
 ---
 template: index-page
+author: Donald Boulton
 path: /
 title: Home
 titleAlt: Bibwoe

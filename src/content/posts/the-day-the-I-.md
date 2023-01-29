@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: The Day The I
 path: /posts/the-day-the-i
 date: 2022-12-04 08:40

@@ -38,6 +38,7 @@ export const blogListQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path
+            author
             tags
             description
             category

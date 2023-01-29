@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: The Law Commandments
 path: /posts/commandments
 tags: [Law, Commandments]

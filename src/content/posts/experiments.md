@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: Gods Experiments
 path: /posts/experiments
 tags: [Holy Spirit, Experiments]

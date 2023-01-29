@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: What Is Virtue
 path: /posts/virtue
 tags: [Spirit, Wed Lock, Virtue]

@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: Works Of Flesh
 path: /posts/works-of-flesh
 tags: [Responsibility, Works]

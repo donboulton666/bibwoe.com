@@ -42,7 +42,7 @@
     "gatsby-plugin-theme-ui": "^0.15.4",
     "gatsby-remark-autolink-headers": "^6.5.0",
     "gatsby-remark-copy-linked-files": "^6.5.0",
-    "gatsby-remark-embed-video": "^3.2.1",
+    "gatsby-remark-embed-video-ext": "^3.2.7",
     "gatsby-remark-images": "^7.5.0",
     "gatsby-remark-prismjs": "^7.5.0",
     "gatsby-remark-responsive-iframe": "^6.5.0",

@@ -1,5 +1,6 @@
 ﻿---
 template: blog-post
+author: Donald Boulton
 title: "Enoch Symbols"
 date: 2018-07-14 10:11
 path: /posts/enoch-symbols

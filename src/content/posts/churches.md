@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 path: /posts/churches
 title: Churches
 date: 2023-01-22 01:25

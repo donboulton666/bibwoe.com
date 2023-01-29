@@ -1,5 +1,6 @@
 ﻿---
 template: blog-post
+author: Donald Boulton
 title: 2 Enoch Slavonic
 path: /posts/2-enoch
 tags: [Enoch, 2 Enoch]

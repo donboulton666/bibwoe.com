@@ -1,5 +1,6 @@
 ﻿---
 template: blog-post
+author: Donald Boulton
 title: Enoch Introduction
 date: 2018-07-16 10:11
 path: /posts/enoch-introduction

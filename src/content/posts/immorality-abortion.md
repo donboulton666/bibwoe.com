@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: Immorality Abortion
 path: /posts/immorality-abortion
 tags: [Immorality, Abortion]

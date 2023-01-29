@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: Trinity of Man
 path: /posts/trinity-of-man
 description: Mankind as The Holy One's, The Lost One's, and The Evil One's. We will learn to discriminate and Purge our Lives Of the Evil One's.

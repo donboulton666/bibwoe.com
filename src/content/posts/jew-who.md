@@ -1,5 +1,6 @@
 ---
 template: blog-post
+author: Donald Boulton
 title: Who Are the Jews
 path: /posts/jew-who
 tags: [Moses, Jews]

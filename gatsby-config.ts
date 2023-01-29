@@ -11,9 +11,9 @@ const config: GatsbyConfig = {
       summary: `Resides in OKC.`,
     },
     copyrightYear: `© 2022`,
-    description: `Basic Instructions Books While On Earth.`,
+    description: `Basic Instructions Books While On Earth`,
     siteUrl: `https://bibwoe.com/`,
-    siteImage: `/assets/apple-touch-icon.png`,
+    siteImage: `./static/apple-touch-icon.png`,
     social: {
       twitter: `donaldwboulton`,
     },
@@ -51,16 +51,19 @@ const config: GatsbyConfig = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-embed-video",
+            resolve: 'gatsby-remark-embed-video-ext',
             options: {
               width: 800,
-              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              height: 400, // Optional: Overrides optional.ratio
-              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
-              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
-              loadingStrategy: "lazy", //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
-              containerClass: "embedVideo-container", //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
-              iframeId: false, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
+              ratio: 1.77 /* Optional: Defaults to 16/9 = 1.77 */,
+              related: false /* Optional: Will remove related videos from the end of an embedded YouTube video. */,
+              noIframeBorder: true /* Optional: Disable insertion of <style> border: 0 */,
+              loadingStrategy:
+                'lazy' /* Optional: Enable support for lazy-load offscreen iframes. Default is disabled. */,
+              containerClass:
+                'embedVideo-container' /* Optional: Custom CSS class for iframe container, for multiple classes separate them by space */,
+              sandboxOpts: 'allow-same-origin allow-scripts allow-popups allow-presentation',
+              iframeId:
+                false /* Optional: if true, iframe's id will be set to what is provided after 'youtube:' (YouTube IFrame player API requires iframe id) */,
             },
           },
           {

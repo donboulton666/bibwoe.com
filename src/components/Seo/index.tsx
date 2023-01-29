@@ -9,8 +9,13 @@ const Seo = ({ description, lang, meta, title }) => {
       query {
         site {
           siteMetadata {
+            author {
+              name
+              summary
+            }
             title
             description
+            siteUrl
             siteImage
             social {
               twitter
@@ -55,9 +60,9 @@ const Seo = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.social?.twitter || ``,
+          content: site.siteMetadata?.author?.name || ``,
         },
-      ].concat(meta)}
+      ].concat(meta)}      
     />
   )
 }

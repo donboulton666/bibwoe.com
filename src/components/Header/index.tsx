@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 
 const Header = ({ children }) => (
-  <div itemscope itemtype="https://schema.org/WebPage">
+  <div itemscope itemType="https://schema.org/WebPage">
     <header
       className="site-header"
       itemScope="itemScope"

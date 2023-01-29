@@ -1,5 +1,6 @@
 ﻿---
 template: blog-post
+author: Donald Boulton
 title: Creation of All
 path: /posts/creation-of-all
 tags: [Trinity, Creation, All]

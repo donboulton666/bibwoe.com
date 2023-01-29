@@ -16,6 +16,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         path
+        author
         description
         featuredImage {
           childImageSharp {

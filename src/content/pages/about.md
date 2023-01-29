@@ -1,5 +1,6 @@
 ---
 template: about-page
+author: Donald Boulton
 path: /about
 title: About Bibwoe
 featuredImage: ../../../static/assets/about.jpg
