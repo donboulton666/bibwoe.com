@@ -96,7 +96,6 @@ const HomePage = ({ data }) => {
             to={icons.url}
             rel="noopener noreferrer"
             target="_blank"
-            area-label="Facebook"
           >
             <RiFacebookBoxFill alt="Facebook" />
           </Link>
@@ -108,7 +107,6 @@ const HomePage = ({ data }) => {
             to={icons.url}
             rel="noopener noreferrer"
             target="_blank"
-            area-label="Twitter"
           >
             <RiTwitterFill alt="Twitter" />
           </Link>
@@ -120,7 +118,6 @@ const HomePage = ({ data }) => {
             to={icons.url}
             rel="noopener noreferrer"
             target="_blank"
-            area-label="Youtube"
           >
             <RiYoutubeFill alt="Youtube" />
           </Link>
@@ -132,7 +129,6 @@ const HomePage = ({ data }) => {
             to={icons.url}
             rel="noopener noreferrer"
             target="_blank"
-            aria-label="Instagram"
           >
             <RiInstagramFill alt="Instagram" />
           </Link>

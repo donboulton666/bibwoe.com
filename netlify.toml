@@ -24,7 +24,7 @@
       https://img.badgesize.io/, 
       https://www.unpkg.com/use-sound/dist/use-sound.esm.js.svg, 
       https://www.google-analytics.com/analytics.js,
-      https://www.googletagmanager.com/gtag/js
+      https://www.googletagmanager.com/gtag/js,
       https://static.doubleclick.net, 
       https://cdn.viglink.com, 
       https://github.com, 
@@ -60,12 +60,12 @@
       https://connect.facebook.net, 
       https://res.cloudinary.com, 
       https://i.ytimg.com,
-      https://api.github.com
-      https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-      https://stats.g.doubleclick.net/
-      https://www.google.com/recaptcha/api.js
-      https://static.small.chat/messenger.js
-      https://www.google-analytics.com/analytics.js
+      https://api.github.com,
+      https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js,
+      https://stats.g.doubleclick.net/,
+      https://www.google.com/recaptcha/api.js,
+      https://static.small.chat/messenger.js,
+      https://www.google-analytics.com/analytics.js,
       https://www.gstatic.com/recaptcha/releases/kcXVPRWG7fMILHmzon0--fD3/recaptcha__en.js
     '''      
     Access-Control-Allow-Methods = '''
@@ -90,7 +90,7 @@
       midi=(self),
       payment=(self),
       picture-in-picture=(self),
-      usb=(self),
+      usb=(self)
     '''
 [[headers]]
   for = "/static/assets/*"

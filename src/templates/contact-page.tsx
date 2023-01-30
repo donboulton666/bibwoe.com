@@ -352,7 +352,7 @@ export function Head(props: HeadProps) {
               '@type': 'ListItem',
               item: {
                 '@id': 'https://bibwoe.com',
-                name: 'Bibwoe',
+                name: 'Home',
               },
               position: '1',
             },
@@ -360,7 +360,7 @@ export function Head(props: HeadProps) {
               '@type': 'ListItem',
               item: {
                 '@id': 'https://bibwoe.com/contact',
-                name: 'Home',
+                name: 'Contact',
               },
               position: '2',
             },

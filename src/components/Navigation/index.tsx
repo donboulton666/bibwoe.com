@@ -57,17 +57,17 @@ class Navigation extends React.Component {
           className={"menu-trigger" + (this.state.showMenu ? " is-active" : "")}
         >
           <div className="icon-menu-line">
-            <RiMenu3Line />
+            <RiMenu3Line area-label="Menu" />
           </div>
           <div className="icon-menu-close">
-            <RiCloseLine />
+            <RiCloseLine area-label="Menu" />
           </div>
         </button>
         <ul>
           {listMenuItems}
           <div sx={navStyle.border}></div>
           <div sx={navStyle.theme}>
-            <Theme />
+            <Theme area-label="Theme" />
           </div>
         </ul>
       </nav>

@@ -64,7 +64,7 @@ export default class Search extends Component {
             onClick={this.handleToggleClick}
             className={this.state.showSearch ? "search is-active" : "search"}
           >
-            <RiSearchLine />
+            <RiSearchLine area-label="Search" />
           </button>
           <div
             sx={searchStyle.search}

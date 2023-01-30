@@ -184,8 +184,8 @@ const BlogPostTemplate = ({ data, pageContext }) => {
 
   return (
     <Layout className="page">
-      <article className="blog-post">
-        <Stars />
+      <Stars />
+      <article className="blog-post">        
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
@@ -427,7 +427,7 @@ export function Head(props: HeadProps<DataProps>) {
               '@type': 'ListItem',
               item: {
                 '@id': 'https://bibwoe.com/',
-                name: 'bibwoe Blog',
+                name: 'Home',
               },
               position: '1',
             },
@@ -435,7 +435,7 @@ export function Head(props: HeadProps<DataProps>) {
               '@type': 'ListItem',
               item: {
                 '@id': 'https://bibwoe.com/posts/',
-                name: 'Bibwoe Blog',
+                name: 'Blog Posts',
               },
               position: '2',
             },

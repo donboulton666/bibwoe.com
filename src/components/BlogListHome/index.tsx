@@ -16,7 +16,7 @@ export default function BlogListHome(props) {
 const PostMaker = ({ data }) => (
   <section className="home-posts">
     <h2>
-      Latest in <strong>Blog</strong>{" "}
+      Latest in Blog <strong>Posts</strong>{" "}
       <span className="icon -right">
         <RiArrowDownLine />
       </span>
@@ -32,7 +32,7 @@ const PostMaker = ({ data }) => (
     >
       See more
       <span className="icon -right">
-        <RiArrowRightSLine />
+        <RiArrowRightSLine alt="More Posts" />
       </span>
     </Link>
   </section>
