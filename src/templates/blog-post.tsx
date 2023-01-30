@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import * as React from "react"
+import { createElement } from "react"
 import { Link, graphql, HeadProps } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import rehypeReact from "rehype-react"
@@ -44,7 +45,7 @@ require("prismjs")
 require("prismjs/themes/prism-okaidia.css")
 
 const renderAst = new rehypeReact({
-  createElement: React.createElement,
+  createElement: createElement,
   components: {
     counter: Counter,
     tags: SiteTags,
@@ -302,7 +303,7 @@ export function Head(props: HeadProps<DataProps>) {
         description={props.data.markdownRemark.frontmatter.description}
         image={imageLink}
         pathname={url}
-      >
+      />
         <title>{props.data.markdownRemark.frontmatter.title}</title>
         <meta name="robots" content="index" />
         <link href="https://github.com/donaldboulton" rel="me" />
@@ -336,7 +337,6 @@ export function Head(props: HeadProps<DataProps>) {
         <meta name="canonical" content={url} />
         <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
         <link rel="alternate" type="application/rss+xml" title="Rss" href="/rss.xml" />
-      </Seo>
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',

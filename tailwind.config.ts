@@ -78,7 +78,6 @@ module.exports = {
       fontFamily: {
         sans: "DM Sans",
         serif: "Lora",
-        garamond: "eb-garamond",
       },
       p: {
         "&::before": {

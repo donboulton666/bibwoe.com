@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import * as React from "react"
-import { Link, graphql, Script } from "gatsby"
+import { Link, graphql } from "gatsby"
 import { RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri"
 import Layout from "../components/Layout"
 import PostCard from "../components/PostCard"
@@ -123,19 +123,6 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout className="blog-page">
-        <Seo
-          title={"Last Testament " + currentPage + " of " + numPages}
-          description={
-            "Bibwoe base blog page " + currentPage + " of " + numPages
-          }
-        />
-        <Script>
-          <meta property="og:url" content={url} />
-          <meta property="og:title" content="Blog" />
-          <meta property="og:description" content="Blog Posts Lists" />
-          <meta property="twitter:title" content="Blog" />
-          <meta property="twitter:description" content="Blog Posts Lists" />
-        </Script>
         <Stars />
         <h1>Last Testament</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>

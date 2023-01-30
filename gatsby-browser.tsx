@@ -2,7 +2,6 @@ import * as React from "react"
 import type { GatsbyBrowser } from "gatsby"
 import { AnimatePresence } from "framer-motion"
 import "prismjs/themes/prism.css"
-import '@fontsource/eb-garamond'
 
 import "./src/assets/scss/style.scss"
 

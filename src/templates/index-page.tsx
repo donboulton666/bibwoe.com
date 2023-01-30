@@ -48,7 +48,7 @@ export const pageQuery = graphql`
     posts: allMarkdownRemark(
       sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { template: { eq: "blog-post" } } }
-      limit: 8
+      limit: 9
     ) {
       edges {
         node {
@@ -218,7 +218,7 @@ export function Head(props: HeadProps) {
     <>
       <Seo
         type="page"
-        title="Home"
+        title="Bibwoe Home"
         description="Basic Instructions Books While On Earth."
         image={ogimage}
         pathname="/"
