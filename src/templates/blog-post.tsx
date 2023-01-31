@@ -1,94 +1,70 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import * as React from "react"
-import { createElement } from "react"
-import { Link, graphql, HeadProps } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
-import rehypeReact from "rehype-react"
-import { RiTimerLine, RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri"
-import { MdList } from "react-icons/md"
-import { FaTags } from "react-icons/fa"
-import { BsFillCalendarFill } from "react-icons/bs"
-import Layout from "../components/Layout"
-import Seo from "../components/Seo"
-import Counter from "../components/Counter"
-import SiteTags from "../components/SiteTags"
-import SiteCategory from "../components/SiteCategories"
-import Bio from "../components/Bio"
-import Checked from "../components/Checkbox"
-import Stars from "../components/Stars"
-import Callout from "../components/Callout"
-import CalloutDanger from "../components/Callout/CalloutDanger"
-import CalloutLabel from "../components/Callout/CalloutLabel"
-import WavyHr from "../components/WavyHr"
-import Center from "../components/Center"
-import CenterItem from "../components/CenterItem"
-import List from "../components/List"
-import ListItem from "../components/List/ListItem"
-import ListGrid from "../components/ListGrid"
-import CloudinaryVideo from "../components/CloudinaryVideo"
-import VideoOne from "../components/CloudinaryVideo/videoOne"
-import VideoTwo from "../components/CloudinaryVideo/videoTwo"
-import VideoThree from "../components/CloudinaryVideo/videoThree"
-import Accordion from "../components/Accordion"
-import SingleAccordion from "../components/SingleAccordion"
-import Section from "../components/Section"
-import Popper from "../components/Popper"
-import Left from "../components/Left"
-import LeftText from "../components/LeftText"
-import ColumnGridTwo from "../components/ColumnGridTwo"
-import ColumnGridThree from "../components/ColumnGridThree"
-import VideoWrapper from "../components/VideoWrapper"
-import UserProfile from "../components/UserProfile"
+import { jsx } from 'theme-ui'
+import * as React from 'react'
+import { createElement } from 'react'
+import { Link, graphql, HeadProps } from 'gatsby'
+import { GatsbyImage } from 'gatsby-plugin-image'
+import rehypeReact from 'rehype-react'
+import { RiTimerLine, RiArrowLeftLine, RiArrowRightLine } from 'react-icons/ri'
+import { MdList } from 'react-icons/md'
+import { FaTags } from 'react-icons/fa'
+import { BsFillCalendarFill } from 'react-icons/bs'
+import Layout from '../components/Layout'
+import Seo from '../components/Seo'
+import Counter from '../components/Counter'
+import SiteTags from '../components/SiteTags'
+import SiteCategory from '../components/SiteCategories'
+import Bio from '../components/Bio'
+import Checked from '../components/Checkbox'
+import Stars from '../components/Stars'
+import Callout from '../components/Callout'
+import CalloutDanger from '../components/Callout/CalloutDanger'
+import CalloutLabel from '../components/Callout/CalloutLabel'
+import WavyHr from '../components/WavyHr'
+import CloudinaryVideo from '../components/CloudinaryVideo'
+import VideoOne from '../components/CloudinaryVideo/videoOne'
+import VideoTwo from '../components/CloudinaryVideo/videoTwo'
+import VideoThree from '../components/CloudinaryVideo/videoThree'
+import Section from '../components/Section'
+import Popper from '../components/Popper'
+import BlockContainer from '../components/BlockContainer'
 
-require("prismjs")
-require("prismjs/themes/prism-okaidia.css")
+require('prismjs')
+require('prismjs/themes/prism-okaidia.css')
 
 const renderAst = new rehypeReact({
   createElement: createElement,
   components: {
+    blockContainer: BlockContainer,
     counter: Counter,
     tags: SiteTags,
     categories: SiteCategory,
     checked: Checked,
-    center: Center,
-    centerItem: CenterItem,
     wavyHr: WavyHr,
     callout: Callout,
     calloutDanger: CalloutDanger,
     calloutLabel: CalloutLabel,
-    list: List,
-    listItem: ListItem,
-    listGrid: ListGrid,
     cloudinaryVideo: CloudinaryVideo,
     videoOne: VideoOne,
     videoTwo: VideoTwo,
     videoThree: VideoThree,
-    accordion: Accordion,
-    singleAccordion: SingleAccordion,
     section: Section,
     popper: Popper,
-    left: Left,
-    leftText: LeftText,
-    columnGridTwo: ColumnGridTwo,
-    columnGridThree: ColumnGridThree,
-    userProfile: UserProfile,
-    videoWrapper: VideoWrapper,
   },
 }).Compiler
 
 const styles = {
-  "article blockquote": {
-    "background-color": "cardBg",
+  'article blockquote': {
+    'background-color': 'cardBg',
   },
   pagination: {
     a: {
-      color: "muted",
-      "&.is-active": {
-        color: "text",
+      color: 'muted',
+      '&.is-active': {
+        color: 'text',
       },
-      "&:hover": {
-        color: "#918080",
+      '&:hover': {
+        color: '#918080',
       },
     },
   },
@@ -97,35 +73,32 @@ const styles = {
 const Pagination = props => (
   <div className="pagination -post" sx={styles.pagination}>
     <ul>
-      {props.previous &&
-        props.previous.frontmatter.template === "blog-post" && (
-          <li>
-            <Link to={props.previous.frontmatter.path} rel="prev">
-              <p
-                sx={{
-                  color: "muted",
-                }}
-              >
-                <span className="icon -left">
-                  <RiArrowLeftLine />
-                </span>{" "}
-                Previous
-              </p>
-              <span className="page-title">
-                {props.previous.frontmatter.title}
-              </span>
-            </Link>
-          </li>
-        )}
-      {props.next && props.next.frontmatter.template === "blog-post" && (
+      {props.previous && props.previous.frontmatter.template === 'blog-post' && (
+        <li>
+          <Link to={props.previous.frontmatter.path} rel="prev">
+            <p
+              sx={{
+                color: 'muted',
+              }}
+            >
+              <span className="icon -left">
+                <RiArrowLeftLine />
+              </span>{' '}
+              Previous
+            </p>
+            <span className="page-title">{props.previous.frontmatter.title}</span>
+          </Link>
+        </li>
+      )}
+      {props.next && props.next.frontmatter.template === 'blog-post' && (
         <li>
           <Link to={props.next.frontmatter.path} rel="next">
             <p
               sx={{
-                color: "muted",
+                color: 'muted',
               }}
             >
-              Next{" "}
+              Next{' '}
               <span className="icon -right">
                 <RiArrowRightLine />
               </span>
@@ -165,10 +138,8 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data /* data.markdownRemark holds your post data */
   const { frontmatter, htmlAst, excerpt } = markdownRemark
   const postNode = data.markdownRemark
-  const url = typeof window !== "undefined" ? window.location.href : ""
-  const Image = frontmatter.featuredImage
-    ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
-    : ""
+  const url = typeof window !== 'undefined' ? window.location.href : ''
+  const Image = frontmatter.featuredImage ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
   const { previous, next } = pageContext
 
   let props = {
@@ -177,15 +148,15 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   }
 
   const tags = frontmatter.tags || []
-  let taglist = "Tags: "
+  let taglist = 'Tags: '
   if (tags.length > 0) {
-    taglist += tags.join(", ")
+    taglist += tags.join(', ')
   }
 
   return (
     <Layout className="page">
       <Stars />
-      <article className="blog-post">        
+      <article className="blog-post">
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
@@ -194,30 +165,28 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                 <BsFillCalendarFill size="0.7em" />
               </span>
               &ensp;
-              <time sx={{ color: "muted" }}>{frontmatter.date}</time>
+              <time sx={{ color: 'muted' }}>{frontmatter.date}</time>
               &ensp;
               <span
                 sx={{
-                  color: "muted",
+                  color: 'muted',
                 }}
               >
                 <span className="icon -timer">
                   <RiTimerLine size="0.8em" />
-                </span>{" "}
-                <small sx={{ color: "muted" }}>
-                  {postNode.timeToRead} min read
-                </small>
+                </span>{' '}
+                <small sx={{ color: 'muted' }}>{postNode.timeToRead} min read</small>
               </span>
             </div>
             {tags.length > 0 && (
               <div
                 sx={{
-                  color: "muted",
+                  color: 'muted',
                 }}
               >
                 <span className="icon -tags">
                   <FaTags size="0.8em" />
-                </span>{" "}
+                </span>{' '}
                 <span>
                   <Link aria-label="Tags" to="/tags/">
                     <small>{taglist}</small>
@@ -226,7 +195,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                 &ensp;
                 <span className="icon -category">
                   <MdList size="1.1em" />
-                </span>{" "}
+                </span>{' '}
                 <span>
                   <Link aria-label="Categories" to="/categories/">
                     <small>Categories: {frontmatter.category}</small>
@@ -235,15 +204,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
               </div>
             )}
           </section>
-          {Image ? (
-            <GatsbyImage
-              image={Image}
-              alt={frontmatter.title + " - Featured image"}
-              className="cover"
-            />
-          ) : (
-            ""
-          )}
+          {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
         </header>
         <Bio />
         <div className="blog-post-content">{renderAst(htmlAst)}</div>
@@ -276,7 +237,7 @@ export const pageQuery = graphql`
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)
           }
-        }        
+        }
       }
       parent {
         ... on File {
@@ -294,7 +255,7 @@ export function Head(props: HeadProps<DataProps>) {
   const excerpt = props.data.markdownRemark.excerpt
   const imageLink = props.data.markdownRemark.imageLink
   const { frontmatter, htmlAst } = markdownRemark
-  const url = typeof window !== "undefined" ? window.location.href : ""
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   return (
     <>
       <Seo
@@ -304,39 +265,39 @@ export function Head(props: HeadProps<DataProps>) {
         image={imageLink}
         pathname={url}
       />
-        <title>{props.data.markdownRemark.frontmatter.title}</title>
-        <meta name="robots" content="index" />
-        <link href="https://github.com/donaldboulton" rel="me" />
-        <link href="https://twitter.com/donboulton" rel="me" />
-        <link href="https://facebook.com/don.boulton" rel="me" />
-        <link href="https://www.instagram.com/boulton3662" rel="me" />
-        <link href="https://www.linkedin.com/donboulton" rel="me" />
-        <link href="mailto:donaldboulton@gmail.com" rel="me" />
-        <link rel="robots" href="https://bibwoe.com/robots.txt" />
-        <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
-        <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
-        <meta name="description" content={props.data.markdownRemark.frontmatter.description} />
-        <meta name="image" content={imageLink} />
-        <meta name="twitter:site" content="@donaldboulton" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={props.data.markdownRemark.frontmatter.title} />
-        <meta name="twitter:url" content={url} />
-        <meta name="twitter:description" content={props.data.markdownRemark.frontmatter.description} />
-        <meta name="twitter:image" content={imageLink} />
-        <meta name="twitter:creator" content="@donboulton" />
-        <meta name="og:title" content={props.data.markdownRemark.frontmatter.title} />
-        <meta name="og:url" content={url} />
-        <meta name="og:description" content={props.data.markdownRemark.frontmatter.description} />
-        <meta name="og:site_name" content="bibwoe" />
-        <meta name="og:image" content={imageLink} />
-        <meta name="og:image:title" content={props.data.markdownRemark.frontmatter.title} />
-        <meta name="og:image:alt" content={props.data.markdownRemark.frontmatter.title} />
-        <meta name="og:image:width" content="1400px" />
-        <meta name="og:image:height" content="450px" />
-        <meta name="og:updated_time" content={props.data.markdownRemark.parent.modifiedTime} />
-        <meta name="canonical" content={url} />
-        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
-        <link rel="alternate" type="application/rss+xml" title="Rss" href="/rss.xml" />
+      <title>{props.data.markdownRemark.frontmatter.title}</title>
+      <meta name="robots" content="index" />
+      <link href="https://github.com/donaldboulton" rel="me" />
+      <link href="https://twitter.com/donboulton" rel="me" />
+      <link href="https://facebook.com/don.boulton" rel="me" />
+      <link href="https://www.instagram.com/boulton3662" rel="me" />
+      <link href="https://www.linkedin.com/donboulton" rel="me" />
+      <link href="mailto:donaldboulton@gmail.com" rel="me" />
+      <link rel="robots" href="https://bibwoe.com/robots.txt" />
+      <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
+      <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
+      <meta name="description" content={props.data.markdownRemark.frontmatter.description} />
+      <meta name="image" content={imageLink} />
+      <meta name="twitter:site" content="@donaldboulton" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={props.data.markdownRemark.frontmatter.title} />
+      <meta name="twitter:url" content={url} />
+      <meta name="twitter:description" content={props.data.markdownRemark.frontmatter.description} />
+      <meta name="twitter:image" content={imageLink} />
+      <meta name="twitter:creator" content="@donboulton" />
+      <meta name="og:title" content={props.data.markdownRemark.frontmatter.title} />
+      <meta name="og:url" content={url} />
+      <meta name="og:description" content={props.data.markdownRemark.frontmatter.description} />
+      <meta name="og:site_name" content="bibwoe" />
+      <meta name="og:image" content={imageLink} />
+      <meta name="og:image:title" content={props.data.markdownRemark.frontmatter.title} />
+      <meta name="og:image:alt" content={props.data.markdownRemark.frontmatter.title} />
+      <meta name="og:image:width" content="1400px" />
+      <meta name="og:image:height" content="450px" />
+      <meta name="og:updated_time" content={props.data.markdownRemark.parent.modifiedTime} />
+      <meta name="canonical" content={url} />
+      <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+      <link rel="alternate" type="application/rss+xml" title="Rss" href="/rss.xml" />
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',

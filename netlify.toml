@@ -76,20 +76,22 @@
       HEAD
     '''
     Access-Control-Allow-Credentials = "true"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, Time-Zone"
+    Access-Control-Max-Age = "3600"
     Vary = "Accept-Encoding"
     Permissions-Policy = '''
       accelerometer=(self),
-      autoplay=(self),
+      autoplay=*,
       camera=(self),
       encrypted-media=(self),
       fullscreen=(self),
-      geolocation=(self),
+      geolocation=*,
       gyroscope=(self),
       magnetometer=(self),
       microphone=(self),
       midi=(self),
       payment=(self),
-      picture-in-picture=(self),
+      picture-in-picture=*,
       usb=(self)
     '''
 [[headers]]

@@ -191,7 +191,7 @@ yarn add gatsby-plugin-netlify-cms netlify-cms-app gatsby-plugin-netlify-cms-pat
 Add to initialize **netlify-cms-app** as a folder under src/cms/cms.js
 
 ```javascript
-import CMS from "netlify-cms-app"
+import CMS from 'netlify-cms-app'
 
 export default {
   CMS,

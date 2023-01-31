@@ -1,11 +1,11 @@
-import * as React from "react"
-import type { GatsbySSR } from "gatsby"
-import { AnimatePresence } from "framer-motion"
+import * as React from 'react'
+import type { GatsbySSR } from 'gatsby'
+import { AnimatePresence } from 'framer-motion'
 import { Partytown } from '@builder.io/partytown/react'
 
-export const wrapPageElement: GatsbySSR["wrapPageElement"] = ({ element }) => {
+export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return
-  <AnimatePresence wait>{element}</AnimatePresence>
+  ;<AnimatePresence wait>{element}</AnimatePresence>
 }
 
 const ORIGIN = 'https://www.googletagmanager.com/'
@@ -15,7 +15,7 @@ export function onRenderBody({ setHeadComponents, setPreBodyComponents, setHtmlA
   if (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test') return null
   setHtmlAttributes({ lang: 'en' })
   setHeadComponents([
-    <Partytown key="partytown" forward={['gtag']} />,
+    <Partytown key="partytown" debug={true} forward={['gtag']} />,
     <script key="google-analytics" type="text/partytown" src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`} />,
     <script
       key="google-analytics-config"

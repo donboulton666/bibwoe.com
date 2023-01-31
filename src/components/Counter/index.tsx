@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from 'react'
 
 const counterStyle = {
   /* styles skipped for brevity */
@@ -35,18 +35,10 @@ export default class Counter extends React.Component {
         <strong className="button" style={{ flex: `1 1` }}>
           {this.state.value}
         </strong>
-        <button
-          area-label="Negative"
-          className="button"
-          onClick={this.handleDecrement}
-        >
+        <button area-label="Negative" className="button" onClick={this.handleDecrement}>
           -1
         </button>
-        <button
-          area-label="Positive"
-          className="button"
-          onClick={this.handleIncrement}
-        >
+        <button area-label="Positive" className="button" onClick={this.handleIncrement}>
           +1
         </button>
       </span>

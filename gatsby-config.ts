@@ -1,6 +1,6 @@
-import type { GatsbyConfig } from "gatsby"
+import type { GatsbyConfig } from 'gatsby'
 /* eslint @typescript-eslint/no-var-requires: "off" */
-const settings = require("./src/util/site.json")
+const settings = require('./src/util/site.json')
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -40,10 +40,10 @@ const config: GatsbyConfig = {
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static/img/`,
-        name: "img",
+        name: 'img',
       },
     },
     {
@@ -72,10 +72,10 @@ const config: GatsbyConfig = {
               maxWidth: 1024,
               showCaptions: true,
               linkImagesToOriginal: false,
-              backgroundColor: "none",
+              backgroundColor: 'none',
               disableBgImage: true,
               withWebp: true,
-              loading: "lazy",
+              loading: 'lazy',
             },
           },
           {
@@ -97,7 +97,7 @@ const config: GatsbyConfig = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: "language-",
+              classPrefix: 'language-',
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -148,7 +148,7 @@ const config: GatsbyConfig = {
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
-                  custom_elements: [{ "content:encoded": node.html }],
+                  custom_elements: [{ 'content:encoded': node.html }],
                 })
               })
             },
@@ -171,8 +171,8 @@ const config: GatsbyConfig = {
                 }
               }
             `,
-            output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            output: '/rss.xml',
+            title: 'Gatsby Starter Blog RSS Feed',
           },
         ],
       },
@@ -186,7 +186,7 @@ const config: GatsbyConfig = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: "static" + settings.meta.iconimage,
+        icon: 'static' + settings.meta.iconimage,
       },
     },
     {
@@ -202,8 +202,7 @@ const config: GatsbyConfig = {
             content: node => node.rawMarkdownBody,
             path: node => node.slug,
             date: node => node.date,
-            featuredImage: (node, getNode) =>
-              getNode(node.featuredImage___NODE),
+            featuredImage: (node, getNode) => getNode(node.featuredImage___NODE),
           },
           MarkdownRemark: {
             title: node => node.frontmatter.title,
@@ -215,9 +214,9 @@ const config: GatsbyConfig = {
         },
       },
     },
-    "gatsby-plugin-sass",
+    'gatsby-plugin-sass',
     {
-      resolve: "gatsby-plugin-anchor-links",
+      resolve: 'gatsby-plugin-anchor-links',
       options: {
         offset: -100,
         duration: 1000,
@@ -225,7 +224,7 @@ const config: GatsbyConfig = {
     },
     `gatsby-plugin-catch-links`,
     {
-      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
       options: {
         devMode: true,
       },

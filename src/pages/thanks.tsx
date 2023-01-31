@@ -1,9 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
-import { RiArrowLeftSLine, RiCheckboxCircleLine } from "react-icons/ri"
-import Seo from "../components/Seo"
-import Stars from "../components/Stars"
-import Layout from "../components/Layout"
+import React from 'react'
+import { Link } from 'gatsby'
+import { RiArrowLeftSLine, RiCheckboxCircleLine } from 'react-icons/ri'
+import Seo from '../components/Seo'
+import Stars from '../components/Stars'
+import Layout from '../components/Layout'
 
 const Thanks = () => (
   <Layout className="thanks-page">
@@ -11,14 +11,14 @@ const Thanks = () => (
     <div
       className="wrapper"
       style={{
-        textAlign: "center",
+        textAlign: 'center',
       }}
     >
       <Stars />
       <RiCheckboxCircleLine
         style={{
-          fontSize: "128px",
-          color: "var(--primary-color)",
+          fontSize: '128px',
+          color: 'var(--primary-color)',
         }}
       />
       <h1>Got your message</h1>

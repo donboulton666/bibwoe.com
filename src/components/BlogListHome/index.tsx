@@ -1,9 +1,9 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { Link } from "gatsby"
-import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
+import { jsx } from 'theme-ui'
+import { Link } from 'gatsby'
+import { RiArrowDownLine, RiArrowRightSLine } from 'react-icons/ri'
 
-import PostCard from "../PostCard"
+import PostCard from '../PostCard'
 
 export default function BlogListHome(props) {
   const data = props.data
@@ -16,7 +16,7 @@ export default function BlogListHome(props) {
 const PostMaker = ({ data }) => (
   <section className="home-posts">
     <h2>
-      Latest in Blog <strong>Posts</strong>{" "}
+      Latest in Blog <strong>Posts</strong>{' '}
       <span className="icon -right">
         <RiArrowDownLine />
       </span>
@@ -27,7 +27,7 @@ const PostMaker = ({ data }) => (
       to="/posts"
       area-label="Posts"
       sx={{
-        variant: "variants.button",
+        variant: 'variants.button',
       }}
     >
       See more

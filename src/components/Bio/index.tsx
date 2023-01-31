@@ -5,10 +5,10 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-import { FaTwitter } from "react-icons/fa"
+import * as React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
+import { FaTwitter } from 'react-icons/fa'
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -36,7 +36,7 @@ const Bio = () => {
       <StaticImage
         className="bio-avatar"
         layout="fixed"
-        formats={["auto", "webp"]}
+        formats={['auto', 'webp']}
         src="../../../static/assets/donald-boulton.jpg"
         width={50}
         height={50}
@@ -49,7 +49,7 @@ const Bio = () => {
           {` `}
           <p>
             <a href={`https://twitter.com/${social?.twitter || ``}`}>
-              You should follow him on Twitter{" "}
+              You should follow him on Twitter{' '}
               <span className="icon -twitter">
                 <FaTwitter alt="twitter" rel="img" />
               </span>

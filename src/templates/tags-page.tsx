@@ -1,39 +1,36 @@
 /** @jsx jsx */
 /* eslint-disable no-unused-vars */
-import * as React from "react"
+import * as React from 'react'
 /* eslint-enable no-unused-vars */
-import { jsx, Container, Heading } from "theme-ui"
-import PropTypes from "prop-types"
-import { FaTags } from "react-icons/fa"
-import { Link, graphql, HeadProps } from "gatsby"
-import Layout from "../components/Layout"
-import Seo from "../components/Seo"
-import Stars from "../components/Stars"
+import { jsx, Container, Heading } from 'theme-ui'
+import PropTypes from 'prop-types'
+import { FaTags } from 'react-icons/fa'
+import { Link, graphql, HeadProps } from 'gatsby'
+import Layout from '../components/Layout'
+import Seo from '../components/Seo'
+import Stars from '../components/Stars'
 
 import OGImage from '../../static/assets/sunset-kitzeberg-fjord.jpg'
 import defaultImage from '../../static/assets/sunset-kitzeberg-fjord.jpg'
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
-  const url = typeof window !== "undefined" ? window.location.href : ""
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+  const tagHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} tagged with "${tag}"`
 
   return (
     <Layout className="not-found-page">
       <Stars />
-      <div className="wrapper">     
+      <div className="wrapper">
         <div>
           <Container
             p={4}
             bg="primary"
             sx={{
-              borderRadius: "12px",
+              borderRadius: '12px',
             }}
           >
-            
             <Heading as="h2">{tagHeader}</Heading>
             <div>
               <ul className="tagsPage">
@@ -51,7 +48,7 @@ const Tags = ({ pageContext, data }) => {
             <div>
               <span className="icon -tags">
                 <FaTags />
-              </span>{" "}
+              </span>{' '}
               <Link to="/tags">All Tags</Link>
             </div>
           </Container>
@@ -127,24 +124,24 @@ export function Head(props: HeadProps) {
         image={ogimage}
         pathname="/"
       />
-        <meta name="robots" content="index" />
-        <link href="https://github.com/donaldboulton" rel="me" />
-        <link href="https://twitter.com/donboulton" rel="me" />
-        <link href="https://facebook.com/don.boulton" rel="me" />
-        <link href="https://www.instagram.com/boulton3662" rel="me" />
-        <link href="https://www.linkedin.com/donboulton" rel="me" />
-        <link href="mailto:donaldboulton@gmail.com" rel="me" />
-        <link rel="robots" href="https://bibwoe.com/robots.txt" />
-        <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
-        <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
-        <link rel="canonical" href="https://bibwoe.com/tags" />
-        <meta property="og:url" content="https://bibwoe.com/tags" />
-        <meta property="og:title" content="Bibwoe Tags" />
-        <meta property="og:description" content="Basic Instructions Books While On Earth" />
-        <meta name="twitter:image:alt" content="Tags" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Bibwoe Tags" />
-        <meta property="twitter:description" content="Basic Instructions Books While On Earth. ABout Page" />
+      <meta name="robots" content="index" />
+      <link href="https://github.com/donaldboulton" rel="me" />
+      <link href="https://twitter.com/donboulton" rel="me" />
+      <link href="https://facebook.com/don.boulton" rel="me" />
+      <link href="https://www.instagram.com/boulton3662" rel="me" />
+      <link href="https://www.linkedin.com/donboulton" rel="me" />
+      <link href="mailto:donaldboulton@gmail.com" rel="me" />
+      <link rel="robots" href="https://bibwoe.com/robots.txt" />
+      <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
+      <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
+      <link rel="canonical" href="https://bibwoe.com/tags" />
+      <meta property="og:url" content="https://bibwoe.com/tags" />
+      <meta property="og:title" content="Bibwoe Tags" />
+      <meta property="og:description" content="Basic Instructions Books While On Earth" />
+      <meta name="twitter:image:alt" content="Tags" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:title" content="Bibwoe Tags" />
+      <meta property="twitter:description" content="Basic Instructions Books While On Earth. ABout Page" />
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',

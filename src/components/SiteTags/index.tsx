@@ -1,8 +1,8 @@
 /** @jsx jsx */
-import { jsx, Heading } from "theme-ui"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import { kebabCase } from "lodash"
-import { FaTags } from "react-icons/fa"
+import { jsx, Heading } from 'theme-ui'
+import { useStaticQuery, graphql, Link } from 'gatsby'
+import { kebabCase } from 'lodash'
+import { FaTags } from 'react-icons/fa'
 
 const SiteTags = ({ group, ...rest }) => {
   const { tagsTitle = `Posts Tags` } = rest
@@ -26,7 +26,7 @@ const SiteTags = ({ group, ...rest }) => {
         <nav
           className="nav-scroll"
           sx={{
-            background: "#111",
+            background: '#111',
           }}
         >
           <div>

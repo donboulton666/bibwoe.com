@@ -1,7 +1,7 @@
-import * as React from "react"
-import { useState } from "react"
-import { Container, Bullet, Item } from "./styled"
-import { useIntersectionObserver, useHeadingsData } from "./utils"
+import * as React from 'react'
+import { useState } from 'react'
+import { Container, Bullet, Item } from './styled'
+import { useIntersectionObserver, useHeadingsData } from './utils'
 
 const HeadingLink = ({ heading, activeIndex, children }) => (
   <Item isActive={activeIndex === heading.index}>
@@ -12,7 +12,7 @@ const HeadingLink = ({ heading, activeIndex, children }) => (
         onClick={e => {
           e.preventDefault()
           document.querySelector(heading.url).scrollIntoView({
-            behavior: "smooth",
+            behavior: 'smooth',
           })
         }}
       >
@@ -26,19 +26,11 @@ const HeadingLink = ({ heading, activeIndex, children }) => (
 const HeadingsList = ({ headings, activeIndex }) => (
   <ul>
     {headings.map(heading => (
-      <HeadingLink
-        heading={heading}
-        activeIndex={activeIndex}
-        key={heading.url}
-      >
+      <HeadingLink heading={heading} activeIndex={activeIndex} key={heading.url}>
         {heading.items && heading.items.length > 0 && (
           <ul>
             {heading.items.map(child => (
-              <HeadingLink
-                heading={child}
-                activeIndex={activeIndex}
-                key={child.url}
-              />
+              <HeadingLink heading={child} activeIndex={activeIndex} key={child.url} />
             ))}
           </ul>
         )}
@@ -58,9 +50,7 @@ const TableOfContents = ({ tableOfContents }) => {
         {/* <CarbonAd location={TOC_LOCATION} /> */}
         <HeadingsList
           activeIndex={activeIndex}
-          headings={
-            nestedHeadings.length > 0 ? nestedHeadings : tableOfContents.items
-          }
+          headings={nestedHeadings.length > 0 ? nestedHeadings : tableOfContents.items}
         />
       </Container>
     </>

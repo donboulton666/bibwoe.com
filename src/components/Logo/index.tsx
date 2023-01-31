@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React from 'react'
+import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Logo = props => (
   <>
@@ -9,8 +9,8 @@ const Logo = props => (
         src="../../../static/assets/android-chrome-98x34.png"
         alt="PubliusLogic"
         style={{
-          maxWidth: "100%",
-          height: "auto",
+          maxWidth: '100%',
+          height: 'auto',
         }}
       />
     </Link>

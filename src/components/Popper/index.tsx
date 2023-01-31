@@ -1,7 +1,7 @@
-import * as React from "react"
-import { useState, FC } from "react"
-import { usePopperTooltip } from "react-popper-tooltip"
-import "./styles.css"
+import * as React from 'react'
+import { useState, FC } from 'react'
+import { usePopperTooltip } from 'react-popper-tooltip'
+import './styles.css'
 
 interface PopperProps {
   children: ReactNode
@@ -22,10 +22,10 @@ const Popper: FC<PopperProps> = props => {
     ...popperProps
   } = usePopperTooltip({
     closeOnOutsideClick: false,
-    delayShow: "1",
+    delayShow: '1',
     followCursor: false,
-    trigger: "hover",
-    placement: "top",
+    trigger: 'hover',
+    placement: 'top',
     visible: isVisible,
     onVisibleChange: setIsVisible,
   })
@@ -36,12 +36,9 @@ const Popper: FC<PopperProps> = props => {
         {children}
       </span>
       {visible && (
-        <div
-          ref={setTooltipRef}
-          {...getTooltipProps({ className: "tooltip-container" })}
-        >
+        <div ref={setTooltipRef} {...getTooltipProps({ className: 'tooltip-container' })}>
           {tooltipText}
-          <div {...getArrowProps({ className: "tooltip-arrow" })} />
+          <div {...getArrowProps({ className: 'tooltip-arrow' })} />
         </div>
       )}
     </>

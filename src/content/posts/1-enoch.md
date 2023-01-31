@@ -19,7 +19,7 @@ From-The Apocrypha and Pseudepigrapha of the Old Testament
 
 R.H. Charles, Oxford: The Clarendon Press
 
-![Ethiopian Enoch](../../../static/assets/enoch-1-60.png "Enoch Papyrus Fragment")
+![Ethiopian Enoch](../../../static/assets/enoch-1-60.png 'Enoch Papyrus Fragment')
 _[`Enoch Papyrus Fragment`](../../../static/assets/enoch-1-60.png)_
 
 > Section I. Chapters I-LX

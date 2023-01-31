@@ -1,24 +1,25 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
-import * as React from "react"
+import * as React from 'react'
 /* eslint-enable no-unused-vars */
-import { useStaticQuery, graphql, Link } from "gatsby"
-import { ReactNode } from "react"
-import { Script } from "gatsby"
+import { useStaticQuery, graphql, Link } from 'gatsby'
+import { ReactNode } from 'react'
+import { Script } from 'gatsby'
 import { Embed, Container } from 'theme-ui'
-import CookieConsent, { getCookieConsentValue } from "react-cookie-consent"
-import Scroll from "../Scroll"
-import ScrollDown from "../ScrollDown"
-import Header from "../Header"
-import Logo from "../Logo"
-import Navigation from "../Navigation"
-import Footer from "../Footer"
-import Search from "../Search"
-import { SiGnuprivacyguard } from "react-icons/si"
-import { LazyMotion, m } from "framer-motion"
+import CookieConsent, { getCookieConsentValue } from 'react-cookie-consent'
+import Scroll from '../Scroll'
+import ScrollDown from '../ScrollDown'
+import Header from '../Header'
+import Logo from '../Logo'
+import Navigation from '../Navigation'
+import Footer from '../Footer'
+import Search from '../Search'
+import Theme from '../Theme'
+import { SiGnuprivacyguard } from 'react-icons/si'
+import { LazyMotion, m } from 'framer-motion'
 
-const loadFeatures = () => import("../FramerFeatures").then(res => res.default)
+const loadFeatures = () => import('../FramerFeatures').then(res => res.default)
 
 const query = graphql`
   query SearchIndexQuery {
@@ -36,110 +37,70 @@ interface LayoutProps {
 const Layout = ({ className, children }: LayoutProps) => {
   const { siteSearchIndex } = useStaticQuery(query)
   console.log(getCookieConsentValue())
-  getCookieConsentValue("gatsby-gdpr-google-analytics")
   return (
     <>
       <Script>
-        <link
-          rel="sitemap"
-          type="application/xml"
-          title="Sitemap Index"
-          href="/static/sitemap.xml"
-        />
-        <link
-          rel="sitemap"
-          type="application/xml"
-          title="Sitemap Pages"
-          href="/static/sitemap-pages.xml"
-        />
-        <link
-          rel="sitemap"
-          type="application/xml"
-          title="Sitemap Posts"
-          href="/static/sitemap-posts.xml"
-        />
-        <link
-          rel="sitemap"
-          type="application/xml"
-          title="Sitemap Tags"
-          href="/static/sitemap-tags.xml"
-        />
-        <link
-          rel="sitemap"
-          type="application/xml"
-          title="Sitemap Categories"
-          href="/static/sitemap-categories.xml"
-        />
+        <link rel="sitemap" type="application/xml" title="Sitemap Index" href="/static/sitemap.xml" />
+        <link rel="sitemap" type="application/xml" title="Sitemap Pages" href="/static/sitemap-pages.xml" />
+        <link rel="sitemap" type="application/xml" title="Sitemap Posts" href="/static/sitemap-posts.xml" />
+        <link rel="sitemap" type="application/xml" title="Sitemap Tags" href="/static/sitemap-tags.xml" />
+        <link rel="sitemap" type="application/xml" title="Sitemap Categories" href="/static/sitemap-categories.xml" />
       </Script>
       <div
         sx={{
-          display: "grid",
-          minHeight: "100vh",
+          display: 'grid',
+          minHeight: '100vh',
           gridTemplateAreas: [
             '"header" "nav" "main" "ads" "footer"',
             '"header header header" "nav main ads" "footer footer footer"',
           ],
-          gridTemplateColumns: ["1fr", "64px 1fr 64px"],
-          gridTemplateRows: [
-            "min-content min-content 1fr min-content min-content",
-            "min-content 1fr min-content",
-          ],
+          gridTemplateColumns: ['1fr', '64px 1fr 64px'],
+          gridTemplateRows: ['min-content min-content 1fr min-content min-content', 'min-content 1fr min-content'],
         }}
       >
         <div
           sx={{
-            gridArea: "header",
+            gridArea: 'header',
           }}
         >
           <Header>
             <Logo />
             <div sx={layoutStyle.nav}>
-              <div sx={{ display: ["flex", "flex", "flex", "none"] }}>
+              <div sx={{ display: ['flex', 'flex', 'flex', 'none'] }}>
                 <Search searchIndex={siteSearchIndex.index} />
               </div>
               <Navigation />
             </div>
             <div sx={layoutStyle.appearance}>
               <Search searchIndex={siteSearchIndex.index} />
+              <Theme />
             </div>
           </Header>
         </div>
         <div
           sx={{
-            gridArea: "main",
+            gridArea: 'main',
           }}
         >
           <LazyMotion features={loadFeatures}>
-            <m.main
-              className={"container " + className}
-            >
-              {children}
-            </m.main>
+            <m.main className={'container ' + className}>{children}</m.main>
           </LazyMotion>
-          <ScrollDown
-            direction="down"
-            to={205}
-            showAbove={1500}
-            css="position: fixed; right: 1em; top: 4.5em;"
-          />
-          <Scroll
-            showBelow={1500}
-            css="position: fixed; right: 1em; bottom: 4em;"
-          />
+          <ScrollDown direction="down" to={205} showAbove={1500} css="position: fixed; right: 1em; top: 4.5em;" />
+          <Scroll showBelow={1500} css="position: fixed; right: 1em; bottom: 4em;" />
         </div>
         <div
           sx={{
-            gridArea: "nav",
+            gridArea: 'nav',
           }}
         ></div>
         <div
           sx={{
-            gridArea: "ads",
+            gridArea: 'ads',
           }}
         ></div>
         <div
           sx={{
-            gridArea: "footer",
+            gridArea: 'footer',
           }}
         >
           <Footer />
@@ -188,13 +149,13 @@ export default Layout
 
 const layoutStyle = {
   appearance: {
-    display: ["none", "none", "none", "flex"],
-    alignItems: "center",
+    display: ['none', 'none', 'none', 'flex'],
+    alignItems: 'center',
     gap: 4,
   },
   nav: {
-    display: "flex",
-    alignItems: "center",
+    display: 'flex',
+    alignItems: 'center',
     gap: 4,
   },
 }

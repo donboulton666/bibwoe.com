@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
-import * as React from "react"
+import * as React from 'react'
 /* eslint-enable no-unused-vars */
-import { graphql, Link, Script } from "gatsby"
+import { graphql, Link, Script } from 'gatsby'
 import type { HeadProps } from 'gatsby'
-import { GatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage } from 'gatsby-plugin-image'
 import {
   RiArrowRightSLine,
   RiFacebookBoxFill,
@@ -13,13 +13,13 @@ import {
   RiYoutubeFill,
   RiInstagramFill,
   RiGithubFill,
-} from "react-icons/ri"
+} from 'react-icons/ri'
 
-import Layout from "../components/Layout"
-import BlogListHome from "../components/BlogListHome"
-import Seo from "../components/Seo"
-import Stars from "../components/Stars"
-import Icons from "../util/socialmedia.json"
+import Layout from '../components/Layout'
+import BlogListHome from '../components/BlogListHome'
+import Seo from '../components/Seo'
+import Stars from '../components/Stars'
+import Icons from '../util/socialmedia.json'
 
 import OGImage from '../../static/assets/churches.jpg'
 import defaultImage from '../../static/assets/churches.jpg'
@@ -84,63 +84,45 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark, posts, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const url = typeof window !== "undefined" ? window.location.href : ""
-  const Image = frontmatter.featuredImage
-    ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
-    : ""
+  const url = typeof window !== 'undefined' ? window.location.href : ''
+  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
   const sIcons = Icons.socialIcons.map((icons, index) => {
     return (
-      <div key={"social icons" + index}>
-        {icons.icon === "facebook" ? (
-          <Link
-            to={icons.url}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+      <div key={'social icons' + index}>
+        {icons.icon === 'facebook' ? (
+          <Link to={icons.url} aria-labelledby="lFacebook" rel="noopener noreferrer" target="_blank">
             <RiFacebookBoxFill alt="Facebook" />
           </Link>
         ) : (
-          ""
+          ''
         )}
-        {icons.icon === "twitter" ? (
-          <Link
-            to={icons.url}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+        {icons.icon === 'twitter' ? (
+          <Link to={icons.url} aria-labelledby="Twitter" rel="noopener noreferrer" target="_blank">
             <RiTwitterFill alt="Twitter" />
           </Link>
         ) : (
-          ""
+          ''
         )}
-        {icons.icon === "youtube" ? (
-          <Link
-            to={icons.url}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <RiYoutubeFill alt="Youtube" />
+        {icons.icon === 'youtube' ? (
+          <Link to={icons.url} aria-labelledby="YouTube" rel="noopener noreferrer" target="_blank">
+            <RiYoutubeFill alt="YouTube" />
           </Link>
         ) : (
-          ""
+          ''
         )}
-        {icons.icon === "instagram" ? (
-          <Link
-            to={icons.url}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+        {icons.icon === 'instagram' ? (
+          <Link to={icons.url} aria-labelledby="Instagram" rel="noopener noreferrer" target="_blank">
             <RiInstagramFill alt="Instagram" />
           </Link>
         ) : (
-          ""
+          ''
         )}
-        {icons.icon === "github" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
+        {icons.icon === 'github' ? (
+          <Link to={icons.url} aria-labelledby="Github" rel="noopener noreferrer" target="_blank">
             <RiGithubFill alt="Github" />
           </Link>
         ) : (
-          ""
+          ''
         )}
       </div>
     )
@@ -154,20 +136,17 @@ const HomePage = ({ data }) => {
           <p
             className="tagline"
             sx={{
-              color: "muted",
+              color: 'muted',
             }}
           >
             {frontmatter.tagline}
           </p>
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
           <Link
             to={frontmatter.cta.ctaLink}
             className="button"
             sx={{
-              variant: "variants.button",
+              variant: 'variants.button',
             }}
           >
             {frontmatter.cta.ctaText}
@@ -178,22 +157,14 @@ const HomePage = ({ data }) => {
           <div
             className="social-icons"
             sx={{
-              variant: "variants.socialIcons",
+              variant: 'variants.socialIcons',
             }}
           >
             {sIcons}
           </div>
         </div>
         <div>
-          {Image ? (
-            <GatsbyImage
-              image={Image}
-              alt={frontmatter.title + " - Featured image"}
-              className="cover"
-            />
-          ) : (
-            ""
-          )}
+          {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
         </div>
       </div>
       <BlogListHome data={posts} />
@@ -219,24 +190,24 @@ export function Head(props: HeadProps) {
         image={ogimage}
         pathname="/"
       />
-        <meta name="robots" content="index" />
-        <link href="https://github.com/donaldboulton" rel="me" />
-        <link href="https://twitter.com/donboulton" rel="me" />
-        <link href="https://facebook.com/don.boulton" rel="me" />
-        <link href="https://www.instagram.com/boulton3662" rel="me" />
-        <link href="https://www.linkedin.com/donboulton" rel="me" />
-        <link href="mailto:donaldboulton@gmail.com" rel="me" />
-        <link rel="robots" href="https://bibwoe.com/robots.txt" />
-        <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
-        <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
-        <link rel="canonical" href="https://bibwoe.com" />
-        <meta property="og:url" content="https://bibwoe.com" />
-        <meta property="og:title" content="Bibwoe Home" />
-        <meta property="og:description" content="Basic Instructions Books While On Earth" />
-        <meta name="twitter:image:alt" content="Sermon on the Mound" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Bibwoe Home" />
-        <meta property="twitter:description" content="Basic Instructions Books While On Earth." />
+      <meta name="robots" content="index" />
+      <link href="https://github.com/donaldboulton" rel="me" />
+      <link href="https://twitter.com/donboulton" rel="me" />
+      <link href="https://facebook.com/don.boulton" rel="me" />
+      <link href="https://www.instagram.com/boulton3662" rel="me" />
+      <link href="https://www.linkedin.com/donboulton" rel="me" />
+      <link href="mailto:donaldboulton@gmail.com" rel="me" />
+      <link rel="robots" href="https://bibwoe.com/robots.txt" />
+      <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
+      <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
+      <link rel="canonical" href="https://bibwoe.com" />
+      <meta property="og:url" content="https://bibwoe.com" />
+      <meta property="og:title" content="Bibwoe Home" />
+      <meta property="og:description" content="Basic Instructions Books While On Earth" />
+      <meta name="twitter:image:alt" content="Sermon on the Mound" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:title" content="Bibwoe Home" />
+      <meta property="twitter:description" content="Basic Instructions Books While On Earth." />
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',

@@ -1,7 +1,7 @@
 ﻿---
 template: blog-post
 author: Donald Boulton
-title: "Enoch Preface"
+title: 'Enoch Preface'
 date: 2018-07-15 10:11
 path: /posts/enoch-preface
 tags: [Enoch, Enoch Preface]

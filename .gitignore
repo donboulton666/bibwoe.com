@@ -71,7 +71,7 @@ yarn.lock
 .yarn-integrity
 
 # TernJS port file
-  .tern-port
+.tern-port
 
 # Partytown
 static/~partytown

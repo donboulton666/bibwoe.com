@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from 'theme-ui'
 
 const Header = ({ children }) => (
   <div itemscope itemType="https://schema.org/WebPage">
@@ -8,7 +8,7 @@ const Header = ({ children }) => (
       itemScope="itemScope"
       itemType="https://schema.org/WPHeader"
       sx={{
-        bg: "siteColor",
+        bg: 'siteColor',
       }}
     >
       {children}

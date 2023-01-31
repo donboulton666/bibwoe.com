@@ -1,37 +1,29 @@
-import * as React from "react"
-import type { GatsbyBrowser } from "gatsby"
-import { AnimatePresence } from "framer-motion"
-import "prismjs/themes/prism.css"
+import * as React from 'react'
+import type { GatsbyBrowser } from 'gatsby'
+import { AnimatePresence } from 'framer-motion'
+import 'prismjs/themes/prism.css'
 
-import "./src/assets/scss/style.scss"
+import './src/assets/scss/style.scss'
 
-export const wrapPageElement: GatsbyBrowser["wrapPageElement"] = ({
-  element,
-}) => {
+export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => {
   return
-  <AnimatePresence wait>{element}</AnimatePresence>
+  ;<AnimatePresence wait>{element}</AnimatePresence>
 }
 
 export const onServiceWorkerUpdateReady = () => {
-  const answer = window.confirm(
-    `This application has been updated. ` +
-      `Reload to display the latest version?`
-  )
+  const answer = window.confirm(`This application has been updated. ` + `Reload to display the latest version?`)
 
   if (answer === true) {
     window.location.reload()
   }
 }
 
-export const shouldUpdateScroll = ({
-  routerProps: { location, transitionDelay },
-  getSavedScrollPosition,
-}) => {
-  if (location.action === "PUSH") {
+export const shouldUpdateScroll = ({ routerProps: { location, transitionDelay }, getSavedScrollPosition }) => {
+  if (location.action === 'PUSH') {
     window.setTimeout(() => {
       window.scrollTo({
         top: 0,
-        behavior: "smooth",
+        behavior: 'smooth',
       })
     }, transitionDelay)
   } else {
@@ -40,7 +32,7 @@ export const shouldUpdateScroll = ({
     window.setTimeout(() => {
       window.scrollTo({
         top,
-        behavior: "smooth",
+        behavior: 'smooth',
       })
     }, transitionDelay)
   }

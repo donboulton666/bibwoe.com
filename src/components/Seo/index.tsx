@@ -1,7 +1,7 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Script } from "gatsby"
-import { useStaticQuery, graphql } from "gatsby"
+import * as React from 'react'
+import PropTypes from 'prop-types'
+import { Script } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 
 const Seo = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
@@ -62,7 +62,7 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `twitter:creator`,
           content: site.siteMetadata?.author?.name || ``,
         },
-      ].concat(meta)}      
+      ].concat(meta)}
     />
   )
 }

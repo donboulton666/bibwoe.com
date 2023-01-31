@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
-import * as React from "react"
+import * as React from 'react'
 /* eslint-enable no-unused-vars */
-import { Link, graphql, HeadProps } from "gatsby"
-import { RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri"
-import Layout from "../components/Layout"
-import PostCard from "../components/PostCard"
-import Seo from "../components/Seo"
-import Stars from "../components/Stars"
+import { Link, graphql, HeadProps } from 'gatsby'
+import { RiArrowLeftLine, RiArrowRightLine } from 'react-icons/ri'
+import Layout from '../components/Layout'
+import PostCard from '../components/PostCard'
+import Seo from '../components/Seo'
+import Stars from '../components/Stars'
 
 import OGImage from '../../static/assets/blog.jpg'
 import defaultImage from '../../static/assets/blog.jpg'
@@ -16,12 +16,12 @@ import defaultImage from '../../static/assets/blog.jpg'
 const styles = {
   pagination: {
     a: {
-      color: "muted",
-      "&.is-active": {
-        color: "text",
+      color: 'muted',
+      '&.is-active': {
+        color: 'text',
       },
-      "&:hover": {
-        color: "text",
+      '&:hover': {
+        color: 'text',
       },
     },
   },
@@ -72,7 +72,7 @@ const Pagination = props => (
           <Link to={props.prevPage} rel="prev">
             <span className="icon -left">
               <RiArrowLeftLine alt="Previous" />
-            </span>{" "}
+            </span>{' '}
             Previous
           </Link>
         </li>
@@ -80,8 +80,8 @@ const Pagination = props => (
       {Array.from({ length: props.numPages }, (_, i) => (
         <li key={`pagination-number${i + 1}`}>
           <Link
-            to={`${props.blogSlug}${i === 0 ? "" : i + 1}`}
-            className={props.currentPage === i + 1 ? "is-active num" : "num"}
+            to={`${props.blogSlug}${i === 0 ? '' : i + 1}`}
+            className={props.currentPage === i + 1 ? 'is-active num' : 'num'}
           >
             {i + 1}
           </Link>
@@ -90,7 +90,7 @@ const Pagination = props => (
       {!props.isLast && (
         <li>
           <Link to={props.nextPage} rel="next">
-            Next{" "}
+            Next{' '}
             <span className="icon -right">
               <RiArrowRightLine alt="Next" />
             </span>
@@ -105,12 +105,11 @@ class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const { currentPage, numPages } = this.props.pageContext
-    const blogSlug = "/posts/"
-    const url = typeof window !== "undefined" ? window.location.href : ""
+    const blogSlug = '/posts/'
+    const url = typeof window !== 'undefined' ? window.location.href : ''
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
-    const prevPage =
-      currentPage - 1 === 1 ? blogSlug : blogSlug + (currentPage - 1).toString()
+    const prevPage = currentPage - 1 === 1 ? blogSlug : blogSlug + (currentPage - 1).toString()
     const nextPage = blogSlug + (currentPage + 1).toString()
 
     const posts = data.allMarkdownRemark.edges
@@ -154,24 +153,24 @@ export function Head(props: HeadProps) {
         image={ogimage}
         pathname="/"
       />
-        <meta name="robots" content="index" />
-        <link href="https://github.com/donaldboulton" rel="me" />
-        <link href="https://twitter.com/donboulton" rel="me" />
-        <link href="https://facebook.com/don.boulton" rel="me" />
-        <link href="https://www.instagram.com/boulton3662" rel="me" />
-        <link href="https://www.linkedin.com/donboulton" rel="me" />
-        <link href="mailto:donaldboulton@gmail.com" rel="me" />
-        <link rel="robots" href="https://bibwoe.com/robots.txt" />
-        <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
-        <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
-        <link rel="canonical" href="https://bibwoe.com/posts" />
-        <meta property="og:url" content="https://bibwoe.com/posts" />
-        <meta property="og:title" content="Bibwoe Blog List" />
-        <meta property="og:description" content="Basic Instructions Books While On Earth" />
-        <meta name="twitter:image:alt" content="Blog List" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Bibwoe Blog List" />
-        <meta property="twitter:description" content="Basic Instructions Books While On Earth. ABout Page" />
+      <meta name="robots" content="index" />
+      <link href="https://github.com/donaldboulton" rel="me" />
+      <link href="https://twitter.com/donboulton" rel="me" />
+      <link href="https://facebook.com/don.boulton" rel="me" />
+      <link href="https://www.instagram.com/boulton3662" rel="me" />
+      <link href="https://www.linkedin.com/donboulton" rel="me" />
+      <link href="mailto:donaldboulton@gmail.com" rel="me" />
+      <link rel="robots" href="https://bibwoe.com/robots.txt" />
+      <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
+      <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
+      <link rel="canonical" href="https://bibwoe.com/posts" />
+      <meta property="og:url" content="https://bibwoe.com/posts" />
+      <meta property="og:title" content="Bibwoe Blog List" />
+      <meta property="og:description" content="Basic Instructions Books While On Earth" />
+      <meta name="twitter:image:alt" content="Blog List" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:title" content="Bibwoe Blog List" />
+      <meta property="twitter:description" content="Basic Instructions Books While On Earth. ABout Page" />
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',
@@ -348,4 +347,3 @@ export function Head(props: HeadProps) {
     </>
   )
 }
-

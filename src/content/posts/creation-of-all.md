@@ -31,10 +31,10 @@ So -1 and +1 live there lives to -2 and +2 respectively; that really makes, "0 Z
 
 Even all our color's are derived from a trinity subset of 3; Blue -1, Red 0, and Yellow +1.
 
-![A Trinity Subset in All Colors](../../../static/assets/trinity-page.png "trinity subset in all colors")
+![A Trinity Subset in All Colors](../../../static/assets/trinity-page.png 'trinity subset in all colors')
 _[`trinity subset in all colors`](../../../static/assets/trinity-page.png)_
 
-![A Trinity in All Substance](../../../static/assets/trinity-math.png "trinity in all substance")
+![A Trinity in All Substance](../../../static/assets/trinity-math.png 'trinity in all substance')
 _[`trinity in all substance`](../../../static/assets/trinity-math.png)_
 
 ### Computers Binary is really Trinary

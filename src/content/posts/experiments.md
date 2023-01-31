@@ -127,13 +127,13 @@ Lets say you can get past Jesus and his tests, then by Me.
 
 Your assents to the Trinity or Heaven are depicted in the Giza Complex outside of Cairo Egypt.
 
-![Hebrew Text](../../../static/assets/hebrew-text.jpg "hebrew text")
+![Hebrew Text](../../../static/assets/hebrew-text.jpg 'hebrew text')
 _[`hebrew.text` Hebrew of Enoch](../../../static/assets/hebrew-text.jpg)_
 
-![Enoch Circle](../../../static/assets/enochw.png "Enoch Circle")
+![Enoch Circle](../../../static/assets/enochw.png 'Enoch Circle')
 _[`enoch.circle` Structural Enoch Circle](../../../static/assets/enoch-w.jpg)_
 
-![Giza Description](../../../static/assets/chrono-trans.png "Structural Bible")
+![Giza Description](../../../static/assets/chrono-trans.png 'Structural Bible')
 _[`structural.bible` Giza Description](../../../static/assets/chrono-trans.png)_
 
 My Balancing War Angels, "Amon and Ra", gave Enoch the knowledge of We the Trinity.

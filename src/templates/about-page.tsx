@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
-import * as React from "react"
+import * as React from 'react'
 /* eslint-enable no-unused-vars */
-import { graphql, HeadProps } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
-import Bio from "../components/Bio"
-import Layout from "../components/Layout"
-import Seo from "../components/Seo"
-import Stars from "../components/Stars"
+import { graphql, HeadProps } from 'gatsby'
+import { GatsbyImage } from 'gatsby-plugin-image'
+import Bio from '../components/Bio'
+import Layout from '../components/Layout'
+import Seo from '../components/Seo'
+import Stars from '../components/Stars'
 
 import OGImage from '../../static/assets/about.jpg'
 import defaultImage from '../../static/assets/about.jpg'
@@ -38,10 +38,8 @@ const AboutPage = ({ data }) => {
   const { markdownRemark } = data /* data.markdownRemark holds your post data */
   const { frontmatter, html, excerpt } = markdownRemark
   const postNode = data.markdownRemark
-  const url = typeof window !== "undefined" ? window.location.href : ""
-  const Image = frontmatter.featuredImage
-    ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
-    : ""
+  const url = typeof window !== 'undefined' ? window.location.href : ''
+  const Image = frontmatter.featuredImage ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
 
   return (
     <Layout className="page">
@@ -52,15 +50,7 @@ const AboutPage = ({ data }) => {
             <section className="article-header">
               <h1>{frontmatter.title}</h1>
             </section>
-            {Image ? (
-              <GatsbyImage
-                image={Image}
-                alt={frontmatter.title + " - Featured image"}
-                className="cover"
-              />
-            ) : (
-              ""
-            )}
+            {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
           </header>
           <Bio />
           <div dangerouslySetInnerHTML={{ __html: html }} />
@@ -87,24 +77,24 @@ export function Head(props: HeadProps) {
         image={ogimage}
         pathname="/"
       />
-        <meta name="robots" content="index" />
-        <link href="https://github.com/donaldboulton" rel="me" />
-        <link href="https://twitter.com/donboulton" rel="me" />
-        <link href="https://facebook.com/don.boulton" rel="me" />
-        <link href="https://www.instagram.com/boulton3662" rel="me" />
-        <link href="https://www.linkedin.com/donboulton" rel="me" />
-        <link href="mailto:donaldboulton@gmail.com" rel="me" />
-        <link rel="robots" href="https://bibwoe.com/robots.txt" />
-        <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
-        <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
-        <link rel="canonical" href="https://bibwoe.com/about" />
-        <meta property="og:url" content="https://bibwoe.com/about" />
-        <meta property="og:title" content="Bibwoe About" />
-        <meta property="og:description" content="Basic Instructions Books While On Earth" />
-        <meta name="twitter:image:alt" content="About" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Bibwoe About" />
-        <meta property="twitter:description" content="Basic Instructions Books While On Earth. ABout Page" />
+      <meta name="robots" content="index" />
+      <link href="https://github.com/donaldboulton" rel="me" />
+      <link href="https://twitter.com/donboulton" rel="me" />
+      <link href="https://facebook.com/don.boulton" rel="me" />
+      <link href="https://www.instagram.com/boulton3662" rel="me" />
+      <link href="https://www.linkedin.com/donboulton" rel="me" />
+      <link href="mailto:donaldboulton@gmail.com" rel="me" />
+      <link rel="robots" href="https://bibwoe.com/robots.txt" />
+      <link rel="webmention" href="https://webmention.io/bibwoe.com/webmention" />
+      <link rel="pingback" href="https://webmention.io/bibwoe.com/xmlrpc" />
+      <link rel="canonical" href="https://bibwoe.com/about" />
+      <meta property="og:url" content="https://bibwoe.com/about" />
+      <meta property="og:title" content="Bibwoe About" />
+      <meta property="og:description" content="Basic Instructions Books While On Earth" />
+      <meta name="twitter:image:alt" content="About" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:title" content="Bibwoe About" />
+      <meta property="twitter:description" content="Basic Instructions Books While On Earth. ABout Page" />
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',

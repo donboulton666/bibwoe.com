@@ -1,6 +1,6 @@
-import { GatsbyNode } from "gatsby"
-import path from "path"
-const _ = require("lodash")
+import { GatsbyNode } from 'gatsby'
+const path = require('path')
+const _ = require('lodash')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { copyLibFiles } = require('@builder.io/partytown/utils')
 
@@ -12,8 +12,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
   const blogList = path.resolve(`./src/templates/blog-list.tsx`)
-  const tagTemplate = path.resolve("./src/templates/tags-page.tsx")
-  const categoryTemplate = path.resolve("./src/templates/category-page.tsx")
+  const tagTemplate = path.resolve('./src/templates/tags-page.tsx')
+  const categoryTemplate = path.resolve('./src/templates/category-page.tsx')
 
   const result = await graphql(`
     {
@@ -70,9 +70,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
     createPage({
       path: post.node.frontmatter.path,
-      component: path.resolve(
-        `src/templates/${String(post.node.frontmatter.template)}.tsx`
-      ),
+      component: path.resolve(`src/templates/${String(post.node.frontmatter.template)}.tsx`),
       /* additional data can be passed via context */
       context: {
         id,
@@ -119,7 +117,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
 
     /* Count blog posts. */
-    if (post.node.frontmatter.template === "blog-post") {
+    if (post.node.frontmatter.template === 'blog-post') {
       blogPostsCount++
     }
   })
@@ -154,11 +152,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] =
-  ({ actions }) => {
-    const { createTypes } = actions
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = ({ actions }) => {
+  const { createTypes } = actions
 
-    createTypes(`
+  createTypes(`
     type SiteSiteMetadata {
       author: Author
       siteUrl: String
@@ -195,4 +192,4 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       slug: String
     }
   `)
-  }
+}

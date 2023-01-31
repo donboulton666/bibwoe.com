@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef, useCallback } from "react"
+import { useEffect, useState, useRef, useCallback } from 'react'
 
 export const useIntersectionObserver = (getIndexFromId, setActiveIndex) => {
   const headingElementsRef = useRef({})
@@ -35,10 +35,10 @@ export const useIntersectionObserver = (getIndexFromId, setActiveIndex) => {
     // -40% bottom margin: I don't make headings "active" if they are still
     // in the bottom 40% of the page. */
     const observer = new IntersectionObserver(callback, {
-      rootMargin: "-110px 0px -40% 0px",
+      rootMargin: '-110px 0px -40% 0px',
     })
 
-    const headingElements = Array.from(document.querySelectorAll("h2, h3"))
+    const headingElements = Array.from(document.querySelectorAll('h2, h3'))
 
     headingElements.forEach(element => observer.observe(element))
 
@@ -51,7 +51,7 @@ export const useHeadingsData = () => {
   const [nestedHeadings, setNestedHeadings] = useState([])
 
   useEffect(() => {
-    const headingElements = Array.from(document.querySelectorAll("h2, h3"))
+    const headingElements = Array.from(document.querySelectorAll('h2, h3'))
 
     setHeadings(headingElements.map(heading => heading.id))
 

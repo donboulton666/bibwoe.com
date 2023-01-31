@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from 'react'
 
 interface CloudinaryContextProps {
   cloudName: string
@@ -12,7 +12,7 @@ interface TransformationProps {
   quality: string
 }
 
-declare module "@cloudinary/react" {
+declare module '@cloudinary/react' {
   class CloudinaryComponent {
     constructor(props, context) {}
 
