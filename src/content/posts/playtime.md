@@ -14,7 +14,7 @@ description: Playtime is over for all, Kiddos, time to start paying attention, p
 ## Playtime
 
 <Container p={4} bg="muted">
-  <H1>Rated Raw! No Kids!</H1>
+  <H2>Rated Raw! No Kids!</H2>
 </Container>
 
 Addition as of April 1st 2021
@@ -243,4 +243,3 @@ If you did not get the above, you will get this; Goo, Goo, Gaa, Gaa, He, He, Ha,
 
 Grow up Kiddies! Quit Messing Around! Playtime is Over!
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

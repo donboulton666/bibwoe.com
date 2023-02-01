@@ -11,7 +11,9 @@ imageLink: https://bibwoe.com/static/assets/churches.jpg
 description: Churches I have and will be attending in OKC. My First was at New Life Church UPC of Edmond OK.
 ---
 
-<Center>Many Churches</Center>
+<Container p={4} bg="muted">
+  <H2>Many Churches</H2>
+</Container>
 
 In the 1990's I traveled all over the USA going to Hundreds of different Churches investigating what was true or not about there worship of Father God.
 
@@ -47,4 +49,3 @@ One thing Pastor Whalen did not mention was Enoch's denial of self, "or I may ha
 >
 > > > Thank's to ALL Of You! Blessings. 🙏
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

@@ -101,4 +101,3 @@ This evolutionary process that changes you is also, to a lesser extent possible 
 
 After 60 years of marriage how much they look alike and act alike, thats not just pattering, but by Spiritual Bio Plasmic Energy Transfer. "To Become, 'One"!
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

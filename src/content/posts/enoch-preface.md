@@ -595,4 +595,3 @@ Enoch Books key's, Books of Enoch 1 and 2 with Preface and symbols tags Book of 
 
 [Enoch Symbols](http://bibwoe.com/posts/enoch-symbols.md)
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

@@ -631,4 +631,3 @@ xxiv:2 for the points of difference between the Pharisees and Sadducees see the 
 
 xxvi:1 Op. cit., p. 218.
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

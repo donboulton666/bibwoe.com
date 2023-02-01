@@ -234,4 +234,3 @@ For what have I to do with judging outsiders? Is it not those inside the church 
 
 God judges those outside. “Purge the evil person's from among you.”
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

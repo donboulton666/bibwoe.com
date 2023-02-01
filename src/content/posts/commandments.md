@@ -135,5 +135,3 @@ Little children, yet a little while I am with you. Ye shall seek me: and as I sa
 Ye shall be responsible for all thing's in your life and interrelated through your acts, for what you do is of you.
 
 Your judgement before Father God will be only of you!
-
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

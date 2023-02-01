@@ -2,7 +2,7 @@
 template: blog-post
 author: Donald Boulton
 title: Gods Experiments
-path: /posts/experiments
+path: /posts/gods-experiments
 tags: [Holy Spirit, Experiments]
 category: Creation
 date: 2021-04-10 12:25
@@ -185,4 +185,3 @@ I would say hang out in the bars just say no, thats really quitting. To overcome
 
 A test to overcoming the external physical world of flesh and desire to find your internal spiritual truth's.
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

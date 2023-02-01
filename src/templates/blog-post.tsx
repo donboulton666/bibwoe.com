@@ -26,7 +26,7 @@ import VideoTwo from '../components/CloudinaryVideo/videoTwo'
 import VideoThree from '../components/CloudinaryVideo/videoThree'
 import Section from '../components/Section'
 import Popper from '../components/Popper'
-import { Accordion } from '../components/Accordion'
+import Accordion from '../components/Accordion'
 
 require('prismjs')
 require('prismjs/themes/prism-okaidia.css')
@@ -39,7 +39,6 @@ const renderAst = new rehypeReact({
     tags: SiteTags,
     categories: SiteCategory,
     checked: Checked,
-    WavyHr: WavyHr,
     callout: Callout,
     calloutDanger: CalloutDanger,
     calloutLabel: CalloutLabel,
@@ -208,6 +207,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         <Bio />
         <div className="blog-post-content">{renderAst(htmlAst)}</div>
       </article>
+      <WavyHr />
       {(previous || next) && <Pagination {...props} />}
     </Layout>
   )

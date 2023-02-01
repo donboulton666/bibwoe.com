@@ -1,8 +1,13 @@
+import { tailwind as baseStyles } from "@theme-ui/presets"
 import defaultColors from '../util/default-colors.json'
 import darkColors from '../util/dark-theme-colors.json'
 import { lightness } from '@theme-ui/color'
 
-const theme = {
+export default {
+    ...baseStyles,
+  styles: {
+    ...baseStyles.styles,
+  },
   colors: {
     ...defaultColors,
     text: '#000',
@@ -82,5 +87,3 @@ const theme = {
     },
   },
 }
-
-export default theme

@@ -1149,4 +1149,3 @@ On to the earth and covered the people and Enoch, and Enoch was taken up on high
 
 [Back to top](#top)
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

@@ -266,5 +266,3 @@ The Devil hates me and will do anything to keep me from cleansing the Earth and 
 > So if I have to leave without finishing my job, "Then Guess What"!
 
 Stay Tuned to this channel for further updates. As of the verse is in constant evolution.
-
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

@@ -73,4 +73,3 @@ This is what the Old Testaments talk's about, "your truth in works of your flesh
 
 What do you know of Gods World, and laws with a clear perspective of self context, being true in your heart and virtuous.
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

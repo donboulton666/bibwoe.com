@@ -80,4 +80,3 @@ I have to find a song within my heart to sing to my children born since 2000, an
 
 > Change requires our song!
 
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />

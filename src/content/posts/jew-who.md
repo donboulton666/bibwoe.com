@@ -293,5 +293,3 @@ As each one of you can heal yourselves, just have faith in father and yourself; 
 Healing is also possible, When One Or More are Gathered in Father Gods Name, then anything is possible within the, "Flesh"!
 
 WORKING ON THIS, Much More to be added!
-
-<WavyHr className="mt-1 mb-1 text-fuchsia-600" />
