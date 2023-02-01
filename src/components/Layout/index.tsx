@@ -5,7 +5,6 @@ import * as React from 'react'
 /* eslint-enable no-unused-vars */
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import { ReactNode } from 'react'
-import { Script } from 'gatsby'
 import { Embed, Container } from 'theme-ui'
 import CookieConsent, { getCookieConsentValue } from 'react-cookie-consent'
 import Scroll from '../Scroll'
@@ -39,13 +38,6 @@ const Layout = ({ className, children }: LayoutProps) => {
   console.log(getCookieConsentValue())
   return (
     <>
-      <Script>
-        <link rel="sitemap" type="application/xml" title="Sitemap Index" href="/static/sitemap.xml" />
-        <link rel="sitemap" type="application/xml" title="Sitemap Pages" href="/static/sitemap-pages.xml" />
-        <link rel="sitemap" type="application/xml" title="Sitemap Posts" href="/static/sitemap-posts.xml" />
-        <link rel="sitemap" type="application/xml" title="Sitemap Tags" href="/static/sitemap-tags.xml" />
-        <link rel="sitemap" type="application/xml" title="Sitemap Categories" href="/static/sitemap-categories.xml" />
-      </Script>
       <div
         sx={{
           display: 'grid',

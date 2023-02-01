@@ -405,9 +405,8 @@ export function Head(props: HeadProps) {
         })}
       </script>
       <title>Contact</title>
-      <meta name="description" content="Bibwoe Contact Page." />
-      <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
-      <link rel="rss" type="application/rss+xml" title="Rss" href="/rss.xml" />
+      <link rel="sitemap" type="application/xml" title="Sitemap" href="https://bibwoe.com/sitemap.xml" />
+      <link rel="rss" type="application/rss+xml" title="Rss" href="https://bibwoe.com/rss.xml" />
     </>
   )
 }

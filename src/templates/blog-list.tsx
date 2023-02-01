@@ -154,6 +154,8 @@ export function Head(props: HeadProps) {
         pathname="/"
       />
       <meta name="robots" content="index" />
+      <link rel="sitemap" type="application/xml" title="Sitemap" href="https://bibwoe.com/sitemap.xml" />
+      <link rel="rss" type="application/rss+xml" title="Rss" href="https://bibwoe.com/rss.xml" />
       <link href="https://github.com/donaldboulton" rel="me" />
       <link href="https://twitter.com/donboulton" rel="me" />
       <link href="https://facebook.com/don.boulton" rel="me" />

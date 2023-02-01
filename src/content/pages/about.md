@@ -26,7 +26,7 @@ Re-patterning to a new becoming, according to thy Father Gods Will, Fathers will
 
 With the keys to unlock your broken spirit, all can be found within BIBWOE.
 
-<BlockContainer title={Creation}>
+<Accordion>
 
 View [Creation Of All](https://bibwoe.com/posts/creation-of-all), Instructions for the Future, and affirmed through the words of Jesus as written in the KJV of the BIBLE. Spoken to the We whom hear and can see, within. As Thy Father God as the Holy Spirit is inside all, as well as all is inside our Father God.
 
@@ -36,7 +36,7 @@ Mankind and all creation is of the .5% or the 5%; where One becomes One thus all
 
 The connection between the two or 0 to 1 and/or darkness becomes light is thy Fathers past reflection as the Holy Spirit. The Holy Spirit of father is the past of the trinity as -1. Jesus is the future of the trinity as 1 or beyond the point of when 1 becomes 1 and that is of the WE.
 
-</BlockContainer>
+</Accordion>
 
 BIBWOE defines flesh as our test and opens the knowledge and connection to your broken spirit.
 
@@ -47,3 +47,5 @@ This period of off has patterned mankind to mainly fleshly considerations, as yo
 Not knowing that we are a part of Father as well as Father is within us of eternal glory within the Holy Spirit.
 
 Some descriptions of mankind will be of harsh truths, that will not set right with some and argument is their course, some will not know at all what to think and find themselves in limbo, my children of truth will know and the word will be their course along that narrow path of truth and doing what is right = Righteousness.
+
+<WavyHr />
