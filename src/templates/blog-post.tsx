@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 import * as React from 'react'
-import { createElement } from 'react'
 import { Link, graphql, HeadProps } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import rehypeReact from 'rehype-react'
@@ -27,20 +26,20 @@ import VideoTwo from '../components/CloudinaryVideo/videoTwo'
 import VideoThree from '../components/CloudinaryVideo/videoThree'
 import Section from '../components/Section'
 import Popper from '../components/Popper'
-import BlockContainer from '../components/BlockContainer'
+import { Accordion } from '../components/Accordion'
 
 require('prismjs')
 require('prismjs/themes/prism-okaidia.css')
 
 const renderAst = new rehypeReact({
-  createElement: createElement,
+  createElement: React.createElement,
   components: {
-    blockContainer: BlockContainer,
+    Accordion: Accordion,
     counter: Counter,
     tags: SiteTags,
     categories: SiteCategory,
     checked: Checked,
-    wavyHr: WavyHr,
+    WavyHr: WavyHr,
     callout: Callout,
     calloutDanger: CalloutDanger,
     calloutLabel: CalloutLabel,
@@ -466,6 +465,8 @@ export function Head(props: HeadProps<DataProps>) {
           },
         })}
       </script>
+      <link rel="sitemap" type="application/xml" title="Sitemap" href="https://bibwoe.com/sitemap.xml" />
+      <link rel="rss" type="application/rss+xml" title="Rss" href="https://bibwoe.com/rss.xml" />
     </>
   )
 }
