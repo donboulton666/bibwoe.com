@@ -11,6 +11,7 @@ export const Arrow = styled(Down)`
   top: 12vh;
   :hover {
     transform: scale(1.15);
+    transition: 0.3s;
     background: transparent;
   }
   right: calc(1.8vw - 1em / 1);

@@ -10,6 +10,7 @@ export const Arrow = styled(Up)`
   position: fixed;
   bottom: 14vh;
   :hover {
+    transform: scale(1.15);
     transition: 0.3s;
     background: transparent;
   }

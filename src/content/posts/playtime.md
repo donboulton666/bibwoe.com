@@ -8,7 +8,7 @@ category: Logic
 featuredImage: ../../../static/assets/playtime.jpg
 imageLink: https://bibwoe.com/static/assets/playtime.jpg
 tags: [Play, Entertainment, Devil Time]
-description: Playtime is over for all, Kiddos, time to start paying attention, pull your head out of your enter-tine-ment and say or do something worth while.
+description: Playtime is over for all, Kiddos, time to start paying attention, pull your head out of your enter-tain-ment and say or do something worth while.
 ---
 
 ## Playtime
