@@ -15,8 +15,9 @@ export function onRenderBody({ setHeadComponents, setPreBodyComponents, setHtmlA
   if (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test') return null
   setHtmlAttributes({ lang: 'en' })
   setHeadComponents([
-    <Partytown key="partytown" debug={true} forward={['gtag']} />,
-    <script key="google-analytics" type="text/partytown" src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`} />,
+    <Partytown key="partytown" debug={true} forward={['dataLayer.push']} />,
+    <script key="google-analytics" src="https://www.google-analytics.com/analytics.js" type="text/partytown" />
+    <script key="gtag" type="text/partytown" src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`} />,
     <script
       key="google-analytics-config"
       type="text/partytown" /* You can add other external scripts below, adding this type to all */

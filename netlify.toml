@@ -65,7 +65,6 @@
       https://stats.g.doubleclick.net/,
       https://www.google.com/recaptcha/api.js,
       https://static.small.chat/messenger.js,
-      https://www.google-analytics.com/analytics.js,
       https://www.gstatic.com/recaptcha/releases/kcXVPRWG7fMILHmzon0--fD3/recaptcha__en.js
     '''      
     Access-Control-Allow-Methods = '''
