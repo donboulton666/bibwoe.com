@@ -47,14 +47,14 @@ const Bio = () => {
         <p>
           Built by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <p>
+          <span>
             <a href={`https://twitter.com/${social?.twitter || ``}`}>
               You should follow him on Twitter{' '}
               <span className="icon -twitter">
                 <FaTwitter alt="twitter" rel="img" />
               </span>
             </a>
-          </p>
+          </span>
         </p>
       )}
     </div>

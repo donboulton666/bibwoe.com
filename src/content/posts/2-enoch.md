@@ -1148,4 +1148,3 @@ On to the earth and covered the people and Enoch, and Enoch was taken up on high
 10 Amen.
 
 [Back to top](#top)
-

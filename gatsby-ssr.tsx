@@ -5,7 +5,7 @@ import { Partytown } from '@builder.io/partytown/react'
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return
-  <AnimatePresence wait>{element}</AnimatePresence>
+  ;<AnimatePresence wait>{element}</AnimatePresence>
 }
 
 const ORIGIN = 'https://www.googletagmanager.com/'
@@ -16,7 +16,7 @@ export function onRenderBody({ setHeadComponents, setPreBodyComponents, setHtmlA
   setHtmlAttributes({ lang: 'en' })
   setHeadComponents([
     <Partytown key="partytown" debug={true} forward={['dataLayer.push']} />,
-    <script key="google-analytics" src="https://www.google-analytics.com/analytics.js" type="text/partytown" />
+    <script key="google-analytics" src="https://www.google-analytics.com/analytics.js" type="text/partytown" />,
     <script key="gtag" type="text/partytown" src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`} />,
     <script
       key="google-analytics-config"

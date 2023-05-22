@@ -594,4 +594,3 @@ The special points of interest that should be studied in seeking to realize the 
 Enoch Books key's, Books of Enoch 1 and 2 with Preface and symbols tags Book of Enoch, 2 Enoch.
 
 [Enoch Symbols](http://bibwoe.com/posts/enoch-symbols.md)
-

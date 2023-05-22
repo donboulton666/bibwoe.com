@@ -630,4 +630,3 @@ xxiv:1 Op. cit. p. 150.
 xxiv:2 for the points of difference between the Pharisees and Sadducees see the present writer's The Books of the Apocrypha, their Origin, Teaching, and Contents, chap. vii. (1914).
 
 xxvi:1 Op. cit., p. 218.
-

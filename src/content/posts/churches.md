@@ -48,4 +48,3 @@ One thing Pastor Whalen did not mention was Enoch's denial of self, "or I may ha
 > > I was happy and filled with joy for the first time in sometimes.
 >
 > > > Thank's to ALL Of You! Blessings. 🙏
-

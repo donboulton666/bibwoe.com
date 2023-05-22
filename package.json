@@ -38,7 +38,7 @@
     "gatsby-plugin-postcss": "^6.10.0",
     "gatsby-plugin-sass": "^6.10.0",
     "gatsby-plugin-sharp": "^5.10.0",
-    "gatsby-plugin-theme-ui": "^0.15.4",
+    "gatsby-plugin-theme-ui": "^0.15.7",
     "gatsby-remark-autolink-headers": "^6.10.0",
     "gatsby-remark-copy-linked-files": "^6.10.0",
     "gatsby-remark-embed-video-ext": "^3.2.7",
@@ -108,9 +108,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "engines": {
-    "node": ">=18.13.0"
+    "node": ">=18.16.0"
   },
   "AWS_LAMBDA_JS_RUNTIME": {
-    "node": ">=18.13.0"
+    "node": ">=18.16.0"
   }
 }

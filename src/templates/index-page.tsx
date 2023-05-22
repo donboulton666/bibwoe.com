@@ -128,47 +128,49 @@ const HomePage = ({ data }) => {
     )
   })
   return (
-    <Layout>
+    <>
       <Stars />
-      <div className="home-banner grids col-1 sm-2">
-        <div>
-          <h1>{frontmatter.titleAlt}</h1>
-          <p
-            className="tagline"
-            sx={{
-              color: 'muted',
-            }}
-          >
-            {frontmatter.tagline}
-          </p>
-          <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
-          <Link
-            to={frontmatter.cta.ctaLink}
-            className="button"
-            sx={{
-              variant: 'variants.button',
-            }}
-          >
-            {frontmatter.cta.ctaText}
-            <span className="icon -right">
-              <RiArrowRightSLine />
-            </span>
-          </Link>
-          <div
-            className="social-icons"
-            sx={{
-              variant: 'variants.socialIcons',
-            }}
-          >
-            {sIcons}
+      <Layout>
+        <div className="home-banner grids col-1 sm-2">
+          <div>
+            <h1>{frontmatter.titleAlt}</h1>
+            <p
+              className="tagline"
+              sx={{
+                color: 'muted',
+              }}
+            >
+              {frontmatter.tagline}
+            </p>
+            <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
+            <Link
+              to={frontmatter.cta.ctaLink}
+              className="button"
+              sx={{
+                variant: 'variants.button',
+              }}
+            >
+              {frontmatter.cta.ctaText}
+              <span className="icon -right">
+                <RiArrowRightSLine />
+              </span>
+            </Link>
+            <div
+              className="social-icons"
+              sx={{
+                variant: 'variants.socialIcons',
+              }}
+            >
+              {sIcons}
+            </div>
+          </div>
+          <div>
+            {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
           </div>
         </div>
-        <div>
-          {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
-        </div>
-      </div>
-      <BlogListHome data={posts} />
-    </Layout>
+        <BlogListHome data={posts} />
+      </Layout>
+    </>
   )
 }
 

@@ -1,10 +1,10 @@
-import { tailwind as baseStyles } from "@theme-ui/presets"
+import { tailwind as baseStyles } from '@theme-ui/presets'
 import defaultColors from '../util/default-colors.json'
 import darkColors from '../util/dark-theme-colors.json'
 import { lightness } from '@theme-ui/color'
 
 export default {
-    ...baseStyles,
+  ...baseStyles,
   styles: {
     ...baseStyles.styles,
   },

@@ -79,4 +79,3 @@ I have to find a song within my heart to sing to my children born since 2000, an
 > So my love's be true and within a short time, I will do a trinity of, "Sing Out's", to call you to be buy my side. I will remind you of our songs from Heaven; we will cleanse this Earth singing a new Bible to all of Mankind.
 
 > Change requires our song!
-

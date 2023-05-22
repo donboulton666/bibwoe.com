@@ -292,4 +292,3 @@ This was not meant to be. My Angels stopped me recycling humanity and directed m
 Sometimes If you have not noticed I like to not finish writing things, all things in there time.
 
 For the verse is in constant evolution!
-

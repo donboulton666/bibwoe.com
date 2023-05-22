@@ -100,4 +100,3 @@ This evolutionary process that changes you is also, to a lesser extent possible 
 > Ever noticed a elderly couple that were high school sweethearts, never with anyone else; "For even a Kiss"!
 
 After 60 years of marriage how much they look alike and act alike, thats not just pattering, but by Spiritual Bio Plasmic Energy Transfer. "To Become, 'One"!
-

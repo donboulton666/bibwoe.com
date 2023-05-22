@@ -233,4 +233,3 @@ For what have I to do with judging outsiders? Is it not those inside the church 
 ### Thirteen
 
 God judges those outside. “Purge the evil person's from among you.”
-
