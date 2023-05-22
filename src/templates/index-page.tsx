@@ -90,37 +90,37 @@ const HomePage = ({ data }) => {
     return (
       <div key={'social icons' + index}>
         {icons.icon === 'facebook' ? (
-          <Link to={icons.url} aria-labelledby="lFacebook" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="lFacebook" rel="noopener noreferrer" target="_blank">
             <RiFacebookBoxFill alt="Facebook" />
-          </Link>
+          </a>
         ) : (
           ''
         )}
         {icons.icon === 'twitter' ? (
-          <Link to={icons.url} aria-labelledby="Twitter" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="Twitter" rel="noopener noreferrer" target="_blank">
             <RiTwitterFill alt="Twitter" />
-          </Link>
+          </a>
         ) : (
           ''
         )}
         {icons.icon === 'youtube' ? (
-          <Link to={icons.url} aria-labelledby="YouTube" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="YouTube" rel="noopener noreferrer" target="_blank">
             <RiYoutubeFill alt="YouTube" />
-          </Link>
+          </a>
         ) : (
           ''
         )}
         {icons.icon === 'instagram' ? (
-          <Link to={icons.url} aria-labelledby="Instagram" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="Instagram" rel="noopener noreferrer" target="_blank">
             <RiInstagramFill alt="Instagram" />
-          </Link>
+          </a>
         ) : (
           ''
         )}
         {icons.icon === 'github' ? (
-          <Link to={icons.url} aria-labelledby="Github" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="Github" rel="noopener noreferrer" target="_blank">
             <RiGithubFill alt="Github" />
-          </Link>
+          </a>
         ) : (
           ''
         )}

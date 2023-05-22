@@ -11764,7 +11764,7 @@ react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825:
     loose-envify "^1.1.0"
     neo-async "^2.6.1"
 
-react-tsparticles@^2.8.0:
+react-tsparticles@^2.9.3:
   version "2.9.3"
   resolved "https://registry.yarnpkg.com/react-tsparticles/-/react-tsparticles-2.9.3.tgz#bfbac7fe2e13e010131624c52e1a25b3a3e50cbb"
   integrity sha512-QSo5Y0iXcXzOKbOira+kn5Z9Yv0ugk4swcn44HkdublSS8XAmV2QiQSd9T2mdM1tGZ8xVSuqsfdgGWfRC1KKng==
@@ -13529,7 +13529,7 @@ tsparticles-move-base@^2.9.3:
   dependencies:
     tsparticles-engine "^2.9.3"
 
-tsparticles-preset-stars@^2.8.0:
+tsparticles-preset-stars@^2.9.3:
   version "2.9.3"
   resolved "https://registry.yarnpkg.com/tsparticles-preset-stars/-/tsparticles-preset-stars-2.9.3.tgz#c2970a9d680390ed7aee64d733283271cfb43de5"
   integrity sha512-FtW1FLByFXqT8fcm8Jg/H39K7DzBptfz+pT4yHpqJLIkxaawFn8OHP84lY7t9DQOzKEngUXlkh3PXvkqkL/PBQ==
