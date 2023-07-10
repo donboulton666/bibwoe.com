@@ -16,10 +16,10 @@ const Footer = () => (
     <div>
       <p>
         © {new Date().getFullYear()} Bibwoe.com{' '}
-        <span className="icon -love">
+        <span className="icon-love">
           <RiHeart2Line />
         </span>{' '}
-        <Link to="/" area-label="Facebook">
+        <Link to="/" area-label="Home">
           Basic Instructions Books While On Earth
         </Link>{' '}
         <span className="icon -lock">

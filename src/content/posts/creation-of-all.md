@@ -255,6 +255,10 @@ Plus it would change everything and you would cease to exist as well as the vers
 
 You were created to do things for yourselves and to help others. We cannot live your lives for you! What would be your purpose? But we can open, "You to YOU", if your heart is true!
 
+> Matthew 5:8 says, “Blessed are the pure in heart for they will see God.”
+>
+>> And then Know My Truths my Loves!
+
 ## A Little History
 
 Know the Book of Job or of Rasputin they have noting on me, I have been broken, cut, bruised, burnt, bit, shot, stabbed, rashes, something painful, if not agony, every day within my conscience memory. Taunted and Tested constantly!
