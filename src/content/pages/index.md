@@ -11,4 +11,4 @@ cta:
   ctaLink: /posts/creation-of-all
 ---
 
-The Last Testament of the Holy Bible.
+The Last Testament of Father God to Mankind.
