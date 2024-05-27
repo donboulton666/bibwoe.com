@@ -74,3 +74,6 @@ yarn-error.log
 
 # Partytown
 static/~partytown
+
+# Local Netlify folder
+.netlify
