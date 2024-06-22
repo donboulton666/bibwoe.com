@@ -43,7 +43,6 @@
       picture-in-picture=*,
       usb=(self)
     '''
-    Content-Security-Policy = "default-src 'self'; connect-src 'self' https://www.google-analytics.com; script-src 'self' 'unsafe-inline' https://apis.google.com https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.gstatic.com/recaptcha/releases/kcXVPRWG7fMILHmzon0--fD3/recaptcha__en.js; img-src 'self' https://res.cloudinary.com; style-src 'self' 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; object-src 'self'; frame-src 'self';"
 [[headers]]
   for = "/static/assets/*"
   [headers.values]
