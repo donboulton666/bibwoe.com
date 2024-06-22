@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
@@ -113,8 +113,8 @@ class BlogIndex extends React.Component {
     const nextPage = blogSlug + (currentPage + 1).toString()
 
     const posts = data.allMarkdownRemark.edges
-      .filter(edge => !!edge.node.frontmatter.date)
-      .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
+      .filter((edge: { node: { frontmatter: { date: any } } }) => !!edge.node.frontmatter.date)
+      .map((edge: { node: { id: React.Key | null | undefined } }) => <PostCard key={edge.node.id} data={edge.node} />)
     let props = {
       isFirst,
       prevPage,

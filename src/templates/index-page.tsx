@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
@@ -86,39 +86,39 @@ const HomePage = ({ data }) => {
   const { frontmatter, html } = markdownRemark
   const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
-  const sIcons = Icons.socialIcons.map((icons, index) => {
+  const sIcons = Icons.socialIcons.map((icons: { icon: string; url: string | undefined }, index: string) => {
     return (
       <div key={'social icons' + index}>
         {icons.icon === 'facebook' ? (
-          <a href={icons.url} aria-labelledby="lFacebook" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="Facebook" aria-label="Facebook" rel="noopener noreferrer" target="_blank">
             <RiFacebookBoxFill alt="Facebook" />
           </a>
         ) : (
           ''
         )}
         {icons.icon === 'twitter' ? (
-          <a href={icons.url} aria-labelledby="Twitter" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="Twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank">
             <RiTwitterFill alt="Twitter" />
           </a>
         ) : (
           ''
         )}
         {icons.icon === 'youtube' ? (
-          <a href={icons.url} aria-labelledby="YouTube" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="YouTube" aria-label="YouTube" rel="noopener noreferrer" target="_blank">
             <RiYoutubeFill alt="YouTube" />
           </a>
         ) : (
           ''
         )}
         {icons.icon === 'instagram' ? (
-          <a href={icons.url} aria-labelledby="Instagram" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="Instagram" aria-label="Instagram" rel="noopener noreferrer" target="_blank">
             <RiInstagramFill alt="Instagram" />
           </a>
         ) : (
           ''
         )}
         {icons.icon === 'github' ? (
-          <a href={icons.url} aria-labelledby="Github" rel="noopener noreferrer" target="_blank">
+          <a href={icons.url} aria-labelledby="Github" ria-label="Github" rel="noopener noreferrer" target="_blank">
             <RiGithubFill alt="Github" />
           </a>
         ) : (
