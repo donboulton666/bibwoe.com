@@ -67,6 +67,7 @@
       https://www.google.com/recaptcha/api.js,
       https://static.small.chat/messenger.js,
       https://www.gstatic.com/recaptcha/releases/kcXVPRWG7fMILHmzon0--fD3/recaptcha__en.js
+
     '''      
     Access-Control-Allow-Methods = '''
       POST, 
@@ -100,9 +101,3 @@
     cache-control = '''
 	  public,
 	  max-age=31536000'''
-[[redirects]]
-  from = "/*"
-  to = "https://www.google-analytics.com/analytics.js"
-  status = 200
-  force = true
-  headers = {Access-Control-Allow-Origin = "*"}
