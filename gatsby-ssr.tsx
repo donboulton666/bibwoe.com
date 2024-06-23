@@ -16,8 +16,8 @@ export function onRenderBody({ setHeadComponents, setPreBodyComponents, setHtmlA
   setHtmlAttributes({ lang: 'en' })
   setHeadComponents([
     <Partytown key="partytown" debug={true} forward={['dataLayer.push']} />,
-    <script key="google-analytics" src="https://bibwoe.com/analytics.js" type="text/partytown" />,
-    <script key="gtag" type="text/partytown" src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`} />,
+    <script key="google-analytics" src="https://bibwoe.com/analytics.js" Access-Control-Allow-Origin="https://www.google-analytics.com/analytics.js" type="text/partytown" />,
+    <script key="gtag" type="text/partytown" Access-Control-Allow-Origin="https://www.googletagmanager.com/" src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`} />,
     <script
       key="google-analytics-config"
       type="text/partytown" /* You can add other external scripts below, adding this type to all */
