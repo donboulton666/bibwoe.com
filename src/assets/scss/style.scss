@@ -496,21 +496,21 @@ article a {
 }
 
 .search-beams {
-  background-image: url(../../static/beams/7-dark@tinypng.png);
+  background-image: url(../../../static/beams/7-dark@tinypng.png);
   background-size: 86.125rem;
   background-repeat: no-repeat;
   z-index: 30;
 }
 
 .left-beams {
-  background-image: url(../../static/beams/2-dark@tiny.png);
+  background-image: url(../../../static/beams/2-dark@tiny.png);
   background-size: 86.125rem;
   background-repeat: no-repeat;
   z-index: 30;
 }
 
 .form-beams {
-  background-image: url(../../static/beams/docs-dark@tiny.png);
+  background-image: url(../../../static/beams/docs-dark@tiny.png);
   background-size: 86.125rem;
   background-repeat: no-repeat;
   background: cover;
@@ -518,14 +518,12 @@ article a {
 }
 
 .blog-beams {
-  background-image: url(../../static/beams/7-dark@tinypng.png);
+  background-image: url(../../../static/beams/7-dark@tinypng.png);
   background-size: 86.125rem;
   background-repeat: no-repeat;
   background: cover;
   z-index: 30;
 }
-
-
 
 @import "utility";
 
