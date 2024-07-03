@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx, Box } from 'theme-ui'
 import PropTypes from 'prop-types'
 import kebabCase from 'lodash/kebabCase'
@@ -18,7 +18,7 @@ const CategoriesPage = ({
   },
 }) => (
   <Layout className="not-found-page">
-    <div className="left-beams">
+    <div className="blog-beams">
       <Seo title="Categories Page" />
       <Script>
         title={title}

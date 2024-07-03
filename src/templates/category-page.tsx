@@ -1,5 +1,4 @@
-/** @jsx jsx */
-/* eslint-disable no-unused-vars */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import * as React from 'react'
 /* eslint-enable no-unused-vars */
 import { jsx, Container, Heading } from 'theme-ui'
@@ -21,7 +20,7 @@ const Category = ({ pageContext, data }) => {
 
   return (
     <Layout className="not-found-page">
-      <div className="left-beams">
+      <div className="blog-beams">
         <div className="wrapper">
           <Stars />
           <Container

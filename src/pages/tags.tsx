@@ -21,7 +21,7 @@ const TagsPage = ({
   },
 }) => (
   <Layout className="not-found-page">
-    <div className="left-beams">
+    <div className="blog-beams">
       <Seo title="Tags Page" />
       <Script>
         title={title}

@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 
 const NotFound = () => (
   <Layout className="not-found-page">
-    <div className="left-beams">
+    <div className="blog-beams">
       <Seo title="Page not found" />
       <div
         className="wrapper"

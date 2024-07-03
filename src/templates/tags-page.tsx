@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
 /* eslint-enable no-unused-vars */
@@ -22,7 +22,7 @@ const Tags = ({ pageContext, data }) => {
   return (
     <Layout className="not-found-page">
       <Stars />
-      <div className="left-beams">
+      <div className="blog-beams">
         <div className="wrapper">
           <div>
             <Container

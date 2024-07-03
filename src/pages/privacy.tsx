@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx, Box } from 'theme-ui'
 import { Link } from 'gatsby'
 import { RiArrowRightSLine, RiArrowLeftSLine, RiCheckboxCircleLine } from 'react-icons/ri'
@@ -7,7 +7,7 @@ import Stars from '../components/Stars'
 
 const Privacy = () => (
   <Layout className="not-found-page">
-    <div className="left-beams">
+    <div className="blog-beams">
       <div className="wrapper">
         <Stars />
         <Box

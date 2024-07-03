@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
 import * as React from 'react'
 import { Link, graphql, HeadProps } from 'gatsby'
@@ -154,7 +154,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   return (
     <Layout className="page">
       <Stars />
-      <div className="left-beams">
+      <div className="blog-beams">
         <article className="blog-post">
           <header className="featured-banner">
             <section className="article-header">

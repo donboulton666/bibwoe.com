@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
@@ -51,131 +51,133 @@ const Contact = ({ data }) => {
 
   return (
     <Layout className="contact-page" sx={contactStyles.contactPage}>
-      <div className="wrapper">
-        <Stars />
-        <header className="featured-banner">
-          <section className="article-header">
-            <h1>{frontmatter.title}</h1>
-          </section>
-          {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
-        </header>
-        <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
-        <section>
-          <NetlifyForm
-            method="POST"
-            name="contact"
-            className="contact-form"
-            action="/thanks"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            enableRecaptcha
-            onSuccess={(response, context) => {
-              console.log('Successfully sent form data to Netlify Server')
-              context.formRef.current.reset()
-            }}
-          >
-            {({ handleChange, success, error }) => (
-              <>
-                <Honeypot />
-                <Recaptcha siteKey={SITE_RECAPTCHA_KEY} theme="dark" invisible />
-                <p
-                  style={{
-                    display: 'hidden',
-                  }}
-                ></p>
-                <div>
+      <div className="blog-beams">
+        <div className="wrapper">
+          <Stars />
+          <header className="featured-banner">
+            <section className="article-header">
+              <h1>{frontmatter.title}</h1>
+            </section>
+            {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
+          </header>
+          <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
+          <section>
+            <NetlifyForm
+              method="POST"
+              name="contact"
+              className="contact-form"
+              action="/thanks"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              enableRecaptcha
+              onSuccess={(response, context) => {
+                console.log('Successfully sent form data to Netlify Server')
+                context.formRef.current.reset()
+              }}
+            >
+              {({ handleChange, success, error }) => (
+                <>
+                  <Honeypot />
+                  <Recaptcha siteKey={SITE_RECAPTCHA_KEY} theme="dark" invisible />
+                  <p
+                    style={{
+                      display: 'hidden',
+                    }}
+                  ></p>
                   <div>
                     <div>
                       <div>
-                        <label htmlFor="name">Name</label>
-                        <p>
-                          <Input
-                            type="text"
-                            name="name"
-                            id="name"
-                            autoComplete="off"
-                            required
-                            placeholder="Enter your Name here."
-                            onChange={handleChange}
-                          />
-                        </p>
-                      </div>
+                        <div>
+                          <label htmlFor="name">Name</label>
+                          <p>
+                            <Input
+                              type="text"
+                              name="name"
+                              id="name"
+                              autoComplete="off"
+                              required
+                              placeholder="Enter your Name here."
+                              onChange={handleChange}
+                            />
+                          </p>
+                        </div>
 
-                      <div>
-                        <label htmlFor="email">Email address</label>
-                        <p>
-                          <Input
-                            type="email"
-                            name="email"
-                            id="email"
-                            autoComplete="off"
-                            required
-                            placeholder="Enter your Email here."
-                            onChange={handleChange}
-                          />
-                        </p>
-                      </div>
+                        <div>
+                          <label htmlFor="email">Email address</label>
+                          <p>
+                            <Input
+                              type="email"
+                              name="email"
+                              id="email"
+                              autoComplete="off"
+                              required
+                              placeholder="Enter your Email here."
+                              onChange={handleChange}
+                            />
+                          </p>
+                        </div>
 
-                      <div>
-                        <label htmlFor="phone">Phone</label>
-                        <p>
-                          <Input
-                            type="tel"
-                            name="phone"
-                            id="phone"
-                            autoComplete="off"
-                            required
-                            placeholder="Enter Phone Number here."
-                            onChange={handleChange}
-                          />
-                        </p>
-                      </div>
+                        <div>
+                          <label htmlFor="phone">Phone</label>
+                          <p>
+                            <Input
+                              type="tel"
+                              name="phone"
+                              id="phone"
+                              autoComplete="off"
+                              required
+                              placeholder="Enter Phone Number here."
+                              onChange={handleChange}
+                            />
+                          </p>
+                        </div>
 
-                      <div>
-                        <label htmlFor="subject">Subject</label>
-                        <p>
-                          <Input
-                            type="text"
-                            name="subject"
-                            id="subject"
-                            autoComplete="on"
-                            required
-                            placeholder="Enter your Subject here."
-                            onChange={handleChange}
-                          />
-                        </p>
-                      </div>
+                        <div>
+                          <label htmlFor="subject">Subject</label>
+                          <p>
+                            <Input
+                              type="text"
+                              name="subject"
+                              id="subject"
+                              autoComplete="on"
+                              required
+                              placeholder="Enter your Subject here."
+                              onChange={handleChange}
+                            />
+                          </p>
+                        </div>
 
-                      <div>
-                        <label htmlFor="text">Message</label>
-                        <p>
-                          <Textarea
-                            rows={5}
-                            name="text"
-                            required
-                            placeholder="Enter your message here."
-                            onChange={handleChange}
-                          />
-                        </p>
+                        <div>
+                          <label htmlFor="text">Message</label>
+                          <p>
+                            <Textarea
+                              rows={5}
+                              name="text"
+                              required
+                              placeholder="Enter your message here."
+                              onChange={handleChange}
+                            />
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div>
-                    {success && <p className="text-rose-500">Thanks for Subscribing!</p>}
-                    {error && <p className="text-rose-500">Sorry, we could not reach our servers.</p>}
-                    <Button type="submit" className="button g-recaptcha">
-                      Send Message{' '}
-                      <span className="icon -right">
-                        <RiSendPlane2Line />
-                      </span>
-                    </Button>
+                    <div>
+                      {success && <p className="text-rose-500">Thanks for Subscribing!</p>}
+                      {error && <p className="text-rose-500">Sorry, we could not reach our servers.</p>}
+                      <Button type="submit" className="button g-recaptcha">
+                        Send Message{' '}
+                        <span className="icon -right">
+                          <RiSendPlane2Line />
+                        </span>
+                      </Button>
+                    </div>
                   </div>
-                </div>
-              </>
-            )}
-          </NetlifyForm>
-        </section>
+                </>
+              )}
+            </NetlifyForm>
+          </section>
+        </div>
       </div>
     </Layout>
   )

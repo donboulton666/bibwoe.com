@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 
 const Thanks = () => (
   <Layout className="thanks-page">
-    <div className="left-beams">
+    <div className="blog-beams">
       <Seo title="Thank you" />
       <div
         className="wrapper"

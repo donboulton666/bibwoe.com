@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
@@ -43,7 +43,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout className="page">
-      <div className="wrapper left-beams">
+      <div className="wrapper blog-beams">
         <article className="blog-post">
           <Stars />
           <header className="featured-banner">
@@ -72,7 +72,7 @@ export function Head(props: HeadProps) {
     <>
       <Seo
         type="page"
-        title="Bibwoe About"
+        title="About"
         description="Basic Instructions Books While On Earth About Page."
         image={ogimage}
         pathname="/"
