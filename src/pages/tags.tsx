@@ -21,42 +21,44 @@ const TagsPage = ({
   },
 }) => (
   <Layout className="not-found-page">
-    <Seo title="Tags Page" />
-    <Script>
-      title={title}
-      <meta property="og:url" content={url} />
-      <meta property="og:title" content="Tags" />
-      <meta property="og:description" content="Tags Page" />
-      <meta property="twitter:title" content="Tags" />
-      <meta property="twitter:description" content="Tags Page" />
-    </Script>
-    <div className="wrapper">
-      <Stars />
-      <h1>Tags</h1>
-      <Box
-        p={4}
-        bg="primary"
-        sx={{
-          borderRadius: '12px',
-        }}
-      >
-        <ul className="taglist field is-grouped is-grouped-multiline">
-          {group.map(tag => (
-            <li key={tag.fieldValue} className="control">
-              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                <div className="tags has-addons is-large">
-                  <span aria-label="Tag" className="tag is-primary">
-                    {tag.fieldValue}
-                  </span>
-                  <span aria-label="Tag Count" className="tag is-dark ">
-                    {tag.totalCount}
-                  </span>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Box>
+    <div className="left-beams">
+      <Seo title="Tags Page" />
+      <Script>
+        title={title}
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content="Tags" />
+        <meta property="og:description" content="Tags Page" />
+        <meta property="twitter:title" content="Tags" />
+        <meta property="twitter:description" content="Tags Page" />
+      </Script>
+      <div className="wrapper">
+        <Stars />
+        <h1>Tags</h1>
+        <Box
+          p={4}
+          bg="primary"
+          sx={{
+            borderRadius: '12px',
+          }}
+        >
+          <ul className="taglist field is-grouped is-grouped-multiline">
+            {group.map(tag => (
+              <li key={tag.fieldValue} className="control">
+                <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                  <div className="tags has-addons is-large">
+                    <span aria-label="Tag" className="tag is-primary">
+                      {tag.fieldValue}
+                    </span>
+                    <span aria-label="Tag Count" className="tag is-dark ">
+                      {tag.totalCount}
+                    </span>
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Box>
+      </div>
     </div>
   </Layout>
 )

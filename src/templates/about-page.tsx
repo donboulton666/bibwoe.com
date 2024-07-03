@@ -43,7 +43,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout className="page">
-      <div className="wrapper">
+      <div className="wrapper left-beams">
         <article className="blog-post">
           <Stars />
           <header className="featured-banner">

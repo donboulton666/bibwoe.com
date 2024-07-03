@@ -32,12 +32,12 @@ with the plugin you could try manually including the `MDXEmbedProvider` in your 
 
 ```javascript
 // gatsby-browser.js || gatsby-ssr.js
-import React from 'react';
-import { MDXEmbedProvider } from 'mdx-embed';
+import React from 'react'
+import { MDXEmbedProvider } from 'mdx-embed'
 
 export const wrapRootElement = ({ element }) => {
-  return <MDXEmbedProvider>{element}</MDXEmbedProvider>;
-};
+    return <MDXEmbedProvider>{element}</MDXEmbedProvider>
+}
 ```
 
 ### Migration

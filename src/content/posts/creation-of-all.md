@@ -257,7 +257,7 @@ You were created to do things for yourselves and to help others. We cannot live 
 
 > Matthew 5:8 says, “Blessed are the pure in heart for they will see God.”
 >
->> And then Know My Truths my Loves!
+> > And then Know My Truths my Loves!
 
 ## A Little History
 

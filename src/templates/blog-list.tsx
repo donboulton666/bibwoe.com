@@ -126,7 +126,7 @@ class BlogIndex extends React.Component {
     }
 
     return (
-      <Layout className="blog-page">
+      <Layout className="blog-page blog-beams">
         <Stars />
         <h1>Last Testament Posts</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>

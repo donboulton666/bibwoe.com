@@ -90,7 +90,13 @@ const HomePage = ({ data }) => {
     return (
       <div key={'social icons' + index}>
         {icons.icon === 'facebook' ? (
-          <a href={icons.url} aria-labelledby="Facebook" aria-label="Facebook" rel="noopener noreferrer" target="_blank">
+          <a
+            href={icons.url}
+            aria-labelledby="Facebook"
+            aria-label="Facebook"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <RiFacebookBoxFill alt="Facebook" />
           </a>
         ) : (
@@ -111,7 +117,13 @@ const HomePage = ({ data }) => {
           ''
         )}
         {icons.icon === 'instagram' ? (
-          <a href={icons.url} aria-labelledby="Instagram" aria-label="Instagram" rel="noopener noreferrer" target="_blank">
+          <a
+            href={icons.url}
+            aria-labelledby="Instagram"
+            aria-label="Instagram"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <RiInstagramFill alt="Instagram" />
           </a>
         ) : (
@@ -131,44 +143,50 @@ const HomePage = ({ data }) => {
     <>
       <Stars />
       <Layout>
-        <div className="home-banner grids col-1 sm-2">
-          <div>
-            <h1>{frontmatter.titleAlt}</h1>
-            <p
-              className="tagline"
-              sx={{
-                color: 'muted',
-              }}
-            >
-              {frontmatter.tagline}
-            </p>
-            <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
-            <Link
-              to={frontmatter.cta.ctaLink}
-              className="button"
-              sx={{
-                variant: 'variants.button',
-              }}
-            >
-              {frontmatter.cta.ctaText}
-              <span className="icon -right">
-                <RiArrowRightSLine />
-              </span>
-            </Link>
-            <div
-              className="social-icons"
-              sx={{
-                variant: 'variants.socialIcons',
-              }}
-            >
-              {sIcons}
+        <div className="left-beams">
+          <div className="home-banner grids col-1 sm-2">
+            <div>
+              <h1>{frontmatter.titleAlt}</h1>
+              <p
+                className="tagline"
+                sx={{
+                  color: 'muted',
+                }}
+              >
+                {frontmatter.tagline}
+              </p>
+              <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
+              <Link
+                to={frontmatter.cta.ctaLink}
+                className="button"
+                sx={{
+                  variant: 'variants.button',
+                }}
+              >
+                {frontmatter.cta.ctaText}
+                <span className="icon -right">
+                  <RiArrowRightSLine />
+                </span>
+              </Link>
+              <div
+                className="social-icons"
+                sx={{
+                  variant: 'variants.socialIcons',
+                }}
+              >
+                {sIcons}
+              </div>
+            </div>
+            <div>
+              {Image ? (
+                <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" />
+              ) : (
+                ''
+              )}
             </div>
           </div>
-          <div>
-            {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
-          </div>
+          <BlogListHome data={posts} />
         </div>
-        <BlogListHome data={posts} />
       </Layout>
     </>
   )
