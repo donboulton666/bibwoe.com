@@ -1,7 +1,8 @@
 /** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
 import * as React from 'react'
-import { Link, graphql, HeadProps } from 'gatsby'
+import type { HeadProps } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import rehypeReact from 'rehype-react'
 import { RiTimerLine, RiArrowLeftLine, RiArrowRightLine } from 'react-icons/ri'

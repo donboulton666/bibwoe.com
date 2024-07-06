@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
 /* eslint-enable no-unused-vars */
-import { graphql, Link, Script } from 'gatsby'
+import { graphql } from 'gatsby'
 import type { HeadProps } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import {

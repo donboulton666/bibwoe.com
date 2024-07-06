@@ -2,8 +2,9 @@
 import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
+import type { HeadProps } from 'gatsby'
 /* eslint-enable no-unused-vars */
-import { Link, graphql, HeadProps } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import { RiArrowLeftLine, RiArrowRightLine } from 'react-icons/ri'
 import Layout from '../components/Layout'
 import PostCard from '../components/PostCard'
