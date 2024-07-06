@@ -178,7 +178,7 @@ export function Head(props: HeadProps) {
           '@context': 'https://schema.org',
           '@type': 'BlogPosting',
           headline: 'Bibwoe Blog List Page',
-          alternativeHeadline: 'At Bibwoe we publish logic and Gods truth',
+          alternativeHeadline: 'Basic Instructions Books while On Earth',
           image: ogimage,
           award: 'Best Home page ever built',
           editor: 'Donald Boulton',

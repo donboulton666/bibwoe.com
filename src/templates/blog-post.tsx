@@ -425,8 +425,7 @@ export function Head(props: HeadProps<DataProps>) {
             email: 'donaldboulton@gmail.com',
             telephone: '+405-863-2165',
           },
-          description:
-            'bibwoe has Topics on Creation, Law, USA and World Governments, Life Matters. Our Main focus is the Re-Creation of Mankind to the Spiritual Beings you have forgotten about, as you only live in the Flesh. Your Soul and Spirit you deny.',
+          description: 'Basic Instructions Books while On Earth.',
           email: 'donaldboulton@gmail.com',
           founder: {
             '@id': 'https://donboulton.com',

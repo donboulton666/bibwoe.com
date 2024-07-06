@@ -18,7 +18,7 @@ export function onRenderBody({ setHeadComponents, setPreBodyComponents, setHtmlA
     <Partytown key="partytown" debug={true} forward={['dataLayer.push']} />,
     <script
       key="google-analytics"
-      src="https://bibwoe.com/analytics.js"
+      src="https://www.google-analytics.com/analytics.js"
       Access-Control-Allow-Origin="https://www.google-analytics.com/analytics.js"
       type="text/partytown"
     />,
