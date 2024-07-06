@@ -7,7 +7,15 @@ import { RiArrowLeftSLine, RiBugLine, RiSkullLine } from 'react-icons/ri'
 import Seo from '../components/Seo'
 import Stars from '../components/Stars'
 import Layout from '../components/Layout'
-import OGImage from '../../static/assets/404.jpg'
+import OGImage from '../../static/assets/blood.jpg'
+
+const url = typeof window !== 'undefined' ? window.location.href : ''
+const ogimage = {
+  src: OGImage,
+  width: 1400,
+  height: 531,
+}
+
 
 const NotFound = () => (
   <Layout className="not-found-page">
