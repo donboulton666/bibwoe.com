@@ -18,7 +18,11 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    Accept-Encoding = "gzip, deflate, br"
+    Accept-Encoding = '''
+    gzip,
+    deflate,
+    br
+    '''
     Access-Control-Allow-Origin = '''
       https://bibwoe.com,
       https://graphql.fauna.com,
@@ -97,9 +101,14 @@
       usb=(self)
     '''
 [[headers]]
-  for = "/static/assets/*"
+  for = "/static/*"
   [headers.values]
     cache-control = '''
 	  public,
-	  max-age=31536000'''
-    Accept-Encoding = "gzip, deflate, br"
+	  max-age=31536000
+    '''
+    Accept-Encoding = '''
+    gzip, 
+    deflate, 
+    br
+    '''
