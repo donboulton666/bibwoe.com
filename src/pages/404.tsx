@@ -1,5 +1,5 @@
 /** @jsx jsx */ /** @jsxFrag React.Fragment */
-import { jsx} from 'theme-ui'
+import { jsx } from 'theme-ui'
 import { Link } from 'gatsby'
 import * as React from 'react'
 import type { HeadProps } from 'gatsby'

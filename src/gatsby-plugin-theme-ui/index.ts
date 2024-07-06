@@ -1,6 +1,6 @@
 import { tailwind as baseStyles } from '@theme-ui/presets'
-import defaultColors from '../util/default-colors.json' assert { type: 'json' }
-import darkColors from '../util/dark-theme-colors.json' assert { type: 'json' }
+import defaultColors from '../util/default-colors.json'
+import darkColors from '../util/dark-theme-colors.json'
 import { lightness } from '@theme-ui/color'
 
 export default {

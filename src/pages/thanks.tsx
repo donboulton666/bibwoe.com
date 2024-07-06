@@ -5,7 +5,7 @@ import { RiArrowLeftSLine, RiCheckboxCircleLine } from 'react-icons/ri'
 import Seo from '../components/Seo'
 import Stars from '../components/Stars'
 import Layout from '../components/Layout'
-import OGImage from '../../static/assets/thanks.jpg'
+import OGImage from '../../static/assets/song.jpg'
 
 const url = typeof window !== 'undefined' ? window.location.href : ''
 const ogimage = {

@@ -3,10 +3,11 @@ import { jsx, Box } from 'theme-ui'
 import * as React from 'react'
 import type { HeadProps } from 'gatsby'
 import { Link } from 'gatsby'
+import Seo from '@/components/Seo'
 import { RiArrowRightSLine, RiArrowLeftSLine, RiCheckboxCircleLine } from 'react-icons/ri'
 import Layout from '../components/Layout'
 import Stars from '../components/Stars'
-import OGImage from '../../static/assets/privacy.jpg'
+import OGImage from '../../static/assets/song.jpg'
 
 const url = typeof window !== 'undefined' ? window.location.href : ''
 const ogimage = {
@@ -372,7 +373,7 @@ export default Privacy
 export function Head(props: HeadProps) {
   return (
     <>
-      <Seo type="page" title="privacy" description="Thank You for your submission" image={ogimage} pathname="/privacy">
+      <Seo type="page" title="privacy" description="Privacy" image={ogimage} pathname="/privacy">
         <title>privacy</title>
         <meta property="og:url" content={url} />
         <meta property="og:title" content="privacy" />

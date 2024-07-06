@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx, Box } from 'theme-ui'
 import * as React from 'react'

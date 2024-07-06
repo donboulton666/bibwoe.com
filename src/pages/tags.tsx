@@ -11,7 +11,7 @@ import { Link, graphql } from 'gatsby'
 import Seo from '../components/Seo'
 import Stars from '../components/Stars'
 import Layout from '../components/Layout'
-import OGImage from '../../static/assets/tags.jpg'
+import OGImage from '../../static/assets/song.jpg'
 
 const url = typeof window !== 'undefined' ? window.location.href : ''
 const ogimage = {

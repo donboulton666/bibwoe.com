@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
 /* eslint-enable no-unused-vars */
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import type { HeadProps } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import {
@@ -142,7 +142,7 @@ const HomePage = ({ data }) => {
   return (
     <>
       <Stars />
-      <Layout>
+      <Layout className="index-page">
         <div className="left-beams">
           <div className="home-banner grids col-1 sm-2">
             <div>
