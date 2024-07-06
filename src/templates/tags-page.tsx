@@ -21,43 +21,45 @@ const Tags = ({ pageContext, data }) => {
   const tagHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} tagged with "${tag}"`
 
   return (
-    <Layout className="not-found-page">
+    <>
       <Stars />
-      <div className="blog-beams">
-        <div className="wrapper">
-          <div>
-            <Container
-              p={4}
-              bg="primary"
-              sx={{
-                borderRadius: '12px',
-              }}
-            >
-              <Heading as="h2">{tagHeader}</Heading>
-              <div>
-                <ul className="tagsPage">
-                  {edges.map(({ node }) => {
-                    const { slug } = node.fields
-                    const { title } = node.frontmatter
-                    return (
-                      <li key={slug}>
-                        <Link to={slug}>{title}</Link>
-                      </li>
-                    )
-                  })}
-                </ul>
-              </div>
-              <div>
-                <span className="icon -tags">
-                  <FaTags />
-                </span>{' '}
-                <Link to="/tags">All Tags</Link>
-              </div>
-            </Container>
+      <Layout className="not-found-page">
+        <div className="blog-beams">
+          <div className="wrapper">
+            <div>
+              <Container
+                p={4}
+                bg="primary"
+                sx={{
+                  borderRadius: '12px',
+                }}
+              >
+                <Heading as="h2">{tagHeader}</Heading>
+                <div>
+                  <ul className="tagsPage">
+                    {edges.map(({ node }) => {
+                      const { slug } = node.fields
+                      const { title } = node.frontmatter
+                      return (
+                        <li key={slug}>
+                          <Link to={slug}>{title}</Link>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
+                <div>
+                  <span className="icon -tags">
+                    <FaTags />
+                  </span>{' '}
+                  <Link to="/tags">All Tags</Link>
+                </div>
+              </Container>
+            </div>
           </div>
         </div>
-      </div>
-    </Layout>
+      </Layout>
+    </>
   )
 }
 

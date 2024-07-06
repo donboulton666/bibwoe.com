@@ -153,66 +153,72 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   }
 
   return (
-    <Layout className="page">
+    <>
       <Stars />
-      <div className="blog-beams">
-        <article className="blog-post">
-          <header className="featured-banner">
-            <section className="article-header">
-              <h1>{frontmatter.title}</h1>
-              <div>
-                <span className="icon -calendar">
-                  <BsFillCalendarFill size="0.7em" />
-                </span>
-                &ensp;
-                <time sx={{ color: 'muted' }}>{frontmatter.date}</time>
-                &ensp;
-                <span
-                  sx={{
-                    color: 'muted',
-                  }}
-                >
-                  <span className="icon -timer">
-                    <RiTimerLine size="0.8em" />
-                  </span>{' '}
-                  <small sx={{ color: 'muted' }}>{postNode.timeToRead} min read</small>
-                </span>
-              </div>
-              {tags.length > 0 && (
-                <div
-                  sx={{
-                    color: 'muted',
-                  }}
-                >
-                  <span className="icon -tags">
-                    <FaTags size="0.8em" />
-                  </span>{' '}
-                  <span>
-                    <Link aria-label="Tags" to="/tags/">
-                      <small>{taglist}</small>
-                    </Link>
+      <Layout className="page">
+        <div className="left-beams">
+          <article className="blog-post">
+            <header className="featured-banner">
+              <section className="article-header">
+                <h1>{frontmatter.title}</h1>
+                <div>
+                  <span className="icon -calendar">
+                    <BsFillCalendarFill size="0.7em" />
                   </span>
                   &ensp;
-                  <span className="icon -category">
-                    <MdList size="1.1em" />
-                  </span>{' '}
-                  <span>
-                    <Link aria-label="Categories" to="/categories/">
-                      <small>Categories: {frontmatter.category}</small>
-                    </Link>
+                  <time sx={{ color: 'muted' }}>{frontmatter.date}</time>
+                  &ensp;
+                  <span
+                    sx={{
+                      color: 'muted',
+                    }}
+                  >
+                    <span className="icon -timer">
+                      <RiTimerLine size="0.8em" />
+                    </span>{' '}
+                    <small sx={{ color: 'muted' }}>{postNode.timeToRead} min read</small>
                   </span>
                 </div>
+                {tags.length > 0 && (
+                  <div
+                    sx={{
+                      color: 'muted',
+                    }}
+                  >
+                    <span className="icon -tags">
+                      <FaTags size="0.8em" />
+                    </span>{' '}
+                    <span>
+                      <Link aria-label="Tags" to="/tags/">
+                        <small>{taglist}</small>
+                      </Link>
+                    </span>
+                    &ensp;
+                    <span className="icon -category">
+                      <MdList size="1.1em" />
+                    </span>{' '}
+                    <span>
+                      <Link aria-label="Categories" to="/categories/">
+                        <small>Categories: {frontmatter.category}</small>
+                      </Link>
+                    </span>
+                  </div>
+                )}
+              </section>
+              {Image ? (
+                <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" />
+              ) : (
+                ''
               )}
-            </section>
-            {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
-          </header>
-          <Bio />
-          <div className="blog-post-content">{renderAst(htmlAst)}</div>
-        </article>
-        <WavyHr />
-        {(previous || next) && <Pagination {...props} />}
-      </div>
-    </Layout>
+            </header>
+            <Bio />
+            <div className="blog-post-content">{renderAst(htmlAst)}</div>
+          </article>
+          <WavyHr />
+          {(previous || next) && <Pagination {...props} />}
+        </div>
+      </Layout>
+    </>
   )
 }
 

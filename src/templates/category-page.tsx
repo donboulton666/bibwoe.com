@@ -20,41 +20,43 @@ const Category = ({ pageContext, data }) => {
   const categoryHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} categorized with “${category}”`
 
   return (
-    <Layout className="not-found-page">
-      <div className="blog-beams">
-        <div className="wrapper">
-          <Stars />
-          <Container
-            p={4}
-            bg="primary"
-            sx={{
-              borderRadius: '12px',
-            }}
-          >
-            <Heading as="h2">{categoryHeader}</Heading>
-            <div>
-              <ul className="tagsPage">
-                {edges.map(({ node }) => {
-                  const { slug } = node.fields
-                  const { title } = node.frontmatter
-                  return (
-                    <li key={slug}>
-                      <Link to={slug}>{title}</Link>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-            <div>
-              <span className="icon -category">
-                <MdList />
-              </span>{' '}
-              <Link to="/categories">All Categories</Link>
-            </div>
-          </Container>
+    <>
+      <Stars />
+      <Layout className="not-found-page">
+        <div className="blog-beams">
+          <div className="wrapper">
+            <Container
+              p={4}
+              bg="primary"
+              sx={{
+                borderRadius: '12px',
+              }}
+            >
+              <Heading as="h2">{categoryHeader}</Heading>
+              <div>
+                <ul className="tagsPage">
+                  {edges.map(({ node }) => {
+                    const { slug } = node.fields
+                    const { title } = node.frontmatter
+                    return (
+                      <li key={slug}>
+                        <Link to={slug}>{title}</Link>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+              <div>
+                <span className="icon -category">
+                  <MdList />
+                </span>{' '}
+                <Link to="/categories">All Categories</Link>
+              </div>
+            </Container>
+          </div>
         </div>
-      </div>
-    </Layout>
+      </Layout>
+    </>
   )
 }
 

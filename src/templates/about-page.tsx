@@ -43,21 +43,27 @@ const AboutPage = ({ data }) => {
   const Image = frontmatter.featuredImage ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
 
   return (
-    <Layout className="page">
-      <div className="wrapper blog-beams">
-        <article className="blog-post">
-          <Stars />
-          <header className="featured-banner">
-            <section className="article-header">
-              <h1>{frontmatter.title}</h1>
-            </section>
-            {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
-          </header>
-          <Bio />
-          <div dangerouslySetInnerHTML={{ __html: html }} />
-        </article>
-      </div>
-    </Layout>
+    <>
+      <Stars />
+      <Layout className="page">
+        <div className="wrapper blog-beams">
+          <article className="blog-post">
+            <header className="featured-banner">
+              <section className="article-header">
+                <h1>{frontmatter.title}</h1>
+              </section>
+              {Image ? (
+                <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" />
+              ) : (
+                ''
+              )}
+            </header>
+            <Bio />
+            <div dangerouslySetInnerHTML={{ __html: html }} />
+          </article>
+        </div>
+      </Layout>
+    </>
   )
 }
 
