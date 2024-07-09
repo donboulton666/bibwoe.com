@@ -5,7 +5,6 @@ import * as React from 'react'
 import type { HeadProps } from 'gatsby'
 import { RiArrowLeftSLine, RiBugLine, RiSkullLine } from 'react-icons/ri'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
 import Layout from '../components/Layout'
 import OGImage from '../../static/assets/blood.jpg'
 
@@ -18,7 +17,6 @@ const ogimage = {
 
 const NotFound = () => (
   <Layout className="not-found-page">
-    <Stars />
     <div className="left-beams">
       <div
         className="wrapper"

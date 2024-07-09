@@ -6,7 +6,6 @@ import { Link } from 'gatsby'
 import Seo from '../components/Seo'
 import { RiArrowRightSLine, RiArrowLeftSLine, RiCheckboxCircleLine } from 'react-icons/ri'
 import Layout from '../components/Layout'
-import Stars from '../components/Stars'
 import OGImage from '../../static/assets/song.jpg'
 
 const url = typeof window !== 'undefined' ? window.location.href : ''
@@ -20,7 +19,6 @@ const Privacy = () => (
   <Layout className="not-found-page">
     <div className="left-beams">
       <div className="wrapper">
-        <Stars />
         <Box
           style={{
             textAlign: 'center',

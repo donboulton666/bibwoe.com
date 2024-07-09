@@ -3,7 +3,6 @@ import * as React from 'react'
 import type { HeadProps } from 'gatsby'
 import { RiArrowLeftSLine, RiCheckboxCircleLine } from 'react-icons/ri'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
 import Layout from '../components/Layout'
 import OGImage from '../../static/assets/song.jpg'
 
@@ -23,7 +22,6 @@ const Thanks = () => (
           textAlign: 'center',
         }}
       >
-        <Stars />
         <RiCheckboxCircleLine
           style={{
             fontSize: '128px',

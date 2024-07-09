@@ -7,7 +7,9 @@ import './src/assets/scss/style.scss'
 
 export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => {
   return
-  ;<AnimatePresence wait>{element}</AnimatePresence>
+  <AnimatePresence initial={false} mode="popLayout">
+    {element}
+  </AnimatePresence>
 }
 
 export const onServiceWorkerUpdateReady = () => {

@@ -1,22 +1,23 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
 /* eslint-enable no-unused-vars */
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import { ReactNode } from 'react'
-import { Embed, Container } from 'theme-ui'
 import CookieConsent, { getCookieConsentValue } from 'react-cookie-consent'
-import Scroll from '../Scroll'
-import ScrollDown from '../ScrollDown'
 import Header from '../Header'
-import Logo from '../Logo'
-import Navigation from '../Navigation'
-import Footer from '../Footer'
-import Search from '../Search'
 import Theme from '../Theme'
-import { SiGnuprivacyguard } from 'react-icons/si'
-import { LazyMotion, m } from 'framer-motion'
+import { SuspenseHelper } from '../SuspenseHelper'
+import Stars from '../Stars'
+
+const Navigation = React.lazy(() => import('../Navigation'))
+const Scroll = React.lazy(() => import('../Scroll'))
+const ScrollDown = React.lazy(() => import('../ScrollDown'))
+const Logo = React.lazy(() => import('../Logo'))
+const Search = React.lazy(() => import('../Search'))
+const Footer = React.lazy(() => import('../Footer'))
+const ScrollIndicator = React.lazy(() => import('../ScrollIndicator'))
 
 const loadFeatures = () => import('../FramerFeatures').then(res => res.default)
 
@@ -56,17 +57,27 @@ const Layout = ({ className, children }: LayoutProps) => {
           }}
         >
           <Header>
-            <Logo />
-            <div sx={layoutStyle.nav}>
-              <div sx={{ display: ['flex', 'flex', 'flex', 'none'] }}>
-                <Search searchIndex={siteSearchIndex.index} />
+            <>
+              <SuspenseHelper fallback={<div>Loading...</div>}>
+                <Logo />
+              </SuspenseHelper>
+              <div sx={layoutStyle.nav}>
+                <div sx={{ display: ['flex', 'flex', 'flex', 'none'] }}>
+                  <SuspenseHelper fallback={<div>Loading...</div>}>
+                    <Search searchIndex={siteSearchIndex.index} />
+                  </SuspenseHelper>
+                </div>
+                <SuspenseHelper fallback={<div>Loading...</div>}>
+                  <Navigation />
+                </SuspenseHelper>
               </div>
-              <Navigation />
-            </div>
-            <div sx={layoutStyle.appearance}>
-              <Search searchIndex={siteSearchIndex.index} />
-              <Theme />
-            </div>
+              <div sx={layoutStyle.appearance}>
+                <SuspenseHelper fallback={<div>Loading...</div>}>
+                  <Search searchIndex={siteSearchIndex.index} />
+                </SuspenseHelper>
+                <Theme />
+              </div>
+            </>
           </Header>
         </div>
         <div
@@ -74,11 +85,23 @@ const Layout = ({ className, children }: LayoutProps) => {
             gridArea: 'main',
           }}
         >
-          <LazyMotion features={loadFeatures}>
-            <m.main className={'container ' + className}>{children}</m.main>
-          </LazyMotion>
-          <ScrollDown direction="down" to={205} showAbove={1500} css="position: fixed; right: 1em; top: 4.5em;" />
-          <Scroll showBelow={1500} css="position: fixed; right: 1em; bottom: 4em;" />
+          <Stars />
+          <main className={'container ' + className}>{children}</main>
+          <SuspenseHelper fallback={<div>Loading...</div>}>
+            <ScrollIndicator />
+          </SuspenseHelper>
+          <SuspenseHelper fallback={<div>Loading...</div>}>
+            <ScrollDown direction="down" to={205} showAbove={1500} css="position: fixed; right: 1em; top: 4.5em;" />
+          </SuspenseHelper>
+          <SuspenseHelper fallback={<div>Loading...</div>}>
+            <Scroll
+              showBelow={1500}
+              css="position: fixed; right: 1em; bottom: 4em;"
+              by={undefined}
+              to={undefined}
+              className={undefined}
+            />
+          </SuspenseHelper>
         </div>
         <div
           sx={{
@@ -95,7 +118,9 @@ const Layout = ({ className, children }: LayoutProps) => {
             gridArea: 'footer',
           }}
         >
-          <Footer />
+          <SuspenseHelper fallback={<div>Loading...</div>}>
+            <Footer />
+          </SuspenseHelper>
         </div>
         <CookieConsent
           enableDeclineButton

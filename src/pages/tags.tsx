@@ -9,7 +9,6 @@ import kebabCase from 'lodash/kebabCase'
 import { Script } from 'gatsby'
 import { Link, graphql } from 'gatsby'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
 import Layout from '../components/Layout'
 import OGImage from '../../static/assets/song.jpg'
 
@@ -31,7 +30,6 @@ const TagsPage = ({
   <Layout className="not-found-page">
     <div className="left-beams">
       <div className="wrapper">
-        <Stars />
         <h1>Tags</h1>
         <Box
           p={4}

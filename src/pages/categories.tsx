@@ -1,4 +1,3 @@
-/*jshint esversion: 6 */
 /** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx, Box } from 'theme-ui'
 import * as React from 'react'
@@ -7,7 +6,6 @@ import type { HeadProps } from 'gatsby'
 import kebabCase from 'lodash/kebabCase'
 import { Link, graphql } from 'gatsby'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
 import Layout from '../components/Layout'
 import OGImage from '../../static/assets/category.jpg'
 
@@ -29,7 +27,6 @@ const CategoriesPage = ({
   <Layout className="not-found-page">
     <div className="left-beams">
       <div className="wrapper">
-        <Stars />
         <h1>Categories</h1>
         <Box
           p={4}
