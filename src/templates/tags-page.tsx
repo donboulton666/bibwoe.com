@@ -9,7 +9,6 @@ import type { HeadProps } from 'gatsby'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
 
 import OGImage from '../../static/assets/sunset-kitzeberg-fjord.jpg'
 import defaultImage from '../../static/assets/sunset-kitzeberg-fjord.jpg'
@@ -22,7 +21,6 @@ const Tags = ({ pageContext, data }) => {
 
   return (
     <>
-      <Stars />
       <Layout className="not-found-page">
         <div className="blog-beams">
           <div className="wrapper">

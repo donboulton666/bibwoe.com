@@ -9,7 +9,6 @@ import CookieConsent, { getCookieConsentValue } from 'react-cookie-consent'
 import Header from '../Header'
 import Theme from '../Theme'
 import { SuspenseHelper } from '../SuspenseHelper'
-import Stars from '../Stars'
 
 const Navigation = React.lazy(() => import('../Navigation'))
 const Scroll = React.lazy(() => import('../Scroll'))
@@ -17,8 +16,8 @@ const ScrollDown = React.lazy(() => import('../ScrollDown'))
 const Logo = React.lazy(() => import('../Logo'))
 const Search = React.lazy(() => import('../Search'))
 const Footer = React.lazy(() => import('../Footer'))
+const Stars = React.lazy(() => import('../Stars'))
 const ScrollIndicator = React.lazy(() => import('../ScrollIndicator'))
-
 const loadFeatures = () => import('../FramerFeatures').then(res => res.default)
 
 const query = graphql`
@@ -51,6 +50,12 @@ const Layout = ({ className, children }: LayoutProps) => {
           gridTemplateRows: ['min-content min-content 1fr min-content min-content', 'min-content 1fr min-content'],
         }}
       >
+        <SuspenseHelper fallback={<div>Loading...</div>}>
+          <Stars />
+        </SuspenseHelper>
+        <SuspenseHelper fallback={<div>Loading...</div>}>
+          <ScrollIndicator />
+        </SuspenseHelper>
         <div
           sx={{
             gridArea: 'header',
@@ -85,11 +90,7 @@ const Layout = ({ className, children }: LayoutProps) => {
             gridArea: 'main',
           }}
         >
-          <Stars />
           <main className={'container ' + className}>{children}</main>
-          <SuspenseHelper fallback={<div>Loading...</div>}>
-            <ScrollIndicator />
-          </SuspenseHelper>
           <SuspenseHelper fallback={<div>Loading...</div>}>
             <ScrollDown direction="down" to={205} showAbove={1500} css="position: fixed; right: 1em; top: 4.5em;" />
           </SuspenseHelper>
@@ -152,7 +153,7 @@ const Layout = ({ className, children }: LayoutProps) => {
               marginLeft: '20px',
             }}
           >
-            <Link to="/privacy" className="text-gray-200" alt="Privacy Page">
+            <Link to="/privacy" className="text-gray-200" area-lu ="Privacy Page">
               Privacy Page
             </Link>
           </span>

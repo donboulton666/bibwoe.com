@@ -9,8 +9,6 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
-
 import OGImage from '../../static/assets/about.jpg'
 import defaultImage from '../../static/assets/about.jpg'
 
@@ -44,7 +42,6 @@ const AboutPage = ({ data }) => {
 
   return (
     <>
-      <Stars />
       <Layout className="page">
         <div className="wrapper blog-beams">
           <article className="blog-post">

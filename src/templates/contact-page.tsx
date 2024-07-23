@@ -11,8 +11,6 @@ import { NetlifyForm, Honeypot, Recaptcha } from 'react-netlify-forms'
 import { RiSendPlane2Line } from 'react-icons/ri'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
-
 import OGImage from '../../static/assets/contact.jpg'
 import defaultImage from '../../static/assets/contact.jpg'
 
@@ -52,11 +50,9 @@ const Contact = ({ data }) => {
 
   return (
     <>
-      <Stars />
       <Layout className="contact-page" sx={contactStyles.contactPage}>
         <div className="blog-beams">
           <div className="wrapper">
-            <Stars />
             <header className="featured-banner">
               <section className="article-header">
                 <h1>{frontmatter.title}</h1>

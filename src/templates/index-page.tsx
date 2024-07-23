@@ -6,6 +6,7 @@ import * as React from 'react'
 import { graphql, Link } from 'gatsby'
 import type { HeadProps } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
+import { OutboundLink } from 'gatsby-plugin-google-gtag'
 import {
   RiArrowRightSLine,
   RiFacebookBoxFill,
@@ -18,7 +19,6 @@ import {
 import Layout from '../components/Layout'
 import BlogListHome from '../components/BlogListHome'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
 import Icons from '../util/socialmedia.json'
 
 import OGImage from '../../static/assets/churches.jpg'
@@ -90,7 +90,7 @@ const HomePage = ({ data }) => {
     return (
       <div key={'social icons' + index}>
         {icons.icon === 'facebook' ? (
-          <a
+          <OutboundLink
             href={icons.url}
             aria-labelledby="Facebook"
             aria-label="Facebook"
@@ -98,41 +98,63 @@ const HomePage = ({ data }) => {
             target="_blank"
           >
             <RiFacebookBoxFill alt="Facebook" />
-          </a>
+          </OutboundLink>
         ) : (
           ''
         )}
         {icons.icon === 'twitter' ? (
-          <a href={icons.url} aria-labelledby="Twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank">
-            <RiTwitterFill alt="Twitter" />
-          </a>
+          <OutboundLink
+            href={icons.url}
+            aria-labelledby="Twitter"
+            aria-label="Twitter"
+            rel="noopener noreferrer"
+            target="_blank"
+            alt="Twitter"
+          >
+            <RiTwitterFill />
+          </OutboundLink>
         ) : (
           ''
         )}
         {icons.icon === 'youtube' ? (
-          <a href={icons.url} aria-labelledby="YouTube" aria-label="YouTube" rel="noopener noreferrer" target="_blank">
-            <RiYoutubeFill alt="YouTube" />
-          </a>
+          <OutboundLink
+            href={icons.url}
+            aria-labelledby="YouTube"
+            aria-label="YouTube"
+            rel="noopener noreferrer"
+            target="_blank"
+            alt="YouTube"
+          >
+            <RiYoutubeFill />
+          </OutboundLink>
         ) : (
           ''
         )}
         {icons.icon === 'instagram' ? (
-          <a
+          <OutboundLink
             href={icons.url}
             aria-labelledby="Instagram"
             aria-label="Instagram"
             rel="noopener noreferrer"
             target="_blank"
+            alt="Instagram"
           >
-            <RiInstagramFill alt="Instagram" />
-          </a>
+            <RiInstagramFill />
+          </OutboundLink>
         ) : (
           ''
         )}
         {icons.icon === 'github' ? (
-          <a href={icons.url} aria-labelledby="Github" ria-label="Github" rel="noopener noreferrer" target="_blank">
-            <RiGithubFill alt="Github" />
-          </a>
+          <OutboundLink
+            href={icons.url}
+            aria-labelledby="Github"
+            ria-label="Github"
+            rel="noopener noreferrer"
+            target="_blank"
+            alt="Github"
+          >
+            <RiGithubFill />
+          </OutboundLink>
         ) : (
           ''
         )}
@@ -141,7 +163,6 @@ const HomePage = ({ data }) => {
   })
   return (
     <>
-      <Stars />
       <Layout className="index-page">
         <div className="left-beams">
           <div className="home-banner grids col-1 sm-2">

@@ -16,7 +16,6 @@ import SiteTags from '../components/SiteTags'
 import SiteCategory from '../components/SiteCategories'
 import Bio from '../components/Bio'
 import Checked from '../components/Checkbox'
-import Stars from '../components/Stars'
 import Callout from '../components/Callout'
 import CalloutDanger from '../components/Callout/CalloutDanger'
 import CalloutLabel from '../components/Callout/CalloutLabel'
@@ -154,7 +153,6 @@ const BlogPostTemplate = ({ data, pageContext }) => {
 
   return (
     <>
-      <Stars />
       <Layout className="page">
         <div className="left-beams">
           <article className="blog-post">

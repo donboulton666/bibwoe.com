@@ -9,6 +9,7 @@ import * as React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { FaTwitter } from 'react-icons/fa'
+import { OutboundLink } from 'gatsby-plugin-google-gtag'
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -30,6 +31,23 @@ const Bio = () => {
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
+  const url = typeof window !== 'undefined' ? window.location.href : ''
+
+  const current_page = url
+  fetch('/page_view?page=' + encodeURIComponent(current_page), {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+  })
+    .then(response => response.json())
+    .then(data => {
+      var viewCount = data.data.view_count
+      document.getElementById('viewCountText').textContent = viewCount
+      var svg = document.querySelector('svg')
+      svg.setAttribute('aria-label', 'VIEW: ' + viewCount)
+    })
+    .catch(error => console.error('Error:', error))
 
   return (
     <div className="bio">
@@ -48,12 +66,42 @@ const Bio = () => {
           Built by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <span>
-            <a href={`https://twitter.com/${social?.twitter || ``}`}>
-              You should follow him on Twitter{' '}
+            <OutboundLink  alt="twitter" href={`https://twitter.com/${social?.twitter || ``}`}>
+              Follow on Twitter{' '}
               <span className="icon -twitter">
-                <FaTwitter alt="twitter" rel="img" />
+                <FaTwitter />
               </span>
-            </a>
+            </OutboundLink>
+            <span>
+              {' '}
+              <svg xmlns="http://www.w3.org/2000/svg" width="106.75" height="28" role="img" aria-label="VIEW: 0">
+                <title>VIEW: 0</title>
+                <g shape-rendering="crispEdges">
+                  <rect width="58.00" height="28" fill="#212121" />
+                  <rect x="58.00" width="48.75" height="28" fill="#40ffdc" />
+                </g>
+                <g
+                  fill="#fff"
+                  text-anchor="middle"
+                  font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision"
+                  font-size="100"
+                >
+                  <text transform="scale(.1)" x="290" y="175" textLength="340" fill="#fff">
+                    VIEW
+                  </text>
+                  <text
+                    id="viewCountText"
+                    transform="scale(.1)"
+                    x="823.75"
+                    y="175"
+                    textLength="247.5"
+                    fill="#fff"
+                    font-weight="bold"
+                  ></text>
+                </g>
+              </svg>
+            </span>
           </span>
         </p>
       )}

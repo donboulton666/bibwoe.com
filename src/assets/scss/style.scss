@@ -525,6 +525,30 @@ article a {
   z-index: 30;
 }
 
+#viewCount {
+  margin-top: 2px;
+  text-align: center;
+}
+
+.scroll-indicator {
+  top: 50%;
+  position: fixed;
+  right: 10px;
+  opacity: 0.80;
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background: cover;
+  z-index: 30;
+}
+
+.scroll-arrow {
+  left: 2px;
+  top: 4px;
+  z-index: 30;
+  height: 60px;
+  width: 60px;
+}
+
 @import "utility";
 
 // Libraries

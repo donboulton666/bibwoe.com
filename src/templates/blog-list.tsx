@@ -9,8 +9,6 @@ import { RiArrowLeftLine, RiArrowRightLine } from 'react-icons/ri'
 import Layout from '../components/Layout'
 import PostCard from '../components/PostCard'
 import Seo from '../components/Seo'
-import Stars from '../components/Stars'
-
 import OGImage from '../../static/assets/blog.jpg'
 import defaultImage from '../../static/assets/blog.jpg'
 
@@ -128,7 +126,6 @@ class BlogIndex extends React.Component {
 
     return (
       <>
-        <Stars />
         <Layout className="blog-page left-beams">
           <h1>Last Testament Posts</h1>
           <div className="grids col-1 sm-2 lg-3">{posts}</div>
