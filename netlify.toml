@@ -9,7 +9,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    cache-control = '''
+    Cache-Control = '''
 	  public,
 	  max-age=2592000'''
     Referrer-Policy = "strict-origin-when-cross-origin"
@@ -102,7 +102,7 @@
 [[headers]]
   for = "/static/*"
   [headers.values]
-    cache-control = '''
+    Cache-Control = '''
 	  public,
 	  max-age=31536000
     '''
