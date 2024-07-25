@@ -14,6 +14,8 @@ import Seo from '../components/Seo'
 import OGImage from '../../static/assets/contact.jpg'
 import defaultImage from '../../static/assets/contact.jpg'
 
+const url = typeof window !== 'undefined' ? window.location.href : ''
+
 export const pageQuery = graphql`
   query ContactQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -44,7 +46,6 @@ const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const postNode = data.markdownRemark
-  const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
   const SITE_RECAPTCHA_KEY = process.env.GATSBY_SITE_RECAPTCHA_KEY
 
@@ -221,7 +222,7 @@ export function Head(props: HeadProps) {
         title="Bibwoe Contact"
         description="Basic Instructions Books While On Earth Contact Page."
         image={ogimage}
-        pathname="/"
+        pathname={url}
       />
       <meta name="robots" content="index" />
       <link href="https://github.com/donaldboulton" rel="me" />

@@ -32,7 +32,7 @@ const PostMaker = ({ data }) => (
     >
       See more
       <span className="icon -right">
-        <RiArrowRightSLine alt="More Posts" />
+        <RiArrowRightSLine />
       </span>
     </Link>
   </section>

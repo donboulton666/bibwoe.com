@@ -87,6 +87,7 @@ const HomePage = ({ data }) => {
   const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
   const sIcons = Icons.socialIcons.map((icons: { icon: string; url: string | undefined }, index: string) => {
+    
     return (
       <div key={'social icons' + index}>
         {icons.icon === 'facebook' ? (
@@ -96,8 +97,9 @@ const HomePage = ({ data }) => {
             aria-label="Facebook"
             rel="noopener noreferrer"
             target="_blank"
+            alt="Facebook"
           >
-            <RiFacebookBoxFill alt="Facebook" />
+            <RiFacebookBoxFill />
           </OutboundLink>
         ) : (
           ''

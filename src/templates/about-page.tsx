@@ -32,14 +32,28 @@ export const pageQuery = graphql`
     }
   }
 `
+const url = typeof window !== 'undefined' ? window.location.href : ''
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark } = data /* data.markdownRemark holds your post data */
+  const { markdownRemark } = data
   const { frontmatter, html, excerpt } = markdownRemark
   const postNode = data.markdownRemark
-  const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
-
+  const current_page = url
+  fetch('/page_view?page=' + encodeURIComponent(current_page), {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+  })
+    .then(response => response.json())
+    .then(data => {
+      var viewCount = data.data.view_count
+      document.getElementById('viewCountText').textContent = viewCount
+      var svg = document.querySelector('svg')
+      svg.setAttribute('aria-label', 'VIEW: ' + viewCount)
+    })
+    .catch(error => console.error('Error:', error))
   return (
     <>
       <Layout className="page">
@@ -79,7 +93,7 @@ export function Head(props: HeadProps) {
         title="About"
         description="Basic Instructions Books While On Earth About Page."
         image={ogimage}
-        pathname="/"
+        pathname={url}
       />
       <meta name="robots" content="index" />
       <link href="https://github.com/donaldboulton" rel="me" />

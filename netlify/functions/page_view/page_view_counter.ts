@@ -21,6 +21,7 @@ export default async (req: Request, context: Context) => {
     }
 
     entry = await view.get(page)
+    console.log(await store.get('view_count'))
 
     return Response.json({
       data: {

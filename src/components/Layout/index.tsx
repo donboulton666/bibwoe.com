@@ -18,6 +18,7 @@ const Search = React.lazy(() => import('../Search'))
 const Footer = React.lazy(() => import('../Footer'))
 const Stars = React.lazy(() => import('../Stars'))
 const ScrollIndicator = React.lazy(() => import('../ScrollIndicator'))
+
 const loadFeatures = () => import('../FramerFeatures').then(res => res.default)
 
 const query = graphql`

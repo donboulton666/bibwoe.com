@@ -12,9 +12,10 @@ import Seo from '../components/Seo'
 import OGImage from '../../static/assets/category.jpg'
 import defaultImage from '../../static/assets/category.jpg'
 
+const url = typeof window !== 'undefined' ? window.location.href : ''
+
 const Category = ({ pageContext, data }) => {
   const { category } = pageContext
-  const url = typeof window !== 'undefined' ? window.location.href : ''
   const { edges, totalCount } = data.allMarkdownRemark
   const categoryHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} categorized with “${category}”`
 
@@ -121,7 +122,7 @@ export function Head(props: HeadProps) {
         title="Category"
         description="Basic Instructions Books While On Earth Category Page."
         image={ogimage}
-        pathname="/"
+        pathname={url}
       />
       <meta name="robots" content="index" />
       <link href="https://github.com/donaldboulton" rel="me" />
@@ -154,7 +155,7 @@ export function Head(props: HeadProps) {
           keywords: 'category, logic, god',
           wordCount: '1120',
           publisher: 'Bibwoe',
-          url: 'https://bibwoe.com',
+          url: 'https://bibwoe.com/category',
           datePublished: '2020-09-20',
           dateCreated: '2020-08-20',
           dateModified: '2022-08-16',

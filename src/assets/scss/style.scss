@@ -10,6 +10,19 @@
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
 }
+.bio {
+  align-items: center;
+  text-align: center;
+}
+
+.bio-avatar {
+  min-width: 48px;
+  border-radius: 100%;
+}
+.icon-twitter{
+  color: blue;
+}
+
 .site-header {
   display: flex;
   justify-content: space-between;

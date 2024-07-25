@@ -83,6 +83,7 @@
     "babel-preset-gatsby": "^3.13.2",
     "core-js": "^3.37.1",
     "gatsby-plugin-netlify": "^5.1.1",
+    "netlify-cli": "^17.33.4",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5"

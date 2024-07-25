@@ -13,9 +13,10 @@ import Seo from '../components/Seo'
 import OGImage from '../../static/assets/sunset-kitzeberg-fjord.jpg'
 import defaultImage from '../../static/assets/sunset-kitzeberg-fjord.jpg'
 
+const url = typeof window !== 'undefined' ? window.location.href : ''
+
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
-  const url = typeof window !== 'undefined' ? window.location.href : ''
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} tagged with "${tag}"`
 
@@ -125,7 +126,7 @@ export function Head(props: HeadProps) {
         title="Tags"
         description="Basic Instructions Books While On Earth Tags Page."
         image={ogimage}
-        pathname="/"
+        pathname={url}
       />
       <meta name="robots" content="index" />
       <link href="https://github.com/donaldboulton" rel="me" />

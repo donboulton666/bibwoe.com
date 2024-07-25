@@ -91,7 +91,7 @@ const Pagination = props => (
           <Link to={props.nextPage} rel="next">
             Next{' '}
             <span className="icon -right">
-              <RiArrowRightLine alt="Next" />
+              <RiArrowRightLine />
             </span>
           </Link>
         </li>
@@ -99,13 +99,13 @@ const Pagination = props => (
     </ul>
   </div>
 )
+const url = typeof window !== 'undefined' ? window.location.href : ''
 
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const { currentPage, numPages } = this.props.pageContext
     const blogSlug = '/posts/'
-    const url = typeof window !== 'undefined' ? window.location.href : ''
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
     const prevPage = currentPage - 1 === 1 ? blogSlug : blogSlug + (currentPage - 1).toString()
@@ -151,7 +151,7 @@ export function Head(props: HeadProps) {
         title="Blog List"
         description="Basic Instructions Books While On Earth Blog List Page."
         image={ogimage}
-        pathname="/"
+        pathname={url}
       />
       <meta name="robots" content="index" />
       <link rel="sitemap" type="application/xml" title="Sitemap" href="https://bibwoe.com/sitemap.xml" />
