@@ -73,7 +73,6 @@
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@netlify/functions": "^2.8.1",
-    "@netlify/plugin-gatsby": "^3.8.1",
     "@types/mdx": "^2.0.13",
     "@types/mdx-js__react": "^2.0.0",
     "@types/node": "^20.4.1",

@@ -4,6 +4,8 @@
   command = "gatsby build"
 [build.environment]
   NODE_VERSION = "20.12.2"
+[functions]
+  directory = "netlify/functions"
 [[plugins]]
   package = "@netlify/plugin-gatsby" 
 [[headers]]
