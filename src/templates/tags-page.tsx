@@ -13,52 +13,49 @@ import Seo from '../components/Seo'
 import OGImage from '../../static/assets/sunset-kitzeberg-fjord.jpg'
 import defaultImage from '../../static/assets/sunset-kitzeberg-fjord.jpg'
 
-const url = typeof window !== 'undefined' ? window.location.href : ''
-
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} tagged with "${tag}"`
 
   return (
-    <>
-      <Layout className="not-found-page">
-        <div className="blog-beams">
-          <div className="wrapper">
-            <div>
-              <Container
-                p={4}
-                bg="primary"
-                sx={{
-                  borderRadius: '12px',
-                }}
-              >
-                <Heading as="h2">{tagHeader}</Heading>
-                <div>
-                  <ul className="tagsPage">
-                    {edges.map(({ node }) => {
-                      const { slug } = node.fields
-                      const { title } = node.frontmatter
-                      return (
-                        <li key={slug}>
-                          <Link to={slug}>{title}</Link>
-                        </li>
-                      )
-                    })}
-                  </ul>
-                </div>
-                <div>
-                  <span className="icon -tags">
-                    <FaTags />
-                  </span>{' '}
-                  <Link to="/tags">All Tags</Link>
-                </div>
-              </Container>
-            </div>
+    <Layout className="not-found-page">
+      <div className="left-beams">
+        <div className="wrapper">
+          <div>
+            <Container
+              p={4}
+              bg="primary"
+              sx={{
+                borderRadius: '12px',
+              }}
+            >
+              <Heading as="h2">{tagHeader}</Heading>
+              <div>
+                <ul className="tagsPage">
+                  {edges.map(({ node }) => {
+                    const { slug } = node.fields
+                    const { title } = node.frontmatter
+                    return (
+                      <li key={slug}>
+                        <Link to={slug}>{title}</Link>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+              <div>
+                <span className="icon -tags">
+                  <FaTags />
+                </span>{' '}
+                <Link to="/tags">All Tags</Link>
+              </div>
+            </Container>
           </div>
         </div>
-      </Layout>
-    </>
+      </div>
+    </Layout>
   )
 }
 
@@ -126,7 +123,7 @@ export function Head(props: HeadProps) {
         title="Tags"
         description="Basic Instructions Books While On Earth Tags Page."
         image={ogimage}
-        pathname={url}
+        pathname="/"
       />
       <meta name="robots" content="index" />
       <link href="https://github.com/donaldboulton" rel="me" />

@@ -15,6 +15,7 @@ const ogimage = {
   height: 531,
 }
 
+
 const NotFound = () => (
   <Layout className="not-found-page">
     <div className="left-beams">

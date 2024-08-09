@@ -4,14 +4,12 @@
   command = "gatsby build"
 [build.environment]
   NODE_VERSION = "20.12.2"
-[functions]
-  directory = "netlify/functions"
 [[plugins]]
   package = "@netlify/plugin-gatsby" 
 [[headers]]
   for = "/*"
   [headers.values]
-    Cache-Control = '''
+    cache-control = '''
 	  public,
 	  max-age=2592000'''
     Referrer-Policy = "strict-origin-when-cross-origin"
@@ -104,7 +102,7 @@
 [[headers]]
   for = "/static/*"
   [headers.values]
-    Cache-Control = '''
+    cache-control = '''
 	  public,
 	  max-age=31536000
     '''

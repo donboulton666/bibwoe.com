@@ -36,7 +36,7 @@
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-catch-links": "^5.13.1",
     "gatsby-plugin-feed": "^5.13.1",
-    "gatsby-plugin-google-gtag": "^5.13.1",
+    "gatsby-plugin-google-analytics": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-offline": "^6.13.1",
@@ -73,6 +73,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@netlify/functions": "^2.8.1",
+    "@netlify/plugin-gatsby": "^3.8.1",
     "@types/mdx": "^2.0.13",
     "@types/mdx-js__react": "^2.0.0",
     "@types/node": "^20.4.1",
@@ -82,7 +83,6 @@
     "babel-preset-gatsby": "^3.13.2",
     "core-js": "^3.37.1",
     "gatsby-plugin-netlify": "^5.1.1",
-    "netlify-cli": "^17.33.4",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5"

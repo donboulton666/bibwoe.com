@@ -1,26 +1,44 @@
 import * as React from 'react'
 import type { GatsbySSR } from 'gatsby'
 import { AnimatePresence } from 'framer-motion'
+import { Partytown } from '@builder.io/partytown/react'
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return
-  <AnimatePresence initial={false} mode="popLayout">
-    {element}
-  </AnimatePresence>
+  ;<AnimatePresence wait>{element}</AnimatePresence>
 }
 
 const ORIGIN = 'https://www.googletagmanager.com/'
-const GATSBY_GA_MEASUREMENT_ID = 'G-7WR7C0L7V4'
+const GATSBY_GA_MEASUREMENT_ID = 'GTM-K57TVK'
 
-export function onRenderBody({ setPreBodyComponents, setHtmlAttributes }) {
+export function onRenderBody({ setHeadComponents, setPreBodyComponents, setHtmlAttributes }) {
   if (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test') return null
   setHtmlAttributes({ lang: 'en' })
+  setHeadComponents([
+    <Partytown key="partytown" debug={true} forward={['dataLayer.push']} />,
+    <script
+      key="gtag"
+      type="text/partytown"
+      Access-Control-Allow-Origin="https://www.googletagmanager.com/"
+      src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`}
+    />,
+    <script
+      key="google-analytics-config"
+      type="text/partytown" /* You can add other external scripts below, adding this type to all */
+      dangerouslySetInnerHTML={{
+        __html: `window.dataLayer = window.dataLayer || [];
+        window.gtag = function gtag(){ window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${GATSBY_GA_MEASUREMENT_ID}', { send_page_view: false })`,
+      }}
+    />,
+  ])
   setPreBodyComponents([
     <noscript
       key="gtm"
       dangerouslySetInnerHTML={{
         __html: `
-                  <iframe src="https://www.googletagmanager.com/ns.html?id=G-7WR7C0L7V4" height="0" width="0"
+                  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K57TVK" height="0" width="0"
                       style="display:none;visibility:hidden"></iframe>
                 `,
       }}

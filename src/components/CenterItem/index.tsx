@@ -1,14 +1,9 @@
 import * as React from 'react'
-import { ReactNode } from 'react'
 
-interface Props {
-  children: ReactNode
-}
-
-const CenterItem = ({ children, ...props }: Props) => {
+const CenterItem = ({ children, ...delegated }) => {
   return (
     <>
-      <div className="center items-stretch">
+      <div className="center items-stretch" {...delegated}>
         {children}
       </div>
     </>

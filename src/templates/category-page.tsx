@@ -8,54 +8,50 @@ import type { HeadProps } from 'gatsby'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
-
 import OGImage from '../../static/assets/category.jpg'
 import defaultImage from '../../static/assets/category.jpg'
 
-const url = typeof window !== 'undefined' ? window.location.href : ''
-
 const Category = ({ pageContext, data }) => {
   const { category } = pageContext
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const { edges, totalCount } = data.allMarkdownRemark
   const categoryHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} categorized with “${category}”`
 
   return (
-    <>
-      <Layout className="not-found-page">
-        <div className="blog-beams">
-          <div className="wrapper">
-            <Container
-              p={4}
-              bg="primary"
-              sx={{
-                borderRadius: '12px',
-              }}
-            >
-              <Heading as="h2">{categoryHeader}</Heading>
-              <div>
-                <ul className="tagsPage">
-                  {edges.map(({ node }) => {
-                    const { slug } = node.fields
-                    const { title } = node.frontmatter
-                    return (
-                      <li key={slug}>
-                        <Link to={slug}>{title}</Link>
-                      </li>
-                    )
-                  })}
-                </ul>
-              </div>
-              <div>
-                <span className="icon -category">
-                  <MdList />
-                </span>{' '}
-                <Link to="/categories">All Categories</Link>
-              </div>
-            </Container>
-          </div>
+    <Layout className="not-found-page">
+      <div className="left-beams">
+        <div className="wrapper">
+          <Container
+            p={4}
+            bg="primary"
+            sx={{
+              borderRadius: '12px',
+            }}
+          >
+            <Heading as="h2">{categoryHeader}</Heading>
+            <div>
+              <ul className="tagsPage">
+                {edges.map(({ node }) => {
+                  const { slug } = node.fields
+                  const { title } = node.frontmatter
+                  return (
+                    <li key={slug}>
+                      <Link to={slug}>{title}</Link>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
+            <div>
+              <span className="icon -category">
+                <MdList />
+              </span>{' '}
+              <Link to="/categories">All Categories</Link>
+            </div>
+          </Container>
         </div>
-      </Layout>
-    </>
+      </div>
+    </Layout>
   )
 }
 
@@ -122,7 +118,7 @@ export function Head(props: HeadProps) {
         title="Category"
         description="Basic Instructions Books While On Earth Category Page."
         image={ogimage}
-        pathname={url}
+        pathname="/"
       />
       <meta name="robots" content="index" />
       <link href="https://github.com/donaldboulton" rel="me" />
@@ -155,7 +151,7 @@ export function Head(props: HeadProps) {
           keywords: 'category, logic, god',
           wordCount: '1120',
           publisher: 'Bibwoe',
-          url: 'https://bibwoe.com/category',
+          url: 'https://bibwoe.com',
           datePublished: '2020-09-20',
           dateCreated: '2020-08-20',
           dateModified: '2022-08-16',

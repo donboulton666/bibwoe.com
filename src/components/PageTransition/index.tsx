@@ -1,5 +1,4 @@
-/** @jsx jsx */ /** @jsxFrag React.Fragment */
-import { jsx } from 'theme-ui'
+/* https://maxschmitt.me/posts/nextjs-page-transitions-framer-motion */
 import * as React from 'react'
 import { forwardRef } from 'react'
 import { motion, HTMLMotionProps } from 'framer-motion'

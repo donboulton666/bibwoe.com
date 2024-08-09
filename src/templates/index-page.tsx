@@ -6,7 +6,6 @@ import * as React from 'react'
 import { graphql, Link } from 'gatsby'
 import type { HeadProps } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
-import { OutboundLink } from 'gatsby-plugin-google-gtag'
 import {
   RiArrowRightSLine,
   RiFacebookBoxFill,
@@ -87,76 +86,52 @@ const HomePage = ({ data }) => {
   const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
   const sIcons = Icons.socialIcons.map((icons: { icon: string; url: string | undefined }, index: string) => {
-    
     return (
       <div key={'social icons' + index}>
         {icons.icon === 'facebook' ? (
-          <OutboundLink
+          <a
             href={icons.url}
             aria-labelledby="Facebook"
             aria-label="Facebook"
             rel="noopener noreferrer"
             target="_blank"
-            alt="Facebook"
           >
-            <RiFacebookBoxFill />
-          </OutboundLink>
+            <RiFacebookBoxFill alt="Facebook" />
+          </a>
         ) : (
           ''
         )}
         {icons.icon === 'twitter' ? (
-          <OutboundLink
-            href={icons.url}
-            aria-labelledby="Twitter"
-            aria-label="Twitter"
-            rel="noopener noreferrer"
-            target="_blank"
-            alt="Twitter"
-          >
-            <RiTwitterFill />
-          </OutboundLink>
+          <a href={icons.url} aria-labelledby="Twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank">
+            <RiTwitterFill alt="Twitter" />
+          </a>
         ) : (
           ''
         )}
         {icons.icon === 'youtube' ? (
-          <OutboundLink
-            href={icons.url}
-            aria-labelledby="YouTube"
-            aria-label="YouTube"
-            rel="noopener noreferrer"
-            target="_blank"
-            alt="YouTube"
-          >
-            <RiYoutubeFill />
-          </OutboundLink>
+          <a href={icons.url} aria-labelledby="YouTube" aria-label="YouTube" rel="noopener noreferrer" target="_blank">
+            <RiYoutubeFill alt="YouTube" />
+          </a>
         ) : (
           ''
         )}
         {icons.icon === 'instagram' ? (
-          <OutboundLink
+          <a
             href={icons.url}
             aria-labelledby="Instagram"
             aria-label="Instagram"
             rel="noopener noreferrer"
             target="_blank"
-            alt="Instagram"
           >
-            <RiInstagramFill />
-          </OutboundLink>
+            <RiInstagramFill alt="Instagram" />
+          </a>
         ) : (
           ''
         )}
         {icons.icon === 'github' ? (
-          <OutboundLink
-            href={icons.url}
-            aria-labelledby="Github"
-            ria-label="Github"
-            rel="noopener noreferrer"
-            target="_blank"
-            alt="Github"
-          >
-            <RiGithubFill />
-          </OutboundLink>
+          <a href={icons.url} aria-labelledby="Github" ria-label="Github" rel="noopener noreferrer" target="_blank">
+            <RiGithubFill alt="Github" />
+          </a>
         ) : (
           ''
         )}

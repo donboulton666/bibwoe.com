@@ -11,6 +11,7 @@ import { FaTags } from 'react-icons/fa'
 import { BsFillCalendarFill } from 'react-icons/bs'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
+import Counter from '../components/Counter'
 import SiteTags from '../components/SiteTags'
 import SiteCategory from '../components/SiteCategories'
 import Bio from '../components/Bio'
@@ -34,6 +35,7 @@ const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
     Accordion: Accordion,
+    counter: Counter,
     tags: SiteTags,
     categories: SiteCategory,
     checked: Checked,
@@ -130,31 +132,13 @@ type DataProps = {
   }
 }
 
-const url = typeof window !== 'undefined' ? window.location.href : ''
-
 const BlogPostTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data /* data.markdownRemark holds your post data */
   const { frontmatter, htmlAst, excerpt } = markdownRemark
   const postNode = data.markdownRemark
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   const Image = frontmatter.featuredImage ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData : ''
   const { previous, next } = pageContext
-  const url = typeof window !== 'undefined' ? window.location.href : ''
-
-  const current_page = url
-  fetch('/page_view?page=' + encodeURIComponent(current_page), {
-    method: 'GET',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-  })
-    .then(response => response.json())
-    .then(data => {
-      var viewCount = data.data.view_count
-      document.getElementById('viewCountText').textContent = viewCount
-      var svg = document.querySelector('svg')
-      svg.setAttribute('aria-label', 'VIEW: ' + viewCount)
-    })
-    .catch(error => console.error('Error:', error))
 
   let props = {
     previous,
@@ -168,71 +152,65 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   }
 
   return (
-    <>
-      <Layout className="page">
-        <div className="left-beams">
-          <article className="blog-post">
-            <header className="featured-banner">
-              <section className="article-header">
-                <h1>{frontmatter.title}</h1>
-                <div>
-                  <span className="icon -calendar">
-                    <BsFillCalendarFill size="0.7em" />
+    <Layout className="page">
+      <div className="left-beams">
+        <article className="blog-post">
+          <header className="featured-banner">
+            <section className="article-header">
+              <h1>{frontmatter.title}</h1>
+              <div>
+                <span className="icon -calendar">
+                  <BsFillCalendarFill size="0.7em" />
+                </span>
+                &ensp;
+                <time sx={{ color: 'muted' }}>{frontmatter.date}</time>
+                &ensp;
+                <span
+                  sx={{
+                    color: 'muted',
+                  }}
+                >
+                  <span className="icon -timer">
+                    <RiTimerLine size="0.8em" />
+                  </span>{' '}
+                  <small sx={{ color: 'muted' }}>{postNode.timeToRead} min read</small>
+                </span>
+              </div>
+              {tags.length > 0 && (
+                <div
+                  sx={{
+                    color: 'muted',
+                  }}
+                >
+                  <span className="icon -tags">
+                    <FaTags size="0.8em" />
+                  </span>{' '}
+                  <span>
+                    <Link aria-label="Tags" to="/tags/">
+                      <small>{taglist}</small>
+                    </Link>
                   </span>
                   &ensp;
-                  <time sx={{ color: 'muted' }}>{frontmatter.date}</time>
-                  &ensp;
-                  <span
-                    sx={{
-                      color: 'muted',
-                    }}
-                  >
-                    <span className="icon -timer">
-                      <RiTimerLine size="0.8em" />
-                    </span>{' '}
-                    <small sx={{ color: 'muted' }}>{postNode.timeToRead} min read</small>
+                  <span className="icon -category">
+                    <MdList size="1.1em" />
+                  </span>{' '}
+                  <span>
+                    <Link aria-label="Categories" to="/categories/">
+                      <small>Categories: {frontmatter.category}</small>
+                    </Link>
                   </span>
                 </div>
-                {tags.length > 0 && (
-                  <div
-                    sx={{
-                      color: 'muted',
-                    }}
-                  >
-                    <span className="icon -tags">
-                      <FaTags size="0.8em" />
-                    </span>{' '}
-                    <span>
-                      <Link aria-label="Tags" to="/tags/">
-                        <small>{taglist}</small>
-                      </Link>
-                    </span>
-                    &ensp;
-                    <span className="icon -category">
-                      <MdList size="1.1em" />
-                    </span>{' '}
-                    <span>
-                      <Link aria-label="Categories" to="/categories/">
-                        <small>Categories: {frontmatter.category}</small>
-                      </Link>
-                    </span>
-                  </div>
-                )}
-              </section>
-              {Image ? (
-                <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" />
-              ) : (
-                ''
               )}
-            </header>
-            <Bio />
-            <div className="blog-post-content">{renderAst(htmlAst)}</div>
-          </article>
-          <WavyHr />
-          {(previous || next) && <Pagination {...props} />}
-        </div>
-      </Layout>
-    </>
+            </section>
+            {Image ? <GatsbyImage image={Image} alt={frontmatter.title + ' - Featured image'} className="cover" /> : ''}
+          </header>
+          <Bio />
+          <div className="blog-post-content">{renderAst(htmlAst)}</div>
+        </article>
+        <WavyHr />
+        {(previous || next) && <Pagination {...props} />}
+      </div>
+    </Layout>
   )
 }
 
@@ -273,10 +251,11 @@ export const pageQuery = graphql`
 /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 export function Head(props: HeadProps<DataProps>) {
   const { data, markdownRemark } = props.data
+  const siteUrl = 'https://bibwoe.com/'
   const excerpt = props.data.markdownRemark.excerpt
   const imageLink = props.data.markdownRemark.imageLink
   const { frontmatter, htmlAst } = markdownRemark
-  
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   return (
     <>
       <Seo
@@ -351,7 +330,7 @@ export function Head(props: HeadProps<DataProps>) {
           publisher: {
             '@id': 'https://bibwoe.com',
           },
-          url: url,
+          url: 'https://bibwoe.com',
         })}
       </script>
       <script type="application/ld+json">

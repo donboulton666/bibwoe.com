@@ -9,6 +9,7 @@ import { RiArrowLeftLine, RiArrowRightLine } from 'react-icons/ri'
 import Layout from '../components/Layout'
 import PostCard from '../components/PostCard'
 import Seo from '../components/Seo'
+
 import OGImage from '../../static/assets/blog.jpg'
 import defaultImage from '../../static/assets/blog.jpg'
 
@@ -91,7 +92,7 @@ const Pagination = props => (
           <Link to={props.nextPage} rel="next">
             Next{' '}
             <span className="icon -right">
-              <RiArrowRightLine />
+              <RiArrowRightLine alt="Next" />
             </span>
           </Link>
         </li>
@@ -99,13 +100,13 @@ const Pagination = props => (
     </ul>
   </div>
 )
-const url = typeof window !== 'undefined' ? window.location.href : ''
 
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const { currentPage, numPages } = this.props.pageContext
     const blogSlug = '/posts/'
+    const url = typeof window !== 'undefined' ? window.location.href : ''
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
     const prevPage = currentPage - 1 === 1 ? blogSlug : blogSlug + (currentPage - 1).toString()
@@ -125,13 +126,11 @@ class BlogIndex extends React.Component {
     }
 
     return (
-      <>
-        <Layout className="blog-page left-beams">
-          <h1>Last Testament Posts</h1>
-          <div className="grids col-1 sm-2 lg-3">{posts}</div>
-          <Pagination {...props} />
-        </Layout>
-      </>
+      <Layout className="blog-page left-beams">
+        <h1>Last Testament Posts</h1>
+        <div className="grids col-1 sm-2 lg-3">{posts}</div>
+        <Pagination {...props} />
+      </Layout>
     )
   }
 }
@@ -151,7 +150,7 @@ export function Head(props: HeadProps) {
         title="Blog List"
         description="Basic Instructions Books While On Earth Blog List Page."
         image={ogimage}
-        pathname={url}
+        pathname="/"
       />
       <meta name="robots" content="index" />
       <link rel="sitemap" type="application/xml" title="Sitemap" href="https://bibwoe.com/sitemap.xml" />

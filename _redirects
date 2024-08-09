@@ -1,2 +1,1 @@
 /api/*  https://www.google-analytics.com/:splat  200
-/page_view/* /.netlify/functions/page_view_counter/ 200
