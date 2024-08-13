@@ -91,7 +91,7 @@ Discrimination to the point of choice, not of separation, nationalism, hate or r
 >
 > > > "FOR ALL MEN".
 
-My church of, "ALL", will correct this so each can find his own path with his own way of seeing Gods truth as was intended within you creation. Each with a different face of father equal in his love but different in you path's and abilities. We should seek that diversity. The devil hate you just the same. Making you all the same is; "Her, the Devil's", doing.
+My church of, "ALL", will correct this so each can find his own path with his own way of seeing Gods truth as was intended within your creation. Each with a different face of father equal in his love but different in you path's and abilities. We should seek that diversity. The devil hate's you just the same. Making you all the same is; "Her, the Devil's", doing.
 
 The First Church of, "Truth and Love from the All", is to be Built in Santa Barbara. Then all over the world
 
