@@ -5,8 +5,8 @@ path: /posts/groups
 title: Groups Clicks
 date: 2024-08-10 08:40
 category: God
-featuredImage: ../../../static/img/groups.png
-imageLink: https://bibwoe.com/static/img/groups.png
+featuredImage: ../../../static/assets/groups.png
+imageLink: https://bibwoe.com/static/assets/groups.png
 tags: [Groups, Clicks, Control]
 description: Groups are of the Devil.
 ---
@@ -14,8 +14,6 @@ description: Groups are of the Devil.
 <Container p={4} bg="muted">
   <H2>Groups are of the Devil</H2>
 </Container>
-
-![Groups](../../../static/img/groups.png)
 
 Human grouping and its controls. Put people in groups, it drives division to control.
 
