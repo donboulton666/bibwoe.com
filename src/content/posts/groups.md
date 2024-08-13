@@ -1,19 +1,13 @@
 ---
 template: blog-post
-published: true
 author: Donald Boulton
-path: /blog/groups
+path: /posts/groups
 title: Groups Clicks
-date: 2024-08-08
+date: 2024-08-10 08:40
 category: God
-publicId: videos/angelina_jordan_suspicious_minds
-videoTitle: Groups are of the Devil.
-embeddedImagesLocal:
-  - '../../../static/img/groups.png'
-tags:
-  - 'Groups'
-  - 'Clicks'
-  - 'Control'
+featuredImage: ../../../static/img/groups.png
+imageLink: https://bibwoe.com/static/img/groups.png
+tags: [Groups, Clicks, Control]
 description: Groups are of the Devil.
 ---
 
