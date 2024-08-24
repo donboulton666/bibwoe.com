@@ -22,41 +22,40 @@ const query = graphql`
 const Header = () => {
   const { siteSearchIndex } = useStaticQuery(query)
   return (
-
-  <div itemScope itemType="https://schema.org/WebPage">
-    <header
-      className="site-header"
-      itemScope="itemScope"
-      itemType="https://schema.org/WPHeader"
-      sx={{
-        bg: 'siteColor',
-      }}
-    >
-                 <>
+    <div itemScope itemType="https://schema.org/WebPage">
+      <header
+        className="site-header"
+        itemScope="itemScope"
+        itemType="https://schema.org/WPHeader"
+        sx={{
+          bg: 'siteColor',
+        }}
+      >
+        <>
+          <SuspenseHelper fallback={<div>Loading...</div>}>
+            <Logo />
+          </SuspenseHelper>
+          <div sx={layoutStyle.nav}>
+            <div sx={{ display: ['flex', 'flex', 'flex', 'none'] }}>
               <SuspenseHelper fallback={<div>Loading...</div>}>
-                <Logo />
+                <Search searchIndex={siteSearchIndex.index} />
               </SuspenseHelper>
-              <div sx={layoutStyle.nav}>
-                <div sx={{ display: ['flex', 'flex', 'flex', 'none'] }}>
-                  <SuspenseHelper fallback={<div>Loading...</div>}>
-                    <Search searchIndex={siteSearchIndex.index} />
-                  </SuspenseHelper>
-                </div>
-                <SuspenseHelper fallback={<div>Loading...</div>}>
-                  <Navigation />
-                </SuspenseHelper>
-              </div>
-              <div sx={layoutStyle.appearance}>
-                <SuspenseHelper fallback={<div>Loading...</div>}>
-                  <Search searchIndex={siteSearchIndex.index} />
-                </SuspenseHelper>
-                <SuspenseHelper fallback={<div>Loading...</div>}>
-                <Theme />
-                </SuspenseHelper>
-              </div>
-            </>
-    </header>
-  </div>
+            </div>
+            <SuspenseHelper fallback={<div>Loading...</div>}>
+              <Navigation />
+            </SuspenseHelper>
+          </div>
+          <div sx={layoutStyle.appearance}>
+            <SuspenseHelper fallback={<div>Loading...</div>}>
+              <Search searchIndex={siteSearchIndex.index} />
+            </SuspenseHelper>
+            <SuspenseHelper fallback={<div>Loading...</div>}>
+              <Theme />
+            </SuspenseHelper>
+          </div>
+        </>
+      </header>
+    </div>
   )
 }
 

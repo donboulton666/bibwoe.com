@@ -119,7 +119,7 @@ const Layout = ({ className, children }: LayoutProps) => {
               marginLeft: '20px',
             }}
           >
-            <Link to="/privacy" className="text-gray-200" area-lu ="Privacy Page">
+            <Link to="/privacy" className="text-gray-200" area-lu="Privacy Page">
               Privacy Page
             </Link>
           </span>

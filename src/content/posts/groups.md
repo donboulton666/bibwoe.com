@@ -15,11 +15,9 @@ description: Groups are of the Devil.
   <H2>Groups are of the Devil</H2>
 </Container>
 
-## Groups are of the Devil
-
 Human grouping and its controls. Put people in groups, it drives division to control.
 
-One thing all of you forget is that your born as, "One Child under Father God. 
+One thing all of you forget is that your born as, "One Child under Father God.
 
 As you shall die, One Child under God.
 
@@ -79,15 +77,15 @@ The Jews go so far as to say they are Gods chosen and not one know God but them.
 
 Islam states that God himself wrote the Koran just for them. Everyone not like them are Infidels and should be killed.
 
-All three of these religion's are to have power over you and to fragment My children. 
+All three of these religion's are to have power over you and to fragment My children.
 
 The devil has gotten so specialized with this, now your Marginalized, indigenous, different, Gay, trans or just stupid to being evil is what is with, "DEI", in full effect, your different and should be held up above others and their rights. Devilish lies...
 
-Your all created different with different capabilities and path's. No one is equal, discrimination is of truth. Someone born with no arms cannot be a roofer, or warrior. 
+Your all created different with different capabilities and path's. No one is equal, discrimination is of truth. Someone born with no arms cannot be a roofer, or warrior.
 
 Discrimination to the point of the best choice, not of separation, nationalism, hate or racisms!
 
-> God is All and All is of God, 
+> God is All and All is of God,
 >
 > Thus his name is, "ALL".
 >
