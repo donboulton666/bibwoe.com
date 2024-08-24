@@ -3,31 +3,17 @@ import { jsx } from 'theme-ui'
 /* eslint-disable no-unused-vars */
 import * as React from 'react'
 /* eslint-enable no-unused-vars */
-import { useStaticQuery, graphql, Link } from 'gatsby'
+import { Link } from 'gatsby'
 import { ReactNode } from 'react'
 import CookieConsent, { getCookieConsentValue } from 'react-cookie-consent'
-import Header from '../Header'
-import Theme from '../Theme'
 import { SuspenseHelper } from '../SuspenseHelper'
 
-const Navigation = React.lazy(() => import('../Navigation'))
+const Header = React.lazy(() => import('../Header'))
+const Footer = React.lazy(() => import('../Footer'))
 const Scroll = React.lazy(() => import('../Scroll'))
 const ScrollDown = React.lazy(() => import('../ScrollDown'))
-const Logo = React.lazy(() => import('../Logo'))
-const Search = React.lazy(() => import('../Search'))
-const Footer = React.lazy(() => import('../Footer'))
 const Stars = React.lazy(() => import('../Stars'))
 const ScrollIndicator = React.lazy(() => import('../ScrollIndicator'))
-
-const loadFeatures = () => import('../FramerFeatures').then(res => res.default)
-
-const query = graphql`
-  query SearchIndexQuery {
-    siteSearchIndex {
-      index
-    }
-  }
-`
 
 interface LayoutProps {
   children: ReactNode
@@ -35,7 +21,6 @@ interface LayoutProps {
 }
 
 const Layout = ({ className, children }: LayoutProps) => {
-  const { siteSearchIndex } = useStaticQuery(query)
   console.log(getCookieConsentValue())
   return (
     <>
@@ -62,29 +47,9 @@ const Layout = ({ className, children }: LayoutProps) => {
             gridArea: 'header',
           }}
         >
-          <Header>
-            <>
-              <SuspenseHelper fallback={<div>Loading...</div>}>
-                <Logo />
-              </SuspenseHelper>
-              <div sx={layoutStyle.nav}>
-                <div sx={{ display: ['flex', 'flex', 'flex', 'none'] }}>
-                  <SuspenseHelper fallback={<div>Loading...</div>}>
-                    <Search searchIndex={siteSearchIndex.index} />
-                  </SuspenseHelper>
-                </div>
-                <SuspenseHelper fallback={<div>Loading...</div>}>
-                  <Navigation />
-                </SuspenseHelper>
-              </div>
-              <div sx={layoutStyle.appearance}>
-                <SuspenseHelper fallback={<div>Loading...</div>}>
-                  <Search searchIndex={siteSearchIndex.index} />
-                </SuspenseHelper>
-                <Theme />
-              </div>
-            </>
-          </Header>
+          <SuspenseHelper fallback={<div>Loading...</div>}>
+            <Header />
+          </SuspenseHelper>
         </div>
         <div
           sx={{

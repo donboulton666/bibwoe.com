@@ -51,7 +51,7 @@ const Bio = () => {
             <a href={`https://twitter.com/${social?.twitter || ``}`}>
               Don on Twitter{' '}
               <span className="icon -twitter">
-                <FaTwitter rel="img" />
+                <FaTwitter />
               </span>
             </a>
           </span>
