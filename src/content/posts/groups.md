@@ -33,7 +33,7 @@ Most of you cannot get enough and more, More, MORE is you course, and to do this
 
 God knows exactly whom you are. But do you???
 
-All most all of you would formulate your answer according to what you have learned from others or your GROUP, click, school or religion. For you know not you! Then you fail.
+All most all of you would formulate your answer according to what you have learned from others or your GROUP, click, governmenschool or religion. For you know not you! Then you fail.
 
 Individuality is the key to self and being one with the Holy Spirits truth's, having love for self and Jesus's of all in your heart.
 
@@ -55,7 +55,7 @@ Obviously your three major control groups are...
 >
 > > Christian religion is comprised of books from people that did not know each other, exceptions being Jesus's disciples and follower's. Where is Enoch or Mary's books. Along with many other works written after Jesus's time.
 >
-> > > Many codex's were made of various forms by the formalized churches. and written for the churches worth, not the people's worth. The Catholic church say's that you can confess to one of there BPG and you will be forgiven; "No matter your sin"! Kick down some cash orn gold something for you Beggar Preacher God and you will be forgiven. Bypassing Jesus. How utterly stupid which is it. This is unforgivable and a sin. along with the church's hierarchy. They are saying they are the only ones with a connection to father and worship and, "pray to Us".
+> > > Many codex's were made of various forms by the formalized churches. and written for the churches worth, not the people's worth. The Catholic church say's that you can confess to one of there BPG and you will be forgiven; "No matter your sin"! Kick down some cash or gold, "something for your Beggar Preacher God", and you will be forgiven. Bypassing Jesus. How utterly stupid which is it. This is unforgivable and a sin. along with the church's hierarchy. They are saying they are the only ones with a connection to father and worship and, "pray to Us".
 
 The church determined what is in your Bible not God. And done so to make them rich and to be able to get around mankind's laws as well as Gods.
 
@@ -73,13 +73,13 @@ Written by peoples whom claim to be the only one's to have a connection with fat
 
 And stated as such that no one can add or take away from there evil control systems. Meaning they are the only special ones.
 
-The Jews go so far as to say they are Gods chosen and not one know God but them. Totally a lie and locks you into hate of others. Jews have more hate for others that anyone on the planet. Is it not evident in Israel now. They hate Islam and Christianity or anyone not Jewish. Pay Attention!
+The Jews go so far as to say they are Gods chosen and not one know God but them. Totally a lie and locks you into hate of others. Jews have more hate for others that anyone on the planet. Is it not evident in Israel now. They hate Islam and Christianity or anyone not Jewish Group of click. "Pay Attention"!
 
 Islam states that God himself wrote the Koran just for them. Everyone not like them are Infidels and should be killed.
 
 All three of these religion's are to have power over you and to fragment My children.
 
-The devil has gotten so specialized with this, now your Marginalized, indigenous, different, Gay, trans or just stupid to being evil is what is with, "DEI", in full effect, your different and should be held up above others and their rights. Devilish lies...
+The devil has gotten so specialized with this, now your Marginalized, indigenous, different, Gay, trans or just stupid to being evil is what, "DEI", in full effect, your specially different and should be held up above others and their rights. Devilish lies...
 
 Your all created different with different capabilities and path's. No one is equal, discrimination is of truth. Someone born with no arms cannot be a roofer, or warrior.
 
@@ -99,8 +99,8 @@ How sad my loves that your life of freedom to just be has been taken away from t
 
 Then when you stand before Jesus your life is not yours to be judged, seemingly according to your summation of a group, "In most cases, 'many groups".
 
-My church of, "ALL", will correct this so each can find his own path with his own way of seeing Gods truth as was intended within you creation. Each with a different face of father equal in his love but different in you path's and abilities. We should seek that diversity. The devil hate you just the same. Making you all the same is; "Her, the Devil's", doing.
+My church of, "ALL", will correct this so each can find his own path with his own way of seeing Gods truth as was intended within you creation. Each with a different face of father equal in his love but different in your path's and abilities. We should seek that diversity. The devil hate's you just the same. Making you all the same is; "Her, the Devil's' "Doing".
 
-The First Church of, "Truth and Love of the All", is to be Built in Santa Barbara. Then all over the world!
+The First Church of, "Truth and Love of the All", is to be Built in  Santa Barbara. Then all over the world!
 
 More to come, SOON my Loves!

@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     titleTemplate: `%s`,
     author: {
       name: `Don Boulton`,
-      summary: `Resides in Santa Barbara.`,
+      summary: `Resides in Calli.`,
     },
     copyrightYear: `© 2022`,
     description: `Basic Instructions Books While On Earth`,
