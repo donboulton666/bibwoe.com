@@ -23,15 +23,17 @@ As you shall die, One Child under God.
 
 Each individual within Father Gods Creation, with the ability to formulate self by your own means!
 
-When you stand before Jesus, Me, or maybe before Father God you are judged according to your works, within your heart.
+When you stand before Jesus or Me, or maybe before Father God you are judged according to your works, within your heart.
 
 This is the foundation of all sentient life within the verse. For all is sentient whether it's obvious or not.
 
 Individuality is your second greatest test. The first being who can overcome the curse of more. For as fleshly beings you constantly have to have more. Whom can sustain there individuality with less is a constant test.
 
-Most of you cannot get enough and more, More, MORE is you course, and to do this you have to group up within your clicks and religions and countries with artificial borders and historically perfected lies. This fails Gods fist and second tests of your individuality. Fathers first question to you as you stand before him is, "Who are you"!
+Most of you cannot get enough and more, More, MORE is your course, and to do this you have to group up within your clicks and religions and countries with artificial borders and historically perfected lies. 
 
-God knows exactly whom you are. But do you???
+> This fails Gods fist and second tests of your individuality. Fathers first question to you as you stand before him is, "Who are you"!
+>
+> > God knows exactly whom you are. But do you???
 
 All most all of you would formulate your answer according to what you have learned from others or your GROUP, click, governmenschool or religion. For you know not you! Then you fail.
 
@@ -55,29 +57,37 @@ Obviously your three major control groups are...
 >
 > > Christian religion is comprised of books from people that did not know each other, exceptions being Jesus's disciples and follower's. Where is Enoch or Mary's books. Along with many other works written after Jesus's time.
 >
-> > > Many codex's were made of various forms by the formalized churches. and written for the churches worth, not the people's worth. The Catholic church say's that you can confess to one of there BPG and you will be forgiven; "No matter your sin"! Kick down some cash or gold, "something for your Beggar Preacher God", and you will be forgiven. Bypassing Jesus. How utterly stupid which is it. This is unforgivable and a sin. along with the church's hierarchy. They are saying they are the only ones with a connection to father and worship and, "pray to Us".
+> > > Many codex's were made of various forms by the formalized churches. and written for the churches worth, not the people's worth. The Catholic church say's that you can confess to one of there BPG and you will be forgiven; "No matter your sin"! Kick down some cash or gold, "something for your Beggar Preacher God", and you will be forgiven. Bypassing Jesus. How, 'utterly stupid; "which is it"? 
+
+This is unforgivable and a sin. along with the church's hierarchy. They are saying they are the only ones with a connection to father and worship and, "pray to Us".
+
+> The curse of More
+>
+> > More is addressed below and in a few of my past pages.
 
 The church determined what is in your Bible not God. And done so to make them rich and to be able to get around mankind's laws as well as Gods.
 
-This is a control system developed by the devil to fragment my children. And compiled with little truth; "If Any".
+This is a control system developed by the devil to fragment my children. And compiled into books with, 'little truth; "If Any".
 
-These individual books of the bible were written by men, no more worthy or holy than you or your children.
+These individual books of the bible were written by men, no more worthy or holy than you or your children. Most o the work from the old testament's writers would be pissed there writings are in someones books.
 
 Our connection with Father God is individual. You are born an individual and you will stand before Father God as a individual; "NOT A GROUP".
 
-This grouping is a fragmentation by the devil to pit you against each other. And you have fallen for this evil for two thousand years.
+This grouping is a fragmentation by the devil to pit you against each other. And you have fallen for this evil for thousand's of years.
 
-All three of the middle eastern religions were to control the populace and to cause separation, which is not of Father God but by the Devil.
+All three of the middle eastern religions were/are to control the populace and to cause separation, which is not of Father God but by the Devil.
 
-Written by peoples whom claim to be the only one's to have a connection with father God, Jesus or the Holy Spirit. Total BS!
+Written by peoples whom claim to be the only one's to have a connection to the Trinity. Total BS!
 
 And stated as such that no one can add or take away from there evil control systems. Meaning they are the only special ones.
 
-The Jews go so far as to say they are Gods chosen and not one know God but them. Totally a lie and locks you into hate of others. Jews have more hate for others that anyone on the planet. Is it not evident in Israel now. They hate Islam and Christianity or anyone not Jewish Group of click. "Pay Attention"!
+The Jews go so far as to say they are Gods chosen and not one know's God but them. Totally a lie and locks you into hate of others. Jews have more hate for others that anyone on the planet. Is it not evident in Israel now. They hate Islam and Christianity or anyone not in there Jewish Group or click. "Pay Attention"!
 
 Islam states that God himself wrote the Koran just for them. Everyone not like them are Infidels and should be killed.
 
 All three of these religion's are to have power over you and to fragment My children.
+
+Our three middle eastern religions were specifically written to control the people that lived surrounding the worlds most important trade route through Jerusalem and the Sinai Peninsula. This it why Israel wants Gaza and the west bank. They call it the Holy land, actually it's all about money and control of this trade route.
 
 The devil has gotten so specialized with this, now your Marginalized, indigenous, different, Gay, trans or just stupid to being evil is what, "DEI", in full effect, your specially different and should be held up above others and their rights. Devilish lies...
 
@@ -93,14 +103,16 @@ Discrimination to the point of the best choice, not of separation, nationalism, 
 >
 > > > "FOR ALL MEN".
 
-Before your first breath mankind/forefathers has grouped you into a religion and a fraction of nationalism's and ways. You have no choice in many cases to become the group sum of others.
+Before your first breath mankind/forefathers has grouped you into a religion and a fraction of nationalism's and ways. You have no choice in many cases to become the group, a sum of others.
 
-How sad my loves that your life of freedom to just be has been taken away from the before birth.
+> No freedom to just be. Even One of my Favorite children Russell Brand insists we have to be part of the group. Individualism is not allowed. British brainwashed, sorry Russell not correct.
 
-Then when you stand before Jesus your life is not yours to be judged, seemingly according to your summation of a group, "In most cases, 'many groups".
+How sad my loves that your life of freedom to, 'Just Be", has been taken away from the before birth.
+
+Then when you stand before Jesus your life is not yours to be judged, but seemingly according to your summation of a group, "In most cases, 'many groups".
 
 My church of, "ALL", will correct this so each can find his own path with his own way of seeing Gods truth as was intended within you creation. Each with a different face of father equal in his love but different in your path's and abilities. We should seek that diversity. The devil hate's you just the same. Making you all the same is; "Her, the Devil's' "Doing".
 
-The First Church of, "Truth and Love of the All", is to be Built in  Santa Barbara. Then all over the world!
+The First Church of, "Truth and Love of the All", is to be possibly Built in Santa Barbara CA. Then all over the world!
 
 More to come, SOON my Loves!
