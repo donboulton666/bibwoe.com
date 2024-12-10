@@ -25,7 +25,7 @@ In the 1990's I traveled all over the USA going to Hundreds of different Churche
 
 ![New Life](../../../static/img/new-life-logo.png)
 
-<Embed src="https://www.youtube.com/embed/PiEglaK4Xrc" />
+`youtube: https://www.youtube.com/watch?v=PiEglaK4Xrc`
 
 ![Why](../../../static/img/question.png)
 

@@ -17,7 +17,6 @@ const SiteCategories = ({ group, ...rest }) => {
     }
   `)
   return (
-    <>
       <div>
         <div>
           <Heading as="h3">
@@ -58,7 +57,6 @@ const SiteCategories = ({ group, ...rest }) => {
           </div>
         </div>
       </div>
-    </>
   )
 }
 

@@ -35,9 +35,9 @@ Most of you cannot get enough and more, More, MORE is your course, and to do thi
 >
 > > God knows exactly whom you are. But do you???
 
-All most all of you would formulate your answer according to what you have learned from others or your GROUP, click, governmenschool or religion. For you know not you! Then you fail.
+All most all of you would formulate your answer according to what you have learned from others or your GROUP, click, government school or religion. For you know not you! Then you fail.
 
-Individuality is the key to self and being one with the Holy Spirits truth's, having love for self and Jesus's of all in your heart.
+Individuality is the key to self as being one with the Holy Spirits truth's, having love for self and Jesus's love of all in your heart.
 
 Your works are judged simply. Father does not judge you on how well you take care of your fleshly self but how you help other's within there needs of the flesh lifting up there spirit and showing love from your heart to others hearts.
 
@@ -69,7 +69,7 @@ The church determined what is in your Bible not God. And done so to make them ri
 
 This is a control system developed by the devil to fragment my children. And compiled into books with, 'little truth; "If Any".
 
-These individual books of the bible were written by men, no more worthy or holy than you or your children. Most o the work from the old testament's writers would be pissed there writings are in someones books.
+These individual books of the bible were written by men, no more worthy or holy than you or your children. Most of the work from the old testament's writers would be pissed there writings are in someones books.
 
 Our connection with Father God is individual. You are born an individual and you will stand before Father God as a individual; "NOT A GROUP".
 
@@ -99,13 +99,13 @@ Discrimination to the point of the best choice, not of separation, nationalism, 
 >
 > Thus his name is, "ALL".
 >
-> > You end your prayers with Amen; "nope wrong", Amen or Amon is a utterance of and for the Egyptian Ruler Amon, a watcher Angel, it should end with.
+> > You end your prayers with Amen; "nope wrong", Amen or Amon is a utterance of and for the Egyptian Ruler Kufu or Amon, a watcher Angel, it should end with.
 >
-> > > "FOR ALL MEN".
+> > > "FOR ALL OF MAN".
 
 Before your first breath mankind/forefathers has grouped you into a religion and a fraction of nationalism's and ways. You have no choice in many cases to become the group, a sum of others.
 
-> No freedom to just be. Even One of my Favorite children Russell Brand insists we have to be part of the group. Individualism is not allowed. British brainwashed, sorry Russell not correct.
+> No Free birds or a simple freedom to just be. Even One of my Favorite children Russell Brand insists we have to be part of the group. Individualism is not allowed. British brainwashed, sorry Russell not correct.
 
 How sad my loves that your life of freedom to, 'Just Be", has been taken away from the before birth.
 
