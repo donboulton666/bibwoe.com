@@ -19,15 +19,15 @@ Written in the Holy Land, "Oklahoma City"!
 
 ## Evil begets evil. It grows. It transmutes
 
-> Violation of Gods laws makes you evil, hateful and lost.
+> Violation's or condoning the violation's of Gods laws makes you evil, hateful and lost.
 >
-> > Immigration is Evil as they condone what others Have, 10th Commandment.
+> > Immigration is Evil as they covet what others Have, 10th Commandment. American's condone this evil.
 
 > I spent the last year traveling the west to have definitive proof that Immigration and homelessness is inexorably linked and related.
 >
 > > Immigrant's hate us and just want, "Covet", what we have. Violating the Tenth Commandment.
 
-Break into our country violating the Eight Commandment, getting on welfare and new cars through our NGO's and non-profits with section 8 vouchers for free housing., walmart cards, cash vouchers. With money for homes in California.
+Break into our country violating the Eight Commandment, getting on welfare and new cars through our NGO's and non-profits with section 8 vouchers for free housing, walmart cards, cash vouchers. With money for homes in California.
 
 Then they take our jobs,"by force and fear", making us homeless.
 
@@ -37,7 +37,7 @@ Drugging and killing us in violation of the 6th Commandment.
 
 Most all the homeless in Los Angeles / Santa Monica, Venice Beach, Victorville, Hesperia, and all over California and our nation did not drop out of the sky. 99 percent are Black or White.
 
-They had homes, dogs, cars, friends and a life. The human trash made there way into there place of work got position over them cut there hours or just belittled them to the point where they quit or could not afford to have a life anymore. 
+They had homes, dogs, cats, cars, friends and a life. The human trash made there way into there place of work got position over them cut there hours or just belittled them to the point where they quit or could not afford to have a life anymore. 
 
 Soon thereafter it was all hispanic or Indian / Pakistani Chinese or whomever. No more white or black people working there. The white and black's are now on the streets and wondering why you and our Government through common sense and our Employment laws don't protected them. 
 
@@ -47,33 +47,83 @@ Soon thereafter it was all hispanic or Indian / Pakistani Chinese or whomever. N
 
 <Section>
 
+## Infiltration of every city and town
+
+The Mexican demon horde have infiltrated every town and city and in total control of lots of them.
+
 How many fast food places or construction companies, gas stations ... on and on are all hispanic. No white or black workers from the USA, and no one say's anything.
 
-When you become homeless they belittle you, terrorize you, make it so there is no bathroom you can use or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak. Your own people have deserted you and our once great nation.
+When you become homeless they belittle you, terrorize you, make it so there is no bathroom you can use or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak. 
 
-> F*ck off America your stupid and traitors, giving away our country to evil unhuman trash.
-
-</Section>
-
-<Section>
-
-In the news when a city like LA or NY or Chicago are going to shit what do they show you. Homeless camps. Not that all the businesses are staffed by only immigrants and not even our veterans have a place to stay or the ability to have jobs.
-
-In Santa Monica and Venice Beach I got to know lots of the homeless people and even though they did not do drugs, drink, or even smoke they would be found dead from fentanyl overdose. Died in the middle of the night. Snuck up on while sleeping and Injected by hispanic gangs to eliminate the competition for resources, jobs and housing vouchers. 
-
-There are tens of thousands of elderly living in there cars as the immigrant trash have there homes now. Killing the old people, Covid again, good idea if your in the Government, then they don't need there Social Security or healthcare. "THAT THEY PAID FOR". Just kill them is the best course, F*ck off USA GOV, you to Donald Trump and Tom Homan you are just talking shit. Show me idiots, "show me"!
+Your own people have deserted you and our once great nation.
 
 </Section>
 
 <Section>
 
-I'll be satisfied with 50 to 70 million evictions, no less! Cut them of financially like our law's say and they will leave on there own!
+> Burn America your stupid and traitors, giving away our country to evil unhuman trash.
+>
+> > And violating the Fifth Commandment in the Bible
 
-No work visa's, no warfare, no HUD vouchers, no healthcare. That's our laws, "enforce them". All these immigrants have failed the test of becoming USA citizens = deport them or just cut them off!
+They are all Catholics and worship idols and the things of the earth. They do not worship the things of God nor Jesus's teachings. This is evil and demonic.
 
-Or prosecute them put them and there family's put them in internment camps and make them work off what they have in violation of federal law taken from us. Could take a dozen generations. Whity, Black people and American Indians would have a new slave class!!!
+> VIOLATING THE SECOND Commandment
+>
+> > Commandment #2: “You shall not make for yourself a carved image.” (Exodus 20:4) The second commandment shows the natural outgrowth of an individual who has no longer loved “the LORD your God with all your heart, with all your soul, and with all your mind” (Matthew 22:37)
 
-What is this crap.
+Ephesians 6:2-3 New Living Translation (NLT)
+
+“Honor your father and mother.” This is the first commandment with a promise: If you honor your father and mother, “things will go well for you, and you will have a long life on the earth.”
+
+The commandment "Honor your father and your mother" is the fifth commandment in the Bible, appearing in Exodus 20:12.
+
+> Honor your father and your mother, that your days may be long in the land that the Lord your God is giving you.
+
+</Section>
+
+<Section>
+
+> All of your USA citizens that accept this demonic invasion deny your Ancestors and our Country.
+
+We have been in 5 wars with Mexico and the American indians warred with them for thousands of years.
+
+And you trust any of them your stupid. The evidence of there evil is in there works.
+
+They seem to be nice people screw there fakeness, look at there works. There hearts the evil deads.
+
+I'd be nice to if I was getting a free ride off someone elses money's. As they stab us in the back.
+
+</Section>
+
+<Section>
+
+In the news when a city like LA or NY or Chicago are going to shit. What do they show you? Homeless camps. 
+
+Not that all the businesses are staffed by only immigrants and not even our veterans have no place to stay or the ability to have jobs.
+
+In Santa Monica and Venice Beach I got to know lots of the homeless people and even though they did not do drugs, drink, or even smoke they would be found dead from fentanyl overdose. 
+
+> Died in the middle of the night. 
+>
+> > Snuck up on while sleeping and Injected by hispanic gangs to eliminate the competition for resources, jobs and housing vouchers. 
+
+There are tens of thousands of elderly living in there cars as the immigrant trash have there homes now. 
+
+Killing the old people, Covid's purpose, good idea if your in the Government, then they don't need there Social Security or healthcare. "THAT THEY WORKED AND PAID FOR". Just kill them is the best course, F*ck off USA GOV, you to Donald Trump and Tom Homan you are just talking shit. Show me idiots, "show me"!
+
+</Section>
+
+<Section>
+
+I'll be satisfied with 30 to 50 million evictions, no less! Cut them of financially like our law's say and they will leave on there own!
+
+No work visa's, no warfare, no HUD vouchers, no healthcare. That's our laws, "enforce them". 
+
+> All these immigrants have failed the test of becoming USA citizens = deport them or just cut them off!
+
+Or prosecute them; put them and there family's in internment camps and make them work off what they have in violation of federal law taken from us. Could take a dozen generations.
+
+## What is this crap.
 
 </Section>
 
@@ -111,7 +161,7 @@ Science, Technology, Engineering, and Mathematics (STEM) OPT
 
 M visas for students at vocational or other recognized nonacademic institutions
 
-J visas for those involved in work- and study-based programs 
+J visas for those involved in work - and study-based programs 
 
 </Callout>
 
@@ -127,13 +177,17 @@ That means vetting years before entry, no welfare, no free housing, no NGO suppl
 
 If you are white or black forget getting on your feet, you have nothing coming as HUD and the Welfare office are all Mexicans, along with the city GOV and officials. All came here illegally and now rule US.
 
-I am so pissed, I marked your planet for deletion! Repent now; 'or "NOT"!
+I am so pissed, I marked your planet for correction! Repent now; 'or "NOT"!
 
-> I think you can see how pissed the trinity is at all of you. Massive floods all over the world,war and strange events occurring everywhere.
+> I think you can see how pissed the trinity is at all of you. Massive floods all over the world, war and strange events occurring everywhere.
 >
 > > It's just beginning. Read revelations and get your shit together or else. There is still time to open your eyes and hearts, quit playing around and running your mouths and stand up and do something about it.
 
 </Section>
+
+<Container p={4} bg="muted">
+  Whats wrong with all of you???
+</Container>
 
 <Section>
 

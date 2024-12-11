@@ -8,9 +8,9 @@ const config: GatsbyConfig = {
     titleTemplate: `%s`,
     author: {
       name: `Don Boulton`,
-      summary: `Resides in Calli.`,
+      summary: `Resides in OKC.`,
     },
-    copyrightYear: `© 2022`,
+    copyrightYear: `© 2024`,
     description: `Basic Instructions Books While On Earth`,
     siteUrl: `https://bibwoe.com/`,
     siteImage: `./static/apple-touch-icon.png`,
