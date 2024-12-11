@@ -177,6 +177,15 @@ That means vetting years before entry, no welfare, no free housing, no NGO suppl
 
 If you are white or black forget getting on your feet, you have nothing coming as HUD and the Welfare office are all Mexicans, along with the city GOV and officials. All came here illegally and now rule US.
 
+Spoke with dozens of immigrants from Europe, Polish, Ukrainians, Germans, French and many others. They tried to get help in Los Angeles for welfare and housing and were told they were not the right kind. Living on the streets with nothing when the Mexicans get it all.
+
+My Polish friend Roman had been shot in the Ukrainian war, went to Germany to a USA hospital for recovery and was told to follow up with his treatment Los Angeles. He gets to LA and has nothing coming. Lies treachery and deceit is LA and is run by cartels and Mexicans.
+
+The white people of LA are scared and desperate as they know they will lose everything soon to the demonic hoard. The Black people just feel lost and abandon. You have no idea how many of my children of color lay on the sidewalks of California hopeless and abandon.
+Young men mostly healthy, but some have been driven a little crazy by, "no love", and evil trash taking everything from them and there culture. With no hope!
+
+I got my California foodstamps in Humboldt County where it's still humans. I was getting $138.00 a month and $20.00 Cal Fresh. I get to Los Angeles and it was lowered to $23.00. When I asked why, I basically got from my hispanic worker that I don't get the deductions in LA like the rest of CA. I'm not the right kind, not a unhuman trash demon, like them, and ZERO Cal Fresh.
+
 I am so pissed, I marked your planet for correction! Repent now; 'or "NOT"!
 
 > I think you can see how pissed the trinity is at all of you. Massive floods all over the world, war and strange events occurring everywhere.
