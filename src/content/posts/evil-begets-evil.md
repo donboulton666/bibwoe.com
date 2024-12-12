@@ -115,19 +115,21 @@ Killing the old people, Covid's purpose, good idea if your in the Government, th
 
 <Section>
 
+## Evictions
+
 I'll be satisfied with 30 to 50 million evictions, no less! Cut them of financially like our law's say and they will leave on there own!
 
 No work visa's, no warfare, no HUD vouchers, no healthcare. That's our laws, "enforce them". 
 
-> All these immigrants have failed the test of becoming USA citizens = deport them or just cut them off!
+> 90% of these immigrants have failed the test of becoming USA citizens = deport them or just cut them off!
 
-Or prosecute them; put them and there family's in internment camps and make them work off what they have in violation of federal law taken from us. Could take a dozen generations.
-
-## What is this crap.
+Or prosecute them; put them and there family's in internment camps and make them work off what they have in violation of federal law taken from us. Could take a dozen generations. We would have cheep food once again. We could put them to work finishing California's high speed rail systems and one from Washington DC to Los Angles. Almost free labor, cool!
 
 </Section>
 
 <Section>
+
+## What is this crap.
 
 <Callout>
 
@@ -175,18 +177,42 @@ YOU MAY HAVE MOST OF THE USA FOOLED. As they didn't pay attention to your lack o
 
 That means vetting years before entry, no welfare, no free housing, no NGO supplied cars and amenities. No food lines or food banks as they are for the citizens of the USA.
 
+I had over a dozen people come to me to tell me there story of immigrating to the USA. Some from south america from Europe and one from Singapore. They were pissed that they went through the immigration processes according to federal law. Where 99% of immigrants now don't adhara at all to any of our laws and don't care about our laws or any of us. Just the free ride they get when they get here.
+
+## Legal Immigration
+
+Legal immigration is where you apply for citizenship with our immigration authorities and then your vetted. In this vetting process they check out whether you have been in legal trouble and/or any of your family. Your affiliations with groups or societies. Work history, debt history. They taught themselves and there family english. Learned about USA history and wanted to integrate into our society as Americans not having affiliations with where they came from.
+
+Sometimes this can be up to a 10 year process, as they longed for the American way.
+
+They felt cheated as it was made real clear to them before they came here they had to stand on there own feet, not being a financial burden on the American citizens. Just like our laws indicate. This meant housing had to be prearranged a job and medical insurance. Previous to entry. A tall order and a lot of work to attain.
+
+</Section>
+
+<Section>
+
+## Nothing coming
+
 If you are white or black forget getting on your feet, you have nothing coming as HUD and the Welfare office are all Mexicans, along with the city GOV and officials. All came here illegally and now rule US.
 
-Spoke with dozens of immigrants from Europe, Polish, Ukrainians, Germans, French and many others. They tried to get help in Los Angeles for welfare and housing and were told they were not the right kind. Living on the streets with nothing when the Mexicans get it all.
+Spoke with dozens of immigrants from Europe, Polish, Ukrainians, Germans, French and many others. They tried to get help in Los Angeles for welfare and housing and were told they were not the right kind. Living on the streets with nothing when the Latinos get it all.
 
-My Polish friend Roman had been shot in the Ukrainian war, went to Germany to a USA hospital for recovery and was told to follow up with his treatment Los Angeles. He gets to LA and has nothing coming. Lies treachery and deceit is LA and is run by cartels and Mexicans.
+My Polish friend Roman had been wounded in the Ukrainian war, while helping American solders with our HIMAR systems. They sent him to Germany to a USA hospital for surgery and recovery and was told to follow up with his treatment in the USA / Los Angeles. He gets to LA and has nothing coming. Lies treachery and deceit is LA and is run by Mexican Cartels.
 
-The white people of LA are scared and desperate as they know they will lose everything soon to the demonic hoard. The Black people just feel lost and abandon. You have no idea how many of my children of color lay on the sidewalks of California hopeless and abandon.
-Young men mostly healthy, but some have been driven a little crazy by, "no love", and evil trash taking everything from them and there culture. With no hope!
+</Section>
 
-I got my California foodstamps in Humboldt County where it's still humans. I was getting $138.00 a month and $20.00 Cal Fresh. I get to Los Angeles and it was lowered to $23.00. When I asked why, I basically got from my hispanic worker that I don't get the deductions in LA like the rest of CA. I'm not the right kind, not a unhuman trash demon, like them, and ZERO Cal Fresh.
+<Section>
+
+The white people of LA are scared and desperate as they know they will lose everything soon to the demonic hoard. The Black people just feel lost and abandon. You have no idea how many of my children of color lay on the sidewalks of California, hopeless and abandon.
+Young men mostly healthy, but some have been driven a little crazy by, "no love", and evil trash invaders taking everything from them and there culture. With no hope!
+
+I got my California food stamps in Humboldt County CA where it's still mostly humans. I was getting $138.00 a month and $20.00 Cal Fresh. I transferred it to Los Angeles and it was lowered to $23.00, ZERO Cal Fresh. When I asked why, I basically got from my hispanic worker that I don't get the deductions in LA like the rest of CA. I'm not the right kind, not a unhuman trash demon, like them..
 
 I am so pissed, I marked your planet for correction! Repent now; 'or "NOT"!
+
+Your species has completely lost your minds. You make plastic and styrofoam to eat on, now it's in everyone and every animals bodies. Forever chemicals in your food and water. Making you brain dead and sick. The people that make these things know that it' posing them and there children and there pets but they do it anyway. For money and profit you kill yourselves????
+
+Your insane, "all of you"!
 
 > I think you can see how pissed the trinity is at all of you. Massive floods all over the world, war and strange events occurring everywhere.
 >
