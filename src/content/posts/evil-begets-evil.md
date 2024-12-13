@@ -29,6 +29,8 @@ Written in the Holy Land, "Oklahoma City"!
 
 Break into our country violating the Eight Commandment, getting on welfare and new cars through our NGO's and non-profits with section 8 vouchers for free housing, walmart cards, cash vouchers. With money for homes in California.
 
+> This has been going on for 40 years. Biden just showed all of us the truth, By making it evident not hidden.
+
 Then they take our jobs,"by force and fear", making us homeless.
 
 Drugging and killing us in violation of the 6th Commandment.
@@ -37,9 +39,9 @@ Drugging and killing us in violation of the 6th Commandment.
 
 Most all the homeless in Los Angeles / Santa Monica, Venice Beach, Victorville, Hesperia, and all over California and our nation did not drop out of the sky. 99 percent are Black or White.
 
-They had homes, dogs, cats, cars, friends and a life. The human trash made there way into there place of work got position over them cut there hours or just belittled them to the point where they quit or could not afford to have a life anymore. 
+They had homes, dogs, cats, cars, friends and a life. The human trash made there way into there place of work got position over them cut there hours or just belittled them to the point where they quit or could not afford to have a life anymore.
 
-Soon thereafter it was all hispanic or Indian / Pakistani Chinese or whomever. No more white or black people working there. The white and black's are now on the streets and wondering why you and our Government through common sense and our Employment laws don't protected them. 
+Soon thereafter it was all hispanic or Indian / Pakistani Chinese or whomever. No more white or black people working there. The white and black's are now on the streets and wondering why you and our Government through common sense and our Employment laws don't protected them.
 
 > We have to hire them but they don't have to hire us??????
 
@@ -53,7 +55,7 @@ The Mexican demon horde have infiltrated every town and city and in total contro
 
 How many fast food places or construction companies, gas stations ... on and on are all hispanic. No white or black workers from the USA, and no one say's anything.
 
-When you become homeless they belittle you, terrorize you, make it so there is no bathroom you can use or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak. 
+When you become homeless they belittle you, terrorize you, make it so there is no bathroom you can use or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak.
 
 Your own people have deserted you and our once great nation.
 
@@ -63,7 +65,7 @@ Your own people have deserted you and our once great nation.
 
 > Burn America your stupid and traitors, giving away our country to evil unhuman trash.
 >
-> > And violating the Fifth Commandment in the Bible
+> > And violating the Fifth Commandment in the Bible.
 
 They are all Catholics and worship idols and the things of the earth. They do not worship the things of God nor Jesus's teachings. This is evil and demonic.
 
@@ -79,6 +81,8 @@ The commandment "Honor your father and your mother" is the fifth commandment in 
 
 > Honor your father and your mother, that your days may be long in the land that the Lord your God is giving you.
 
+All of you dishonor your forefathers. If they had any idea what you would do to the USA, a country they fought, bled and died for, there would have been mass abortions long ago.
+
 </Section>
 
 <Section>
@@ -87,9 +91,9 @@ The commandment "Honor your father and your mother" is the fifth commandment in 
 
 We have been in 5 wars with Mexico and the American indians warred with them for thousands of years.
 
-And you trust any of them your stupid. The evidence of there evil is in there works.
+And if you trust any of them your stupid. The evidence of there evil is in there works.
 
-They seem to be nice people screw there fakeness, look at there works. There hearts the evil deads.
+They seem to be nice people screw there fakeness, look at there works. There hearts full of evil deads.
 
 I'd be nice to if I was getting a free ride off someone elses money's. As they stab us in the back.
 
@@ -97,19 +101,21 @@ I'd be nice to if I was getting a free ride off someone elses money's. As they s
 
 <Section>
 
-In the news when a city like LA or NY or Chicago are going to shit. What do they show you? Homeless camps. 
+In the news when a city like LA or NY or Chicago are going to shit. What do they show you? Homeless camps.
 
 Not that all the businesses are staffed by only immigrants and not even our veterans have no place to stay or the ability to have jobs.
 
-In Santa Monica and Venice Beach I got to know lots of the homeless people and even though they did not do drugs, drink, or even smoke they would be found dead from fentanyl overdose. 
+In Santa Monica and Venice Beach I got to know lots of the homeless people and even though they did not do drugs, drink, or even smoke they would be found dead from fentanyl overdose.
 
-> Died in the middle of the night. 
+> Died in the middle of the night.
 >
-> > Snuck up on while sleeping and Injected by hispanic gangs to eliminate the competition for resources, jobs and housing vouchers. 
+> > Snuck up on while sleeping and Injected by hispanic gangs to eliminate the competition for resources, jobs and housing vouchers.
 
-There are tens of thousands of elderly living in there cars as the immigrant trash have there homes now. 
+There are tens of thousands of elderly living in there cars as the immigrant trash, now have there homes.
 
-Killing the old people, Covid's purpose, good idea if your in the Government, then they don't need there Social Security or healthcare. "THAT THEY WORKED AND PAID FOR". Just kill them is the best course, F*ck off USA GOV, you to Donald Trump and Tom Homan you are just talking shit. Show me idiots, "show me"!
+Killing the old people, Covid's purpose, good idea if your in the Government, then they don't need there Social Security or healthcare. "THAT THEY WORKED AND PAID FOR". 
+
+Just kill them is the best course, F*ck off USA GOV, you to Donald Trump and Tom Homan you are just talking shit. Show me idiots, "show me"!
 
 </Section>
 
@@ -119,11 +125,18 @@ Killing the old people, Covid's purpose, good idea if your in the Government, th
 
 I'll be satisfied with 30 to 50 million evictions, no less! Cut them of financially like our law's say and they will leave on there own!
 
-No work visa's, no warfare, no HUD vouchers, no healthcare. That's our laws, "enforce them". 
+No work visa's, no warfare, no HUD vouchers, no free healthcare. That's our laws, "enforce them"!
 
 > 90% of these immigrants have failed the test of becoming USA citizens = deport them or just cut them off!
 
-Or prosecute them; put them and there family's in internment camps and make them work off what they have in violation of federal law taken from us. Could take a dozen generations. We would have cheep food once again. We could put them to work finishing California's high speed rail systems and one from Washington DC to Los Angles. Almost free labor, cool!
+Or prosecute them; put them and there family's in internment camps and make them work off what they have in violation of federal law taken from us. 
+> Could take a dozen generations. 
+>
+> > We would have cheep food once again. 
+
+We could put them to work finishing California's high speed rail systems and one from Washington DC to Los Angles. 
+
+> Almost free labor, cool!
 
 </Section>
 
@@ -163,7 +176,7 @@ Science, Technology, Engineering, and Mathematics (STEM) OPT
 
 M visas for students at vocational or other recognized nonacademic institutions
 
-J visas for those involved in work - and study-based programs 
+J visas for those involved in work - and study-based programs
 
 </Callout>
 
@@ -181,23 +194,39 @@ I had over a dozen people come to me to tell me there story of immigrating to th
 
 ## Legal Immigration
 
-Legal immigration is where you apply for citizenship with our immigration authorities and then your vetted. In this vetting process they check out whether you have been in legal trouble and/or any of your family. Your affiliations with groups or societies. Work history, debt history. They taught themselves and there family english. Learned about USA history and wanted to integrate into our society as Americans not having affiliations with where they came from.
+Legal immigration is where you apply for citizenship with our immigration authorities and then your vetted. 
+
+In this vetting process they check out whether you have been in legal trouble and/or any of your family. 
+
+Your affiliations with groups or societies. Work history, debt history. They taught themselves and there family english. 
+
+Learned about USA history and wanted to integrate into our society as Americans not having affiliations with where they came from.
 
 Sometimes this can be up to a 10 year process, as they longed for the American way.
 
-They felt cheated as it was made real clear to them before they came here they had to stand on there own feet, not being a financial burden on the American citizens. Just like our laws indicate. This meant housing had to be prearranged a job and medical insurance. Previous to entry. A tall order and a lot of work to attain.
+They feel cheated as it was made real clear to them before they came here they had to stand on there own feet, not being a financial burden on the American citizens. 
+
+Just like our laws indicate. This meant housing had to be prearranged a job and medical insurance. Previous to entry. 
+
+A tall order and a lot of work to attain.
+
+These are the kind of immigrants that Congress envisioned of our Country.
 
 </Section>
 
 <Section>
 
-## Nothing coming
+## Nothing Coming
 
 If you are white or black forget getting on your feet, you have nothing coming as HUD and the Welfare office are all Mexicans, along with the city GOV and officials. All came here illegally and now rule US.
 
 Spoke with dozens of immigrants from Europe, Polish, Ukrainians, Germans, French and many others. They tried to get help in Los Angeles for welfare and housing and were told they were not the right kind. Living on the streets with nothing when the Latinos get it all.
 
 My Polish friend Roman had been wounded in the Ukrainian war, while helping American solders with our HIMAR systems. They sent him to Germany to a USA hospital for surgery and recovery and was told to follow up with his treatment in the USA / Los Angeles. He gets to LA and has nothing coming. Lies treachery and deceit is LA and is run by Mexican Cartels.
+
+The immigrant invader trash that got themselves elected because the greater LA area is 70% is demonic trash, Chinese and Latino, and everybody else and there dog.
+
+So we don't even have a true American voting base. The town would be republican like rural CA if we eliminated the demons.
 
 </Section>
 
@@ -214,7 +243,7 @@ Your species has completely lost your minds. You make plastic and styrofoam to e
 
 Your insane, "all of you"!
 
-> I think you can see how pissed the trinity is at all of you. Massive floods all over the world, war and strange events occurring everywhere.
+> I think you can see how pissed the trinity is at all of you. Massive floods all over the world, war and rumors of war, strange events occurring everywhere.
 >
 > > It's just beginning. Read revelations and get your shit together or else. There is still time to open your eyes and hearts, quit playing around and running your mouths and stand up and do something about it.
 

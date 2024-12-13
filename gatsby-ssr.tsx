@@ -5,7 +5,7 @@ import { Partytown } from '@builder.io/partytown/react'
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return
-  <AnimatePresence mode="wait">{element}</AnimatePresence>
+  ;<AnimatePresence mode="wait">{element}</AnimatePresence>
 }
 
 const ORIGIN = 'https://www.googletagmanager.com/'

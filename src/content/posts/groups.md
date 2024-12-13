@@ -29,7 +29,7 @@ This is the foundation of all sentient life within the verse. For all is sentien
 
 Individuality is your second greatest test. The first being who can overcome the curse of more. For as fleshly beings you constantly have to have more. Whom can sustain there individuality with less is a constant test.
 
-Most of you cannot get enough and more, More, MORE is your course, and to do this you have to group up within your clicks and religions and countries with artificial borders and historically perfected lies. 
+Most of you cannot get enough and more, More, MORE is your course, and to do this you have to group up within your clicks and religions and countries with artificial borders and historically perfected lies.
 
 > This fails Gods fist and second tests of your individuality. Fathers first question to you as you stand before him is, "Who are you"!
 >
@@ -57,7 +57,7 @@ Obviously your three major control groups are...
 >
 > > Christian religion is comprised of books from people that did not know each other, exceptions being Jesus's disciples and follower's. Where is Enoch or Mary's books. Along with many other works written after Jesus's time.
 >
-> > > Many codex's were made of various forms by the formalized churches. and written for the churches worth, not the people's worth. The Catholic church say's that you can confess to one of there BPG and you will be forgiven; "No matter your sin"! Kick down some cash or gold, "something for your Beggar Preacher God", and you will be forgiven. Bypassing Jesus. How, 'utterly stupid; "which is it"? 
+> > > Many codex's were made of various forms by the formalized churches. and written for the churches worth, not the people's worth. The Catholic church say's that you can confess to one of there BPG and you will be forgiven; "No matter your sin"! Kick down some cash or gold, "something for your Beggar Preacher God", and you will be forgiven. Bypassing Jesus. How, 'utterly stupid; "which is it"?
 
 This is unforgivable and a sin. along with the church's hierarchy. They are saying they are the only ones with a connection to father and worship and, "pray to Us".
 
