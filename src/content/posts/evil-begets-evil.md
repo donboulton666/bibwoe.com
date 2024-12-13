@@ -55,9 +55,9 @@ The Mexican demon horde have infiltrated every town and city and in total contro
 
 How many fast food places or construction companies, gas stations ... on and on are all hispanic. No white or black workers from the USA, and no one say's anything.
 
-When you become homeless they belittle you, terrorize you, make it so there is no bathroom you can use or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak.
+When you become homeless they demonetize and belittle you, terrorize you, make it so there is no bathroom you can use or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak.
 
-Your own people have deserted you and our once great nation.
+Your own people have deserted them and our once great nation.
 
 </Section>
 
