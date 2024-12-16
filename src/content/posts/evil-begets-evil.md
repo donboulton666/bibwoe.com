@@ -19,6 +19,8 @@ Written in the Holy Land, "Oklahoma City"!
 
 ## Evil begets evil. It grows. It transmutes
 
+Transmutes for the good of the invader!!!
+
 > Violation's or condoning the violation's of Gods laws makes you evil, hateful and lost.
 >
 > > Immigration is Evil as they covet what others Have, 10th Commandment. American's condone this evil.
@@ -33,7 +35,7 @@ Break into our country violating the Eight Commandment, getting on welfare and n
 
 Then they take our jobs,"by force and fear", making us homeless.
 
-Drugging and killing us in violation of the 6th Commandment.
+Drugging and killing us in violation of the 6th Commandment. Thou shalt not kill, for any reason except self defense.
 
 <Section>
 
@@ -57,7 +59,7 @@ How many fast food places or construction companies, gas stations ... on and on 
 
 When you become homeless they demonetize and belittle you, terrorize you, make it so there is no bathroom you can use or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak.
 
-Your own people have deserted them and our once great nation.
+There own people have deserted them and our once great nation.
 
 </Section>
 
@@ -81,7 +83,7 @@ The commandment "Honor your father and your mother" is the fifth commandment in 
 
 > Honor your father and your mother, that your days may be long in the land that the Lord your God is giving you.
 
-All of you dishonor your forefathers. If they had any idea what you would do to the USA, a country they fought, bled and died for, there would have been mass abortions long ago.
+All of you dishonor your forefathers. If they had any idea what you would have done and do to the USA, a country they fought, bled and died for, there would have been mass abortions long ago.
 
 </Section>
 
@@ -93,7 +95,7 @@ We have been in 5 wars with Mexico and the American indians warred with them for
 
 And if you trust any of them your stupid. The evidence of there evil is in there works.
 
-They seem to be nice people screw there fakeness, look at there works. There hearts full of evil deads.
+They seem to be nice people; "screw there fakeness", look at there works. There hearts full of evil deads.
 
 I'd be nice to if I was getting a free ride off someone elses money's. As they stab us in the back.
 
@@ -113,7 +115,9 @@ In Santa Monica and Venice Beach I got to know lots of the homeless people and e
 
 There are tens of thousands of elderly living in there cars as the immigrant trash, now have there homes.
 
-Killing the old people, Covid's purpose, good idea if your in the Government, then they don't need there Social Security or healthcare. "THAT THEY WORKED AND PAID FOR". 
+Killing the old people, "Covid's purpose"! Is a good idea if your in the Government, then they don't need there Social Security or healthcare. 
+
+> "THAT THEY WORKED AND PAID FOR". 
 
 Just kill them is the best course, F*ck off USA GOV, you to Donald Trump and Tom Homan you are just talking shit. Show me idiots, "show me"!
 
@@ -123,13 +127,14 @@ Just kill them is the best course, F*ck off USA GOV, you to Donald Trump and Tom
 
 ## Evictions
 
-I'll be satisfied with 30 to 50 million evictions, no less! Cut them of financially like our law's say and they will leave on there own!
+I'll be satisfied with 30 to 50 million evictions, "no less"! Cut them of financially like our law's say and they will leave" on there own!
 
 No work visa's, no warfare, no HUD vouchers, no free healthcare. That's our laws, "enforce them"!
 
 > 90% of these immigrants have failed the test of becoming USA citizens = deport them or just cut them off!
 
 Or prosecute them; put them and there family's in internment camps and make them work off what they have in violation of federal law taken from us. 
+
 > Could take a dozen generations. 
 >
 > > We would have cheep food once again. 
