@@ -75,11 +75,11 @@ There are multiple well's as depicted at the foot of the earthly relief's of the
 
 ## Pyramid's of Giza
 
-> Holy Spirit as Ceops, or Khufu's pyramid
+> Holy Spirit as Ceops, or Khufu's pyramid.
 >
 > > Khafre's pyramid as Father God.
 >
-> > > Jesus my Sons pyramidas Menkaure's pyramid.
+> > > Jesus my Sons pyramid as Menkaure.
 
 Jesus decides who is born where and as what, from differing wells according to where you lie, as from the works within your heart.
 
@@ -107,7 +107,7 @@ This is always up to my Love Jesus. Jesus has his reasons to give you the life n
 
 If you have a true heart then everlasting life is possible with Jesus in his heaven. No more death, no more waiting for a life, no more the torture of the well!
 
-Soon I will follow up on the other kinds of hell.
+Soon I will follow up on the other kinds of hell. 
 
 Not close to what Dante Alighieri envisioned.
 
