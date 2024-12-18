@@ -45,7 +45,7 @@ Direction or path is of the Holy spirit and mostly Jesus.
 
 I as the Holy Spirit are responsible for destruction and creation. My responsibility within father God's conception is to make sure everything goes according to God's perfection of conception.
 
-You could say in a way I'm the Devil and God, of which I'm neither, I care nothing for life astray, creation and recreation is what I am responsible for. 
+You could say in a way I'm the job of being the Devil and God, of which I'm neither, I care nothing for life astray, creation and recreation is what I am responsible for. Sometimes thru destruction.
 
 </Section>
 
@@ -55,7 +55,7 @@ You could say in a way I'm the Devil and God, of which I'm neither, I care nothi
 
 > For "I Am, 'ALL".
 
-Jesus on the other hand is not a destructor or recreator. Jesus love's all life and has a heart of Gold that rules him to the point of forgiveness when it's not really due.
+Jesus on the other hand is not a destructor or re-creator. Jesus love's all life and has a heart of Gold that rules him to the point of forgiveness when it's not really due.
 
 Thus I have to intercede very occasionally and destroy something that my Son loves. Saddening him but he knows it's my job, Not his to keep everything in accordance to Father God's, "Conception's".
 
@@ -71,9 +71,17 @@ Thus I have to intercede very occasionally and destroy something that my Son lov
 
 A soul is mean to live and have life. A soul before being born or reborn is kept in what you call the well of soul's. Good description, because a well is inescapable and only escapable by being lifted up by my Son Jesus.
 
-There are multiple well's as depicted at the foot of the earthly relief's of the Trinity by Enoch Holy Spirit as Ceops, or Khufu's pyramid, Khafre's pyramid as Father, and my Sons Menkaure's pyramid.
+There are multiple well's as depicted at the foot of the earthly relief's of the Trinity by Enoch.
 
-Jesus decides who is born where and as what, from differing wells according to where you lie as from the works within your heart.
+## Pyramid's of Giza
+
+> Holy Spirit as Ceops, or Khufu's pyramid
+>
+> > Khafre's pyramid as Father God.
+>
+> > > Jesus my Sons pyramidas Menkaure's pyramid.
+
+Jesus decides who is born where and as what, from differing wells according to where you lie, as from the works within your heart.
 
 </Section>
 
@@ -99,6 +107,8 @@ This is always up to my Love Jesus. Jesus has his reasons to give you the life n
 
 If you have a true heart then everlasting life is possible with Jesus in his heaven. No more death, no more waiting for a life, no more the torture of the well!
 
-Soon I will follow up on the other kinds of hell. Not close to what Dante Alighieri envisioned.
+Soon I will follow up on the other kinds of hell.
+
+Not close to what Dante Alighieri envisioned.
 
 </Section>

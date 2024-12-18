@@ -23,7 +23,9 @@ Transmutes for the good of the invader!!!
 
 > Violation's or condoning the violation's of Gods laws makes you evil, hateful and lost.
 >
-> > Immigration is Evil as they covet what others Have, 10th Commandment. American's condone this evil.
+> > Immigration is Evil as they covet what others Have, 10th Commandment. >
+> >
+> > > American's condone this evil.
 
 > I spent the last year traveling the west to have definitive proof that Immigration and homelessness is inexorably linked and related.
 >
@@ -35,11 +37,13 @@ Break into our country violating the Eight Commandment, getting on welfare and n
 
 Then they take our jobs,"by force and fear", making us homeless.
 
-Drugging and killing us in violation of the 6th Commandment. Thou shalt not kill, for any reason except self defense.
+Drugging and killing us in violation of the 6th Commandment.
+
+> Thou shalt not kill, for any reason except self defense.
 
 <Section>
 
-Most all the homeless in Los Angeles / Santa Monica, Venice Beach, Victorville, Hesperia, and all over California and our nation did not drop out of the sky. 99 percent are Black or White.
+Most all the homeless in San Diego, Los Angeles / Santa Monica, Venice Beach, Victorville, Hesperia, and all over California and our nation did not drop out of the sky. 99 percent are Black or White.
 
 They had homes, dogs, cats, cars, friends and a life. The human trash made there way into there place of work got position over them cut there hours or just belittled them to the point where they quit or could not afford to have a life anymore.
 
@@ -69,7 +73,9 @@ There own people have deserted them and our once great nation.
 >
 > > And violating the Fifth Commandment in the Bible.
 
-They are all Catholics and worship idols and the things of the earth. They do not worship the things of God nor Jesus's teachings. This is evil and demonic.
+They are all Catholics and worship idols and the things of the earth. They do not worship the things of God nor Jesus's teachings.
+
+> This is evil and demonic.
 
 > VIOLATING THE SECOND Commandment
 >
@@ -103,11 +109,11 @@ I'd be nice to if I was getting a free ride off someone elses money's. As they s
 
 <Section>
 
-In the news when a city like LA or NY or Chicago are going to shit. What do they show you? Homeless camps.
+In the news when a city like LA or NY or Chicago are going to shit. What do they show you? Homeless camps!
 
 Not that all the businesses are staffed by only immigrants and not even our veterans have no place to stay or the ability to have jobs.
 
-In Santa Monica and Venice Beach I got to know lots of the homeless people and even though they did not do drugs, drink, or even smoke they would be found dead from fentanyl overdose.
+In Santa Monica and Venice Beach I got to know lots of the homeless people and even though they did not do drugs, drink, or even smoke they would be found dead from a fentanyl overdose.
 
 > Died in the middle of the night.
 >
@@ -115,11 +121,11 @@ In Santa Monica and Venice Beach I got to know lots of the homeless people and e
 
 There are tens of thousands of elderly living in there cars as the immigrant trash, now have there homes.
 
-Killing the old people, "Covid's purpose"! Is a good idea if your in the Government, then they don't need there Social Security or healthcare. 
+Killing the old people, "Covid's purpose"! Is a good idea if your in the Government, then they don't need there Social Security or healthcare.
 
-> "THAT THEY WORKED AND PAID FOR". 
+> "THAT THEY WORKED AND PAID FOR".
 
-Just kill them is the best course, F*ck off USA GOV, you to Donald Trump and Tom Homan you are just talking shit. Show me idiots, "show me"!
+Just kill them is the best course, F\*ck off USA GOV, you to Donald Trump and Tom Homan you are just talking shit. Show me idiots, "show me"!
 
 </Section>
 
@@ -133,13 +139,13 @@ No work visa's, no warfare, no HUD vouchers, no free healthcare. That's our laws
 
 > 90% of these immigrants have failed the test of becoming USA citizens = deport them or just cut them off!
 
-Or prosecute them; put them and there family's in internment camps and make them work off what they have in violation of federal law taken from us. 
+Or prosecute them; put them and there family's in internment camps, Of which we have lot's of them, and make them work off what they have in violation of federal law taken from us.
 
-> Could take a dozen generations. 
+> Could take a dozen generations.
 >
-> > We would have cheep food once again. 
+> > We would have cheep food once again.
 
-We could put them to work finishing California's high speed rail systems and one from Washington DC to Los Angles. 
+We could put them to work finishing California's high speed rail, and one from Washington DC to Los Angeles.
 
 > Almost free labor, cool!
 
@@ -147,7 +153,7 @@ We could put them to work finishing California's high speed rail systems and one
 
 <Section>
 
-## What is this crap.
+## What is this Crap.
 
 <Callout>
 
@@ -199,19 +205,19 @@ I had over a dozen people come to me to tell me there story of immigrating to th
 
 ## Legal Immigration
 
-Legal immigration is where you apply for citizenship with our immigration authorities and then your vetted. 
+Legal immigration is where you apply for citizenship with our immigration authorities and then your vetted.
 
-In this vetting process they check out whether you have been in legal trouble and/or any of your family. 
+In this vetting process they check out whether you have been in legal trouble and/or any of your family.
 
-Your affiliations with groups or societies. Work history, debt history. They taught themselves and there family english. 
+Your affiliations with groups or societies. Work history, debt history. They taught themselves and there family english.
 
 Learned about USA history and wanted to integrate into our society as Americans not having affiliations with where they came from.
 
 Sometimes this can be up to a 10 year process, as they longed for the American way.
 
-They feel cheated as it was made real clear to them before they came here they had to stand on there own feet, not being a financial burden on the American citizens. 
+They feel cheated as it was made real clear to them before they came here they had to stand on there own feet, not being a financial burden on the American citizens.
 
-Just like our laws indicate. This meant housing had to be prearranged a job and medical insurance. Previous to entry. 
+Just like our laws indicate. This meant housing had to be prearranged a job and medical insurance. Previous to entry.
 
 A tall order and a lot of work to attain.
 
