@@ -105,7 +105,7 @@ This is always up to my Love Jesus. Jesus has his reasons to give you the life n
 
 <Section>
 
-If you have a true heart then everlasting life is possible with Jesus in his heaven. No more death, no more waiting for a life, no more the torture of the well!
+If you have a true heart then everlasting life is possible with Jesus in his heaven. No more death, no more waiting for a life, no more the torture of Jesus's well hell!
 
 Soon I will follow up on the other kinds of hell. 
 

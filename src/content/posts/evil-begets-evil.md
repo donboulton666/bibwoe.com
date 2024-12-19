@@ -61,7 +61,7 @@ The Mexican demon horde have infiltrated every town and city and in total contro
 
 How many fast food places or construction companies, gas stations ... on and on are all hispanic. No white or black workers from the USA, and no one say's anything.
 
-When you become homeless they demonetize and belittle you, terrorize you, make it so there is no bathroom you can use or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak.
+When you become homeless they demonetize and belittle you, terrorize you, make it so there is no bathroom you can use, "NO SHOWER", or place to plug in your cell phone. No safe place to sleep and NO COMFORT OR LOVE OR COMPANIONSHIP! Loneliness is all you have and heartbreak.
 
 There own people have deserted them and our once great nation.
 
@@ -119,7 +119,9 @@ In Santa Monica and Venice Beach I got to know lots of the homeless people and e
 >
 > > Snuck up on while sleeping and Injected by hispanic gangs to eliminate the competition for resources, jobs and housing vouchers.
 
-There are tens of thousands of elderly living in there cars as the immigrant trash, now have there homes.
+Then the police and doctors which are all on the take, just through them into a freezer to be composted for fertilizer. No autopsy no investigation. Just another homeless nasty person. F-Off America.
+
+There are tens of thousands of elderly living in there cars as the immigrant trash, now have there homes. Just in LA alone. Santa Barbara every street is packed with homeless in cars, trucks, MotorHomes......
 
 Killing the old people, "Covid's purpose"! Is a good idea if your in the Government, then they don't need there Social Security or healthcare.
 
@@ -136,6 +138,8 @@ Just kill them is the best course, F\*ck off USA GOV, you to Donald Trump and To
 I'll be satisfied with 30 to 50 million evictions, "no less"! Cut them of financially like our law's say and they will leave" on there own!
 
 No work visa's, no warfare, no HUD vouchers, no free healthcare. That's our laws, "enforce them"!
+
+That's why there here for a free ride!!!
 
 > 90% of these immigrants have failed the test of becoming USA citizens = deport them or just cut them off!
 
