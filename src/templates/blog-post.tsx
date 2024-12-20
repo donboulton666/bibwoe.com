@@ -24,6 +24,7 @@ import CloudinaryVideo from '../components/CloudinaryVideo'
 import VideoOne from '../components/CloudinaryVideo/videoOne'
 import VideoTwo from '../components/CloudinaryVideo/videoTwo'
 import VideoThree from '../components/CloudinaryVideo/videoThree'
+import VideoFive from '../components/CloudinaryVideo/videoFive'
 import Section from '../components/Section'
 import Popper from '../components/Popper'
 import Accordion from '../components/Accordion'
@@ -46,6 +47,7 @@ const renderAst = new rehypeReact({
     videoOne: VideoOne,
     videoTwo: VideoTwo,
     videoThree: VideoThree,
+    videoFive: VideoFive,
     section: Section,
     popper: Popper,
   },

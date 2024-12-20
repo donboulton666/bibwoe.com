@@ -13,6 +13,8 @@ description: The perfection of Heart, Beauty and Song, God had given me in my Tr
 
 ## Trinity of Angelic Dream Girls!
 
+My Trinity has been compromised by Jewish evil trash.
+
 In the below I basically divulge a lot of my iniquitous life, of which most people would not. But after Writing Creation Of All, I will get a lot of scrutiny, so might as well get this over with and spill the beans on myself!
 
 I have always been the Devils favorite to taunt and now test, the below is a lot about that how she can use the things of Her world and how She, "used the things of this World to manipulate me, 'not any longer", and can manipulate all to her desire.

@@ -4,6 +4,7 @@ import CloudinaryVideo from '../components/CloudinaryVideo'
 import VideoOne from '../components/CloudinaryVideo/videoOne'
 import VideoTwo from '../components/CloudinaryVideo/videoTwo'
 import VideoThree from '../components/CloudinaryVideo/videoThree'
+import VideoFive from '../components/CloudinaryVideo/videoFive'
 import Popper from '../components/Popper'
 import Center from '../components/Center'
 
@@ -13,6 +14,7 @@ const components = {
   VideoOne,
   VideoTwo,
   VideoThree,
+  VideoFive,
   Popper,
   Center,
   WavyHr,

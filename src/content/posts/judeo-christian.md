@@ -17,7 +17,7 @@ description: Why do Christian's love Jewish lier terrorist's?
 
 Written in the Holy Land, "Oklahoma City"!
 
-## Insanity Jew Christian
+## Insanity is Jewish Christian
 
 My take is that Jesus was not really Jewish, he hated judaism as he broke up several of there churches. Most of what he talked about was anti-jewish.
 
@@ -65,7 +65,14 @@ The expression appears in The Antichrist published in 1895 but written several y
 
 All Jew's are murderous Zionists, as that is supremacy like the Nazism. We are better than others lie.
 
-The Jews hated my son Jesus and had the Romans kill him. The Jews hate everyone not Jewish as they are not God's chosen.
+The Jews hated my son Jesus and had the Romans kill him. The Jews hate everyone, "not Jewish", as they are not God's chosen.
 
 </Section>
 
+## The below tells all
+
+[Street Samurai](https://www.youtube.com/@StreetSamurai88)
+
+Hermes The Cynic. A perfect Statement on what really going on in PALESTINE
+
+`youtube: https://www.youtube.com/watch?v=onQcniLLbW0`

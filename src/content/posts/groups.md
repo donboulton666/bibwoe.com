@@ -15,6 +15,8 @@ description: Groups are of the Devil.
   <H2>Groups are of the Devil</H2>
 </Container>
 
+Written in Montecito, California.
+
 Human grouping and its controls. Put people in groups, it drives division to control.
 
 One thing all of you forget is that your born as, "One Child under Father God.
@@ -110,6 +112,8 @@ Before your first breath mankind/forefathers has grouped you into a religion and
 How sad my loves that your life of freedom to, 'Just Be", has been taken away from the before birth.
 
 Then when you stand before Jesus your life is not yours to be judged, but seemingly according to your summation of a group, "In most cases, 'many groups".
+
+No freebirds or individual self!
 
 My church of, "ALL", will correct this so each can find his own path with his own way of seeing Gods truth as was intended within you creation. Each with a different face of father equal in his love but different in your path's and abilities. We should seek that diversity. The devil hate's you just the same. Making you all the same is; "Her, the Devil's' "Doing".
 
