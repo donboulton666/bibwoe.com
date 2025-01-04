@@ -63,7 +63,9 @@ The expression appears in The Antichrist published in 1895 but written several y
 >
 > > Judaeo Christian
 
-All Jew's are murderous Zionists, as that is supremacy like the Nazism. We are better than others lie.
+All Jew's are murderous Zionists, as that is supremacy like the Nazism. 
+
+> We are better than others lie.
 
 The Jews hated my son Jesus and had the Romans kill him. The Jews hate everyone, "not Jewish", as they are not God's chosen.
 

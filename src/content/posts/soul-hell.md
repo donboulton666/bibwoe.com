@@ -69,7 +69,7 @@ Thus I have to intercede very occasionally and destroy something that my Son lov
 
 <Section>
 
-A soul is mean to live and have life. A soul before being born or reborn is kept in what you call the well of soul's. Good description, because a well is inescapable and only escapable by being lifted up by my Son Jesus.
+A soul is meant to live and have life. A soul before being born or reborn is kept in what you call the well of soul's. Good description, because a well is inescapable and only escapable by being lifted up by my Son Jesus.
 
 There are multiple well's as depicted at the foot of the earthly relief's of the Trinity by Enoch.
 
@@ -90,6 +90,8 @@ Jesus decides who is born where and as what, from differing wells according to w
 # Hell
 
 </Section>
+
+The devil's hell is life on earth, where it's her/his job to deceive you, test you, leading you astray, thus in death my Son Jesus choses heaven or well hell for you. This is clearly stated in the book of Job.
 
 <Section>
 
@@ -112,3 +114,17 @@ Soon I will follow up on the other kinds of hell.
 Not close to what Dante Alighieri envisioned.
 
 </Section>
+
+## Eternal Damnation
+
+In my first biblical work [Creation of All](https://bibwoe.com/posts/creation-of-all/) I made it clear I am ALL and all is created from  
+
+fragmentation of father God, "He/Him", from Chaos to Formalized Chaos or Creation of the All.
+
+I hold the keys to time and eternity. Thus my hell is eternal damnation of which I have never used till now.
+
+> All of you that constantly stomp on the 10 commandments and doing what is against your heart, and you know it. Immigration, Government, Religious leaders of all kinds, along with the Elite and super rich will find yourselves in eternal damnation. 
+>
+> > There is not a dam thing you can do about it, but repent. 90% of the time you cannot because you have harmed many of my children.
+>
+> > > Scattered in darkness, no companionship, no life, no light, just the knowledge of father to where you'll scream burning inside for eternity.
