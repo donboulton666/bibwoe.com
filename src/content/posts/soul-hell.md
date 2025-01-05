@@ -117,14 +117,12 @@ Not close to what Dante Alighieri envisioned.
 
 ## Eternal Damnation
 
-In my first biblical work [Creation of All](https://bibwoe.com/posts/creation-of-all/) I made it clear I am ALL and all is created from  
+In my first biblical work [Creation of All](https://bibwoe.com/posts/creation-of-all/) I made it clear I am ALL and all is created from the fragmentation of father God, "He/Him", from Chaos to Formalized Chaos or Creation of the All.
 
-fragmentation of father God, "He/Him", from Chaos to Formalized Chaos or Creation of the All.
+I hold the keys to time and eternity. Thus my hell is "Eternal Damnation", of which I have never used till now.
 
-I hold the keys to time and eternity. Thus my hell is eternal damnation of which I have never used till now.
-
-> All of you that constantly stomp on the 10 commandments and doing what is against your heart, and you know it. Immigration, Government, Religious leaders of all kinds, along with the Elite and super rich will find yourselves in eternal damnation. 
+> All of you that constantly stomp on the 10 commandments and doing what is against your heart, as knowing it, but doing it anyway. As in illegal immigration, Government lies, Religious leaders of all kinds doing works for there own benefit, along with the Elite and super rich will find yourselves in eternal damnation. 
 >
-> > There is not a dam thing you can do about it, but repent. 90% of the time you cannot because you have harmed many of my children.
+> > There is not a dam thing you can do about it, but repent. 90% of the time you cannot because you have harmed many of my children. Too many times.
 >
-> > > Scattered in darkness, no companionship, no life, no light, just the knowledge of father to where you'll scream burning inside for eternity.
+> > > You will be scattered in darkness, no companionship, no life, no light, just the comparisons  of your past lives to knowledge of father truths, where you'll scream, "burning inside" for eternity.
