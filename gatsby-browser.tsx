@@ -2,12 +2,19 @@ import * as React from 'react'
 import type { GatsbyBrowser } from 'gatsby'
 import { AnimatePresence } from 'framer-motion'
 import 'prismjs/themes/prism.css'
+import { gtag, initDataLayer, install } from 'ga-gtag';
 
 import './src/assets/scss/style.scss'
 
-export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => {
-  return
-  ;<AnimatePresence mode="wait">{element}</AnimatePresence>
+export function wrapPageElement({ element }) {
+  const onExitComplete = () => {
+    window.scrollTo({ top: 0 })
+  }
+  return (
+    <AnimatePresence onExitComplete={onExitComplete} mode="wait" initial={false}>
+      {element}
+    </AnimatePresence>
+  )
 }
 
 export const onServiceWorkerUpdateReady = () => {
@@ -47,7 +54,9 @@ export const onRouteUpdate = ({ location }) => {
   const pagePath = location ? location.pathname + location.search + location.hash : undefined
   setTimeout(() => {
     if (typeof gtag === 'function') {
-      gtag('event', 'page_view', { page_path: pagePath })
+      initDataLayer();
+      install('GTM-K57TVK', { send_page_view: true, optimize_id: "G-LGV204F0PT", anonymize_ip: true, cookie_expires: 0, });
+      gtag('event', 'page_view', 'gatsby-route-change', { page_path: pagePath })
     }
   }, 100)
 }

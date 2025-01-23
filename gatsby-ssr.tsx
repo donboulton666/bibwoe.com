@@ -3,9 +3,15 @@ import type { GatsbySSR } from 'gatsby'
 import { AnimatePresence } from 'framer-motion'
 import { Partytown } from '@builder.io/partytown/react'
 
-export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
-  return
-  ;<AnimatePresence mode="wait">{element}</AnimatePresence>
+export function wrapPageElement({ element }) {
+  const onExitComplete = () => {
+    window.scrollTo({ top: 0 })
+  }
+  return (
+    <AnimatePresence onExitComplete={onExitComplete} mode="wait" initial={false}>
+      {element}
+    </AnimatePresence>
+  )
 }
 
 const ORIGIN = 'https://www.googletagmanager.com/'
@@ -23,7 +29,7 @@ export function onRenderBody({ setHeadComponents, setPreBodyComponents, setHtmlA
       src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`}
     />,
     <script
-      key="google-analytics-config"
+      key="gtag"
       type="text/partytown" /* You can add other external scripts below, adding this type to all */
       dangerouslySetInnerHTML={{
         __html: `window.dataLayer = window.dataLayer || [];

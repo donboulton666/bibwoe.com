@@ -15,6 +15,8 @@
     "@emotion/styled": "^11.14.0",
     "@fontsource/eb-garamond": "^5.1.1",
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "@mdx-js/mdx": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
     "@netlify/blobs": "^8.1.0",
@@ -31,8 +33,9 @@
     "babel-plugin-prismjs": "^2.1.0",
     "cssnano": "^7.0.6",
     "csstype": "^3.1.3",
-    "framer-motion": "^11.13.5",
-    "gatsby": "^5.14.0",
+    "framer-motion": "^12.0.3",
+    "ga-gtag": "^1.2.0",
+    "gatsby": "^5.14.1",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-catch-links": "^5.14.0",
     "gatsby-plugin-feed": "^5.14.0",
@@ -63,12 +66,12 @@
     "react-cookie-consent": "^9.0.0",
     "react-dom": "^18.3.1",
     "react-icons": "^4.7.1",
-    "react-intersection-observer": "^9.13.1",
+    "react-intersection-observer": "^9.15.1",
     "react-netlify-forms": "^1.3.3",
     "react-popper-tooltip": "^4.4.2",
     "rehype-react": "^7.2.0",
     "sass": "^1.82.0",
-    "sass-migrator": "^2.2.1",
+    "sass-migrator": "^2.3.1",
     "theme-ui": "^0.17.1"
   },
   "devDependencies": {
@@ -84,9 +87,9 @@
     "babel-preset-gatsby": "^3.13.2",
     "core-js": "^3.39.0",
     "gatsby-plugin-netlify": "^5.1.1",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.1",
     "prettier": "^3.4.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   },
   "homepage": "https://github.com/donaldboulton/bibwoe.com#readme",
   "keywords": [

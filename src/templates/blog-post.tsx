@@ -1,6 +1,7 @@
 /** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
-import * as React from 'react'
+import React from 'react'
+import { Fragment } from 'react';
 import type { HeadProps } from 'gatsby'
 import { Link, graphql } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
@@ -23,6 +24,7 @@ import WavyHr from '../components/WavyHr'
 import CloudinaryVideo from '../components/CloudinaryVideo'
 import VideoOne from '../components/CloudinaryVideo/videoOne'
 import VideoTwo from '../components/CloudinaryVideo/videoTwo'
+import VideoSix from '../components/CloudinaryVideo/videoSix'
 import VideoThree from '../components/CloudinaryVideo/videoThree'
 import VideoFive from '../components/CloudinaryVideo/videoFive'
 import Section from '../components/Section'
@@ -32,9 +34,13 @@ import Accordion from '../components/Accordion'
 require('prismjs')
 require('prismjs/themes/prism-okaidia.css')
 
+global.React = {
+  Fragment,
+};
+
 const renderAst = new rehypeReact({
   createElement: React.createElement,
-  components: {
+  components: {   
     Accordion: Accordion,
     counter: Counter,
     tags: SiteTags,
@@ -47,6 +53,7 @@ const renderAst = new rehypeReact({
     videoOne: VideoOne,
     videoTwo: VideoTwo,
     videoThree: VideoThree,
+    videoThree: VideoSix,
     videoFive: VideoFive,
     section: Section,
     popper: Popper,

@@ -273,8 +273,6 @@ A representation of a gathering of man. Or Planet Romper Room!
 
 ## The Well
 
-<Accordion>
-
 <Section>
 
 My son Jesus controls the Well of soul's and directs who get's born where, and he knew of my distaste for human fleshly iniquities. And this was a perfect way for my new soul to find out at birth about evil human animals. And human's evil stupid educational systems.
@@ -286,8 +284,6 @@ Differing lives builds and fulfills a soul. One reason I say your over populated
 This was not meant to be. My Angels stopped me recycling humanity and directed me to come to earth and they would join me to help mankind. Giving hope to all by building my Loves's Church of Love and Song, "On Earth as it is in Heaven".
 
 </Section>
-
-</Accordion>
 
 Sometimes If you have not noticed I like to not finish writing things, all things in there time.
 

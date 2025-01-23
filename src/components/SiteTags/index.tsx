@@ -1,10 +1,21 @@
 /** @jsx jsx */
+import * as React from 'react'
 import { jsx, Heading } from 'theme-ui'
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import { kebabCase } from 'lodash'
 import { FaTags } from 'react-icons/fa'
+import { ForwardRefComponent } from 'framer-motion'
 
-const SiteTags = ({ group, ...rest }) => {
+interface SiteTagsProps {
+  label: string
+  src?: string
+  Icon?: React.ComponentType<React.SVGProps<SVGSVGElement>>
+  title: string
+  tagsTitle: string
+  group: []
+}
+
+const SiteTags = ({ group, ...rest }: SiteTagsProps) => {
   const { tagsTitle = `Posts Tags` } = rest
   const data = useStaticQuery(graphql`
     {
@@ -17,7 +28,6 @@ const SiteTags = ({ group, ...rest }) => {
     }
   `)
   return (
-    <>
       <div>
         <Heading as="h3">
           <FaTags />
@@ -31,7 +41,7 @@ const SiteTags = ({ group, ...rest }) => {
         >
           <div>
             <ul className="taglist field is-grouped is-grouped-multiline">
-              {data.allMarkdownRemark.group.map(tag => (
+              {data.allMarkdownRemark.group.map((tag: { fieldValue: boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.Key | null | undefined; totalCount: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined }) => (
                 <li className="control menu-item" key={tag.fieldValue}>
                   <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                     <div className="tags has-addons is-large">
@@ -49,7 +59,6 @@ const SiteTags = ({ group, ...rest }) => {
           </div>
         </nav>
       </div>
-    </>
   )
 }
 
