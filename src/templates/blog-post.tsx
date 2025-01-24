@@ -47,6 +47,7 @@ const processor = unified().use(rehypeReact, {
     callout: Callout,
     calloutDanger: CalloutDanger,
     calloutLabel: CalloutLabel,
+    Link: Link,
     cloudinaryVideo: CloudinaryVideo,
     videoOne: VideoOne,
     videoTwo: VideoTwo,
@@ -61,6 +62,11 @@ const processor = unified().use(rehypeReact, {
 export const renderAst = (ast: any): JSX.Element => {
   return (processor.stringify(ast) as unknown) as JSX.Element
 }
+
+/**
+ * @param {string} text
+ * @returns {JSX.Element}
+ */
 
 const styles = {
   'article blockquote': {
@@ -79,7 +85,7 @@ const styles = {
   },
 }
 
-const Pagination = props => (
+const Pagination = (props: { previous: { frontmatter: { template: string; path: string; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined } }; next: { frontmatter: { template: string; path: string; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined } } }) => (
   <div className="pagination -post" sx={styles.pagination}>
     <ul>
       {props.previous && props.previous.frontmatter.template === 'blog-post' && (

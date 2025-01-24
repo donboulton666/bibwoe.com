@@ -16,10 +16,11 @@
     "emitDecoratorMetadata": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "moduleResolution": "node",
+    "moduleResolution": "node10",
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "react": [ "./node_modules/@types/react" ]
     }
   }
 }

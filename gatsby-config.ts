@@ -49,6 +49,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        excerpt_separator: `<!-- excerpt -->`,
+        gfm: true,
         plugins: [
           {
             resolve: 'gatsby-remark-embed-video-ext',

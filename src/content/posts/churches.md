@@ -57,7 +57,7 @@ Get ready!!!
 
 Working on what a sanctuary is.
 
-From Jan 22nd 2023
+The Below is From Jan 22nd 2023
 
 <Paragraph variant="block">
 
