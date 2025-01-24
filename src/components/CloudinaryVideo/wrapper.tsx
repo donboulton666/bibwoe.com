@@ -5,8 +5,9 @@ interface WrapperProps {
   children: ReactNode
 }
 
+
 const Wrapper = ({ children }: WrapperProps) => {
-  return <div className="bg-primary-dark w-full space-y-reverse bg-transparent text-center opacity-50">{children}</div>
+  return <div className="wrapper">{children}</div>
 }
 
 export default Wrapper

@@ -35,13 +35,9 @@ Now I'm going to get real Authoritarian on all of you, laying down some, "Fire a
 
 Get ready!!!
 
-<Container p={4} bg="muted">
-
 <VideoSix />
 
-</Container>
-
-<Container p={4} bg="muted">
+<Container p={4}>
   <H2>Many Churches</H2>
 </Container>
 

@@ -562,6 +562,11 @@ article a {
   width: 60px;
 }
 
+.wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
 @import "utility";
 
 // Libraries

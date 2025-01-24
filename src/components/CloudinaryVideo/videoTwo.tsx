@@ -10,7 +10,7 @@ const VideoTwo = () => {
   const vid = new CloudinaryVideo('videos/raqberta_flack_killing_me_softly', {
     cloudName: 'mansbooks',
   })
-  const videoEl = useRef()
+  const videoEl = useRef(null)
   const sources = [
     {
       type: 'mp4',
