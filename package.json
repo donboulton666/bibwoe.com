@@ -72,7 +72,8 @@
     "rehype-react": "^7.2.0",
     "sass": "^1.82.0",
     "sass-migrator": "^2.3.1",
-    "theme-ui": "^0.17.1"
+    "theme-ui": "^0.17.1",
+    "unified": "^11.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",

@@ -67,7 +67,7 @@ All Jew's are murderous Zionists, as that is supremacy like the Nazism.
 
 > We are better than others lie.
 
-The Jews hated my son Jesus and had the Romans kill him. The Jews hate everyone, "not Jewish", as they are not God's chosen.
+The Jews hated my son Jesus and had the Romans Crucify him. The Jews hate everyone, "not Jewish", as they are not God's chosen.
 
 </Section>
 

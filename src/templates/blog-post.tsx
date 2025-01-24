@@ -1,11 +1,12 @@
 /** @jsx jsx */ /** @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui'
-import React from 'react'
-import { Fragment } from 'react';
+import * as React from 'react'
+import { createElement } from 'react'
+import rehypeReact from 'rehype-react'
+import { unified } from 'unified'
 import type { HeadProps } from 'gatsby'
 import { Link, graphql } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
-import rehypeReact from 'rehype-react'
 import { RiTimerLine, RiArrowLeftLine, RiArrowRightLine } from 'react-icons/ri'
 import { MdList } from 'react-icons/md'
 import { FaTags } from 'react-icons/fa'
@@ -34,12 +35,9 @@ import Accordion from '../components/Accordion'
 require('prismjs')
 require('prismjs/themes/prism-okaidia.css')
 
-global.React = {
-  Fragment,
-};
 
-const renderAst = new rehypeReact({
-  createElement: React.createElement,
+const processor = unified().use(rehypeReact, {
+  createElement,
   components: {   
     Accordion: Accordion,
     counter: Counter,
@@ -53,12 +51,16 @@ const renderAst = new rehypeReact({
     videoOne: VideoOne,
     videoTwo: VideoTwo,
     videoThree: VideoThree,
-    videoThree: VideoSix,
+    videoSix: VideoSix,
     videoFive: VideoFive,
     section: Section,
     popper: Popper,
   },
-}).Compiler
+})
+
+export const renderAst = (ast: any): JSX.Element => {
+  return (processor.stringify(ast) as unknown) as JSX.Element
+}
 
 const styles = {
   'article blockquote': {

@@ -15,19 +15,23 @@ description: Churches are to be a sanctuary for Gods Children. Not a playtime pa
   <H2>Fire and Brimstone</H2>
 </Container>
 
-First you must watch the below video on how we are preprogrammed to follow authority.
+First you must watch the below video on how we are preprogrammed, designed by, "Father God", to follow authority.
 
-This basic human programming is used by Government and the Preachers to control you as you must follow authority.
+This basic human programming is used by Government and the Preachers to control you, as you must follow authority.
 
-But this basic human instinct is to have father God be the ultimate authority. Not other man or institutions.
+But this basic human instinct is to have Father God be the ultimate authority. Not other men, a Government or institution.
 
-Donald Trump used this Authoritarian figure to get himself elected. Dam good at it to. But is a lier as he has no control or authority over himself or his eating habits compassion for others unless they follow his authority or his sexual desires.
+Donald Trump used this Authoritarian figure to get himself elected. Dam good at it to. But is a lier as he has no control or
+
+authority over himself or his eating habits compassion for others unless they follow his authority or, in his sexual desires.
 
 As humans you prase and follow him as if he were God, and he is not, he cannot control himself, but you overlook that just like your Beggar Preacher Gods that tell you they are the way and the truth and you must listen to them to have Father God in your lives.
 
-I simply cannot believe what your Evangelists get away with as they straight up tell their congregation that they are money hungry evil trash and the church congregation loves it and shovels them more money  =  The Authoritarian Figure, "Rules", now matter how true or correct they are in their ways.
+I simply cannot believe what your Evangelists get away with as they straight up tell their congregation that they are money hungry evil trash. The church congregation loves it and shovels them more money  =  The Authoritarian Figure, "Rules", now matter how true or correct they are in their ways.
 
-This one reason I write and have not made Video's or speak in front of large crowds; as I am the ultimate Authority, but do not seek what I am designed to be, as I want the children of earth to have authority over themselves.
+## Changes to Rule
+
+This one reason I write and have not made Video's or speak in front of large crowds; as I am the ultimate Authority, but do not seek that authority. I want the children of earth to have authority over themselves.
 
 In that, I am only reaching, "AUTHORITARIAN FIGURES", that use my works to further their authority, not father God's
 
@@ -35,13 +39,25 @@ Now I'm going to get real Authoritarian on all of you, laying down some, "Fire a
 
 Get ready!!!
 
-<VideoSix />
+## Video on Authority
+
+[How Ordinary People Can Be Pushed to Extreme Actions](https://www.youtube.com/watch?v=o0b37tsc_dE)
+
+<Section>
+
+`youtube: [I Must Have Authority](https://www.youtube.com/watch?v=o0b37tsc_dE)`
+
+</Section>
 
 <Container p={4}>
   <H2>Many Churches</H2>
 </Container>
 
 ## Sanctuary
+
+Working on what a sanctuary is.
+
+From Jan 22nd 2023
 
 <Paragraph variant="block">
 
