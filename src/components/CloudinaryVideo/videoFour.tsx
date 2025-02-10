@@ -8,7 +8,7 @@ import VideoWrapper from './wrapper'
 
 const VideoFour = () => {
   const vid = new CloudinaryVideo('videos/charolette_summer_only_love_can_hurt_like_this', { cloudName: 'mansbooks' })
-  const videoEl = useRef()
+  const videoEl = useRef(null)
   const sources = [
     {
       type: 'mp4',

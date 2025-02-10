@@ -1,15 +1,18 @@
-import { tailwind as baseStyles } from '@theme-ui/presets'
+import { tailwind } from '@theme-ui/preset-tailwind'
 import defaultColors from '../util/default-colors.json'
 import darkColors from '../util/dark-theme-colors.json'
 import { lightness } from '@theme-ui/color'
 
 export default {
-  ...baseStyles,
+  content: ['./src/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  ...tailwind,
   styles: {
-    ...baseStyles.styles,
+    ...tailwind.styles,
   },
   colors: {
     ...defaultColors,
+    ...tailwind.colors,
     text: '#000',
     background: '#fff',
     primary: '#5C2941',

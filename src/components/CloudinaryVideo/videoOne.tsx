@@ -10,7 +10,7 @@ const VideoOne = () => {
   const vid = new CloudinaryVideo('videos/true-jew', {
     cloudName: 'mansbooks',
   })
-  const videoEl = useRef()
+  const videoEl = useRef(null)
   const sources = [
     {
       type: 'mp4',

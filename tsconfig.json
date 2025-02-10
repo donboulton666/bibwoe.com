@@ -17,6 +17,7 @@
     "noEmit": true,
     "skipLibCheck": true,
     "moduleResolution": "node10",
+    "resolveJsonModule": true,
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"],

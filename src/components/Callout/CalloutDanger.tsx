@@ -23,7 +23,7 @@ export const callOutDangerWrapper: CSS.Properties = {
   background: '#0d1014',
 }
 
-export const infoIcon: CSS.Properties = {
+const infoIcon: CSS.Properties = {
   width: '24px',
   height: '24px',
   color: 'red',

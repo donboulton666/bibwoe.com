@@ -214,7 +214,7 @@ export function Head(props: HeadProps) {
           copyrightHolder: {
             '@id': 'https://bibwoe.com',
           },
-          copyrightYear: 2023,
+          copyrightYear: 2025,
           creator: {
             '@id': 'https://bibwoe.com',
           },

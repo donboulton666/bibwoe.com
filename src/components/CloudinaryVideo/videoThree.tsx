@@ -10,7 +10,7 @@ const VideoThree = () => {
   const vid = new CloudinaryVideo('videos/charolett_summers_one_world', {
     cloudName: 'mansbooks',
   })
-  const videoEl = useRef()
+  const videoEl = useRef(null)
   const sources = [
     {
       type: 'mp4',

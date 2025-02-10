@@ -55,9 +55,16 @@ Get ready!!!
 
 ## Sanctuary
 
-Working on what a sanctuary is.
+> No more getting rich off of Gods works. You evangelists and preachers that do this will burn for eternity.
+>
+> > A preacher and his family should love and live at the church never closing the doors as it is God's sanctuary "FOR ALL OF MAN". Welcoming with love and compassion all of God's children, "at all times".
+>
+> > > Your not a church of God with, "Locked Doors"! God is 24/7 365 as the church should be.
+
 
 The Below is From Jan 22nd 2023
+
+<Accordion label='Old post 2023'>
 
 <Paragraph variant="block">
 
@@ -96,3 +103,6 @@ One thing Pastor Whalen did not mention was Enoch's denial of self, "or I may ha
 > > > Thank's to ALL Of You! Blessings. 🙏
 
 </Paragraph>
+
+</SingleAccordion>
+
