@@ -114,7 +114,6 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "preinstall": "yarn install --yarn-lock-only --ignore-scripts && npx yarn-force-resolutions"
   },
   "engines": {
     "node": ">=22.13.1"
