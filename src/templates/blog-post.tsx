@@ -35,7 +35,7 @@ import Accordion from '../components/Accordion'
 require('prismjs')
 require('prismjs/themes/prism-okaidia.css')
 
-
+// @ts-ignore
 const processor = unified().use(rehypeReact, {
   createElement,
   components: {   
@@ -47,7 +47,6 @@ const processor = unified().use(rehypeReact, {
     callout: Callout,
     calloutDanger: CalloutDanger,
     calloutLabel: CalloutLabel,
-    Link: Link,
     cloudinaryVideo: CloudinaryVideo,
     videoOne: VideoOne,
     videoTwo: VideoTwo,

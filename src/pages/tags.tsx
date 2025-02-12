@@ -3,13 +3,11 @@ import { jsx, Box } from 'theme-ui'
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import type { HeadProps } from 'gatsby'
-// Utilities
 import kebabCase from 'lodash/kebabCase'
-// Components
-import { Script } from 'gatsby'
 import { Link, graphql } from 'gatsby'
 import Seo from '../components/Seo'
 import Layout from '../components/Layout'
+// @ts-ignore
 import OGImage from '../../static/assets/song.jpg'
 
 const url = typeof window !== 'undefined' ? window.location.href : ''

@@ -1,12 +1,24 @@
 import * as React from 'react'
-import { useRef } from 'react'
+import { ReactNode, FC, useRef } from 'react'
+import * as CSS from 'csstype'
 import { AdvancedVideo, lazyload } from '@cloudinary/react'
 import { CloudinaryVideo } from '@cloudinary/url-gen'
 import { videoCodec } from '@cloudinary/url-gen/actions/transcode'
 import { auto, vp9 } from '@cloudinary/url-gen/qualifiers/videoCodec'
 import VideoWrapper from './wrapper'
 
-const Video = () => {
+interface VideoProps {
+  children: ReactNode
+}
+
+export const VideoWrapper2: CSS.Properties = {
+  position: 'absolute',
+  display: 'flex',
+}
+
+
+const Video: FC<VideoProps> = props => {
+  const { children, ...rest } = props
   const vid = new CloudinaryVideo('videos/angelina_jordan_suspicious_minds', {
     cloudName: 'mansbooks',
   })
@@ -30,7 +42,7 @@ const Video = () => {
         <AdvancedVideo
           cldVid={vid}
           sources={sources}
-          className="flex transparent"
+          style={VideoWrapper2}
           ref={videoEl}
           controls
           autoPlay

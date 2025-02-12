@@ -9,6 +9,7 @@ const loadFeatures = () => import('../FramerFeatures').then(res => res.default)
 
 interface CalloutDangerProps {
   children: ReactNode
+  className: string
 }
 
 export const callOutDangerWrapper: CSS.Properties = {
@@ -28,8 +29,9 @@ const infoIcon: CSS.Properties = {
   height: '24px',
   color: 'red',
 }
-
+// @ts-ignore
 const calloutDanger: CSS.Properties = {
+  // @ts-ignore
   '*:last-child': {
     marginBottom: '0px',
   },
@@ -47,7 +49,7 @@ const calloutDanger: CSS.Properties = {
 }
 
 const CalloutDanger: FC<CalloutDangerProps> = props => {
-  const { children, ...rest } = props
+  const { children, className, ...rest } = props
 
   const [ref7, isVisible7] = useInView({
     triggerOnce: true,
@@ -76,7 +78,7 @@ const CalloutDanger: FC<CalloutDangerProps> = props => {
         {...rest}
       >
         <aside style={callOutDangerWrapper}>
-          <Alert style={infoIcon} />
+          <Alert className='info-icon' />
         </aside>
         {children}
       </m.div>

@@ -1,12 +1,20 @@
 @import "theme-variables";
 @import "defaults";
 @import "lib/css-grid-utility";
+@import "utility";
+@import "lib/prism-default";
+
 
 // .primary-container {
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
 // 	min-height: 100vh;
 // }
+.info-icon {
+  width: '24px';
+  height: '24px';
+  color: 'red';
+}
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
 }
@@ -566,8 +574,3 @@ article a {
   max-width: 768px;
   margin: 0 auto;
 }
-
-@import "utility";
-
-// Libraries
-@import "lib/prism-default";

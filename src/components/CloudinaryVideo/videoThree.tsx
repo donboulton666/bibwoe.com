@@ -1,16 +1,27 @@
 import * as React from 'react'
 import { useRef } from 'react'
+import * as CSS from 'csstype'
 import { AdvancedVideo, lazyload } from '@cloudinary/react'
-import { CloudinaryVideo } from '@cloudinary/url-gen'
+import { Cloudinary } from '@cloudinary/url-gen'
+import { scale } from "@cloudinary/url-gen/actions/resize";
+import { byRadius } from "@cloudinary/url-gen/actions/roundCorners";
 import { videoCodec } from '@cloudinary/url-gen/actions/transcode'
 import { auto, vp9 } from '@cloudinary/url-gen/qualifiers/videoCodec'
 import VideoWrapper from './wrapper'
 
+export const VideoWrapper2: CSS.Properties = {
+  background: 'transparent',
+  display: 'flex',
+}
+
 const VideoThree = () => {
-  const vid = new CloudinaryVideo('videos/charolett_summers_one_world', {
-    cloudName: 'mansbooks',
+  
+  const cld = new Cloudinary({
+    cloud: {
+      cloudName: 'mansbooks'
+    }
   })
-  const videoEl = useRef(null)
+
   const sources = [
     {
       type: 'mp4',
@@ -24,13 +35,19 @@ const VideoThree = () => {
     },
   ]
 
+  const myVideo = cld.video('videos/true-jew')
+   myVideo
+     .resize(scale().width(600))
+     .roundCorners(byRadius(10))
+  
+     const videoEl = useRef(null)
+
   return (
     <>
       <VideoWrapper>
         <AdvancedVideo
-          cldVid={vid}
+          cldVid={myVideo}
           sources={sources}
-          className="w-full bg-transparent"
           ref={videoEl}
           controls
           autoPlay

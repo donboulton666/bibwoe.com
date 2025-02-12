@@ -30,7 +30,6 @@ const VideoTwo = () => {
         <AdvancedVideo
           cldVid={vid}
           sources={sources}
-          className="w-full bg-transparent"
           ref={videoEl}
           controls
           autoPlay

@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { ReactNode, FC } from 'react'
-import { Disclosure } from '@headlessui/react'
+import * as CSS from 'csstype'
+import { Disclosure, DisclosurePanel, DisclosureButton } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/24/solid'
 import { useInView } from 'react-intersection-observer'
 import { LazyMotion, m } from 'framer-motion'
@@ -13,6 +14,47 @@ interface AccordionProps {
   src?: string
   Icon?: React.ComponentType<React.SVGProps<SVGSVGElement>>
   title: string
+}
+
+export const AccordionWrapper: CSS.Properties = {
+  display: 'flex',
+  width: 'full',
+  top: '2px',
+  right: '2px',
+}
+export const AccordionWrapperRound: CSS.Properties = {
+  display: 'flex',
+  borderRadius: '10px',
+  backgroundColor: '#0f172a',
+  top: '2px',
+  right: '2px',
+}
+export const ChevronDown: CSS.Properties = {
+  width: '20px',
+  height: '20px',
+  color: '#ffffff',
+}
+export const AccordionWrapperbutton: CSS.Properties = {
+  display: 'flex',
+  backgroundColor: '#0f172a',
+  color: '#ffffff',
+  borderRadius: '10px',
+  justifyItems: 'between',
+  font: 'medium',
+  top: '2px',
+  right: '2px',
+}
+export const AccordionWrapperbuttonLabel: CSS.Properties = {
+  font: 'large',
+  color: '#ffffff',
+}
+
+export const AccordionWrapperbuttonPanel: CSS.Properties = {
+  font: 'medium',
+  color: '#ffffff',
+  paddingBottom: '4px',
+  paddingTop: '4px',
+  backgroundColor: '#0f172a',
 }
 
 const Accordion: FC<AccordionProps> = (props) => {
@@ -42,25 +84,25 @@ const Accordion: FC<AccordionProps> = (props) => {
   return (
     <LazyMotion features={loadFeatures}>
       <m.section className="font-sans" variants={singleAccordionContainer}>
-        <div className="ml-auto mr-auto w-full px-4">
+        <div style={AccordionWrapper}>
           <m.div
             ref={ref}
             variants={variants}
             animate={isVisible ? 'visible' : 'hidden'}
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
-            <div className="flex w-full pt-2">
-              <div className="mx-auto w-full rounded-2xl p-2">
+            <div style={AccordionWrapper}>
+              <div style={AccordionWrapperRound}>
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full justify-between rounded-lg bg-slate-300 px-4 py-2 text-left text-sm font-medium text-slate-200 hover:bg-slate-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
-                        <span className="text-lg">{label}</span>
+                      <DisclosureButton style={AccordionWrapperbutton}>
+                        <span style={AccordionWrapperbuttonLabel}>{label}</span>
                         <ChevronDownIcon
-                          className={`${open ? 'rotate-180 transform' : ''} mt-1 h-5 w-5 text-slate-300`}
+                          style={ChevronDown}
                         />
-                      </Disclosure.Button>
-                      <Disclosure.Panel className="text-md px-4 pb-2 pt-4 text-slate-300">{children}</Disclosure.Panel>
+                      </DisclosureButton>
+                      <DisclosurePanel style={AccordionWrapperbuttonPanel}>{children}</DisclosurePanel>
                     </>
                   )}
                 </Disclosure>

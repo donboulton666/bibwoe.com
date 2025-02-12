@@ -33,10 +33,6 @@ export const infoIcon: CSS.Properties = {
 }
 
 const calloutLabel: CSS.Properties = {
-  '*:last-child': {
-    marginBottom: '0px',
-  },
-
   position: 'relative',
   padding: '10px 25px',
   marginBottom: '2.25rem',
@@ -78,7 +74,7 @@ const CalloutLabel: FC<CalloutLabelProps> = props => {
         style={calloutLabel}
         {...rest}
       >
-        <aside style={calloutLabelWrapper} style={infoIcon}>
+        <aside style={calloutLabelWrapper}>
           {label}
         </aside>
         {children}
