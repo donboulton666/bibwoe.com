@@ -93,9 +93,6 @@
     "prettier": "^3.4.2",
     "typescript": "^5.7.3"
   },
-  "resolutions": {
-    "@types/react": "^18.3.3"
-  },
   "homepage": "https://github.com/donaldboulton/bibwoe.com#readme",
   "keywords": [
     "gatsby",
